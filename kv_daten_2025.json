@@ -1,11 +1,11 @@
 {
   "meta": {
     "name": "KV-Daten Oesterreich - Privatwirtschaft KOMPLETT",
-    "version": "5.0",
+    "version": "6.0",
     "stand": "Mai 2025",
     "hinweis": "Alle Werte sind unverbindliche Richtwerte (ohne Gewaehr). Fuer verbindliche Auskuenfte wenden Sie sich an die AK oder WKO.",
     "copyright": "(c) 2025 Frank Schwarzlose",
-    "branchen_anzahl": 53
+    "branchen_anzahl": 87
   },
   "branchen": {
     "bau": {
@@ -848,6 +848,401 @@
         "coach": { "lohn": 42.00, "bezeichnung": "Coach/Executive Coach" },
         "kursadministration": { "lohn": 18.50, "bezeichnung": "Kursadministration/Course Admin" },
         "empfang": { "lohn": 15.50, "bezeichnung": "Empfang/Reception" }
+      }
+    },
+    "zeitarbeit": {
+      "name": "Zeitarbeit & Arbeitskraefteueberlassung (AUeG)",
+      "stufen": {
+        "niederlassungsleiter": { "lohn": 32.50, "bezeichnung": "Niederlassungsleiter", "badge": "executive" },
+        "disponent": { "lohn": 22.50, "bezeichnung": "Personaldisponent", "badge": "management" },
+        "recruiter": { "lohn": 20.50, "bezeichnung": "Recruiter/Personalberater" },
+        "leiharbeiter_fach": { "lohn": 16.50, "bezeichnung": "Leiharbeiter Fachkraft", "info": "Mindestens KV der Einsatzbranche!" },
+        "leiharbeiter_hilfs": { "lohn": 13.50, "bezeichnung": "Leiharbeiter Hilfskraft", "info": "Mindestens KV der Einsatzbranche!" },
+        "sachbearbeiter": { "lohn": 17.50, "bezeichnung": "Sachbearbeiter Personalwesen" }
+      }
+    },
+    "seilbahnen": {
+      "name": "Seilbahnen & Skilifte",
+      "stufen": {
+        "betriebsleiter": { "lohn": 35.50, "bezeichnung": "Betriebsleiter Seilbahn", "badge": "executive" },
+        "technischer_leiter": { "lohn": 28.50, "bezeichnung": "Technischer Leiter", "badge": "management" },
+        "seilbahnfachmann": { "lohn": 19.80, "bezeichnung": "Seilbahnfachmann/-frau" },
+        "liftwaerter": { "lohn": 15.50, "bezeichnung": "Liftwaerter/Liftoperator" },
+        "pistenretter": { "lohn": 18.50, "bezeichnung": "Pistenretter/Bergrettung" },
+        "pistenbully_fahrer": { "lohn": 19.50, "bezeichnung": "Pistenbully-Fahrer/Pistenraupe" },
+        "kassier": { "lohn": 14.80, "bezeichnung": "Kassier/Ticketverkauf" },
+        "skilehrer": { "lohn": 22.50, "bezeichnung": "Skilehrer" },
+        "snowboardlehrer": { "lohn": 22.50, "bezeichnung": "Snowboardlehrer" },
+        "techniker": { "lohn": 21.50, "bezeichnung": "Seilbahntechniker/Mechaniker" }
+      }
+    },
+    "eisenbahn": {
+      "name": "Eisenbahn & Schienenverkehr (privat)",
+      "stufen": {
+        "betriebsleiter": { "lohn": 42.50, "bezeichnung": "Betriebsleiter Bahn", "badge": "executive" },
+        "zugfuehrer": { "lohn": 24.50, "bezeichnung": "Triebfahrzeugfuehrer/Lokfuehrer" },
+        "zugbegleiter": { "lohn": 17.80, "bezeichnung": "Zugbegleiter/Schaffner" },
+        "fahrdienstleiter": { "lohn": 26.50, "bezeichnung": "Fahrdienstleiter", "badge": "management" },
+        "rangierer": { "lohn": 18.50, "bezeichnung": "Rangierer/Verschubarbeiter" },
+        "gleisbauer": { "lohn": 19.80, "bezeichnung": "Gleisbauer/Oberbauarbeiter" },
+        "signaltechniker": { "lohn": 24.50, "bezeichnung": "Signaltechniker" },
+        "wagenmeister": { "lohn": 20.50, "bezeichnung": "Wagenmeister/Wagenpruefer" },
+        "bahnhofsvorsteher": { "lohn": 22.50, "bezeichnung": "Bahnhofsvorsteher", "badge": "management" },
+        "kundenservice": { "lohn": 16.50, "bezeichnung": "Kundenservice Bahnhof" }
+      }
+    },
+    "schifffahrt": {
+      "name": "Schifffahrt & Binnenschifffahrt",
+      "stufen": {
+        "kapitaen": { "lohn": 38.50, "bezeichnung": "Kapitaen/Schiffsfuehrer", "badge": "executive" },
+        "steuermann": { "lohn": 26.50, "bezeichnung": "Steuermann", "badge": "management" },
+        "maschinist": { "lohn": 24.50, "bezeichnung": "Schiffsmaschinist" },
+        "matrose": { "lohn": 18.50, "bezeichnung": "Matrose/Decksmann" },
+        "schiffskoch": { "lohn": 19.50, "bezeichnung": "Schiffskoch" },
+        "schleusenpersonal": { "lohn": 17.50, "bezeichnung": "Schleusenpersonal" },
+        "hafenarbeiter": { "lohn": 17.80, "bezeichnung": "Hafenarbeiter" },
+        "bootsmann": { "lohn": 22.50, "bezeichnung": "Bootsmann" }
+      }
+    },
+    "bergbau": {
+      "name": "Bergbau & Steinbruch",
+      "stufen": {
+        "bergwerksdirektor": { "lohn": 48.50, "bezeichnung": "Bergwerksdirektor", "badge": "executive" },
+        "steiger": { "lohn": 32.50, "bezeichnung": "Steiger/Schichtfuehrer", "badge": "management" },
+        "bergmann": { "lohn": 22.50, "bezeichnung": "Bergmann/Hauer" },
+        "sprengmeister": { "lohn": 28.50, "bezeichnung": "Sprengmeister" },
+        "maschinenfahrer": { "lohn": 21.50, "bezeichnung": "Maschinenfahrer Untertage" },
+        "steinbrucharbeiter": { "lohn": 18.50, "bezeichnung": "Steinbrucharbeiter" },
+        "aufbereiter": { "lohn": 19.50, "bezeichnung": "Aufbereiter/Sortierer" },
+        "grubenlok_fahrer": { "lohn": 20.50, "bezeichnung": "Grubenlokomitivfuehrer" }
+      }
+    },
+    "reisebuero": {
+      "name": "Reisebueros & Tourismus",
+      "stufen": {
+        "bueroinhaber": { "lohn": 35.50, "bezeichnung": "Reisebueroeigentuemer", "badge": "executive" },
+        "filialleiter": { "lohn": 24.50, "bezeichnung": "Filialleiter Reisebuero", "badge": "management" },
+        "reiseberater": { "lohn": 17.50, "bezeichnung": "Reiseberater/Reiseverkehrskaufmann" },
+        "reiseleiter": { "lohn": 19.50, "bezeichnung": "Reiseleiter/Tour Guide" },
+        "produktmanager": { "lohn": 25.50, "bezeichnung": "Produktmanager Reisen" },
+        "sachbearbeiter": { "lohn": 16.50, "bezeichnung": "Sachbearbeiter Buchung" },
+        "animateur": { "lohn": 15.80, "bezeichnung": "Animateur/Gaestebetreuer" }
+      }
+    },
+    "callcenter": {
+      "name": "Callcenter & Kundenservice",
+      "stufen": {
+        "centerleiter": { "lohn": 32.50, "bezeichnung": "Callcenter-Leiter", "badge": "executive" },
+        "teamleiter": { "lohn": 22.50, "bezeichnung": "Teamleiter/Supervisor", "badge": "management" },
+        "agent_senior": { "lohn": 16.50, "bezeichnung": "Senior Agent/Spezialist" },
+        "agent": { "lohn": 13.80, "bezeichnung": "Callcenter-Agent" },
+        "agent_outbound": { "lohn": 14.50, "bezeichnung": "Outbound-Agent/Telefonverkauf" },
+        "qualitaet": { "lohn": 18.50, "bezeichnung": "Qualitaetssicherung/QA" },
+        "trainer": { "lohn": 20.50, "bezeichnung": "Callcenter-Trainer" },
+        "backoffice": { "lohn": 15.50, "bezeichnung": "Backoffice/Sachbearbeitung" }
+      }
+    },
+    "kindergarten": {
+      "name": "Kindergaerten & Kinderbetreuung (privat)",
+      "stufen": {
+        "leitung": { "lohn": 26.50, "bezeichnung": "Kindergartenleitung", "badge": "management" },
+        "paedagogin": { "lohn": 21.50, "bezeichnung": "Kindergartenpaedagogin" },
+        "assistentin": { "lohn": 15.80, "bezeichnung": "Kindergartenassistentin" },
+        "helferin": { "lohn": 13.50, "bezeichnung": "Kindergartenhelferin" },
+        "hort_paedagoge": { "lohn": 20.50, "bezeichnung": "Hortpaedagoge" },
+        "tagesmutter": { "lohn": 12.80, "bezeichnung": "Tagesmutter/-vater" },
+        "kinderkrippe": { "lohn": 19.50, "bezeichnung": "Krippenfachkraft" },
+        "praktikant": { "lohn": 10.50, "bezeichnung": "Praktikant/FSJ" }
+      }
+    },
+    "casino": {
+      "name": "Spielhallen, Casinos & Wettbueros",
+      "stufen": {
+        "spielbankdirektor": { "lohn": 55.50, "bezeichnung": "Spielbankdirektor", "badge": "executive" },
+        "saalchef": { "lohn": 32.50, "bezeichnung": "Saalchef/Floor Manager", "badge": "management" },
+        "croupier": { "lohn": 18.50, "bezeichnung": "Croupier/Dealer" },
+        "aufsicht": { "lohn": 16.50, "bezeichnung": "Spielaufsicht/Pit Boss" },
+        "kassier": { "lohn": 15.80, "bezeichnung": "Kassier/Cashier" },
+        "security": { "lohn": 16.50, "bezeichnung": "Sicherheitspersonal Casino" },
+        "wettbuero_leiter": { "lohn": 22.50, "bezeichnung": "Wettbuero-Leiter", "badge": "management" },
+        "wettannahme": { "lohn": 13.80, "bezeichnung": "Wettannahme-Mitarbeiter" },
+        "automatentechniker": { "lohn": 19.50, "bezeichnung": "Automatentechniker" }
+      }
+    },
+    "rauchfangkehrer": {
+      "name": "Rauchfangkehrer",
+      "stufen": {
+        "meister": { "lohn": 28.50, "bezeichnung": "Rauchfangkehrermeister", "badge": "management" },
+        "geselle": { "lohn": 19.50, "bezeichnung": "Rauchfangkehrergeselle" },
+        "lehrling_3": { "lohn": 12.80, "bezeichnung": "Lehrling 3. Jahr" },
+        "lehrling_2": { "lohn": 10.50, "bezeichnung": "Lehrling 2. Jahr" },
+        "lehrling_1": { "lohn": 8.50, "bezeichnung": "Lehrling 1. Jahr" },
+        "energieberater": { "lohn": 24.50, "bezeichnung": "Energieberater/Feuerstaettenprufer" }
+      }
+    },
+    "juwelier": {
+      "name": "Goldschmiede & Juweliere",
+      "stufen": {
+        "goldschmiedemeister": { "lohn": 32.50, "bezeichnung": "Goldschmiedemeister", "badge": "management" },
+        "goldschmied": { "lohn": 22.50, "bezeichnung": "Goldschmied/Juwelier" },
+        "fasser": { "lohn": 24.50, "bezeichnung": "Edelsteinfasser" },
+        "graveur": { "lohn": 21.50, "bezeichnung": "Graveur" },
+        "verkaeufer": { "lohn": 16.50, "bezeichnung": "Juwelierverkaeufer" },
+        "lehrling": { "lohn": 9.50, "bezeichnung": "Lehrling Goldschmied" }
+      }
+    },
+    "uhrmacher": {
+      "name": "Uhrmacher",
+      "stufen": {
+        "uhrmachermeister": { "lohn": 30.50, "bezeichnung": "Uhrmachermeister", "badge": "management" },
+        "uhrmacher": { "lohn": 21.50, "bezeichnung": "Uhrmacher" },
+        "reparateur": { "lohn": 18.50, "bezeichnung": "Uhrenreparateur" },
+        "verkaeufer": { "lohn": 15.50, "bezeichnung": "Uhrenverkaeufer" },
+        "lehrling": { "lohn": 9.50, "bezeichnung": "Lehrling Uhrmacher" }
+      }
+    },
+    "fotograf": {
+      "name": "Fotografen & Bildbearbeitung",
+      "stufen": {
+        "studioleiter": { "lohn": 28.50, "bezeichnung": "Studioleiter/Fotostudio", "badge": "management" },
+        "fotograf_senior": { "lohn": 24.50, "bezeichnung": "Senior Fotograf" },
+        "fotograf": { "lohn": 18.50, "bezeichnung": "Fotograf" },
+        "bildbearbeiter": { "lohn": 17.50, "bezeichnung": "Bildbearbeiter/Retusche" },
+        "assistent": { "lohn": 14.50, "bezeichnung": "Fotoassistent" },
+        "pressefotograf": { "lohn": 22.50, "bezeichnung": "Pressefotograf" },
+        "hochzeitsfotograf": { "lohn": 26.50, "bezeichnung": "Hochzeitsfotograf" },
+        "produktfotograf": { "lohn": 21.50, "bezeichnung": "Produktfotograf" }
+      }
+    },
+    "schaedlingsbekaempfung": {
+      "name": "Schaedlingsbekaempfung & Desinfektion",
+      "stufen": {
+        "betriebsleiter": { "lohn": 28.50, "bezeichnung": "Betriebsleiter", "badge": "management" },
+        "schaedlingsbekaempfer": { "lohn": 18.50, "bezeichnung": "Schaedlingsbekaempfer" },
+        "desinfektor": { "lohn": 17.50, "bezeichnung": "Desinfektor" },
+        "servicetechniker": { "lohn": 16.50, "bezeichnung": "Servicetechniker" },
+        "helfer": { "lohn": 14.50, "bezeichnung": "Helfer/Hilfskraft" }
+      }
+    },
+    "event": {
+      "name": "Event & Veranstaltungstechnik",
+      "stufen": {
+        "produktionsleiter": { "lohn": 35.50, "bezeichnung": "Produktionsleiter Event", "badge": "executive" },
+        "eventmanager": { "lohn": 26.50, "bezeichnung": "Eventmanager", "badge": "management" },
+        "veranstaltungstechniker": { "lohn": 21.50, "bezeichnung": "Veranstaltungstechniker" },
+        "lichttechniker": { "lohn": 20.50, "bezeichnung": "Lichttechniker/Beleuchter" },
+        "tontechniker": { "lohn": 21.50, "bezeichnung": "Tontechniker" },
+        "buehnenmeister": { "lohn": 24.50, "bezeichnung": "Buehnenmeister", "badge": "management" },
+        "stagehand": { "lohn": 15.50, "bezeichnung": "Stagehand/Buehenarbeiter" },
+        "rigger": { "lohn": 23.50, "bezeichnung": "Rigger/Traversenbauer" },
+        "caterer": { "lohn": 16.50, "bezeichnung": "Event-Caterer" },
+        "hostess": { "lohn": 14.50, "bezeichnung": "Hostess/Promoter" }
+      }
+    },
+    "telekommunikation": {
+      "name": "Telekommunikation & Mobilfunk",
+      "stufen": {
+        "bereichsleiter": { "lohn": 48.50, "bezeichnung": "Bereichsleiter Telekom", "badge": "executive" },
+        "netzwerktechniker": { "lohn": 28.50, "bezeichnung": "Netzwerktechniker" },
+        "servicetechniker": { "lohn": 22.50, "bezeichnung": "Servicetechniker Telekom" },
+        "kundenberater": { "lohn": 17.50, "bezeichnung": "Kundenberater Mobilfunk" },
+        "shopmanager": { "lohn": 24.50, "bezeichnung": "Shop-Manager", "badge": "management" },
+        "monteur": { "lohn": 19.50, "bezeichnung": "Telekom-Monteur" },
+        "hotline": { "lohn": 15.50, "bezeichnung": "Hotline-Mitarbeiter" }
+      }
+    },
+    "architekten": {
+      "name": "Architekten & Ingenieurbueros",
+      "stufen": {
+        "bueroinhaber": { "lohn": 55.50, "bezeichnung": "Bueroinhaber/Partner", "badge": "executive" },
+        "projektleiter": { "lohn": 35.50, "bezeichnung": "Projektleiter", "badge": "management" },
+        "architekt_senior": { "lohn": 32.50, "bezeichnung": "Senior Architekt" },
+        "architekt": { "lohn": 26.50, "bezeichnung": "Architekt" },
+        "bauingenieur": { "lohn": 28.50, "bezeichnung": "Bauingenieur" },
+        "technischer_zeichner": { "lohn": 19.50, "bezeichnung": "Technischer Zeichner/CAD" },
+        "bautechniker": { "lohn": 22.50, "bezeichnung": "Bautechniker" },
+        "praktikant": { "lohn": 12.50, "bezeichnung": "Praktikant Architektur" }
+      }
+    },
+    "abfallwirtschaft": {
+      "name": "Abfallwirtschaft & Recycling",
+      "stufen": {
+        "betriebsleiter": { "lohn": 38.50, "bezeichnung": "Betriebsleiter Entsorgung", "badge": "executive" },
+        "deponieleiter": { "lohn": 32.50, "bezeichnung": "Deponieleiter", "badge": "management" },
+        "muellwagenfahrer": { "lohn": 17.50, "bezeichnung": "Muellwagenfahrer/Entsorger" },
+        "muellwerker": { "lohn": 15.80, "bezeichnung": "Muellwerker/Lader" },
+        "sortierer": { "lohn": 14.50, "bezeichnung": "Sortierer Recycling" },
+        "anlagenfahrer": { "lohn": 18.50, "bezeichnung": "Anlagenfahrer Recycling" },
+        "sondermuell": { "lohn": 21.50, "bezeichnung": "Sondermuell-Fachkraft" },
+        "containerfahrer": { "lohn": 17.80, "bezeichnung": "Containerfahrer" }
+      }
+    },
+    "detektei": {
+      "name": "Detekteien & Ermittlungen",
+      "stufen": {
+        "detektei_inhaber": { "lohn": 42.50, "bezeichnung": "Detektei-Inhaber", "badge": "executive" },
+        "chefermittler": { "lohn": 32.50, "bezeichnung": "Chefermittler", "badge": "management" },
+        "privatdetektiv": { "lohn": 24.50, "bezeichnung": "Privatdetektiv" },
+        "ermittler": { "lohn": 21.50, "bezeichnung": "Ermittler" },
+        "observant": { "lohn": 18.50, "bezeichnung": "Observant/Observation" },
+        "kaufhausdetektiv": { "lohn": 16.50, "bezeichnung": "Kaufhausdetektiv" }
+      }
+    },
+    "dolmetscher": {
+      "name": "Dolmetscher & Uebersetzer",
+      "stufen": {
+        "konferenzdolmetscher": { "lohn": 48.50, "bezeichnung": "Konferenzdolmetscher" },
+        "gerichtsdolmetscher": { "lohn": 42.50, "bezeichnung": "Gerichtsdolmetscher" },
+        "dolmetscher": { "lohn": 32.50, "bezeichnung": "Dolmetscher" },
+        "uebersetzer": { "lohn": 28.50, "bezeichnung": "Uebersetzer" },
+        "fachuebersetzer": { "lohn": 35.50, "bezeichnung": "Fachuebersetzer (Technik/Medizin/Recht)" },
+        "gebaerdensprache": { "lohn": 38.50, "bezeichnung": "Gebaerdensprachdolmetscher" }
+      }
+    },
+    "orthopaedietechnik": {
+      "name": "Orthopaedietechnik & Sanitaetshaeuser",
+      "stufen": {
+        "meister": { "lohn": 32.50, "bezeichnung": "Orthopaedietechnik-Meister", "badge": "management" },
+        "techniker": { "lohn": 24.50, "bezeichnung": "Orthopaedietechniker" },
+        "bandagist": { "lohn": 21.50, "bezeichnung": "Bandagist" },
+        "schuhmacher_orthopaedie": { "lohn": 22.50, "bezeichnung": "Orthopaedieschuhmacher" },
+        "verkaeufer": { "lohn": 16.50, "bezeichnung": "Verkaeufer Sanitaetshaus" },
+        "rehatechniker": { "lohn": 20.50, "bezeichnung": "Reha-Techniker" }
+      }
+    },
+    "medizintechnik": {
+      "name": "Medizintechnik",
+      "stufen": {
+        "entwicklungsleiter": { "lohn": 52.50, "bezeichnung": "Entwicklungsleiter Medizintechnik", "badge": "executive" },
+        "produktmanager": { "lohn": 38.50, "bezeichnung": "Produktmanager", "badge": "management" },
+        "applikationsspezialist": { "lohn": 35.50, "bezeichnung": "Applikationsspezialist" },
+        "servicetechniker": { "lohn": 28.50, "bezeichnung": "Servicetechniker Medizintechnik" },
+        "qualitaetsmanager": { "lohn": 38.50, "bezeichnung": "Qualitaetsmanager" },
+        "vertrieb": { "lohn": 32.50, "bezeichnung": "Vertrieb Medizintechnik" }
+      }
+    },
+    "tierhandel": {
+      "name": "Tierhandel & Zoogeschaefte",
+      "stufen": {
+        "filialleiter": { "lohn": 24.50, "bezeichnung": "Filialleiter Zoofachhandel", "badge": "management" },
+        "zoofachverkaeufer": { "lohn": 16.50, "bezeichnung": "Zoofachverkaeufer" },
+        "aquaristik": { "lohn": 17.50, "bezeichnung": "Aquaristik-Fachkraft" },
+        "tierpfleger": { "lohn": 15.50, "bezeichnung": "Tierpfleger Zoohandel" },
+        "kassier": { "lohn": 13.80, "bezeichnung": "Kassier/Verkauf" },
+        "lagerarbeiter": { "lohn": 14.50, "bezeichnung": "Lagerarbeiter Tierfutter" }
+      }
+    },
+    "buchhandel": {
+      "name": "Buchhandel & Antiquariate",
+      "stufen": {
+        "buchhändler_inhaber": { "lohn": 28.50, "bezeichnung": "Buchhaendler/Inhaber", "badge": "management" },
+        "filialleiter": { "lohn": 22.50, "bezeichnung": "Filialleiter Buchhandel", "badge": "management" },
+        "buchhaendler": { "lohn": 17.50, "bezeichnung": "Buchhaendler" },
+        "sortimenter": { "lohn": 16.50, "bezeichnung": "Sortimenter" },
+        "antiquar": { "lohn": 21.50, "bezeichnung": "Antiquar" },
+        "verkaeufer": { "lohn": 14.50, "bezeichnung": "Verkaeufer Buchhandel" }
+      }
+    },
+    "vermessung": {
+      "name": "Vermessung & Geodaesie",
+      "stufen": {
+        "bueroinhaber": { "lohn": 48.50, "bezeichnung": "Vermessungsbuero Inhaber", "badge": "executive" },
+        "vermessungsingenieur": { "lohn": 35.50, "bezeichnung": "Vermessungsingenieur" },
+        "vermessungstechniker": { "lohn": 24.50, "bezeichnung": "Vermessungstechniker" },
+        "geomatiker": { "lohn": 22.50, "bezeichnung": "Geomatiker" },
+        "vermessungsgehilfe": { "lohn": 16.50, "bezeichnung": "Vermessungsgehilfe" },
+        "gis_spezialist": { "lohn": 28.50, "bezeichnung": "GIS-Spezialist" }
+      }
+    },
+    "spedition": {
+      "name": "Spedition & Internationale Logistik",
+      "stufen": {
+        "niederlassungsleiter": { "lohn": 42.50, "bezeichnung": "Niederlassungsleiter", "badge": "executive" },
+        "abteilungsleiter": { "lohn": 32.50, "bezeichnung": "Abteilungsleiter Spedition", "badge": "management" },
+        "disponent": { "lohn": 22.50, "bezeichnung": "Disponent/Spediteur" },
+        "zolldeklarant": { "lohn": 24.50, "bezeichnung": "Zolldeklarant" },
+        "sachbearbeiter_export": { "lohn": 19.50, "bezeichnung": "Sachbearbeiter Export" },
+        "sachbearbeiter_import": { "lohn": 19.50, "bezeichnung": "Sachbearbeiter Import" },
+        "gefahrgutbeauftragter": { "lohn": 28.50, "bezeichnung": "Gefahrgutbeauftragter" }
+      }
+    },
+    "verpackung": {
+      "name": "Verpackungsindustrie",
+      "stufen": {
+        "produktionsleiter": { "lohn": 38.50, "bezeichnung": "Produktionsleiter", "badge": "executive" },
+        "schichtleiter": { "lohn": 24.50, "bezeichnung": "Schichtleiter", "badge": "management" },
+        "maschinenführer": { "lohn": 19.50, "bezeichnung": "Maschinenfuehrer Verpackung" },
+        "drucker_flexo": { "lohn": 21.50, "bezeichnung": "Flexodrucker" },
+        "stanzer": { "lohn": 18.50, "bezeichnung": "Stanzer" },
+        "verpackungshelfer": { "lohn": 14.50, "bezeichnung": "Verpackungshelfer" },
+        "qualitaetskontrolle": { "lohn": 20.50, "bezeichnung": "Qualitaetskontrolle" }
+      }
+    },
+    "moebel": {
+      "name": "Moebelindustrie & Kuechenstudio",
+      "stufen": {
+        "produktionsleiter": { "lohn": 38.50, "bezeichnung": "Produktionsleiter Moebel", "badge": "executive" },
+        "kuechenplaner": { "lohn": 24.50, "bezeichnung": "Kuechenplaner" },
+        "moebeldesigner": { "lohn": 28.50, "bezeichnung": "Moebeldesigner" },
+        "moebelmonteur": { "lohn": 18.50, "bezeichnung": "Moebelmonteur" },
+        "polsterer": { "lohn": 19.50, "bezeichnung": "Polsterer" },
+        "verkaeufer_moebel": { "lohn": 16.50, "bezeichnung": "Moebelverkaeufer" },
+        "lagerarbeiter": { "lohn": 15.50, "bezeichnung": "Lagerarbeiter Moebel" },
+        "lieferfahrer": { "lohn": 16.50, "bezeichnung": "Moebellieferant/Fahrer" }
+      }
+    },
+    "schuhindustrie": {
+      "name": "Schuhindustrie & Schuhmacher",
+      "stufen": {
+        "schuhmachermeister": { "lohn": 26.50, "bezeichnung": "Schuhmachermeister", "badge": "management" },
+        "schuhmacher": { "lohn": 18.50, "bezeichnung": "Schuhmacher" },
+        "orthopaedie_schuhtechniker": { "lohn": 24.50, "bezeichnung": "Orthopaedieschuhtechniker" },
+        "schuhverkaeufer": { "lohn": 15.50, "bezeichnung": "Schuhverkaeufer" },
+        "reparateur": { "lohn": 16.50, "bezeichnung": "Schuhreparateur" }
+      }
+    },
+    "lederware": {
+      "name": "Lederwarenindustrie & Sattler",
+      "stufen": {
+        "sattlermeister": { "lohn": 28.50, "bezeichnung": "Sattlermeister", "badge": "management" },
+        "sattler": { "lohn": 20.50, "bezeichnung": "Sattler" },
+        "ledertechniker": { "lohn": 22.50, "bezeichnung": "Ledertechniker" },
+        "taschnerei": { "lohn": 18.50, "bezeichnung": "Taschner/Taschenmacher" },
+        "naeher": { "lohn": 15.50, "bezeichnung": "Naeher Lederwaren" }
+      }
+    },
+    "kfz_handel": {
+      "name": "Automobilhandel & Autohaeuser",
+      "stufen": {
+        "geschaeftsfuehrer": { "lohn": 52.50, "bezeichnung": "Geschaeftsfuehrer Autohaus", "badge": "executive" },
+        "verkaufsleiter": { "lohn": 38.50, "bezeichnung": "Verkaufsleiter", "badge": "management" },
+        "automobilverkaeufer": { "lohn": 22.50, "bezeichnung": "Automobilverkaeufer", "info": "Plus Provision" },
+        "serviceberater": { "lohn": 21.50, "bezeichnung": "Serviceberater" },
+        "fahrzeugaufbereiter": { "lohn": 15.50, "bezeichnung": "Fahrzeugaufbereiter" },
+        "zulassungsdienst": { "lohn": 16.50, "bezeichnung": "Zulassungsdienst" },
+        "teileberater": { "lohn": 18.50, "bezeichnung": "Teile-/Ersatzteilberater" }
+      }
+    },
+    "fahrrad": {
+      "name": "Fahrradbranche & E-Bikes",
+      "stufen": {
+        "filialleiter": { "lohn": 26.50, "bezeichnung": "Filialleiter Fahrradgeschaeft", "badge": "management" },
+        "zweiradmechaniker": { "lohn": 19.50, "bezeichnung": "Zweiradmechaniker" },
+        "e_bike_spezialist": { "lohn": 21.50, "bezeichnung": "E-Bike Spezialist" },
+        "verkaeufer": { "lohn": 16.50, "bezeichnung": "Fahrradverkaeufer" },
+        "bikefitter": { "lohn": 22.50, "bezeichnung": "Bikefitter/Ergonomieberater" },
+        "werkstatthelfer": { "lohn": 14.50, "bezeichnung": "Werkstatthelfer" }
+      }
+    },
+    "fahrzeugvermietung": {
+      "name": "Fahrzeugvermietung & Carsharing",
+      "stufen": {
+        "stationsleiter": { "lohn": 26.50, "bezeichnung": "Stationsleiter", "badge": "management" },
+        "vermieter": { "lohn": 17.50, "bezeichnung": "Autovermieter" },
+        "fahrzeugpfleger": { "lohn": 14.50, "bezeichnung": "Fahrzeugpfleger/Reiniger" },
+        "ueberführer": { "lohn": 15.50, "bezeichnung": "Fahrzeugueberfuehrer" },
+        "kundendienst": { "lohn": 16.50, "bezeichnung": "Kundendienst Vermietung" },
+        "schadenssachbearbeiter": { "lohn": 19.50, "bezeichnung": "Schadenssachbearbeiter" }
       }
     }
   }
