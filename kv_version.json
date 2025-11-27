@@ -1,9 +1,10 @@
 {
-  "kv_version": "2025.05.002",
+  "kv_version": "2025.05.003",
   "kv_date": "2025-05-27",
   "beamte_version": "2025.05.001",
   "beamte_date": "2025-05-15",
   "changelog": [
+    "2025.05.003 - Kipper-Berufe umbenannt in 'LKW-Fahrer Kipper/Schüttgut'",
     "2025.05.002 - GROSS-UPDATE: 54 Branchen mit 572 Berufen (vorher 23/400)",
     "2025.05.001 - Initiale Version mit 23 Branchen und 12 Beamtenbereichen"
   ],
