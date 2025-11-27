@@ -1,327 +1,853 @@
 {
   "meta": {
-    "name": "KV-Daten Österreich - Privatwirtschaft",
-    "version": "4.0",
+    "name": "KV-Daten Oesterreich - Privatwirtschaft KOMPLETT",
+    "version": "5.0",
     "stand": "Mai 2025",
-    "hinweis": "Alle Werte sind unverbindliche Richtwerte (ohne Gewähr). Für verbindliche Auskünfte wenden Sie sich an die AK.",
-    "copyright": "© 2025 Frank Schwarzlose"
+    "hinweis": "Alle Werte sind unverbindliche Richtwerte (ohne Gewaehr). Fuer verbindliche Auskuenfte wenden Sie sich an die AK oder WKO.",
+    "copyright": "(c) 2025 Frank Schwarzlose",
+    "branchen_anzahl": 53
   },
   "branchen": {
     "bau": {
       "name": "Bauindustrie & Baunebengewerbe",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 65.50, "bezeichnung": "Geschäftsführer/CEO", "badge": "executive" },
+        "geschaeftsfuehrer": { "lohn": 65.50, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
         "bauleiter": { "lohn": 45.80, "bezeichnung": "Bauleiter/General Manager", "badge": "executive" },
-        "polier": { "lohn": 23.45, "bezeichnung": "Polier/Foreman" },
+        "polier": { "lohn": 23.45, "bezeichnung": "Polier/Foreman", "badge": "management" },
         "facharbeiter_a": { "lohn": 21.20, "bezeichnung": "Facharbeiter Gruppe A/Skilled Worker A" },
         "kranfahrer": { "lohn": 20.80, "bezeichnung": "Kranfahrer/Crane Operator" },
         "bagger_fahrer": { "lohn": 20.50, "bezeichnung": "Baggerfahrer/Excavator Operator" },
         "facharbeiter_b": { "lohn": 19.30, "bezeichnung": "Facharbeiter Gruppe B/Skilled Worker B" },
-        "kipper_mit_kran": { "lohn": 16.50, "bezeichnung": "🚗⚡ Kipper mit Kran (Bautätigkeit) [BAU-KV Facharbeiter]", "kv": "BAU-KV", "info": "Aktive Bautätigkeit mit Kran = höhere Einstufung + BUAK-Vorteile" },
-        "kipper_transport": { "lohn": 14.58, "bezeichnung": "🚛 Kipper/Schüttgut (nur Transport) [BAU-KV]", "kv": "BAU-KV", "info": "Baustellenverkehr = Bau-KV, nicht Transport-KV! + BUAK-Vorteile" },
-        "hilfsarbeiter": { "lohn": 14.60, "bezeichnung": "Bauhilfsarbeiter/Construction Helper" },
-        "schalungsbauer": { "lohn": 20.20, "bezeichnung": "🏗️ Schalungsbauer/Formwork Carpenter" },
-        "betonbauer": { "lohn": 19.80, "bezeichnung": "🧱 Betonbauer/Concrete Worker" },
-        "maurer": { "lohn": 19.50, "bezeichnung": "🧱 Maurer/Bricklayer" },
-        "fliesenleger": { "lohn": 20.50, "bezeichnung": "🧱 Fliesenleger/Tile Setter" },
-        "dachdecker": { "lohn": 21.20, "bezeichnung": "🏠 Dachdecker/Roofer" },
-        "trockenbaumonteur": { "lohn": 18.80, "bezeichnung": "📐 Trockenbaumonteur/Drywall Installer" },
-        "geruestbauer": { "lohn": 17.50, "bezeichnung": "🪜 Gerüstbauer/Scaffolder" }
+        "kipper_mit_kran": { "lohn": 16.50, "bezeichnung": "Kipper mit Kran (Bautaetigkeit) [BAU-KV]", "kv": "BAU-KV" },
+        "kipper_transport": { "lohn": 14.58, "bezeichnung": "Kipper/Schuettgut (nur Transport) [BAU-KV]", "kv": "BAU-KV" },
+        "hilfsarbeiter": { "lohn": 16.44, "bezeichnung": "Bauhilfsarbeiter/Construction Helper" },
+        "schalungsbauer": { "lohn": 20.20, "bezeichnung": "Schalungsbauer/Formwork Carpenter" },
+        "betonbauer": { "lohn": 19.80, "bezeichnung": "Betonbauer/Concrete Worker" },
+        "maurer": { "lohn": 19.50, "bezeichnung": "Maurer/Bricklayer" },
+        "fliesenleger": { "lohn": 20.50, "bezeichnung": "Fliesenleger/Tile Setter" },
+        "dachdecker": { "lohn": 21.20, "bezeichnung": "Dachdecker/Roofer" },
+        "trockenbaumonteur": { "lohn": 18.80, "bezeichnung": "Trockenbaumonteur/Drywall Installer" },
+        "geruestbauer": { "lohn": 17.50, "bezeichnung": "Geruestbauer/Scaffolder" },
+        "zimmerer": { "lohn": 20.80, "bezeichnung": "Zimmerer/Carpenter" },
+        "spengler": { "lohn": 19.90, "bezeichnung": "Spengler/Tinsmith" },
+        "estrichleger": { "lohn": 18.50, "bezeichnung": "Estrichleger/Screed Layer" }
       }
     },
     "transport": {
       "name": "Transport & Logistik",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 58.20, "bezeichnung": "Geschäftsführer/CEO", "badge": "executive" },
-        "lagerleiter": { "lohn": 16.50, "bezeichnung": "Lagerleiter/Warehouse Manager" },
+        "geschaeftsfuehrer": { "lohn": 58.20, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
+        "lagerleiter": { "lohn": 16.50, "bezeichnung": "Lagerleiter/Warehouse Manager", "badge": "management" },
         "berufskraftfahrer": { "lohn": 15.80, "bezeichnung": "Berufskraftfahrer/Professional Driver" },
         "staplerfahrer": { "lohn": 14.80, "bezeichnung": "Staplerfahrer/Forklift Operator" },
-        "lkw_fahrer": { "lohn": 11.81, "bezeichnung": "🚚 LKW-Fahrer Güterbeförderung [TRANSPORT-KV]", "kv": "TRANSPORT-KV", "info": "Nur für normale Logistik! Baustellenverkehr = BAU-KV (siehe Bau-Branche)" },
+        "lkw_fahrer": { "lohn": 11.81, "bezeichnung": "LKW-Fahrer Gueterbefoerderung [TRANSPORT-KV]", "kv": "TRANSPORT-KV" },
         "kommissionierer": { "lohn": 13.50, "bezeichnung": "Kommissionierer/Order Picker" },
         "lagerarbeiter": { "lohn": 13.20, "bezeichnung": "Lagerarbeiter/Warehouse Worker" },
         "hilfsarbeiter": { "lohn": 12.50, "bezeichnung": "Hilfskraft Transport/Transport Helper" },
-        "speditionskaufmann": { "lohn": 18.50, "bezeichnung": "📦 Speditionskaufmann/Freight Forwarder" },
-        "logistiker": { "lohn": 17.20, "bezeichnung": "🚛 Logistiker/Logistics Specialist" },
-        "kurierfahrer": { "lohn": 14.20, "bezeichnung": "🏍️ Kurierfahrer/Courier Driver" },
-        "paketzusteller": { "lohn": 13.80, "bezeichnung": "📮 Paketzusteller/Parcel Delivery Driver" },
-        "disponent": { "lohn": 19.80, "bezeichnung": "📋 Transportdisponent/Transport Dispatcher" },
-        "fuhrparkmanager": { "lohn": 22.50, "bezeichnung": "🚗 Fuhrparkmanager/Fleet Manager", "badge": "management" }
+        "speditionskaufmann": { "lohn": 18.50, "bezeichnung": "Speditionskaufmann/Freight Forwarder" },
+        "logistiker": { "lohn": 17.20, "bezeichnung": "Logistiker/Logistics Specialist" },
+        "kurierfahrer": { "lohn": 14.20, "bezeichnung": "Kurierfahrer/Courier Driver" },
+        "paketzusteller": { "lohn": 13.80, "bezeichnung": "Paketzusteller/Parcel Delivery Driver" },
+        "disponent": { "lohn": 19.80, "bezeichnung": "Transportdisponent/Transport Dispatcher" },
+        "fuhrparkmanager": { "lohn": 22.50, "bezeichnung": "Fuhrparkmanager/Fleet Manager", "badge": "management" }
       }
     },
     "personenbefoerderung": {
-      "name": "Personenbeförderung",
+      "name": "Personenbefoerderung",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 55.80, "bezeichnung": "Geschäftsführer Transportunternehmen", "badge": "executive" },
-        "betriebsleiter": { "lohn": 28.50, "bezeichnung": "Betriebsleiter Personenbeförderung", "badge": "management" },
+        "geschaeftsfuehrer": { "lohn": 55.80, "bezeichnung": "Geschaeftsfuehrer Transportunternehmen", "badge": "executive" },
+        "betriebsleiter": { "lohn": 28.50, "bezeichnung": "Betriebsleiter Personenbefoerderung", "badge": "management" },
         "einsatzplaner": { "lohn": 22.80, "bezeichnung": "Einsatzplaner Fahrpersonal" },
-        "transportdisponent": { "lohn": 20.50, "bezeichnung": "Transportdisponent Personenbeförderung" },
-        "reisebus_lenker": { "lohn": 18.20, "bezeichnung": "🚌 Reisebuslenker (Fernverkehr)" },
-        "linienbus_fahrer": { "lohn": 17.80, "bezeichnung": "🚍 Buslenker (Linienverkehr)" },
-        "strassenbahn_fahrer": { "lohn": 18.50, "bezeichnung": "🚊 Straßenbahnfahrer" },
-        "u_bahn_fahrer": { "lohn": 19.20, "bezeichnung": "🚇 U-Bahn-Fahrer" },
-        "obus_fahrer": { "lohn": 17.90, "bezeichnung": "🔌 Obus-Fahrer" },
-        "taxi_lenker": { "lohn": 16.80, "bezeichnung": "🚕 Taxilenker/Taxifahrer" },
-        "behindertentransport": { "lohn": 17.20, "bezeichnung": "♿ Fahrer Behindertentransport" },
-        "krankentransport": { "lohn": 17.50, "bezeichnung": "🚑 Krankentransportfahrer" },
-        "shuttle_fahrer": { "lohn": 16.20, "bezeichnung": "🚐 Shuttle-Fahrer (Hotel, Flughafen)" },
-        "chauffeur_mietwagen": { "lohn": 17.80, "bezeichnung": "🚗 Mietwagenfahrer mit Chauffeur" },
-        "schulbus_fahrer": { "lohn": 17.20, "bezeichnung": "🚸 Schulbusfahrer" }
+        "transportdisponent": { "lohn": 20.50, "bezeichnung": "Transportdisponent" },
+        "reisebus_lenker": { "lohn": 18.20, "bezeichnung": "Reisebuslenker (Fernverkehr)" },
+        "linienbus_fahrer": { "lohn": 17.80, "bezeichnung": "Buslenker (Linienverkehr)" },
+        "strassenbahn_fahrer": { "lohn": 18.50, "bezeichnung": "Strassenbahnfahrer" },
+        "u_bahn_fahrer": { "lohn": 19.20, "bezeichnung": "U-Bahn-Fahrer" },
+        "taxi_lenker": { "lohn": 16.80, "bezeichnung": "Taxilenker/Taxifahrer" },
+        "krankentransport": { "lohn": 17.50, "bezeichnung": "Krankentransportfahrer" },
+        "schulbus_fahrer": { "lohn": 17.20, "bezeichnung": "Schulbusfahrer" }
       }
     },
     "metall": {
-      "name": "Metall & Elektro",
+      "name": "Metall & Elektro Industrie",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 72.80, "bezeichnung": "Geschäftsführer/CEO", "badge": "executive" },
-        "elektriker": { "lohn": 19.20, "bezeichnung": "Elektriker/Electrician" },
-        "facharbeiter": { "lohn": 18.90, "bezeichnung": "Metallverarbeitungs-Facharbeiter/Metal Worker" },
-        "schweisser": { "lohn": 17.80, "bezeichnung": "Schweißer/Welder" },
-        "hilfsarbeiter": { "lohn": 15.40, "bezeichnung": "Hilfskraft Metall/Metal Helper" }
+        "geschaeftsfuehrer": { "lohn": 68.50, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
+        "produktionsleiter": { "lohn": 38.50, "bezeichnung": "Produktionsleiter/Production Manager", "badge": "executive" },
+        "meister": { "lohn": 26.80, "bezeichnung": "Werkmeister/Master Craftsman", "badge": "management" },
+        "techniker": { "lohn": 24.50, "bezeichnung": "Techniker/Technician" },
+        "facharbeiter": { "lohn": 19.80, "bezeichnung": "Metallfacharbeiter/Skilled Metal Worker" },
+        "schweisser": { "lohn": 20.50, "bezeichnung": "Schweisser/Welder" },
+        "cnc_fraeser": { "lohn": 21.20, "bezeichnung": "CNC-Fraeser/CNC Milling Operator" },
+        "cnc_dreher": { "lohn": 21.00, "bezeichnung": "CNC-Dreher/CNC Lathe Operator" },
+        "schlosser": { "lohn": 19.50, "bezeichnung": "Schlosser/Locksmith" },
+        "maschinenbediener": { "lohn": 17.80, "bezeichnung": "Maschinenbediener/Machine Operator" },
+        "werkzeugmacher": { "lohn": 22.50, "bezeichnung": "Werkzeugmacher/Tool Maker" },
+        "elektriker": { "lohn": 20.20, "bezeichnung": "Elektriker/Electrician" },
+        "mechatroniker": { "lohn": 21.80, "bezeichnung": "Mechatroniker/Mechatronics Tech" },
+        "hilfsarbeiter": { "lohn": 15.20, "bezeichnung": "Hilfsarbeiter Metall/Metal Helper" },
+        "lehrling_1": { "lohn": 9.50, "bezeichnung": "Lehrling 1. Jahr/Apprentice 1st Year" },
+        "lehrling_3": { "lohn": 14.20, "bezeichnung": "Lehrling 3. Jahr/Apprentice 3rd Year" }
+      }
+    },
+    "kfz": {
+      "name": "KFZ-Gewerbe & Werkstaetten",
+      "stufen": {
+        "geschaeftsfuehrer": { "lohn": 52.00, "bezeichnung": "Geschaeftsfuehrer Autohaus/CEO", "badge": "executive" },
+        "werkstattleiter": { "lohn": 28.50, "bezeichnung": "Werkstattleiter/Workshop Manager", "badge": "management" },
+        "serviceberater": { "lohn": 22.80, "bezeichnung": "Serviceberater/Service Advisor" },
+        "kfz_meister": { "lohn": 25.50, "bezeichnung": "KFZ-Meister/Master Mechanic", "badge": "management" },
+        "kfz_techniker": { "lohn": 21.20, "bezeichnung": "KFZ-Techniker/Automotive Technician" },
+        "kfz_mechaniker": { "lohn": 18.80, "bezeichnung": "KFZ-Mechaniker/Auto Mechanic" },
+        "kfz_elektriker": { "lohn": 19.50, "bezeichnung": "KFZ-Elektriker/Auto Electrician" },
+        "karosseriebauer": { "lohn": 19.80, "bezeichnung": "Karosseriebauer/Body Repair Tech" },
+        "lackierer": { "lohn": 19.20, "bezeichnung": "Fahrzeuglackierer/Auto Painter" },
+        "kfz_spengler": { "lohn": 19.50, "bezeichnung": "KFZ-Spengler/Auto Body Worker" },
+        "reifenmonteur": { "lohn": 16.50, "bezeichnung": "Reifenmonteur/Tire Fitter" },
+        "autoaufbereiter": { "lohn": 15.80, "bezeichnung": "Autoaufbereiter/Car Detailer" },
+        "teilelager": { "lohn": 16.20, "bezeichnung": "Ersatzteillager/Parts Warehouse" },
+        "autoverkaufer": { "lohn": 17.50, "bezeichnung": "Autoverkaufer/Car Salesperson" },
+        "hilfsarbeiter": { "lohn": 14.80, "bezeichnung": "Hilfsarbeiter KFZ/Helper" },
+        "lehrling_1": { "lohn": 9.20, "bezeichnung": "Lehrling 1. Jahr" },
+        "lehrling_4": { "lohn": 15.80, "bezeichnung": "Lehrling 4. Jahr" }
+      }
+    },
+    "elektroinstallation": {
+      "name": "Elektroinstallation & Gebaeudetechnik",
+      "stufen": {
+        "geschaeftsfuehrer": { "lohn": 55.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
+        "betriebsleiter": { "lohn": 32.50, "bezeichnung": "Betriebsleiter/Operations Manager", "badge": "executive" },
+        "projektleiter": { "lohn": 28.80, "bezeichnung": "Projektleiter/Project Manager", "badge": "management" },
+        "elektromeister": { "lohn": 26.50, "bezeichnung": "Elektromeister/Master Electrician", "badge": "management" },
+        "elektrotechniker": { "lohn": 22.80, "bezeichnung": "Elektrotechniker/Electrical Engineer" },
+        "elektroinstallateur": { "lohn": 19.80, "bezeichnung": "Elektroinstallateur/Electrician" },
+        "elektromonteur": { "lohn": 18.50, "bezeichnung": "Elektromonteur/Electrical Fitter" },
+        "gebaeudetechniker": { "lohn": 21.20, "bezeichnung": "Gebaeudetechniker/Building Tech" },
+        "photovoltaik_monteur": { "lohn": 20.50, "bezeichnung": "Photovoltaik-Monteur/Solar Installer" },
+        "alarmanlagen_tech": { "lohn": 19.80, "bezeichnung": "Alarmanlagentechniker/Security Systems Tech" },
+        "netzwerktechniker": { "lohn": 21.50, "bezeichnung": "Netzwerktechniker/Network Tech" },
+        "hilfsarbeiter": { "lohn": 15.50, "bezeichnung": "Hilfsarbeiter Elektro/Helper" },
+        "lehrling_1": { "lohn": 9.00, "bezeichnung": "Lehrling 1. Jahr" },
+        "lehrling_4": { "lohn": 15.50, "bezeichnung": "Lehrling 4. Jahr" }
+      }
+    },
+    "shk": {
+      "name": "Sanitaer, Heizung, Klima (SHK)",
+      "stufen": {
+        "geschaeftsfuehrer": { "lohn": 54.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
+        "betriebsleiter": { "lohn": 31.50, "bezeichnung": "Betriebsleiter/Operations Manager", "badge": "executive" },
+        "installationsmeister": { "lohn": 25.80, "bezeichnung": "Installationsmeister/Master Plumber", "badge": "management" },
+        "projektleiter": { "lohn": 27.50, "bezeichnung": "Projektleiter/Project Manager", "badge": "management" },
+        "heizungstechniker": { "lohn": 21.50, "bezeichnung": "Heizungstechniker/Heating Technician" },
+        "sanitaerinstallateur": { "lohn": 19.80, "bezeichnung": "Sanitaerinstallateur/Plumber" },
+        "gas_wasserinstallateur": { "lohn": 20.20, "bezeichnung": "Gas-Wasserinstallateur/Gas-Water Fitter" },
+        "klimatechniker": { "lohn": 21.80, "bezeichnung": "Klimatechniker/HVAC Technician" },
+        "lueftungsmonteur": { "lohn": 19.50, "bezeichnung": "Lueftungsmonteur/Ventilation Fitter" },
+        "rohrschlosser": { "lohn": 19.20, "bezeichnung": "Rohrschlosser/Pipe Fitter" },
+        "waermepumpen_tech": { "lohn": 22.50, "bezeichnung": "Waermepumpentechniker/Heat Pump Tech" },
+        "kundendienst_tech": { "lohn": 20.80, "bezeichnung": "Kundendiensttechniker/Service Tech" },
+        "hilfsarbeiter": { "lohn": 15.20, "bezeichnung": "Hilfsarbeiter SHK/Helper" },
+        "lehrling_1": { "lohn": 9.00, "bezeichnung": "Lehrling 1. Jahr" },
+        "lehrling_4": { "lohn": 15.20, "bezeichnung": "Lehrling 4. Jahr" }
+      }
+    },
+    "tischlerei": {
+      "name": "Tischlerei & Holzverarbeitung",
+      "stufen": {
+        "geschaeftsfuehrer": { "lohn": 48.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
+        "betriebsleiter": { "lohn": 28.50, "bezeichnung": "Betriebsleiter/Operations Manager", "badge": "executive" },
+        "tischlermeister": { "lohn": 24.50, "bezeichnung": "Tischlermeister/Master Carpenter", "badge": "management" },
+        "arbeitsvorbereiter": { "lohn": 22.80, "bezeichnung": "Arbeitsvorbereiter/Work Planner" },
+        "tischler_geselle": { "lohn": 18.80, "bezeichnung": "Tischlergeselle/Journeyman Carpenter" },
+        "bautischler": { "lohn": 19.50, "bezeichnung": "Bautischler/Construction Carpenter" },
+        "moebeltischler": { "lohn": 18.50, "bezeichnung": "Moebeltischler/Furniture Maker" },
+        "cnc_tischler": { "lohn": 20.50, "bezeichnung": "CNC-Tischler/CNC Woodworker" },
+        "holztechniker": { "lohn": 21.20, "bezeichnung": "Holztechniker/Wood Technician" },
+        "oberflaechentechniker": { "lohn": 18.20, "bezeichnung": "Oberflaechentechniker/Surface Finisher" },
+        "monteur": { "lohn": 17.50, "bezeichnung": "Monteur/Installer" },
+        "hilfsarbeiter": { "lohn": 14.80, "bezeichnung": "Hilfsarbeiter Tischlerei/Helper" },
+        "lehrling_1": { "lohn": 8.80, "bezeichnung": "Lehrling 1. Jahr" },
+        "lehrling_3": { "lohn": 13.50, "bezeichnung": "Lehrling 3. Jahr" }
+      }
+    },
+    "malerei": {
+      "name": "Malerei & Anstrich",
+      "stufen": {
+        "geschaeftsfuehrer": { "lohn": 45.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
+        "betriebsleiter": { "lohn": 26.50, "bezeichnung": "Betriebsleiter/Operations Manager", "badge": "executive" },
+        "malermeister": { "lohn": 23.50, "bezeichnung": "Malermeister/Master Painter", "badge": "management" },
+        "vorarbeiter": { "lohn": 20.50, "bezeichnung": "Vorarbeiter/Foreman", "badge": "management" },
+        "maler_geselle": { "lohn": 17.80, "bezeichnung": "Malergeselle/Journeyman Painter" },
+        "lackierer": { "lohn": 18.50, "bezeichnung": "Lackierer/Lacquer Painter" },
+        "bodenleger": { "lohn": 18.20, "bezeichnung": "Bodenleger/Floor Layer" },
+        "tapezierer": { "lohn": 17.50, "bezeichnung": "Tapezierer/Wallpaper Hanger" },
+        "fassadenmaler": { "lohn": 18.80, "bezeichnung": "Fassadenmaler/Facade Painter" },
+        "trockenbauer": { "lohn": 17.20, "bezeichnung": "Trockenbauer/Drywall Installer" },
+        "hilfsarbeiter": { "lohn": 14.50, "bezeichnung": "Hilfsarbeiter Malerei/Helper" },
+        "lehrling_1": { "lohn": 8.50, "bezeichnung": "Lehrling 1. Jahr" },
+        "lehrling_3": { "lohn": 13.20, "bezeichnung": "Lehrling 3. Jahr" }
+      }
+    },
+    "baeckerei": {
+      "name": "Baeckerei & Konditorei",
+      "stufen": {
+        "geschaeftsfuehrer": { "lohn": 42.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
+        "betriebsleiter": { "lohn": 24.50, "bezeichnung": "Betriebsleiter/Operations Manager", "badge": "executive" },
+        "baeckermeister": { "lohn": 22.80, "bezeichnung": "Baeckermeister/Master Baker", "badge": "management" },
+        "konditormeister": { "lohn": 23.50, "bezeichnung": "Konditormeister/Master Pastry Chef", "badge": "management" },
+        "baecker_geselle": { "lohn": 17.20, "bezeichnung": "Baeckergeselle/Journeyman Baker" },
+        "konditor_geselle": { "lohn": 17.80, "bezeichnung": "Konditorgeselle/Journeyman Pastry Chef" },
+        "brotbaecker": { "lohn": 16.80, "bezeichnung": "Brotbaecker/Bread Baker" },
+        "feinbaecker": { "lohn": 17.50, "bezeichnung": "Feinbaecker/Pastry Baker" },
+        "tortendekorateur": { "lohn": 18.20, "bezeichnung": "Tortendekorateur/Cake Decorator" },
+        "verkaeufer": { "lohn": 14.80, "bezeichnung": "Fachverkaeufer Baeckerei/Sales" },
+        "hilfsarbeiter": { "lohn": 13.50, "bezeichnung": "Produktionshelfer/Production Helper" },
+        "lehrling_1": { "lohn": 8.20, "bezeichnung": "Lehrling 1. Jahr" },
+        "lehrling_3": { "lohn": 12.80, "bezeichnung": "Lehrling 3. Jahr" }
+      }
+    },
+    "fleischerei": {
+      "name": "Fleischerei & Metzgerei",
+      "stufen": {
+        "geschaeftsfuehrer": { "lohn": 44.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
+        "betriebsleiter": { "lohn": 25.50, "bezeichnung": "Betriebsleiter/Operations Manager", "badge": "executive" },
+        "fleischermeister": { "lohn": 23.80, "bezeichnung": "Fleischermeister/Master Butcher", "badge": "management" },
+        "fleischer_geselle": { "lohn": 17.80, "bezeichnung": "Fleischergeselle/Journeyman Butcher" },
+        "fleischfachverkaeufer": { "lohn": 15.50, "bezeichnung": "Fleischfachverkaeufer/Meat Sales" },
+        "wurstmacher": { "lohn": 18.20, "bezeichnung": "Wurstmacher/Sausage Maker" },
+        "zerleger": { "lohn": 17.20, "bezeichnung": "Zerleger/Meat Cutter" },
+        "selcher": { "lohn": 17.50, "bezeichnung": "Selcher/Smoke House Worker" },
+        "verkaeufer": { "lohn": 14.50, "bezeichnung": "Verkaeufer/Sales" },
+        "hilfsarbeiter": { "lohn": 13.80, "bezeichnung": "Produktionshelfer/Production Helper" },
+        "lehrling_1": { "lohn": 8.50, "bezeichnung": "Lehrling 1. Jahr" },
+        "lehrling_3": { "lohn": 13.00, "bezeichnung": "Lehrling 3. Jahr" }
       }
     },
     "reinigung": {
-      "name": "Reinigung",
+      "name": "Reinigung & Gebaeudeservice",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 48.50, "bezeichnung": "Geschäftsführer/CEO", "badge": "executive" },
-        "teamleiter": { "lohn": 14.50, "bezeichnung": "Teamleiter/Team Leader" },
-        "fensterputzer": { "lohn": 13.80, "bezeichnung": "Fensterputzer/Window Cleaner" },
-        "industriereinigung": { "lohn": 13.50, "bezeichnung": "Industriereinigung/Industrial Cleaning" },
-        "buroreinigung": { "lohn": 13.20, "bezeichnung": "Büroreinigung/Office Cleaning" },
-        "grundreinigung": { "lohn": 13.00, "bezeichnung": "Grundreinigung/Deep Cleaning" },
-        "hilfsarbeiter": { "lohn": 12.20, "bezeichnung": "Hilfskraft Reinigung/Cleaning Helper" },
-        "krankenhausreinigung": { "lohn": 14.20, "bezeichnung": "🏥 Krankenhausreinigung/Hospital Cleaning" },
-        "schulreinigung": { "lohn": 13.80, "bezeichnung": "🏫 Schulreinigung/School Cleaning" },
-        "hotelreinigung": { "lohn": 13.50, "bezeichnung": "🏨 Hotelreinigung/Hotel Cleaning" },
-        "desinfektor": { "lohn": 15.80, "bezeichnung": "🧼 Desinfektor/Disinfector" },
-        "teppichreiniger": { "lohn": 14.80, "bezeichnung": "🧹 Teppichreiniger/Carpet Cleaner" },
-        "fassadenreiniger": { "lohn": 16.50, "bezeichnung": "🏢 Fassadenreiniger/Facade Cleaner" }
+        "geschaeftsfuehrer": { "lohn": 45.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
+        "niederlassungsleiter": { "lohn": 28.50, "bezeichnung": "Niederlassungsleiter/Branch Manager", "badge": "executive" },
+        "objektleiter": { "lohn": 19.80, "bezeichnung": "Objektleiter/Site Manager", "badge": "management" },
+        "vorarbeiter": { "lohn": 16.50, "bezeichnung": "Vorarbeiter/Foreman" },
+        "gebaeudereiniger": { "lohn": 13.80, "bezeichnung": "Gebaeudereiniger/Building Cleaner" },
+        "glasreiniger": { "lohn": 15.50, "bezeichnung": "Glasreiniger/Window Cleaner" },
+        "industriereiniger": { "lohn": 15.20, "bezeichnung": "Industriereiniger/Industrial Cleaner" },
+        "fassadenreiniger": { "lohn": 16.80, "bezeichnung": "Fassadenreiniger/Facade Cleaner" },
+        "desinfektor": { "lohn": 15.80, "bezeichnung": "Desinfektor/Disinfection Specialist" },
+        "teppichreiniger": { "lohn": 14.50, "bezeichnung": "Teppichreiniger/Carpet Cleaner" },
+        "reinigungskraft": { "lohn": 12.80, "bezeichnung": "Reinigungskraft/Cleaning Staff" },
+        "hausmeister": { "lohn": 15.20, "bezeichnung": "Hausmeister/Janitor" }
       }
     },
     "gastronomie": {
       "name": "Gastronomie & Hotellerie",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 52.80, "bezeichnung": "Geschäftsführer/CEO", "badge": "executive" },
-        "executive_chef": { "lohn": 23.80, "bezeichnung": "Executive Chef/Chefkoch", "badge": "management" },
-        "sous_chef": { "lohn": 16.80, "bezeichnung": "Sous Chef/Küchenchef" },
-        "koch": { "lohn": 15.40, "bezeichnung": "Koch/Cook" },
-        "barkeeper": { "lohn": 14.50, "bezeichnung": "Barkeeper/Bartender" },
-        "kellner": { "lohn": 14.20, "bezeichnung": "Kellner/Waiter" },
-        "hilfskoch": { "lohn": 13.20, "bezeichnung": "Hilfskoch/Kitchen Helper" },
-        "servicehilfe": { "lohn": 12.80, "bezeichnung": "Servicehilfe/Service Helper" },
-        "kuechenhilfe": { "lohn": 12.50, "bezeichnung": "Küchenhilfe/Kitchen Helper" },
-        "hotelmanager": { "lohn": 28.50, "bezeichnung": "🏨 Hotelmanager/Hotel Manager", "badge": "management" },
-        "rezeptionist": { "lohn": 15.80, "bezeichnung": "📞 Rezeptionist/Receptionist" },
-        "zimmermaedchen": { "lohn": 13.80, "bezeichnung": "🛏️ Zimmermädchen/Chambermaid" },
-        "concierge": { "lohn": 16.20, "bezeichnung": "🎩 Concierge/Concierge" },
-        "sommelier": { "lohn": 18.50, "bezeichnung": "🍷 Sommelier/Wine Steward" },
-        "barista": { "lohn": 14.20, "bezeichnung": "☕ Barista/Barista" },
-        "pasta_koch": { "lohn": 16.50, "bezeichnung": "🍝 Pasta-Koch/Pasta Chef" },
-        "sushimeister": { "lohn": 19.80, "bezeichnung": "🍣 Sushimeister/Sushi Master" }
+        "geschaeftsfuehrer": { "lohn": 52.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
+        "hoteldirektor": { "lohn": 38.50, "bezeichnung": "Hoteldirektor/Hotel Director", "badge": "executive" },
+        "restaurantleiter": { "lohn": 24.50, "bezeichnung": "Restaurantleiter/Restaurant Manager", "badge": "management" },
+        "kuechenchef": { "lohn": 26.80, "bezeichnung": "Kuechenchef/Head Chef", "badge": "management" },
+        "sous_chef": { "lohn": 22.50, "bezeichnung": "Sous Chef/Deputy Chef" },
+        "koch": { "lohn": 17.80, "bezeichnung": "Koch/Cook" },
+        "jungkoch": { "lohn": 15.50, "bezeichnung": "Jungkoch/Junior Cook" },
+        "kellner": { "lohn": 14.50, "bezeichnung": "Kellner/Waiter" },
+        "barkeeper": { "lohn": 15.80, "bezeichnung": "Barkeeper/Bartender" },
+        "rezeptionist": { "lohn": 15.20, "bezeichnung": "Rezeptionist/Receptionist" },
+        "zimmermadchen": { "lohn": 13.50, "bezeichnung": "Zimmermaedchen/Room Maid" },
+        "kuechenhilfe": { "lohn": 12.80, "bezeichnung": "Kuechenhilfe/Kitchen Helper" },
+        "abwaesche": { "lohn": 12.50, "bezeichnung": "Abwaescher/Dishwasher" },
+        "lehrling_koch_1": { "lohn": 8.50, "bezeichnung": "Lehrling Koch 1. Jahr" },
+        "lehrling_koch_3": { "lohn": 13.00, "bezeichnung": "Lehrling Koch 3. Jahr" }
       }
     },
     "handel": {
-      "name": "Handel",
+      "name": "Handel & Einzelhandel",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 58.80, "bezeichnung": "Geschäftsführer/CEO", "badge": "executive" },
-        "filialleiter": { "lohn": 25.50, "bezeichnung": "Filialleiter/Store Manager", "badge": "management" },
-        "verkaufer": { "lohn": 14.80, "bezeichnung": "Verkäufer/Sales Associate" },
+        "geschaeftsfuehrer": { "lohn": 55.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
+        "filialleiter": { "lohn": 24.50, "bezeichnung": "Filialleiter/Store Manager", "badge": "management" },
+        "abteilungsleiter": { "lohn": 20.80, "bezeichnung": "Abteilungsleiter/Department Head", "badge": "management" },
+        "stellv_filialleiter": { "lohn": 19.50, "bezeichnung": "Stellv. Filialleiter/Assistant Manager" },
+        "verkaeufer": { "lohn": 14.80, "bezeichnung": "Verkaeufer/Sales Associate" },
         "kassierer": { "lohn": 14.20, "bezeichnung": "Kassierer/Cashier" },
-        "aushilfe": { "lohn": 12.80, "bezeichnung": "Verkaufsaushilfe/Sales Assistant" },
-        "praktikant": { "lohn": 11.50, "bezeichnung": "Praktikant/Intern" },
-        "bereichsleiter": { "lohn": 22.50, "bezeichnung": "📊 Bereichsleiter/Department Manager" },
-        "einkaeufer": { "lohn": 24.80, "bezeichnung": "🛒 Einkäufer/Purchasing Manager" },
-        "lagerist": { "lohn": 15.20, "bezeichnung": "📦 Lagerist/Warehouse Worker" },
-        "disponent": { "lohn": 18.50, "bezeichnung": "📋 Disponent/Dispatcher" },
-        "visual_merchandiser": { "lohn": 16.80, "bezeichnung": "🛍️ Visual Merchandiser/Visual Merchandiser" },
-        "kundenberater": { "lohn": 17.20, "bezeichnung": "💬 Kundenberater/Customer Advisor" },
-        "online_shop_manager": { "lohn": 26.50, "bezeichnung": "💻 Online-Shop Manager/E-commerce Manager" }
+        "einzelhandelskaufmann": { "lohn": 15.50, "bezeichnung": "Einzelhandelskaufmann/Retail Clerk" },
+        "grosshandelskaufmann": { "lohn": 16.80, "bezeichnung": "Grosshandelskaufmann/Wholesale Clerk" },
+        "lagerist": { "lohn": 15.20, "bezeichnung": "Lagerist/Stock Clerk" },
+        "dekorateur": { "lohn": 15.80, "bezeichnung": "Dekorateur/Visual Merchandiser" },
+        "regalbetreuer": { "lohn": 13.50, "bezeichnung": "Regalbetreuer/Shelf Stocker" },
+        "lehrling_1": { "lohn": 8.20, "bezeichnung": "Lehrling 1. Jahr" },
+        "lehrling_3": { "lohn": 12.50, "bezeichnung": "Lehrling 3. Jahr" }
       }
     },
     "pflege": {
-      "name": "Pflege & Gesundheit",
+      "name": "Pflege & Gesundheit (Privat)",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 65.80, "bezeichnung": "Geschäftsführer/CEO", "badge": "executive" },
-        "pflegedirektor": { "lohn": 28.50, "bezeichnung": "Pflegedirektor/Director of Nursing", "badge": "management" },
-        "stationsleitung": { "lohn": 22.80, "bezeichnung": "Stationsleitung/Ward Manager" },
-        "diplomkrankenschwester": { "lohn": 19.80, "bezeichnung": "Diplomierte Krankenschwester/Registered Nurse" },
-        "pflegefachkraft": { "lohn": 18.20, "bezeichnung": "Pflegefachkraft/Nursing Specialist" },
-        "pflegehilfskraft": { "lohn": 16.50, "bezeichnung": "Pflegehilfskraft/Nursing Assistant" },
-        "heimhilfe": { "lohn": 15.20, "bezeichnung": "Heimhilfe/Home Care Assistant" },
-        "betreuungskraft": { "lohn": 14.80, "bezeichnung": "Betreuungskraft/Care Worker" },
-        "krankenpfleger": { "lohn": 18.50, "bezeichnung": "🏥 Krankenpfleger/Hospital Nurse" },
-        "altenpfleger": { "lohn": 17.80, "bezeichnung": "👴 Altenpfleger/Elderly Care Nurse" },
-        "kinderkrankenschwester": { "lohn": 19.20, "bezeichnung": "👶 Kinderkrankenschwester/Pediatric Nurse" },
-        "intensivpflege": { "lohn": 21.50, "bezeichnung": "💊 Intensivpflege/Intensive Care Nurse" },
-        "operationsschwester": { "lohn": 20.80, "bezeichnung": "🔪 Operationsschwester/Operating Room Nurse" },
-        "ambulanz_pfleger": { "lohn": 19.50, "bezeichnung": "🚑 Ambulanzpfleger/Emergency Room Nurse" }
+        "geschaeftsfuehrer": { "lohn": 58.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
+        "pflegedienstleitung": { "lohn": 32.50, "bezeichnung": "Pflegedienstleitung/Director of Nursing", "badge": "executive" },
+        "stationsleitung": { "lohn": 26.80, "bezeichnung": "Stationsleitung/Ward Manager", "badge": "management" },
+        "diplomkrankenpfleger": { "lohn": 22.50, "bezeichnung": "DGKP/Registered Nurse" },
+        "pflegefachassistent": { "lohn": 18.80, "bezeichnung": "Pflegefachassistent/Nursing Assistant" },
+        "pflegeassistent": { "lohn": 16.50, "bezeichnung": "Pflegeassistent/Care Assistant" },
+        "heimhilfe": { "lohn": 14.80, "bezeichnung": "Heimhilfe/Home Helper" },
+        "altenpfleger": { "lohn": 17.50, "bezeichnung": "Altenpfleger/Elderly Care Nurse" },
+        "behindertenbetreuer": { "lohn": 17.20, "bezeichnung": "Behindertenbetreuer/Disability Carer" },
+        "sozialhelfer": { "lohn": 15.80, "bezeichnung": "Sozialhelfer/Social Helper" }
+      }
+    },
+    "apotheke": {
+      "name": "Apotheken",
+      "stufen": {
+        "apothekenleiter": { "lohn": 42.00, "bezeichnung": "Apothekenleiter/Pharmacy Manager", "badge": "executive" },
+        "apotheker": { "lohn": 32.50, "bezeichnung": "Apotheker/Pharmacist", "badge": "management" },
+        "pharmazeutisch_kaufm_assistent": { "lohn": 18.50, "bezeichnung": "PKA/Pharmacy Assistant" },
+        "pharmazeut_tech_assistent": { "lohn": 19.80, "bezeichnung": "PTA/Pharmaceutical Tech Assistant" },
+        "drogist": { "lohn": 16.80, "bezeichnung": "Drogist/Drugstore Clerk" },
+        "apothekenhilfe": { "lohn": 14.50, "bezeichnung": "Apothekenhilfe/Pharmacy Helper" },
+        "lehrling_1": { "lohn": 8.80, "bezeichnung": "Lehrling 1. Jahr" },
+        "lehrling_3": { "lohn": 13.80, "bezeichnung": "Lehrling 3. Jahr" }
+      }
+    },
+    "arztpraxis": {
+      "name": "Arztpraxen & Ordinationen",
+      "stufen": {
+        "praxismanager": { "lohn": 28.50, "bezeichnung": "Praxismanager/Practice Manager", "badge": "management" },
+        "ordinationsassistent": { "lohn": 17.80, "bezeichnung": "Ordinationsassistent/Medical Assistant" },
+        "medizinische_fachassistenz": { "lohn": 18.50, "bezeichnung": "Med. Fachassistenz/Medical Specialist" },
+        "roentgenassistent": { "lohn": 19.20, "bezeichnung": "Roentgenassistent/X-Ray Assistant" },
+        "laborassistent": { "lohn": 18.20, "bezeichnung": "Laborassistent/Lab Assistant" },
+        "zahnarztassistent": { "lohn": 16.80, "bezeichnung": "Zahnarztassistent/Dental Assistant" },
+        "empfang_sekretariat": { "lohn": 15.20, "bezeichnung": "Empfang/Reception" },
+        "reinigungskraft": { "lohn": 13.50, "bezeichnung": "Reinigungskraft/Cleaning Staff" }
+      }
+    },
+    "tierarzt": {
+      "name": "Tierarztpraxen & Tierkliniken",
+      "stufen": {
+        "praxisleiter": { "lohn": 26.50, "bezeichnung": "Praxisleiter/Practice Manager", "badge": "management" },
+        "tierarzthelfer": { "lohn": 16.80, "bezeichnung": "Tierarzthelfer/Vet Assistant" },
+        "tiermedizinische_fachkraft": { "lohn": 18.20, "bezeichnung": "Tiermed. Fachkraft/Vet Tech" },
+        "tierpfleger": { "lohn": 15.50, "bezeichnung": "Tierpfleger/Animal Caretaker" },
+        "empfang": { "lohn": 14.80, "bezeichnung": "Empfang/Reception" },
+        "reinigungskraft": { "lohn": 13.20, "bezeichnung": "Reinigungskraft/Cleaning" }
+      }
+    },
+    "physiotherapie": {
+      "name": "Physiotherapie & Rehabilitation",
+      "stufen": {
+        "praxisinhaber": { "lohn": 38.00, "bezeichnung": "Praxisinhaber/Practice Owner", "badge": "executive" },
+        "leitender_therapeut": { "lohn": 28.50, "bezeichnung": "Leitender Therapeut/Lead Therapist", "badge": "management" },
+        "physiotherapeut": { "lohn": 22.80, "bezeichnung": "Physiotherapeut/Physiotherapist" },
+        "ergotherapeut": { "lohn": 22.50, "bezeichnung": "Ergotherapeut/Occupational Therapist" },
+        "logopäde": { "lohn": 23.20, "bezeichnung": "Logopaede/Speech Therapist" },
+        "masseur": { "lohn": 17.80, "bezeichnung": "Masseur/Massage Therapist" },
+        "heilmasseur": { "lohn": 19.50, "bezeichnung": "Heilmasseur/Medical Masseur" },
+        "empfang": { "lohn": 14.50, "bezeichnung": "Empfang/Reception" }
+      }
+    },
+    "optiker": {
+      "name": "Optiker & Augenoptik",
+      "stufen": {
+        "geschaeftsfuehrer": { "lohn": 42.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
+        "optikermeister": { "lohn": 26.50, "bezeichnung": "Optikermeister/Master Optician", "badge": "management" },
+        "augenoptiker": { "lohn": 19.80, "bezeichnung": "Augenoptiker/Optician" },
+        "optometrist": { "lohn": 24.50, "bezeichnung": "Optometrist/Optometrist" },
+        "kontaktlinsenspezialist": { "lohn": 21.20, "bezeichnung": "Kontaktlinsenspezialist/Contact Lens Specialist" },
+        "fachverkaeufer": { "lohn": 15.80, "bezeichnung": "Fachverkaeufer/Sales Specialist" },
+        "werkstatt": { "lohn": 16.50, "bezeichnung": "Werkstatt/Workshop" },
+        "lehrling_1": { "lohn": 8.50, "bezeichnung": "Lehrling 1. Jahr" },
+        "lehrling_3": { "lohn": 13.50, "bezeichnung": "Lehrling 3. Jahr" }
+      }
+    },
+    "zahntechnik": {
+      "name": "Zahntechnik & Dentallabore",
+      "stufen": {
+        "laborinhaber": { "lohn": 45.00, "bezeichnung": "Laborinhaber/Lab Owner", "badge": "executive" },
+        "zahntechnikermeister": { "lohn": 28.50, "bezeichnung": "Zahntechnikermeister/Master Dental Tech", "badge": "management" },
+        "zahntechniker": { "lohn": 20.50, "bezeichnung": "Zahntechniker/Dental Technician" },
+        "keramiker": { "lohn": 22.80, "bezeichnung": "Dentalkeramiker/Dental Ceramist" },
+        "cad_cam_techniker": { "lohn": 23.50, "bezeichnung": "CAD/CAM Techniker/Digital Tech" },
+        "modellgusstechniker": { "lohn": 21.20, "bezeichnung": "Modellgusstechniker/Model Cast Tech" },
+        "hilfskraft": { "lohn": 14.80, "bezeichnung": "Laborhilfe/Lab Helper" },
+        "lehrling_1": { "lohn": 8.80, "bezeichnung": "Lehrling 1. Jahr" },
+        "lehrling_4": { "lohn": 15.20, "bezeichnung": "Lehrling 4. Jahr" }
+      }
+    },
+    "hoergeraete": {
+      "name": "Hoergeraeteakustik",
+      "stufen": {
+        "geschaeftsfuehrer": { "lohn": 44.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
+        "meister_akustiker": { "lohn": 27.50, "bezeichnung": "Meister Hoergeraeteakustiker/Master Audiologist", "badge": "management" },
+        "hoergeraeteakustiker": { "lohn": 21.20, "bezeichnung": "Hoergeraeteakustiker/Hearing Aid Specialist" },
+        "fachberater": { "lohn": 18.50, "bezeichnung": "Fachberater/Consultant" },
+        "servicetechniker": { "lohn": 17.80, "bezeichnung": "Servicetechniker/Service Tech" },
+        "lehrling_1": { "lohn": 8.50, "bezeichnung": "Lehrling 1. Jahr" },
+        "lehrling_3": { "lohn": 14.00, "bezeichnung": "Lehrling 3. Jahr" }
+      }
+    },
+    "landwirtschaft": {
+      "name": "Landwirtschaft & Agrarbereich",
+      "stufen": {
+        "betriebsleiter": { "lohn": 24.50, "bezeichnung": "Betriebsleiter/Farm Manager", "badge": "management" },
+        "gutsverwalter": { "lohn": 22.80, "bezeichnung": "Gutsverwalter/Estate Manager", "badge": "management" },
+        "landwirtschaftlicher_facharbeiter": { "lohn": 16.80, "bezeichnung": "Landw. Facharbeiter/Agricultural Worker" },
+        "traktorfahrer": { "lohn": 15.80, "bezeichnung": "Traktorfahrer/Tractor Driver" },
+        "melker": { "lohn": 15.50, "bezeichnung": "Melker/Milker" },
+        "tierpfleger": { "lohn": 15.20, "bezeichnung": "Tierpfleger/Animal Caretaker" },
+        "erntehelfer": { "lohn": 13.50, "bezeichnung": "Erntehelfer/Harvest Worker" },
+        "landarbeiter": { "lohn": 14.20, "bezeichnung": "Landarbeiter/Farm Hand" },
+        "stallhilfe": { "lohn": 13.80, "bezeichnung": "Stallhilfe/Stable Hand" }
+      }
+    },
+    "forstwirtschaft": {
+      "name": "Forstwirtschaft & Holzschlaegerung",
+      "stufen": {
+        "forstdirektor": { "lohn": 32.00, "bezeichnung": "Forstdirektor/Forest Director", "badge": "executive" },
+        "revierfoerster": { "lohn": 24.50, "bezeichnung": "Revierfoerster/District Forester", "badge": "management" },
+        "forstwart": { "lohn": 19.80, "bezeichnung": "Forstwart/Forest Warden" },
+        "forstfacharbeiter": { "lohn": 18.50, "bezeichnung": "Forstfacharbeiter/Forest Worker" },
+        "motorsaegenfuehrer": { "lohn": 17.80, "bezeichnung": "Motorsaegenfuehrer/Chainsaw Operator" },
+        "holzfaeller": { "lohn": 17.20, "bezeichnung": "Holzfaeller/Lumberjack" },
+        "harvesterfahrer": { "lohn": 19.50, "bezeichnung": "Harvesterfahrer/Harvester Operator" },
+        "forsthelfer": { "lohn": 14.80, "bezeichnung": "Forsthelfer/Forest Helper" }
+      }
+    },
+    "gartenbau": {
+      "name": "Gartenbau & Gaertner",
+      "stufen": {
+        "gaertnermeister": { "lohn": 24.50, "bezeichnung": "Gaertnermeister/Master Gardener", "badge": "management" },
+        "betriebsleiter": { "lohn": 22.80, "bezeichnung": "Betriebsleiter/Operations Manager", "badge": "management" },
+        "gaertner_facharbeiter": { "lohn": 17.50, "bezeichnung": "Gaertner Facharbeiter/Skilled Gardener" },
+        "landschaftsgaertner": { "lohn": 18.20, "bezeichnung": "Landschaftsgaertner/Landscape Gardener" },
+        "baumschulgaertner": { "lohn": 17.80, "bezeichnung": "Baumschulgaertner/Nursery Gardener" },
+        "zierpflanzengaertner": { "lohn": 17.20, "bezeichnung": "Zierpflanzengaertner/Ornamental Gardener" },
+        "friedhofsgaertner": { "lohn": 16.80, "bezeichnung": "Friedhofsgaertner/Cemetery Gardener" },
+        "blumenbinder": { "lohn": 16.20, "bezeichnung": "Florist/Blumenbinder" },
+        "gartenhelfer": { "lohn": 14.50, "bezeichnung": "Gartenhelfer/Garden Helper" },
+        "lehrling_1": { "lohn": 8.20, "bezeichnung": "Lehrling 1. Jahr" },
+        "lehrling_3": { "lohn": 12.80, "bezeichnung": "Lehrling 3. Jahr" }
+      }
+    },
+    "chemie": {
+      "name": "Chemische Industrie",
+      "stufen": {
+        "geschaeftsfuehrer": { "lohn": 72.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
+        "produktionsleiter": { "lohn": 42.50, "bezeichnung": "Produktionsleiter/Production Manager", "badge": "executive" },
+        "laborleiter": { "lohn": 38.50, "bezeichnung": "Laborleiter/Lab Manager", "badge": "management" },
+        "chemiker": { "lohn": 32.80, "bezeichnung": "Chemiker/Chemist" },
+        "chemietechniker": { "lohn": 26.50, "bezeichnung": "Chemietechniker/Chemical Technician" },
+        "labortechniker": { "lohn": 22.80, "bezeichnung": "Labortechniker/Lab Technician" },
+        "laborant": { "lohn": 19.50, "bezeichnung": "Laborant/Lab Assistant" },
+        "chemiefacharbeiter": { "lohn": 20.80, "bezeichnung": "Chemiefacharbeiter/Chemical Worker" },
+        "anlagenfuehrer": { "lohn": 21.50, "bezeichnung": "Anlagenfuehrer/Plant Operator" },
+        "produktionsmitarbeiter": { "lohn": 18.20, "bezeichnung": "Produktionsmitarbeiter/Production Worker" },
+        "hilfsarbeiter": { "lohn": 15.80, "bezeichnung": "Hilfsarbeiter Chemie/Helper" }
+      }
+    },
+    "lebensmittelindustrie": {
+      "name": "Lebensmittelindustrie",
+      "stufen": {
+        "geschaeftsfuehrer": { "lohn": 62.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
+        "produktionsleiter": { "lohn": 35.50, "bezeichnung": "Produktionsleiter/Production Manager", "badge": "executive" },
+        "qualitaetsmanager": { "lohn": 28.50, "bezeichnung": "Qualitaetsmanager/Quality Manager", "badge": "management" },
+        "schichtleiter": { "lohn": 22.80, "bezeichnung": "Schichtleiter/Shift Supervisor", "badge": "management" },
+        "lebensmitteltechniker": { "lohn": 24.50, "bezeichnung": "Lebensmitteltechniker/Food Technician" },
+        "maschinenfuehrer": { "lohn": 18.50, "bezeichnung": "Maschinenfuehrer/Machine Operator" },
+        "lebensmittelfacharbeiter": { "lohn": 17.80, "bezeichnung": "Lebensmittelfacharbeiter/Food Worker" },
+        "abfueller": { "lohn": 16.20, "bezeichnung": "Abfueller/Bottler" },
+        "verpacker": { "lohn": 15.50, "bezeichnung": "Verpacker/Packer" },
+        "produktionshelfer": { "lohn": 14.80, "bezeichnung": "Produktionshelfer/Production Helper" }
+      }
+    },
+    "papierindustrie": {
+      "name": "Papierindustrie & Druck",
+      "stufen": {
+        "geschaeftsfuehrer": { "lohn": 58.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
+        "produktionsleiter": { "lohn": 34.50, "bezeichnung": "Produktionsleiter/Production Manager", "badge": "executive" },
+        "druckermeister": { "lohn": 26.80, "bezeichnung": "Druckermeister/Master Printer", "badge": "management" },
+        "offsetdrucker": { "lohn": 21.50, "bezeichnung": "Offsetdrucker/Offset Printer" },
+        "digitaldrucker": { "lohn": 19.80, "bezeichnung": "Digitaldrucker/Digital Printer" },
+        "papiertechniker": { "lohn": 22.50, "bezeichnung": "Papiertechniker/Paper Technician" },
+        "buchbinder": { "lohn": 18.20, "bezeichnung": "Buchbinder/Bookbinder" },
+        "druckvorstufentechniker": { "lohn": 20.50, "bezeichnung": "Druckvorstufentechniker/Prepress Tech" },
+        "maschinenfuehrer": { "lohn": 18.80, "bezeichnung": "Maschinenfuehrer/Machine Operator" },
+        "hilfsarbeiter": { "lohn": 15.20, "bezeichnung": "Hilfsarbeiter/Helper" }
+      }
+    },
+    "textilindustrie": {
+      "name": "Textilindustrie",
+      "stufen": {
+        "geschaeftsfuehrer": { "lohn": 52.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
+        "produktionsleiter": { "lohn": 28.50, "bezeichnung": "Produktionsleiter/Production Manager", "badge": "executive" },
+        "textiltechniker": { "lohn": 22.80, "bezeichnung": "Textiltechniker/Textile Technician" },
+        "textilmechaniker": { "lohn": 18.50, "bezeichnung": "Textilmechaniker/Textile Mechanic" },
+        "weber": { "lohn": 16.80, "bezeichnung": "Weber/Weaver" },
+        "stricker": { "lohn": 16.50, "bezeichnung": "Stricker/Knitter" },
+        "naeher": { "lohn": 15.20, "bezeichnung": "Naeher/Sewer" },
+        "schneider": { "lohn": 17.50, "bezeichnung": "Schneider/Tailor" },
+        "faerber": { "lohn": 17.20, "bezeichnung": "Faerber/Dyer" },
+        "qualitaetspruefer": { "lohn": 16.80, "bezeichnung": "Qualitaetspruefer/Quality Inspector" },
+        "hilfsarbeiter": { "lohn": 14.20, "bezeichnung": "Hilfsarbeiter/Helper" }
+      }
+    },
+    "holzindustrie": {
+      "name": "Holzindustrie & Saegewerke",
+      "stufen": {
+        "geschaeftsfuehrer": { "lohn": 52.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
+        "betriebsleiter": { "lohn": 28.50, "bezeichnung": "Betriebsleiter/Operations Manager", "badge": "executive" },
+        "saegemeister": { "lohn": 24.50, "bezeichnung": "Saegemeister/Sawmill Master", "badge": "management" },
+        "holztechniker": { "lohn": 22.80, "bezeichnung": "Holztechniker/Wood Technician" },
+        "saegefuehrer": { "lohn": 19.50, "bezeichnung": "Saegefuehrer/Sawmill Operator" },
+        "holzfacharbeiter": { "lohn": 18.20, "bezeichnung": "Holzfacharbeiter/Wood Worker" },
+        "trockenkammerfuehrer": { "lohn": 17.80, "bezeichnung": "Trockenkammerfuehrer/Kiln Operator" },
+        "sortierer": { "lohn": 15.50, "bezeichnung": "Holzsortierer/Wood Sorter" },
+        "staplerfahrer": { "lohn": 16.20, "bezeichnung": "Staplerfahrer/Forklift Operator" },
+        "hilfsarbeiter": { "lohn": 14.50, "bezeichnung": "Hilfsarbeiter/Helper" }
+      }
+    },
+    "kunststoff": {
+      "name": "Kunststoffindustrie",
+      "stufen": {
+        "geschaeftsfuehrer": { "lohn": 58.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
+        "produktionsleiter": { "lohn": 32.50, "bezeichnung": "Produktionsleiter/Production Manager", "badge": "executive" },
+        "kunststofftechniker": { "lohn": 24.50, "bezeichnung": "Kunststofftechniker/Plastics Technician" },
+        "werkzeugmacher": { "lohn": 22.80, "bezeichnung": "Werkzeugmacher/Tool Maker" },
+        "spritzgussmaschinenfuehrer": { "lohn": 19.50, "bezeichnung": "Spritzgussmaschinenfuehrer/Injection Molder" },
+        "extruderfuehrer": { "lohn": 18.80, "bezeichnung": "Extruderfuehrer/Extruder Operator" },
+        "einrichter": { "lohn": 20.50, "bezeichnung": "Einrichter/Setup Technician" },
+        "qualitaetspruefer": { "lohn": 17.50, "bezeichnung": "Qualitaetspruefer/Quality Inspector" },
+        "produktionsmitarbeiter": { "lohn": 16.20, "bezeichnung": "Produktionsmitarbeiter/Production Worker" },
+        "hilfsarbeiter": { "lohn": 14.80, "bezeichnung": "Hilfsarbeiter/Helper" }
+      }
+    },
+    "glas_keramik": {
+      "name": "Glas & Keramik Industrie",
+      "stufen": {
+        "geschaeftsfuehrer": { "lohn": 54.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
+        "produktionsleiter": { "lohn": 30.50, "bezeichnung": "Produktionsleiter/Production Manager", "badge": "executive" },
+        "glasmeister": { "lohn": 25.80, "bezeichnung": "Glasmeister/Master Glassmaker", "badge": "management" },
+        "glasblaeser": { "lohn": 21.50, "bezeichnung": "Glasbläser/Glassblower" },
+        "glasschleifer": { "lohn": 19.80, "bezeichnung": "Glasschleifer/Glass Grinder" },
+        "keramiker": { "lohn": 18.50, "bezeichnung": "Keramiker/Ceramist" },
+        "ofenfuehrer": { "lohn": 19.20, "bezeichnung": "Ofenfuehrer/Kiln Operator" },
+        "flachglasveredler": { "lohn": 18.80, "bezeichnung": "Flachglasveredler/Flat Glass Finisher" },
+        "qualitaetspruefer": { "lohn": 17.20, "bezeichnung": "Qualitaetspruefer/Quality Inspector" },
+        "hilfsarbeiter": { "lohn": 14.50, "bezeichnung": "Hilfsarbeiter/Helper" }
       }
     },
     "produktion": {
-      "name": "Produktion",
+      "name": "Produktion & Fertigung (allgemein)",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 68.50, "bezeichnung": "Geschäftsführer/CEO", "badge": "executive" },
-        "produktionsleiter": { "lohn": 26.80, "bezeichnung": "Produktionsleiter/Production Manager", "badge": "management" },
-        "schichtfuehrer": { "lohn": 20.50, "bezeichnung": "Schichtführer/Shift Leader" },
-        "facharbeiter": { "lohn": 18.90, "bezeichnung": "Facharbeiter/Skilled Worker" },
-        "maschinenfuehrer": { "lohn": 17.20, "bezeichnung": "Maschinenführer/Machine Operator" },
-        "produktionshelfer": { "lohn": 15.80, "bezeichnung": "Produktionshelfer/Production Helper" },
-        "hilfsarbeiter": { "lohn": 14.20, "bezeichnung": "Hilfskraft Production/Production Helper" }
+        "geschaeftsfuehrer": { "lohn": 55.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
+        "produktionsleiter": { "lohn": 32.50, "bezeichnung": "Produktionsleiter/Production Manager", "badge": "executive" },
+        "schichtleiter": { "lohn": 22.80, "bezeichnung": "Schichtleiter/Shift Supervisor", "badge": "management" },
+        "vorarbeiter": { "lohn": 19.50, "bezeichnung": "Vorarbeiter/Foreman", "badge": "management" },
+        "maschinenfuehrer": { "lohn": 17.80, "bezeichnung": "Maschinenfuehrer/Machine Operator" },
+        "facharbeiter": { "lohn": 18.50, "bezeichnung": "Produktionsfacharbeiter/Production Worker" },
+        "qualitaetspruefer": { "lohn": 17.20, "bezeichnung": "Qualitaetspruefer/Quality Inspector" },
+        "verpackungsarbeiter": { "lohn": 15.20, "bezeichnung": "Verpackungsarbeiter/Packer" },
+        "lagerarbeiter": { "lohn": 15.50, "bezeichnung": "Lagerarbeiter/Warehouse Worker" },
+        "hilfsarbeiter": { "lohn": 14.20, "bezeichnung": "Produktionshelfer/Production Helper" }
       }
     },
     "sicherheit": {
-      "name": "Sicherheitsdienst",
+      "name": "Sicherheitsdienste & Bewachung",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 52.80, "bezeichnung": "Geschäftsführer/CEO", "badge": "executive" },
-        "bereichsleiter": { "lohn": 22.50, "bezeichnung": "Bereichsleiter Security/Area Manager Security", "badge": "management" },
-        "objektleiter": { "lohn": 19.80, "bezeichnung": "Objektleiter/Site Manager" },
-        "sicherheitsfachkraft": { "lohn": 18.20, "bezeichnung": "Sicherheitsfachkraft/Security Specialist" },
-        "sicherheitsmitarbeiter": { "lohn": 16.50, "bezeichnung": "Sicherheitsmitarbeiter/Security Officer" },
-        "pfoertner": { "lohn": 15.20, "bezeichnung": "Pförtner/Gatekeeper" },
-        "hilfskraft": { "lohn": 14.00, "bezeichnung": "Hilfskraft Security/Security Helper" }
+        "geschaeftsfuehrer": { "lohn": 48.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
+        "niederlassungsleiter": { "lohn": 28.50, "bezeichnung": "Niederlassungsleiter/Branch Manager", "badge": "executive" },
+        "einsatzleiter": { "lohn": 22.80, "bezeichnung": "Einsatzleiter/Operations Manager", "badge": "management" },
+        "objektleiter": { "lohn": 19.50, "bezeichnung": "Objektleiter/Site Manager", "badge": "management" },
+        "sicherheitsfachkraft": { "lohn": 17.20, "bezeichnung": "Sicherheitsfachkraft/Security Specialist" },
+        "wachmann": { "lohn": 14.80, "bezeichnung": "Wachmann/Security Guard" },
+        "pfoertner": { "lohn": 14.20, "bezeichnung": "Pfoertner/Gatekeeper" },
+        "personenschuetzer": { "lohn": 22.50, "bezeichnung": "Personenschuetzer/Bodyguard" },
+        "detektiv": { "lohn": 19.80, "bezeichnung": "Kaufhausdetektiv/Store Detective" },
+        "alarmzentrale": { "lohn": 16.50, "bezeichnung": "Alarmzentralenmitarbeiter/Alarm Center Staff" },
+        "hundefuehrer": { "lohn": 18.20, "bezeichnung": "Hundefuehrer/Dog Handler" }
       }
     },
     "buero": {
-      "name": "Büro & Verwaltung",
+      "name": "Buero & Verwaltung",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 75.80, "bezeichnung": "Geschäftsführer/CEO", "badge": "executive" },
-        "bueroleiter": { "lohn": 28.50, "bezeichnung": "Büroleiter/Office Manager", "badge": "management" },
-        "sachbearbeiter": { "lohn": 22.80, "bezeichnung": "Sachbearbeiter/Administrative Clerk" },
-        "sekretaer": { "lohn": 20.50, "bezeichnung": "Sekretär/Secretary" },
-        "burokaufmann": { "lohn": 19.20, "bezeichnung": "Bürokaufmann/Office Clerk" },
-        "assistent": { "lohn": 18.50, "bezeichnung": "Assistent/Assistant" },
-        "praktikant": { "lohn": 12.50, "bezeichnung": "Praktikant/Intern" }
+        "geschaeftsfuehrer": { "lohn": 58.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
+        "bueroleiter": { "lohn": 28.50, "bezeichnung": "Bueroleiter/Office Manager", "badge": "management" },
+        "prokurist": { "lohn": 35.50, "bezeichnung": "Prokurist/Authorized Signatory", "badge": "executive" },
+        "buchhalter": { "lohn": 22.80, "bezeichnung": "Buchhalter/Accountant" },
+        "personalverrechner": { "lohn": 24.50, "bezeichnung": "Personalverrechner/Payroll Specialist" },
+        "sachbearbeiter": { "lohn": 18.50, "bezeichnung": "Sachbearbeiter/Clerk" },
+        "sekretaer": { "lohn": 17.80, "bezeichnung": "Sekretaer/Secretary" },
+        "empfang": { "lohn": 15.20, "bezeichnung": "Empfang/Reception" },
+        "buerokaufmann": { "lohn": 16.80, "bezeichnung": "Buerokaufmann/Office Clerk" },
+        "telefonist": { "lohn": 14.50, "bezeichnung": "Telefonist/Telephone Operator" },
+        "lehrling_1": { "lohn": 8.20, "bezeichnung": "Lehrling 1. Jahr" },
+        "lehrling_3": { "lohn": 12.50, "bezeichnung": "Lehrling 3. Jahr" }
       }
     },
     "it": {
       "name": "IT & Technik",
       "stufen": {
-        "cio": { "lohn": 95.80, "bezeichnung": "CIO/Chief Information Officer", "badge": "executive" },
-        "it_leiter": { "lohn": 65.50, "bezeichnung": "IT-Leiter/IT Manager", "badge": "management" },
-        "senior_entwickler": { "lohn": 45.80, "bezeichnung": "Senior Entwickler/Senior Developer" },
-        "software_entwickler": { "lohn": 38.50, "bezeichnung": "Software Entwickler/Software Developer" },
-        "systemadmin": { "lohn": 35.20, "bezeichnung": "Systemadministrator/System Administrator" },
-        "helpdesk": { "lohn": 28.80, "bezeichnung": "Helpdesk/Helpdesk Support" },
-        "azubi": { "lohn": 18.50, "bezeichnung": "IT-Azubi/IT Apprentice" }
+        "geschaeftsfuehrer": { "lohn": 72.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
+        "it_leiter": { "lohn": 45.50, "bezeichnung": "IT-Leiter/CTO", "badge": "executive" },
+        "projektleiter": { "lohn": 38.50, "bezeichnung": "IT-Projektleiter/Project Manager", "badge": "management" },
+        "senior_entwickler": { "lohn": 35.80, "bezeichnung": "Senior Software Developer" },
+        "entwickler": { "lohn": 28.50, "bezeichnung": "Software Developer" },
+        "junior_entwickler": { "lohn": 22.50, "bezeichnung": "Junior Developer" },
+        "systemadministrator": { "lohn": 26.80, "bezeichnung": "Systemadministrator/Sysadmin" },
+        "netzwerkadmin": { "lohn": 25.50, "bezeichnung": "Netzwerkadministrator/Network Admin" },
+        "datenbankadmin": { "lohn": 28.50, "bezeichnung": "Datenbankadministrator/DBA" },
+        "helpdesk": { "lohn": 18.50, "bezeichnung": "Helpdesk/IT Support" },
+        "webdesigner": { "lohn": 24.50, "bezeichnung": "Webdesigner/Web Designer" },
+        "it_techniker": { "lohn": 22.80, "bezeichnung": "IT-Techniker/IT Technician" }
       }
     },
     "banken": {
       "name": "Banken & Versicherungen",
       "stufen": {
-        "vorstand": { "lohn": 150.80, "bezeichnung": "Vorstand/Executive Board", "badge": "executive" },
-        "filialleiter": { "lohn": 65.50, "bezeichnung": "Filialleiter/Branch Manager", "badge": "management" },
-        "berater": { "lohn": 45.80, "bezeichnung": "Kundenberater/Financial Advisor" },
-        "sachbearbeiter": { "lohn": 38.50, "bezeichnung": "Sachbearbeiter/Clerk" },
-        "kassierer": { "lohn": 32.20, "bezeichnung": "Kassierer/Teller" },
-        "azubi": { "lohn": 22.50, "bezeichnung": "Bankazubi/Bank Apprentice" }
+        "vorstand": { "lohn": 95.00, "bezeichnung": "Vorstand/Board Member", "badge": "executive" },
+        "direktor": { "lohn": 65.00, "bezeichnung": "Direktor/Director", "badge": "executive" },
+        "abteilungsleiter": { "lohn": 42.50, "bezeichnung": "Abteilungsleiter/Department Head", "badge": "management" },
+        "filialleiter": { "lohn": 35.50, "bezeichnung": "Filialleiter/Branch Manager", "badge": "management" },
+        "privatkundenberater": { "lohn": 26.80, "bezeichnung": "Privatkundenberater/Private Banking Advisor" },
+        "firmenkundenberater": { "lohn": 32.50, "bezeichnung": "Firmenkundenberater/Corporate Advisor" },
+        "kundenberater": { "lohn": 22.50, "bezeichnung": "Kundenberater/Customer Advisor" },
+        "schalterbeamter": { "lohn": 18.80, "bezeichnung": "Schalterbeamter/Teller" },
+        "sachbearbeiter": { "lohn": 19.50, "bezeichnung": "Sachbearbeiter/Clerk" },
+        "versicherungsberater": { "lohn": 24.50, "bezeichnung": "Versicherungsberater/Insurance Advisor" },
+        "schadensreferent": { "lohn": 22.80, "bezeichnung": "Schadensreferent/Claims Handler" }
+      }
+    },
+    "rechtsanwalt": {
+      "name": "Rechtsanwaelte & Notare",
+      "stufen": {
+        "kanzleiinhaber": { "lohn": 85.00, "bezeichnung": "Kanzleiinhaber/Law Firm Owner", "badge": "executive" },
+        "kanzleileiter": { "lohn": 42.50, "bezeichnung": "Kanzleileiter/Office Manager", "badge": "management" },
+        "rechtsanwaltsanwaerter": { "lohn": 28.50, "bezeichnung": "Rechtsanwaltsanwaerter/Trainee Lawyer" },
+        "rechtspfleger": { "lohn": 24.50, "bezeichnung": "Rechtspfleger/Paralegal" },
+        "sekretariat": { "lohn": 19.80, "bezeichnung": "Sekretariat/Secretary" },
+        "kanzleikraft": { "lohn": 17.50, "bezeichnung": "Kanzleikraft/Office Staff" },
+        "empfang": { "lohn": 15.20, "bezeichnung": "Empfang/Reception" }
+      }
+    },
+    "steuerberater": {
+      "name": "Steuerberater & Wirtschaftspruefer",
+      "stufen": {
+        "kanzleiinhaber": { "lohn": 78.00, "bezeichnung": "Kanzleiinhaber/Firm Owner", "badge": "executive" },
+        "steuerberater": { "lohn": 45.50, "bezeichnung": "Steuerberater/Tax Advisor", "badge": "management" },
+        "wirtschaftspruefer": { "lohn": 52.00, "bezeichnung": "Wirtschaftspruefer/Auditor", "badge": "management" },
+        "bilanzbuchhalter": { "lohn": 28.50, "bezeichnung": "Bilanzbuchhalter/Chief Accountant" },
+        "steuerberater_assistent": { "lohn": 22.80, "bezeichnung": "Steuerberaterassistent/Tax Assistant" },
+        "buchhalter": { "lohn": 19.50, "bezeichnung": "Buchhalter/Accountant" },
+        "personalverrechner": { "lohn": 21.50, "bezeichnung": "Personalverrechner/Payroll" },
+        "kanzleikraft": { "lohn": 17.20, "bezeichnung": "Kanzleikraft/Office Staff" }
       }
     },
     "immobilien": {
-      "name": "Immobilien & Facility",
+      "name": "Immobilien & Hausverwaltung",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 85.80, "bezeichnung": "Geschäftsführer/CEO", "badge": "executive" },
-        "immobilienmakler": { "lohn": 45.50, "bezeichnung": "Immobilienmakler/Real Estate Agent" },
-        "hausverwalter": { "lohn": 38.80, "bezeichnung": "Hausverwalter/Property Manager" },
-        "facility_manager": { "lohn": 35.20, "bezeichnung": "Facility Manager/Facility Manager" },
-        "hausmeister": { "lohn": 22.50, "bezeichnung": "Hausmeister/Caretaker" },
-        "reinigungskraft": { "lohn": 18.20, "bezeichnung": "Reinigungskraft/Cleaner" }
+        "geschaeftsfuehrer": { "lohn": 58.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
+        "immobilienverwalter": { "lohn": 28.50, "bezeichnung": "Immobilienverwalter/Property Manager", "badge": "management" },
+        "immobilienmakler": { "lohn": 25.50, "bezeichnung": "Immobilienmakler/Real Estate Agent" },
+        "facility_manager": { "lohn": 26.80, "bezeichnung": "Facility Manager" },
+        "hausverwalter": { "lohn": 22.50, "bezeichnung": "Hausverwalter/Building Manager" },
+        "objektbetreuer": { "lohn": 18.50, "bezeichnung": "Objektbetreuer/Property Supervisor" },
+        "hausmeister": { "lohn": 15.80, "bezeichnung": "Hausmeister/Janitor" },
+        "sachbearbeiter": { "lohn": 17.50, "bezeichnung": "Sachbearbeiter/Clerk" }
       }
     },
     "marketing": {
-      "name": "Marketing & Medien",
+      "name": "Marketing & Werbung",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 88.80, "bezeichnung": "Geschäftsführer/CEO", "badge": "executive" },
-        "marketing_leiter": { "lohn": 55.50, "bezeichnung": "Marketing-Leiter/Marketing Manager", "badge": "management" },
-        "online_marketing": { "lohn": 42.80, "bezeichnung": "Online Marketing Manager/Online Marketing Manager" },
-        "graphic_designer": { "lohn": 38.50, "bezeichnung": "Grafikdesigner/Graphic Designer" },
-        "social_media": { "lohn": 35.20, "bezeichnung": "Social Media Manager/Social Media Manager" },
-        "praktikant": { "lohn": 18.50, "bezeichnung": "Praktikant/Intern" }
+        "geschaeftsfuehrer": { "lohn": 62.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
+        "marketingleiter": { "lohn": 42.50, "bezeichnung": "Marketingleiter/Marketing Director", "badge": "executive" },
+        "creative_director": { "lohn": 38.50, "bezeichnung": "Creative Director", "badge": "management" },
+        "art_director": { "lohn": 32.50, "bezeichnung": "Art Director" },
+        "marketingmanager": { "lohn": 28.50, "bezeichnung": "Marketingmanager/Marketing Manager" },
+        "grafikdesigner": { "lohn": 22.80, "bezeichnung": "Grafikdesigner/Graphic Designer" },
+        "texter": { "lohn": 24.50, "bezeichnung": "Texter/Copywriter" },
+        "social_media_manager": { "lohn": 22.50, "bezeichnung": "Social Media Manager" },
+        "online_marketing": { "lohn": 24.80, "bezeichnung": "Online Marketing Manager" },
+        "marketing_assistent": { "lohn": 18.50, "bezeichnung": "Marketing Assistent/Assistant" }
+      }
+    },
+    "medien": {
+      "name": "Medien & Journalismus",
+      "stufen": {
+        "chefredakteur": { "lohn": 52.00, "bezeichnung": "Chefredakteur/Editor in Chief", "badge": "executive" },
+        "redaktionsleiter": { "lohn": 38.50, "bezeichnung": "Redaktionsleiter/Editorial Manager", "badge": "management" },
+        "redakteur": { "lohn": 26.80, "bezeichnung": "Redakteur/Editor" },
+        "journalist": { "lohn": 24.50, "bezeichnung": "Journalist/Journalist" },
+        "reporter": { "lohn": 22.80, "bezeichnung": "Reporter/Reporter" },
+        "fotograf": { "lohn": 21.50, "bezeichnung": "Fotograf/Photographer" },
+        "kameramann": { "lohn": 24.50, "bezeichnung": "Kameramann/Cameraman" },
+        "cutter": { "lohn": 22.80, "bezeichnung": "Cutter/Video Editor" },
+        "tontechniker": { "lohn": 21.50, "bezeichnung": "Tontechniker/Sound Engineer" },
+        "moderator": { "lohn": 32.50, "bezeichnung": "Moderator/Presenter" },
+        "volontaer": { "lohn": 15.50, "bezeichnung": "Volontaer/Trainee" }
       }
     },
     "beratung": {
       "name": "Beratung & Consulting",
       "stufen": {
-        "partner": { "lohn": 150.80, "bezeichnung": "Partner/Partner", "badge": "executive" },
-        "senior_consultant": { "lohn": 85.50, "bezeichnung": "Senior Consultant/Senior Consultant" },
-        "consultant": { "lohn": 65.80, "bezeichnung": "Consultant/Consultant" },
-        "junior_consultant": { "lohn": 48.50, "bezeichnung": "Junior Consultant/Junior Consultant" },
-        "analyst": { "lohn": 42.20, "bezeichnung": "Analyst/Analyst" },
-        "praktikant": { "lohn": 25.50, "bezeichnung": "Praktikant/Intern" }
+        "partner": { "lohn": 95.00, "bezeichnung": "Partner", "badge": "executive" },
+        "senior_consultant": { "lohn": 48.50, "bezeichnung": "Senior Consultant", "badge": "management" },
+        "consultant": { "lohn": 32.50, "bezeichnung": "Consultant" },
+        "junior_consultant": { "lohn": 24.50, "bezeichnung": "Junior Consultant" },
+        "analyst": { "lohn": 28.50, "bezeichnung": "Analyst" },
+        "projektassistent": { "lohn": 19.50, "bezeichnung": "Projektassistent/Project Assistant" }
       }
     },
     "bildung": {
-      "name": "Bildung & Erziehung",
+      "name": "Bildung & Nachhilfe (Privat)",
       "stufen": {
-        "direktor": { "lohn": 65.80, "bezeichnung": "Schuldirektor/School Director", "badge": "executive" },
-        "professor": { "lohn": 55.50, "bezeichnung": "Professor/Professor" },
-        "lehrer": { "lohn": 42.80, "bezeichnung": "Lehrer/Teacher" },
-        "kindergartenpaedagoge": { "lohn": 35.20, "bezeichnung": "Kindergartenpädagoge/Kindergarten Teacher" },
-        "erzieher": { "lohn": 32.50, "bezeichnung": "Erzieher/Educator" },
-        "praktikant": { "lohn": 18.50, "bezeichnung": "Praktikant/Intern" }
+        "institutsleiter": { "lohn": 35.50, "bezeichnung": "Institutsleiter/Institute Director", "badge": "executive" },
+        "paedagogischer_leiter": { "lohn": 28.50, "bezeichnung": "Paedagogischer Leiter/Educational Director", "badge": "management" },
+        "trainer": { "lohn": 24.50, "bezeichnung": "Trainer/Trainer" },
+        "nachhilfelehrer": { "lohn": 22.50, "bezeichnung": "Nachhilfelehrer/Tutor" },
+        "sprachtrainer": { "lohn": 26.80, "bezeichnung": "Sprachtrainer/Language Trainer" },
+        "kursleiter": { "lohn": 24.50, "bezeichnung": "Kursleiter/Course Leader" },
+        "paedagoge": { "lohn": 21.50, "bezeichnung": "Paedagoge/Educator" },
+        "verwaltung": { "lohn": 17.50, "bezeichnung": "Verwaltung/Administration" }
       }
     },
     "sozialarbeit": {
       "name": "Sozialarbeit & Betreuung",
       "stufen": {
-        "leitung": { "lohn": 52.80, "bezeichnung": "Einrichtungsleitung/Institution Director", "badge": "executive" },
-        "social_worker": { "lohn": 38.50, "bezeichnung": "Sozialarbeiter/Social Worker" },
-        "betreuer": { "lohn": 32.80, "bezeichnung": "Betreuer/Caregiver" },
-        "jugendbetreuer": { "lohn": 30.20, "bezeichnung": "Jugendbetreuer/Youth Worker" },
-        "familienhelfer": { "lohn": 28.50, "bezeichnung": "Familienhelfer/Family Helper" },
-        "praktikant": { "lohn": 18.50, "bezeichnung": "Praktikant/Intern" }
-      }
-    },
-    "erwachsenenbildung": {
-      "name": "Erwachsenenbildung & Training",
-      "stufen": {
-        "direktor": { "lohn": 68.80, "bezeichnung": "Bildungsdirektor/Education Director", "badge": "executive" },
-        "trainer": { "lohn": 45.50, "bezeichnung": "Trainer/Trainer" },
-        "dozent": { "lohn": 42.80, "bezeichnung": "Dozent/Lecturer" },
-        "kursleiter": { "lohn": 38.50, "bezeichnung": "Kursleiter/Course Leader" },
-        "assistent": { "lohn": 32.20, "bezeichnung": "Assistent/Assistant" },
-        "praktikant": { "lohn": 22.50, "bezeichnung": "Praktikant/Intern" }
+        "einrichtungsleiter": { "lohn": 32.50, "bezeichnung": "Einrichtungsleiter/Facility Director", "badge": "executive" },
+        "sozialarbeiter": { "lohn": 24.50, "bezeichnung": "Sozialarbeiter/Social Worker" },
+        "sozialpaedagoge": { "lohn": 23.50, "bezeichnung": "Sozialpaedagoge/Social Pedagogue" },
+        "betreuer": { "lohn": 18.50, "bezeichnung": "Betreuer/Caretaker" },
+        "jugendarbeiter": { "lohn": 19.80, "bezeichnung": "Jugendarbeiter/Youth Worker" },
+        "familienhelfer": { "lohn": 20.50, "bezeichnung": "Familienhelfer/Family Helper" },
+        "streetworker": { "lohn": 21.50, "bezeichnung": "Streetworker" },
+        "behindertenbegleiter": { "lohn": 17.80, "bezeichnung": "Behindertenbegleiter/Disability Support" },
+        "hilfskraft": { "lohn": 14.50, "bezeichnung": "Hilfskraft/Helper" }
       }
     },
     "dienstleistungen": {
-      "name": "Dienstleistungen",
+      "name": "Dienstleistungen (Frisoer, Kosmetik)",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 58.80, "bezeichnung": "Geschäftsführer/CEO", "badge": "executive" },
-        "friseur_meister": { "lohn": 28.50, "bezeichnung": "Friseurmeister/Master Hairdresser" },
-        "kosmetiker": { "lohn": 25.80, "bezeichnung": "Kosmetiker/Cosmetologist" },
-        "friseur": { "lohn": 22.50, "bezeichnung": "Friseur/Hairdresser" },
-        "wellness": { "lohn": 24.20, "bezeichnung": "Wellness-Masseur/Wellness Masseur" },
-        "azubi": { "lohn": 15.50, "bezeichnung": "Lehrling/Apprentice" }
+        "saloninhaber": { "lohn": 35.00, "bezeichnung": "Saloninhaber/Salon Owner", "badge": "executive" },
+        "salonleiter": { "lohn": 22.50, "bezeichnung": "Salonleiter/Salon Manager", "badge": "management" },
+        "friseurmeister": { "lohn": 20.80, "bezeichnung": "Friseurmeister/Master Hairdresser", "badge": "management" },
+        "friseur_stylist": { "lohn": 16.50, "bezeichnung": "Friseur/Stylist" },
+        "friseur_geselle": { "lohn": 14.80, "bezeichnung": "Friseurgeselle/Journeyman Hairdresser" },
+        "kosmetikerin": { "lohn": 16.20, "bezeichnung": "Kosmetikerin/Beautician" },
+        "fusspflegerin": { "lohn": 15.80, "bezeichnung": "Fusspflegerin/Pedicurist" },
+        "nageldesignerin": { "lohn": 15.20, "bezeichnung": "Nageldesignerin/Nail Technician" },
+        "masseur_wellness": { "lohn": 16.80, "bezeichnung": "Masseur Wellness/Spa Therapist" },
+        "rezeption": { "lohn": 14.20, "bezeichnung": "Rezeption/Reception" },
+        "lehrling_1": { "lohn": 7.80, "bezeichnung": "Lehrling 1. Jahr" },
+        "lehrling_3": { "lohn": 11.50, "bezeichnung": "Lehrling 3. Jahr" }
+      }
+    },
+    "bestattung": {
+      "name": "Bestattung",
+      "stufen": {
+        "geschaeftsfuehrer": { "lohn": 42.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
+        "bestattungsmeister": { "lohn": 24.50, "bezeichnung": "Bestattungsmeister/Funeral Director", "badge": "management" },
+        "bestatter": { "lohn": 18.50, "bezeichnung": "Bestatter/Undertaker" },
+        "trauerbegleiter": { "lohn": 19.80, "bezeichnung": "Trauerbegleiter/Grief Counselor" },
+        "thanatopraktiker": { "lohn": 22.50, "bezeichnung": "Thanatopraktiker/Embalmer" },
+        "sargtraeger": { "lohn": 15.50, "bezeichnung": "Sargtraeger/Pallbearer" },
+        "fahrer": { "lohn": 15.20, "bezeichnung": "Fahrer/Driver" },
+        "verwaltung": { "lohn": 16.50, "bezeichnung": "Verwaltung/Administration" }
+      }
+    },
+    "waescherei": {
+      "name": "Waescherei & Textilreinigung",
+      "stufen": {
+        "geschaeftsfuehrer": { "lohn": 38.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
+        "betriebsleiter": { "lohn": 24.50, "bezeichnung": "Betriebsleiter/Operations Manager", "badge": "management" },
+        "textilreiniger": { "lohn": 16.50, "bezeichnung": "Textilreiniger/Dry Cleaner" },
+        "buegeler": { "lohn": 14.50, "bezeichnung": "Buegeler/Presser" },
+        "waeschereimitarbeiter": { "lohn": 13.80, "bezeichnung": "Waeschereimitarbeiter/Laundry Worker" },
+        "fleckenentferner": { "lohn": 15.20, "bezeichnung": "Fleckenentferner/Stain Remover" },
+        "annahmekraft": { "lohn": 13.50, "bezeichnung": "Annahmekraft/Counter Staff" },
+        "fahrer": { "lohn": 14.80, "bezeichnung": "Fahrer/Driver" }
+      }
+    },
+    "tankstelle": {
+      "name": "Tankstellen",
+      "stufen": {
+        "paechter": { "lohn": 28.50, "bezeichnung": "Tankstellenpaechter/Station Leaseholder", "badge": "management" },
+        "stationsleiter": { "lohn": 19.80, "bezeichnung": "Stationsleiter/Station Manager", "badge": "management" },
+        "stellv_leiter": { "lohn": 17.20, "bezeichnung": "Stellv. Stationsleiter/Assistant Manager" },
+        "tankwart": { "lohn": 14.50, "bezeichnung": "Tankwart/Pump Attendant" },
+        "shop_mitarbeiter": { "lohn": 13.80, "bezeichnung": "Shop-Mitarbeiter/Shop Staff" },
+        "kassierer": { "lohn": 13.50, "bezeichnung": "Kassierer/Cashier" },
+        "bistro_mitarbeiter": { "lohn": 13.20, "bezeichnung": "Bistro-Mitarbeiter/Bistro Staff" }
+      }
+    },
+    "sport_fitness": {
+      "name": "Sport & Fitness",
+      "stufen": {
+        "studioleiter": { "lohn": 28.50, "bezeichnung": "Studioleiter/Gym Manager", "badge": "management" },
+        "fitnesstrainer": { "lohn": 19.80, "bezeichnung": "Fitnesstrainer/Personal Trainer" },
+        "groupfitness_trainer": { "lohn": 21.50, "bezeichnung": "Groupfitness Trainer/Group Instructor" },
+        "physiotherapeut_sport": { "lohn": 24.50, "bezeichnung": "Sportphysiotherapeut/Sports Physio" },
+        "ernaehrungsberater": { "lohn": 22.80, "bezeichnung": "Ernaehrungsberater/Nutritionist" },
+        "wellness_trainer": { "lohn": 18.50, "bezeichnung": "Wellness Trainer" },
+        "bademeister": { "lohn": 16.80, "bezeichnung": "Bademeister/Lifeguard" },
+        "empfang_theke": { "lohn": 14.50, "bezeichnung": "Empfang/Theke/Reception" },
+        "servicekraft": { "lohn": 13.50, "bezeichnung": "Servicekraft/Service Staff" }
+      }
+    },
+    "kultur_theater": {
+      "name": "Kultur, Theater & Kino",
+      "stufen": {
+        "intendant": { "lohn": 55.00, "bezeichnung": "Intendant/Artistic Director", "badge": "executive" },
+        "theaterleiter": { "lohn": 38.50, "bezeichnung": "Theaterleiter/Theater Manager", "badge": "executive" },
+        "kinoleiter": { "lohn": 24.50, "bezeichnung": "Kinoleiter/Cinema Manager", "badge": "management" },
+        "regisseur": { "lohn": 35.50, "bezeichnung": "Regisseur/Director" },
+        "schauspieler": { "lohn": 28.50, "bezeichnung": "Schauspieler/Actor" },
+        "buehnenbildner": { "lohn": 24.50, "bezeichnung": "Buehnenbildner/Set Designer" },
+        "tontechniker": { "lohn": 21.50, "bezeichnung": "Tontechniker/Sound Engineer" },
+        "lichttechniker": { "lohn": 20.50, "bezeichnung": "Lichttechniker/Lighting Tech" },
+        "buehnenarbeiter": { "lohn": 16.50, "bezeichnung": "Buehnenarbeiter/Stagehand" },
+        "filmvorfuehrer": { "lohn": 14.80, "bezeichnung": "Filmvorfuehrer/Projectionist" },
+        "kassenkraft": { "lohn": 13.50, "bezeichnung": "Kassenkraft/Ticket Sales" },
+        "platzanweiser": { "lohn": 12.80, "bezeichnung": "Platzanweiser/Usher" }
       }
     },
     "luftfahrt": {
-      "name": "Luftfahrt & Aviation",
+      "name": "Luftfahrt & Flughafen",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 125.80, "bezeichnung": "Geschäftsführer/CEO", "badge": "executive" },
-        "pilot": { "lohn": 85.50, "bezeichnung": "Pilot/Pilot" },
-        "flugbegleiter": { "lohn": 42.80, "bezeichnung": "Flugbegleiter/Flight Attendant" },
-        "bodenservice": { "lohn": 35.20, "bezeichnung": "Bodenservice/Ground Staff" },
-        "check_in": { "lohn": 28.50, "bezeichnung": "Check-in Agent/Check-in Agent" },
-        "gepaeck": { "lohn": 25.80, "bezeichnung": "Gepäckabfertigung/Baggage Handler" }
+        "flughafendirektor": { "lohn": 75.00, "bezeichnung": "Flughafendirektor/Airport Director", "badge": "executive" },
+        "pilot": { "lohn": 65.00, "bezeichnung": "Pilot/Captain", "badge": "executive" },
+        "copilot": { "lohn": 45.00, "bezeichnung": "Copilot/First Officer" },
+        "flugbegleiter": { "lohn": 24.50, "bezeichnung": "Flugbegleiter/Flight Attendant" },
+        "fluglotse": { "lohn": 52.00, "bezeichnung": "Fluglotse/Air Traffic Controller" },
+        "check_in_agent": { "lohn": 17.50, "bezeichnung": "Check-in Agent" },
+        "bodenabfertiger": { "lohn": 16.80, "bezeichnung": "Bodenabfertiger/Ground Handler" },
+        "gepaeckabfertiger": { "lohn": 15.50, "bezeichnung": "Gepaeckabfertiger/Baggage Handler" },
+        "flugzeugmechaniker": { "lohn": 28.50, "bezeichnung": "Flugzeugmechaniker/Aircraft Mechanic" },
+        "sicherheitskontrolle": { "lohn": 17.20, "bezeichnung": "Sicherheitskontrolle/Security Screener" }
       }
     },
     "energie": {
       "name": "Energie & Versorgung",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 95.80, "bezeichnung": "Geschäftsführer/CEO", "badge": "executive" },
-        "ingenieur": { "lohn": 65.50, "bezeichnung": "Ingenieur/Engineer" },
-        "techniker": { "lohn": 48.80, "bezeichnung": "Techniker/Technician" },
-        "monteur": { "lohn": 42.50, "bezeichnung": "Monteur/Fitter" },
-        "kundenservice": { "lohn": 35.20, "bezeichnung": "Kundenservice/Customer Service" },
-        "azubi": { "lohn": 22.50, "bezeichnung": "Lehrling/Apprentice" }
+        "geschaeftsfuehrer": { "lohn": 72.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
+        "bereichsleiter": { "lohn": 45.50, "bezeichnung": "Bereichsleiter/Division Manager", "badge": "executive" },
+        "kraftwerksleiter": { "lohn": 42.00, "bezeichnung": "Kraftwerksleiter/Power Plant Manager", "badge": "management" },
+        "ingenieur": { "lohn": 35.50, "bezeichnung": "Ingenieur/Engineer" },
+        "meister_elektro": { "lohn": 28.50, "bezeichnung": "Meister Elektro/Master Electrician", "badge": "management" },
+        "netzmeister": { "lohn": 26.80, "bezeichnung": "Netzmeister/Grid Master" },
+        "elektromonteur": { "lohn": 22.50, "bezeichnung": "Elektromonteur/Electrical Fitter" },
+        "anlagenfuehrer": { "lohn": 24.50, "bezeichnung": "Anlagenfuehrer/Plant Operator" },
+        "netztechniker": { "lohn": 21.80, "bezeichnung": "Netztechniker/Grid Technician" },
+        "ableser": { "lohn": 15.50, "bezeichnung": "Ableser/Meter Reader" },
+        "kundenservice": { "lohn": 17.50, "bezeichnung": "Kundenservice/Customer Service" }
       }
     },
-    "medien": {
-      "name": "Medien & Broadcasting",
+    "erwachsenenbildung": {
+      "name": "Erwachsenenbildung & Training",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 88.80, "bezeichnung": "Geschäftsführer/CEO", "badge": "executive" },
-        "redaktionsleiter": { "lohn": 65.50, "bezeichnung": "Redaktionsleiter/Editor in Chief", "badge": "management" },
-        "journalist": { "lohn": 45.80, "bezeichnung": "Journalist/Journalist" },
-        "redakteur": { "lohn": 42.50, "bezeichnung": "Redakteur/Editor" },
-        "fotograf": { "lohn": 38.20, "bezeichnung": "Fotograf/Photographer" },
-        "praktikant": { "lohn": 22.50, "bezeichnung": "Praktikant/Intern" }
+        "institutsleiter": { "lohn": 38.50, "bezeichnung": "Institutsleiter/Institute Director", "badge": "executive" },
+        "programmleiter": { "lohn": 28.50, "bezeichnung": "Programmleiter/Program Director", "badge": "management" },
+        "trainer_senior": { "lohn": 35.50, "bezeichnung": "Senior Trainer" },
+        "trainer": { "lohn": 28.50, "bezeichnung": "Trainer" },
+        "dozent": { "lohn": 32.50, "bezeichnung": "Dozent/Lecturer" },
+        "coach": { "lohn": 42.00, "bezeichnung": "Coach/Executive Coach" },
+        "kursadministration": { "lohn": 18.50, "bezeichnung": "Kursadministration/Course Admin" },
+        "empfang": { "lohn": 15.50, "bezeichnung": "Empfang/Reception" }
       }
     }
   }
