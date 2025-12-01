@@ -1,18 +1,15 @@
 {
-  "kv_version": "2025.05.004",
-  "kv_date": "2025-05-27",
-  "beamte_version": "2025.05.001",
-  "beamte_date": "2025-05-15",
+  "version": "2025.12.001",
+  "stand": "Dezember 2025",
+  "datum": "2025-12-01",
   "changelog": [
-    "2025.05.004 - MEGA-UPDATE: 87 Branchen mit 802 Berufen! (+33 Branchen, +230 Berufe)",
-    "2025.05.003 - Kipper-Berufe umbenannt in 'LKW-Fahrer Kipper/Schüttgut'",
-    "2025.05.002 - GROSS-UPDATE: 54 Branchen mit 572 Berufen (vorher 23/400)",
-    "2025.05.001 - Initiale Version mit 23 Branchen und 12 Beamtenbereichen"
+    "2025.12.001 - VOLLSTAENDIGE AKTUALISIERUNG: Alle 87 Branchen mit WKO-Quellenlinks versehen",
+    "2025.12.001 - Reinigung: Exakte WKO-Lohngruppen 1-6 (14.47 - 12.00 EUR)",
+    "2025.12.001 - Sicherheit: Alle Verwendungsgruppen A-F aktualisiert (12.25 - 16.09 EUR)",
+    "2025.12.001 - Gastronomie Wien: Neue Lohnordnung ab 1.5.2025 (LG 1-5)",
+    "2025.12.001 - Alle Branchen mit direkten WKO-Links zur Quellenverifikation",
+    "2025.05.004 - Vorherige Version vom 27.05.2025"
   ],
-  "files": {
-    "kv_daten": "kv_daten_2025.json",
-    "beamte_daten": "beamte_daten_2025.json"
-  },
-  "info": "LohnScanner Professional - KV-Daten Updates",
-  "copyright": "(c) 2025 Frank Schwarzlose"
+  "naechste_aktualisierung": "2026-01-01",
+  "hinweis": "Fuer verbindliche Auskuenfte: WKO-Link in jeder Branche klicken"
 }

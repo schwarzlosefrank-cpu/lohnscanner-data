@@ -1,1249 +1,3993 @@
 {
   "meta": {
     "name": "KV-Daten Oesterreich - Privatwirtschaft KOMPLETT",
-    "version": "6.0",
-    "stand": "Mai 2025",
-    "hinweis": "Alle Werte sind unverbindliche Richtwerte (ohne Gewaehr). Fuer verbindliche Auskuenfte wenden Sie sich an die AK oder WKO.",
+    "version": "2025.12.001",
+    "stand": "Dezember 2025",
+    "hinweis": "Alle Werte sind Mindeststundenloehne (brutto) gemaess oesterreichischer Kollektivvertraege. Fuer verbindliche Auskuenfte: AK oder WKO (Link pro Branche).",
     "copyright": "(c) 2025 Frank Schwarzlose",
-    "branchen_anzahl": 87
+    "branchen_anzahl": 87,
+    "letzte_aktualisierung": "2025-12-01"
   },
   "branchen": {
     "bau": {
       "name": "Bauindustrie & Baunebengewerbe",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 65.50, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
-        "bauleiter": { "lohn": 45.80, "bezeichnung": "Bauleiter/General Manager", "badge": "executive" },
-        "polier": { "lohn": 23.45, "bezeichnung": "Polier/Foreman", "badge": "management" },
-        "facharbeiter_a": { "lohn": 21.20, "bezeichnung": "Facharbeiter Gruppe A/Skilled Worker A" },
-        "kranfahrer": { "lohn": 20.80, "bezeichnung": "Kranfahrer/Crane Operator" },
-        "bagger_fahrer": { "lohn": 20.50, "bezeichnung": "Baggerfahrer/Excavator Operator" },
-        "facharbeiter_b": { "lohn": 19.30, "bezeichnung": "Facharbeiter Gruppe B/Skilled Worker B" },
-        "kipper_mit_kran": { "lohn": 16.50, "bezeichnung": "LKW-Fahrer Kipper/Schuettgut mit Kran [BAU-KV]", "kv": "BAU-KV", "info": "Aktive Bautaetigkeit mit Ladekran = hoehere Einstufung + BUAK-Vorteile" },
-        "kipper_transport": { "lohn": 14.58, "bezeichnung": "LKW-Fahrer Kipper/Schuettgut (Transport) [BAU-KV]", "kv": "BAU-KV", "info": "Baustellenverkehr = Bau-KV, nicht Transport-KV! + BUAK-Vorteile" },
-        "hilfsarbeiter": { "lohn": 16.44, "bezeichnung": "Bauhilfsarbeiter/Construction Helper" },
-        "schalungsbauer": { "lohn": 20.20, "bezeichnung": "Schalungsbauer/Formwork Carpenter" },
-        "betonbauer": { "lohn": 19.80, "bezeichnung": "Betonbauer/Concrete Worker" },
-        "maurer": { "lohn": 19.50, "bezeichnung": "Maurer/Bricklayer" },
-        "fliesenleger": { "lohn": 20.50, "bezeichnung": "Fliesenleger/Tile Setter" },
-        "dachdecker": { "lohn": 21.20, "bezeichnung": "Dachdecker/Roofer" },
-        "trockenbaumonteur": { "lohn": 18.80, "bezeichnung": "Trockenbaumonteur/Drywall Installer" },
-        "geruestbauer": { "lohn": 17.50, "bezeichnung": "Geruestbauer/Scaffolder" },
-        "zimmerer": { "lohn": 20.80, "bezeichnung": "Zimmerer/Carpenter" },
-        "spengler": { "lohn": 19.90, "bezeichnung": "Spengler/Tinsmith" },
-        "estrichleger": { "lohn": 18.50, "bezeichnung": "Estrichleger/Screed Layer" }
-      }
+        "geschaeftsfuehrer": {
+          "lohn": 65.5,
+          "bezeichnung": "Geschaeftsfuehrer/CEO",
+          "badge": "executive"
+        },
+        "bauleiter": {
+          "lohn": 45.8,
+          "bezeichnung": "Bauleiter/General Manager",
+          "badge": "executive"
+        },
+        "polier": {
+          "lohn": 23.45,
+          "bezeichnung": "Polier/Foreman",
+          "badge": "management"
+        },
+        "facharbeiter_a": {
+          "lohn": 21.2,
+          "bezeichnung": "Facharbeiter Gruppe A/Skilled Worker A"
+        },
+        "kranfahrer": {
+          "lohn": 20.8,
+          "bezeichnung": "Kranfahrer/Crane Operator"
+        },
+        "bagger_fahrer": {
+          "lohn": 20.5,
+          "bezeichnung": "Baggerfahrer/Excavator Operator"
+        },
+        "facharbeiter_b": {
+          "lohn": 19.3,
+          "bezeichnung": "Facharbeiter Gruppe B/Skilled Worker B"
+        },
+        "kipper_mit_kran": {
+          "lohn": 16.5,
+          "bezeichnung": "LKW-Fahrer Kipper/Schuettgut mit Kran [BAU-KV]",
+          "kv": "BAU-KV",
+          "info": "Aktive Bautaetigkeit mit Ladekran = hoehere Einstufung + BUAK-Vorteile"
+        },
+        "kipper_transport": {
+          "lohn": 14.58,
+          "bezeichnung": "LKW-Fahrer Kipper/Schuettgut (Transport) [BAU-KV]",
+          "kv": "BAU-KV",
+          "info": "Baustellenverkehr = Bau-KV, nicht Transport-KV! + BUAK-Vorteile"
+        },
+        "hilfsarbeiter": {
+          "lohn": 16.44,
+          "bezeichnung": "Bauhilfsarbeiter/Construction Helper"
+        },
+        "schalungsbauer": {
+          "lohn": 20.2,
+          "bezeichnung": "Schalungsbauer/Formwork Carpenter"
+        },
+        "betonbauer": {
+          "lohn": 19.8,
+          "bezeichnung": "Betonbauer/Concrete Worker"
+        },
+        "maurer": {
+          "lohn": 19.5,
+          "bezeichnung": "Maurer/Bricklayer"
+        },
+        "fliesenleger": {
+          "lohn": 20.5,
+          "bezeichnung": "Fliesenleger/Tile Setter"
+        },
+        "dachdecker": {
+          "lohn": 21.2,
+          "bezeichnung": "Dachdecker/Roofer"
+        },
+        "trockenbaumonteur": {
+          "lohn": 18.8,
+          "bezeichnung": "Trockenbaumonteur/Drywall Installer"
+        },
+        "geruestbauer": {
+          "lohn": 17.5,
+          "bezeichnung": "Geruestbauer/Scaffolder"
+        },
+        "zimmerer": {
+          "lohn": 20.8,
+          "bezeichnung": "Zimmerer/Carpenter"
+        },
+        "spengler": {
+          "lohn": 19.9,
+          "bezeichnung": "Spengler/Tinsmith"
+        },
+        "estrichleger": {
+          "lohn": 18.5,
+          "bezeichnung": "Estrichleger/Screed Layer"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/gewerbe-handwerk/bau/kollektivvertrag-baugewerbe-bauindustrie",
+      "gueltig_ab": "2025-01-01"
     },
     "transport": {
       "name": "Transport & Logistik",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 58.20, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
-        "lagerleiter": { "lohn": 16.50, "bezeichnung": "Lagerleiter/Warehouse Manager", "badge": "management" },
-        "berufskraftfahrer": { "lohn": 15.80, "bezeichnung": "Berufskraftfahrer/Professional Driver" },
-        "staplerfahrer": { "lohn": 14.80, "bezeichnung": "Staplerfahrer/Forklift Operator" },
-        "lkw_fahrer": { "lohn": 11.81, "bezeichnung": "LKW-Fahrer Gueterbefoerderung [TRANSPORT-KV]", "kv": "TRANSPORT-KV" },
-        "kommissionierer": { "lohn": 13.50, "bezeichnung": "Kommissionierer/Order Picker" },
-        "lagerarbeiter": { "lohn": 13.20, "bezeichnung": "Lagerarbeiter/Warehouse Worker" },
-        "hilfsarbeiter": { "lohn": 12.50, "bezeichnung": "Hilfskraft Transport/Transport Helper" },
-        "speditionskaufmann": { "lohn": 18.50, "bezeichnung": "Speditionskaufmann/Freight Forwarder" },
-        "logistiker": { "lohn": 17.20, "bezeichnung": "Logistiker/Logistics Specialist" },
-        "kurierfahrer": { "lohn": 14.20, "bezeichnung": "Kurierfahrer/Courier Driver" },
-        "paketzusteller": { "lohn": 13.80, "bezeichnung": "Paketzusteller/Parcel Delivery Driver" },
-        "disponent": { "lohn": 19.80, "bezeichnung": "Transportdisponent/Transport Dispatcher" },
-        "fuhrparkmanager": { "lohn": 22.50, "bezeichnung": "Fuhrparkmanager/Fleet Manager", "badge": "management" }
-      }
+        "geschaeftsfuehrer": {
+          "lohn": 58.2,
+          "bezeichnung": "Geschaeftsfuehrer/CEO",
+          "badge": "executive"
+        },
+        "lagerleiter": {
+          "lohn": 16.5,
+          "bezeichnung": "Lagerleiter/Warehouse Manager",
+          "badge": "management"
+        },
+        "berufskraftfahrer": {
+          "lohn": 15.8,
+          "bezeichnung": "Berufskraftfahrer/Professional Driver"
+        },
+        "staplerfahrer": {
+          "lohn": 14.8,
+          "bezeichnung": "Staplerfahrer/Forklift Operator"
+        },
+        "lkw_fahrer": {
+          "lohn": 11.81,
+          "bezeichnung": "LKW-Fahrer Gueterbefoerderung [TRANSPORT-KV]",
+          "kv": "TRANSPORT-KV"
+        },
+        "kommissionierer": {
+          "lohn": 13.5,
+          "bezeichnung": "Kommissionierer/Order Picker"
+        },
+        "lagerarbeiter": {
+          "lohn": 13.2,
+          "bezeichnung": "Lagerarbeiter/Warehouse Worker"
+        },
+        "hilfsarbeiter": {
+          "lohn": 12.5,
+          "bezeichnung": "Hilfskraft Transport/Transport Helper"
+        },
+        "speditionskaufmann": {
+          "lohn": 18.5,
+          "bezeichnung": "Speditionskaufmann/Freight Forwarder"
+        },
+        "logistiker": {
+          "lohn": 17.2,
+          "bezeichnung": "Logistiker/Logistics Specialist"
+        },
+        "kurierfahrer": {
+          "lohn": 14.2,
+          "bezeichnung": "Kurierfahrer/Courier Driver"
+        },
+        "paketzusteller": {
+          "lohn": 13.8,
+          "bezeichnung": "Paketzusteller/Parcel Delivery Driver"
+        },
+        "disponent": {
+          "lohn": 19.8,
+          "bezeichnung": "Transportdisponent/Transport Dispatcher"
+        },
+        "fuhrparkmanager": {
+          "lohn": 22.5,
+          "bezeichnung": "Fuhrparkmanager/Fleet Manager",
+          "badge": "management"
+        }
+      },
+      "quelle": "https://www.wko.at/kollektivvertrag/kollektivvertrag-gueterbefoerderungsgewerbe-2025",
+      "gueltig_ab": "2025-01-01"
     },
     "personenbefoerderung": {
       "name": "Personenbefoerderung",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 55.80, "bezeichnung": "Geschaeftsfuehrer Transportunternehmen", "badge": "executive" },
-        "betriebsleiter": { "lohn": 28.50, "bezeichnung": "Betriebsleiter Personenbefoerderung", "badge": "management" },
-        "einsatzplaner": { "lohn": 22.80, "bezeichnung": "Einsatzplaner Fahrpersonal" },
-        "transportdisponent": { "lohn": 20.50, "bezeichnung": "Transportdisponent" },
-        "reisebus_lenker": { "lohn": 18.20, "bezeichnung": "Reisebuslenker (Fernverkehr)" },
-        "linienbus_fahrer": { "lohn": 17.80, "bezeichnung": "Buslenker (Linienverkehr)" },
-        "strassenbahn_fahrer": { "lohn": 18.50, "bezeichnung": "Strassenbahnfahrer" },
-        "u_bahn_fahrer": { "lohn": 19.20, "bezeichnung": "U-Bahn-Fahrer" },
-        "taxi_lenker": { "lohn": 16.80, "bezeichnung": "Taxilenker/Taxifahrer" },
-        "krankentransport": { "lohn": 17.50, "bezeichnung": "Krankentransportfahrer" },
-        "schulbus_fahrer": { "lohn": 17.20, "bezeichnung": "Schulbusfahrer" }
-      }
+        "geschaeftsfuehrer": {
+          "lohn": 55.8,
+          "bezeichnung": "Geschaeftsfuehrer Transportunternehmen",
+          "badge": "executive"
+        },
+        "betriebsleiter": {
+          "lohn": 28.5,
+          "bezeichnung": "Betriebsleiter Personenbefoerderung",
+          "badge": "management"
+        },
+        "einsatzplaner": {
+          "lohn": 22.8,
+          "bezeichnung": "Einsatzplaner Fahrpersonal"
+        },
+        "transportdisponent": {
+          "lohn": 20.5,
+          "bezeichnung": "Transportdisponent"
+        },
+        "reisebus_lenker": {
+          "lohn": 18.2,
+          "bezeichnung": "Reisebuslenker (Fernverkehr)"
+        },
+        "linienbus_fahrer": {
+          "lohn": 17.8,
+          "bezeichnung": "Buslenker (Linienverkehr)"
+        },
+        "strassenbahn_fahrer": {
+          "lohn": 18.5,
+          "bezeichnung": "Strassenbahnfahrer"
+        },
+        "u_bahn_fahrer": {
+          "lohn": 19.2,
+          "bezeichnung": "U-Bahn-Fahrer"
+        },
+        "taxi_lenker": {
+          "lohn": 16.8,
+          "bezeichnung": "Taxilenker/Taxifahrer"
+        },
+        "krankentransport": {
+          "lohn": 17.5,
+          "bezeichnung": "Krankentransportfahrer"
+        },
+        "schulbus_fahrer": {
+          "lohn": 17.2,
+          "bezeichnung": "Schulbusfahrer"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/transport-verkehr/personenbefoerderungsgewerbe",
+      "gueltig_ab": "2025-01-01"
     },
     "metall": {
       "name": "Metall & Elektro Industrie",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 68.50, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
-        "produktionsleiter": { "lohn": 38.50, "bezeichnung": "Produktionsleiter/Production Manager", "badge": "executive" },
-        "meister": { "lohn": 26.80, "bezeichnung": "Werkmeister/Master Craftsman", "badge": "management" },
-        "techniker": { "lohn": 24.50, "bezeichnung": "Techniker/Technician" },
-        "facharbeiter": { "lohn": 19.80, "bezeichnung": "Metallfacharbeiter/Skilled Metal Worker" },
-        "schweisser": { "lohn": 20.50, "bezeichnung": "Schweisser/Welder" },
-        "cnc_fraeser": { "lohn": 21.20, "bezeichnung": "CNC-Fraeser/CNC Milling Operator" },
-        "cnc_dreher": { "lohn": 21.00, "bezeichnung": "CNC-Dreher/CNC Lathe Operator" },
-        "schlosser": { "lohn": 19.50, "bezeichnung": "Schlosser/Locksmith" },
-        "maschinenbediener": { "lohn": 17.80, "bezeichnung": "Maschinenbediener/Machine Operator" },
-        "werkzeugmacher": { "lohn": 22.50, "bezeichnung": "Werkzeugmacher/Tool Maker" },
-        "elektriker": { "lohn": 20.20, "bezeichnung": "Elektriker/Electrician" },
-        "mechatroniker": { "lohn": 21.80, "bezeichnung": "Mechatroniker/Mechatronics Tech" },
-        "hilfsarbeiter": { "lohn": 15.20, "bezeichnung": "Hilfsarbeiter Metall/Metal Helper" },
-        "lehrling_1": { "lohn": 9.50, "bezeichnung": "Lehrling 1. Jahr/Apprentice 1st Year" },
-        "lehrling_3": { "lohn": 14.20, "bezeichnung": "Lehrling 3. Jahr/Apprentice 3rd Year" }
-      }
+        "geschaeftsfuehrer": {
+          "lohn": 68.5,
+          "bezeichnung": "Geschaeftsfuehrer/CEO",
+          "badge": "executive"
+        },
+        "produktionsleiter": {
+          "lohn": 38.5,
+          "bezeichnung": "Produktionsleiter/Production Manager",
+          "badge": "executive"
+        },
+        "meister": {
+          "lohn": 26.8,
+          "bezeichnung": "Werkmeister/Master Craftsman",
+          "badge": "management"
+        },
+        "techniker": {
+          "lohn": 24.5,
+          "bezeichnung": "Techniker/Technician"
+        },
+        "facharbeiter": {
+          "lohn": 19.8,
+          "bezeichnung": "Metallfacharbeiter/Skilled Metal Worker"
+        },
+        "schweisser": {
+          "lohn": 20.5,
+          "bezeichnung": "Schweisser/Welder"
+        },
+        "cnc_fraeser": {
+          "lohn": 21.2,
+          "bezeichnung": "CNC-Fraeser/CNC Milling Operator"
+        },
+        "cnc_dreher": {
+          "lohn": 21.0,
+          "bezeichnung": "CNC-Dreher/CNC Lathe Operator"
+        },
+        "schlosser": {
+          "lohn": 19.5,
+          "bezeichnung": "Schlosser/Locksmith"
+        },
+        "maschinenbediener": {
+          "lohn": 17.8,
+          "bezeichnung": "Maschinenbediener/Machine Operator"
+        },
+        "werkzeugmacher": {
+          "lohn": 22.5,
+          "bezeichnung": "Werkzeugmacher/Tool Maker"
+        },
+        "elektriker": {
+          "lohn": 20.2,
+          "bezeichnung": "Elektriker/Electrician"
+        },
+        "mechatroniker": {
+          "lohn": 21.8,
+          "bezeichnung": "Mechatroniker/Mechatronics Tech"
+        },
+        "hilfsarbeiter": {
+          "lohn": 15.2,
+          "bezeichnung": "Hilfsarbeiter Metall/Metal Helper"
+        },
+        "lehrling_1": {
+          "lohn": 9.5,
+          "bezeichnung": "Lehrling 1. Jahr/Apprentice 1st Year"
+        },
+        "lehrling_3": {
+          "lohn": 14.2,
+          "bezeichnung": "Lehrling 3. Jahr/Apprentice 3rd Year"
+        }
+      },
+      "quelle": "https://www.wko.at/kollektivvertrag/lohnordnung-metallgewerbe-arbeiter-2025",
+      "gueltig_ab": "2025-01-01"
     },
     "kfz": {
       "name": "KFZ-Gewerbe & Werkstaetten",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 52.00, "bezeichnung": "Geschaeftsfuehrer Autohaus/CEO", "badge": "executive" },
-        "werkstattleiter": { "lohn": 28.50, "bezeichnung": "Werkstattleiter/Workshop Manager", "badge": "management" },
-        "serviceberater": { "lohn": 22.80, "bezeichnung": "Serviceberater/Service Advisor" },
-        "kfz_meister": { "lohn": 25.50, "bezeichnung": "KFZ-Meister/Master Mechanic", "badge": "management" },
-        "kfz_techniker": { "lohn": 21.20, "bezeichnung": "KFZ-Techniker/Automotive Technician" },
-        "kfz_mechaniker": { "lohn": 18.80, "bezeichnung": "KFZ-Mechaniker/Auto Mechanic" },
-        "kfz_elektriker": { "lohn": 19.50, "bezeichnung": "KFZ-Elektriker/Auto Electrician" },
-        "karosseriebauer": { "lohn": 19.80, "bezeichnung": "Karosseriebauer/Body Repair Tech" },
-        "lackierer": { "lohn": 19.20, "bezeichnung": "Fahrzeuglackierer/Auto Painter" },
-        "kfz_spengler": { "lohn": 19.50, "bezeichnung": "KFZ-Spengler/Auto Body Worker" },
-        "reifenmonteur": { "lohn": 16.50, "bezeichnung": "Reifenmonteur/Tire Fitter" },
-        "autoaufbereiter": { "lohn": 15.80, "bezeichnung": "Autoaufbereiter/Car Detailer" },
-        "teilelager": { "lohn": 16.20, "bezeichnung": "Ersatzteillager/Parts Warehouse" },
-        "autoverkaufer": { "lohn": 17.50, "bezeichnung": "Autoverkaufer/Car Salesperson" },
-        "hilfsarbeiter": { "lohn": 14.80, "bezeichnung": "Hilfsarbeiter KFZ/Helper" },
-        "lehrling_1": { "lohn": 9.20, "bezeichnung": "Lehrling 1. Jahr" },
-        "lehrling_4": { "lohn": 15.80, "bezeichnung": "Lehrling 4. Jahr" }
-      }
+        "geschaeftsfuehrer": {
+          "lohn": 52.0,
+          "bezeichnung": "Geschaeftsfuehrer Autohaus/CEO",
+          "badge": "executive"
+        },
+        "werkstattleiter": {
+          "lohn": 28.5,
+          "bezeichnung": "Werkstattleiter/Workshop Manager",
+          "badge": "management"
+        },
+        "serviceberater": {
+          "lohn": 22.8,
+          "bezeichnung": "Serviceberater/Service Advisor"
+        },
+        "kfz_meister": {
+          "lohn": 25.5,
+          "bezeichnung": "KFZ-Meister/Master Mechanic",
+          "badge": "management"
+        },
+        "kfz_techniker": {
+          "lohn": 21.2,
+          "bezeichnung": "KFZ-Techniker/Automotive Technician"
+        },
+        "kfz_mechaniker": {
+          "lohn": 18.8,
+          "bezeichnung": "KFZ-Mechaniker/Auto Mechanic"
+        },
+        "kfz_elektriker": {
+          "lohn": 19.5,
+          "bezeichnung": "KFZ-Elektriker/Auto Electrician"
+        },
+        "karosseriebauer": {
+          "lohn": 19.8,
+          "bezeichnung": "Karosseriebauer/Body Repair Tech"
+        },
+        "lackierer": {
+          "lohn": 19.2,
+          "bezeichnung": "Fahrzeuglackierer/Auto Painter"
+        },
+        "kfz_spengler": {
+          "lohn": 19.5,
+          "bezeichnung": "KFZ-Spengler/Auto Body Worker"
+        },
+        "reifenmonteur": {
+          "lohn": 16.5,
+          "bezeichnung": "Reifenmonteur/Tire Fitter"
+        },
+        "autoaufbereiter": {
+          "lohn": 15.8,
+          "bezeichnung": "Autoaufbereiter/Car Detailer"
+        },
+        "teilelager": {
+          "lohn": 16.2,
+          "bezeichnung": "Ersatzteillager/Parts Warehouse"
+        },
+        "autoverkaufer": {
+          "lohn": 17.5,
+          "bezeichnung": "Autoverkaufer/Car Salesperson"
+        },
+        "hilfsarbeiter": {
+          "lohn": 14.8,
+          "bezeichnung": "Hilfsarbeiter KFZ/Helper"
+        },
+        "lehrling_1": {
+          "lohn": 9.2,
+          "bezeichnung": "Lehrling 1. Jahr"
+        },
+        "lehrling_4": {
+          "lohn": 15.8,
+          "bezeichnung": "Lehrling 4. Jahr"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/gewerbe-handwerk/fahrzeugtechnik/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "elektroinstallation": {
       "name": "Elektroinstallation & Gebaeudetechnik",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 55.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
-        "betriebsleiter": { "lohn": 32.50, "bezeichnung": "Betriebsleiter/Operations Manager", "badge": "executive" },
-        "projektleiter": { "lohn": 28.80, "bezeichnung": "Projektleiter/Project Manager", "badge": "management" },
-        "elektromeister": { "lohn": 26.50, "bezeichnung": "Elektromeister/Master Electrician", "badge": "management" },
-        "elektrotechniker": { "lohn": 22.80, "bezeichnung": "Elektrotechniker/Electrical Engineer" },
-        "elektroinstallateur": { "lohn": 19.80, "bezeichnung": "Elektroinstallateur/Electrician" },
-        "elektromonteur": { "lohn": 18.50, "bezeichnung": "Elektromonteur/Electrical Fitter" },
-        "gebaeudetechniker": { "lohn": 21.20, "bezeichnung": "Gebaeudetechniker/Building Tech" },
-        "photovoltaik_monteur": { "lohn": 20.50, "bezeichnung": "Photovoltaik-Monteur/Solar Installer" },
-        "alarmanlagen_tech": { "lohn": 19.80, "bezeichnung": "Alarmanlagentechniker/Security Systems Tech" },
-        "netzwerktechniker": { "lohn": 21.50, "bezeichnung": "Netzwerktechniker/Network Tech" },
-        "hilfsarbeiter": { "lohn": 15.50, "bezeichnung": "Hilfsarbeiter Elektro/Helper" },
-        "lehrling_1": { "lohn": 9.00, "bezeichnung": "Lehrling 1. Jahr" },
-        "lehrling_4": { "lohn": 15.50, "bezeichnung": "Lehrling 4. Jahr" }
-      }
+        "geschaeftsfuehrer": {
+          "lohn": 55.0,
+          "bezeichnung": "Geschaeftsfuehrer/CEO",
+          "badge": "executive"
+        },
+        "betriebsleiter": {
+          "lohn": 32.5,
+          "bezeichnung": "Betriebsleiter/Operations Manager",
+          "badge": "executive"
+        },
+        "projektleiter": {
+          "lohn": 28.8,
+          "bezeichnung": "Projektleiter/Project Manager",
+          "badge": "management"
+        },
+        "elektromeister": {
+          "lohn": 26.5,
+          "bezeichnung": "Elektromeister/Master Electrician",
+          "badge": "management"
+        },
+        "elektrotechniker": {
+          "lohn": 22.8,
+          "bezeichnung": "Elektrotechniker/Electrical Engineer"
+        },
+        "elektroinstallateur": {
+          "lohn": 19.8,
+          "bezeichnung": "Elektroinstallateur/Electrician"
+        },
+        "elektromonteur": {
+          "lohn": 18.5,
+          "bezeichnung": "Elektromonteur/Electrical Fitter"
+        },
+        "gebaeudetechniker": {
+          "lohn": 21.2,
+          "bezeichnung": "Gebaeudetechniker/Building Tech"
+        },
+        "photovoltaik_monteur": {
+          "lohn": 20.5,
+          "bezeichnung": "Photovoltaik-Monteur/Solar Installer"
+        },
+        "alarmanlagen_tech": {
+          "lohn": 19.8,
+          "bezeichnung": "Alarmanlagentechniker/Security Systems Tech"
+        },
+        "netzwerktechniker": {
+          "lohn": 21.5,
+          "bezeichnung": "Netzwerktechniker/Network Tech"
+        },
+        "hilfsarbeiter": {
+          "lohn": 15.5,
+          "bezeichnung": "Hilfsarbeiter Elektro/Helper"
+        },
+        "lehrling_1": {
+          "lohn": 9.0,
+          "bezeichnung": "Lehrling 1. Jahr"
+        },
+        "lehrling_4": {
+          "lohn": 15.5,
+          "bezeichnung": "Lehrling 4. Jahr"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/gewerbe-handwerk/elektro-gebaeude-alarm-kommunikation/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "shk": {
       "name": "Sanitaer, Heizung, Klima (SHK)",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 54.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
-        "betriebsleiter": { "lohn": 31.50, "bezeichnung": "Betriebsleiter/Operations Manager", "badge": "executive" },
-        "installationsmeister": { "lohn": 25.80, "bezeichnung": "Installationsmeister/Master Plumber", "badge": "management" },
-        "projektleiter": { "lohn": 27.50, "bezeichnung": "Projektleiter/Project Manager", "badge": "management" },
-        "heizungstechniker": { "lohn": 21.50, "bezeichnung": "Heizungstechniker/Heating Technician" },
-        "sanitaerinstallateur": { "lohn": 19.80, "bezeichnung": "Sanitaerinstallateur/Plumber" },
-        "gas_wasserinstallateur": { "lohn": 20.20, "bezeichnung": "Gas-Wasserinstallateur/Gas-Water Fitter" },
-        "klimatechniker": { "lohn": 21.80, "bezeichnung": "Klimatechniker/HVAC Technician" },
-        "lueftungsmonteur": { "lohn": 19.50, "bezeichnung": "Lueftungsmonteur/Ventilation Fitter" },
-        "rohrschlosser": { "lohn": 19.20, "bezeichnung": "Rohrschlosser/Pipe Fitter" },
-        "waermepumpen_tech": { "lohn": 22.50, "bezeichnung": "Waermepumpentechniker/Heat Pump Tech" },
-        "kundendienst_tech": { "lohn": 20.80, "bezeichnung": "Kundendiensttechniker/Service Tech" },
-        "hilfsarbeiter": { "lohn": 15.20, "bezeichnung": "Hilfsarbeiter SHK/Helper" },
-        "lehrling_1": { "lohn": 9.00, "bezeichnung": "Lehrling 1. Jahr" },
-        "lehrling_4": { "lohn": 15.20, "bezeichnung": "Lehrling 4. Jahr" }
-      }
+        "geschaeftsfuehrer": {
+          "lohn": 54.0,
+          "bezeichnung": "Geschaeftsfuehrer/CEO",
+          "badge": "executive"
+        },
+        "betriebsleiter": {
+          "lohn": 31.5,
+          "bezeichnung": "Betriebsleiter/Operations Manager",
+          "badge": "executive"
+        },
+        "installationsmeister": {
+          "lohn": 25.8,
+          "bezeichnung": "Installationsmeister/Master Plumber",
+          "badge": "management"
+        },
+        "projektleiter": {
+          "lohn": 27.5,
+          "bezeichnung": "Projektleiter/Project Manager",
+          "badge": "management"
+        },
+        "heizungstechniker": {
+          "lohn": 21.5,
+          "bezeichnung": "Heizungstechniker/Heating Technician"
+        },
+        "sanitaerinstallateur": {
+          "lohn": 19.8,
+          "bezeichnung": "Sanitaerinstallateur/Plumber"
+        },
+        "gas_wasserinstallateur": {
+          "lohn": 20.2,
+          "bezeichnung": "Gas-Wasserinstallateur/Gas-Water Fitter"
+        },
+        "klimatechniker": {
+          "lohn": 21.8,
+          "bezeichnung": "Klimatechniker/HVAC Technician"
+        },
+        "lueftungsmonteur": {
+          "lohn": 19.5,
+          "bezeichnung": "Lueftungsmonteur/Ventilation Fitter"
+        },
+        "rohrschlosser": {
+          "lohn": 19.2,
+          "bezeichnung": "Rohrschlosser/Pipe Fitter"
+        },
+        "waermepumpen_tech": {
+          "lohn": 22.5,
+          "bezeichnung": "Waermepumpentechniker/Heat Pump Tech"
+        },
+        "kundendienst_tech": {
+          "lohn": 20.8,
+          "bezeichnung": "Kundendiensttechniker/Service Tech"
+        },
+        "hilfsarbeiter": {
+          "lohn": 15.2,
+          "bezeichnung": "Hilfsarbeiter SHK/Helper"
+        },
+        "lehrling_1": {
+          "lohn": 9.0,
+          "bezeichnung": "Lehrling 1. Jahr"
+        },
+        "lehrling_4": {
+          "lohn": 15.2,
+          "bezeichnung": "Lehrling 4. Jahr"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/gewerbe-handwerk/sanitaer-heizung-lueftung/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "tischlerei": {
       "name": "Tischlerei & Holzverarbeitung",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 48.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
-        "betriebsleiter": { "lohn": 28.50, "bezeichnung": "Betriebsleiter/Operations Manager", "badge": "executive" },
-        "tischlermeister": { "lohn": 24.50, "bezeichnung": "Tischlermeister/Master Carpenter", "badge": "management" },
-        "arbeitsvorbereiter": { "lohn": 22.80, "bezeichnung": "Arbeitsvorbereiter/Work Planner" },
-        "tischler_geselle": { "lohn": 18.80, "bezeichnung": "Tischlergeselle/Journeyman Carpenter" },
-        "bautischler": { "lohn": 19.50, "bezeichnung": "Bautischler/Construction Carpenter" },
-        "moebeltischler": { "lohn": 18.50, "bezeichnung": "Moebeltischler/Furniture Maker" },
-        "cnc_tischler": { "lohn": 20.50, "bezeichnung": "CNC-Tischler/CNC Woodworker" },
-        "holztechniker": { "lohn": 21.20, "bezeichnung": "Holztechniker/Wood Technician" },
-        "oberflaechentechniker": { "lohn": 18.20, "bezeichnung": "Oberflaechentechniker/Surface Finisher" },
-        "monteur": { "lohn": 17.50, "bezeichnung": "Monteur/Installer" },
-        "hilfsarbeiter": { "lohn": 14.80, "bezeichnung": "Hilfsarbeiter Tischlerei/Helper" },
-        "lehrling_1": { "lohn": 8.80, "bezeichnung": "Lehrling 1. Jahr" },
-        "lehrling_3": { "lohn": 13.50, "bezeichnung": "Lehrling 3. Jahr" }
-      }
+        "geschaeftsfuehrer": {
+          "lohn": 48.0,
+          "bezeichnung": "Geschaeftsfuehrer/CEO",
+          "badge": "executive"
+        },
+        "betriebsleiter": {
+          "lohn": 28.5,
+          "bezeichnung": "Betriebsleiter/Operations Manager",
+          "badge": "executive"
+        },
+        "tischlermeister": {
+          "lohn": 24.5,
+          "bezeichnung": "Tischlermeister/Master Carpenter",
+          "badge": "management"
+        },
+        "arbeitsvorbereiter": {
+          "lohn": 22.8,
+          "bezeichnung": "Arbeitsvorbereiter/Work Planner"
+        },
+        "tischler_geselle": {
+          "lohn": 18.8,
+          "bezeichnung": "Tischlergeselle/Journeyman Carpenter"
+        },
+        "bautischler": {
+          "lohn": 19.5,
+          "bezeichnung": "Bautischler/Construction Carpenter"
+        },
+        "moebeltischler": {
+          "lohn": 18.5,
+          "bezeichnung": "Moebeltischler/Furniture Maker"
+        },
+        "cnc_tischler": {
+          "lohn": 20.5,
+          "bezeichnung": "CNC-Tischler/CNC Woodworker"
+        },
+        "holztechniker": {
+          "lohn": 21.2,
+          "bezeichnung": "Holztechniker/Wood Technician"
+        },
+        "oberflaechentechniker": {
+          "lohn": 18.2,
+          "bezeichnung": "Oberflaechentechniker/Surface Finisher"
+        },
+        "monteur": {
+          "lohn": 17.5,
+          "bezeichnung": "Monteur/Installer"
+        },
+        "hilfsarbeiter": {
+          "lohn": 14.8,
+          "bezeichnung": "Hilfsarbeiter Tischlerei/Helper"
+        },
+        "lehrling_1": {
+          "lohn": 8.8,
+          "bezeichnung": "Lehrling 1. Jahr"
+        },
+        "lehrling_3": {
+          "lohn": 13.5,
+          "bezeichnung": "Lehrling 3. Jahr"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/gewerbe-handwerk/tischler-holzgestalter/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "malerei": {
       "name": "Malerei & Anstrich",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 45.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
-        "betriebsleiter": { "lohn": 26.50, "bezeichnung": "Betriebsleiter/Operations Manager", "badge": "executive" },
-        "malermeister": { "lohn": 23.50, "bezeichnung": "Malermeister/Master Painter", "badge": "management" },
-        "vorarbeiter": { "lohn": 20.50, "bezeichnung": "Vorarbeiter/Foreman", "badge": "management" },
-        "maler_geselle": { "lohn": 17.80, "bezeichnung": "Malergeselle/Journeyman Painter" },
-        "lackierer": { "lohn": 18.50, "bezeichnung": "Lackierer/Lacquer Painter" },
-        "bodenleger": { "lohn": 18.20, "bezeichnung": "Bodenleger/Floor Layer" },
-        "tapezierer": { "lohn": 17.50, "bezeichnung": "Tapezierer/Wallpaper Hanger" },
-        "fassadenmaler": { "lohn": 18.80, "bezeichnung": "Fassadenmaler/Facade Painter" },
-        "trockenbauer": { "lohn": 17.20, "bezeichnung": "Trockenbauer/Drywall Installer" },
-        "hilfsarbeiter": { "lohn": 14.50, "bezeichnung": "Hilfsarbeiter Malerei/Helper" },
-        "lehrling_1": { "lohn": 8.50, "bezeichnung": "Lehrling 1. Jahr" },
-        "lehrling_3": { "lohn": 13.20, "bezeichnung": "Lehrling 3. Jahr" }
-      }
+        "geschaeftsfuehrer": {
+          "lohn": 45.0,
+          "bezeichnung": "Geschaeftsfuehrer/CEO",
+          "badge": "executive"
+        },
+        "betriebsleiter": {
+          "lohn": 26.5,
+          "bezeichnung": "Betriebsleiter/Operations Manager",
+          "badge": "executive"
+        },
+        "malermeister": {
+          "lohn": 23.5,
+          "bezeichnung": "Malermeister/Master Painter",
+          "badge": "management"
+        },
+        "vorarbeiter": {
+          "lohn": 20.5,
+          "bezeichnung": "Vorarbeiter/Foreman",
+          "badge": "management"
+        },
+        "maler_geselle": {
+          "lohn": 17.8,
+          "bezeichnung": "Malergeselle/Journeyman Painter"
+        },
+        "lackierer": {
+          "lohn": 18.5,
+          "bezeichnung": "Lackierer/Lacquer Painter"
+        },
+        "bodenleger": {
+          "lohn": 18.2,
+          "bezeichnung": "Bodenleger/Floor Layer"
+        },
+        "tapezierer": {
+          "lohn": 17.5,
+          "bezeichnung": "Tapezierer/Wallpaper Hanger"
+        },
+        "fassadenmaler": {
+          "lohn": 18.8,
+          "bezeichnung": "Fassadenmaler/Facade Painter"
+        },
+        "trockenbauer": {
+          "lohn": 17.2,
+          "bezeichnung": "Trockenbauer/Drywall Installer"
+        },
+        "hilfsarbeiter": {
+          "lohn": 14.5,
+          "bezeichnung": "Hilfsarbeiter Malerei/Helper"
+        },
+        "lehrling_1": {
+          "lohn": 8.5,
+          "bezeichnung": "Lehrling 1. Jahr"
+        },
+        "lehrling_3": {
+          "lohn": 13.2,
+          "bezeichnung": "Lehrling 3. Jahr"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/gewerbe-handwerk/maler-tapezierer/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "baeckerei": {
       "name": "Baeckerei & Konditorei",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 42.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
-        "betriebsleiter": { "lohn": 24.50, "bezeichnung": "Betriebsleiter/Operations Manager", "badge": "executive" },
-        "baeckermeister": { "lohn": 22.80, "bezeichnung": "Baeckermeister/Master Baker", "badge": "management" },
-        "konditormeister": { "lohn": 23.50, "bezeichnung": "Konditormeister/Master Pastry Chef", "badge": "management" },
-        "baecker_geselle": { "lohn": 17.20, "bezeichnung": "Baeckergeselle/Journeyman Baker" },
-        "konditor_geselle": { "lohn": 17.80, "bezeichnung": "Konditorgeselle/Journeyman Pastry Chef" },
-        "brotbaecker": { "lohn": 16.80, "bezeichnung": "Brotbaecker/Bread Baker" },
-        "feinbaecker": { "lohn": 17.50, "bezeichnung": "Feinbaecker/Pastry Baker" },
-        "tortendekorateur": { "lohn": 18.20, "bezeichnung": "Tortendekorateur/Cake Decorator" },
-        "verkaeufer": { "lohn": 14.80, "bezeichnung": "Fachverkaeufer Baeckerei/Sales" },
-        "hilfsarbeiter": { "lohn": 13.50, "bezeichnung": "Produktionshelfer/Production Helper" },
-        "lehrling_1": { "lohn": 8.20, "bezeichnung": "Lehrling 1. Jahr" },
-        "lehrling_3": { "lohn": 12.80, "bezeichnung": "Lehrling 3. Jahr" }
-      }
+        "geschaeftsfuehrer": {
+          "lohn": 42.0,
+          "bezeichnung": "Geschaeftsfuehrer/CEO",
+          "badge": "executive"
+        },
+        "betriebsleiter": {
+          "lohn": 24.5,
+          "bezeichnung": "Betriebsleiter/Operations Manager",
+          "badge": "executive"
+        },
+        "baeckermeister": {
+          "lohn": 22.8,
+          "bezeichnung": "Baeckermeister/Master Baker",
+          "badge": "management"
+        },
+        "konditormeister": {
+          "lohn": 23.5,
+          "bezeichnung": "Konditormeister/Master Pastry Chef",
+          "badge": "management"
+        },
+        "baecker_geselle": {
+          "lohn": 17.2,
+          "bezeichnung": "Baeckergeselle/Journeyman Baker"
+        },
+        "konditor_geselle": {
+          "lohn": 17.8,
+          "bezeichnung": "Konditorgeselle/Journeyman Pastry Chef"
+        },
+        "brotbaecker": {
+          "lohn": 16.8,
+          "bezeichnung": "Brotbaecker/Bread Baker"
+        },
+        "feinbaecker": {
+          "lohn": 17.5,
+          "bezeichnung": "Feinbaecker/Pastry Baker"
+        },
+        "tortendekorateur": {
+          "lohn": 18.2,
+          "bezeichnung": "Tortendekorateur/Cake Decorator"
+        },
+        "verkaeufer": {
+          "lohn": 14.8,
+          "bezeichnung": "Fachverkaeufer Baeckerei/Sales"
+        },
+        "hilfsarbeiter": {
+          "lohn": 13.5,
+          "bezeichnung": "Produktionshelfer/Production Helper"
+        },
+        "lehrling_1": {
+          "lohn": 8.2,
+          "bezeichnung": "Lehrling 1. Jahr"
+        },
+        "lehrling_3": {
+          "lohn": 12.8,
+          "bezeichnung": "Lehrling 3. Jahr"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/gewerbe-handwerk/baecker/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "fleischerei": {
       "name": "Fleischerei & Metzgerei",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 44.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
-        "betriebsleiter": { "lohn": 25.50, "bezeichnung": "Betriebsleiter/Operations Manager", "badge": "executive" },
-        "fleischermeister": { "lohn": 23.80, "bezeichnung": "Fleischermeister/Master Butcher", "badge": "management" },
-        "fleischer_geselle": { "lohn": 17.80, "bezeichnung": "Fleischergeselle/Journeyman Butcher" },
-        "fleischfachverkaeufer": { "lohn": 15.50, "bezeichnung": "Fleischfachverkaeufer/Meat Sales" },
-        "wurstmacher": { "lohn": 18.20, "bezeichnung": "Wurstmacher/Sausage Maker" },
-        "zerleger": { "lohn": 17.20, "bezeichnung": "Zerleger/Meat Cutter" },
-        "selcher": { "lohn": 17.50, "bezeichnung": "Selcher/Smoke House Worker" },
-        "verkaeufer": { "lohn": 14.50, "bezeichnung": "Verkaeufer/Sales" },
-        "hilfsarbeiter": { "lohn": 13.80, "bezeichnung": "Produktionshelfer/Production Helper" },
-        "lehrling_1": { "lohn": 8.50, "bezeichnung": "Lehrling 1. Jahr" },
-        "lehrling_3": { "lohn": 13.00, "bezeichnung": "Lehrling 3. Jahr" }
-      }
+        "geschaeftsfuehrer": {
+          "lohn": 44.0,
+          "bezeichnung": "Geschaeftsfuehrer/CEO",
+          "badge": "executive"
+        },
+        "betriebsleiter": {
+          "lohn": 25.5,
+          "bezeichnung": "Betriebsleiter/Operations Manager",
+          "badge": "executive"
+        },
+        "fleischermeister": {
+          "lohn": 23.8,
+          "bezeichnung": "Fleischermeister/Master Butcher",
+          "badge": "management"
+        },
+        "fleischer_geselle": {
+          "lohn": 17.8,
+          "bezeichnung": "Fleischergeselle/Journeyman Butcher"
+        },
+        "fleischfachverkaeufer": {
+          "lohn": 15.5,
+          "bezeichnung": "Fleischfachverkaeufer/Meat Sales"
+        },
+        "wurstmacher": {
+          "lohn": 18.2,
+          "bezeichnung": "Wurstmacher/Sausage Maker"
+        },
+        "zerleger": {
+          "lohn": 17.2,
+          "bezeichnung": "Zerleger/Meat Cutter"
+        },
+        "selcher": {
+          "lohn": 17.5,
+          "bezeichnung": "Selcher/Smoke House Worker"
+        },
+        "verkaeufer": {
+          "lohn": 14.5,
+          "bezeichnung": "Verkaeufer/Sales"
+        },
+        "hilfsarbeiter": {
+          "lohn": 13.8,
+          "bezeichnung": "Produktionshelfer/Production Helper"
+        },
+        "lehrling_1": {
+          "lohn": 8.5,
+          "bezeichnung": "Lehrling 1. Jahr"
+        },
+        "lehrling_3": {
+          "lohn": 13.0,
+          "bezeichnung": "Lehrling 3. Jahr"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/gewerbe-handwerk/lebensmittelgewerbe/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "reinigung": {
       "name": "Reinigung & Gebaeudeservice",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 45.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
-        "niederlassungsleiter": { "lohn": 28.50, "bezeichnung": "Niederlassungsleiter/Branch Manager", "badge": "executive" },
-        "objektleiter": { "lohn": 19.80, "bezeichnung": "Objektleiter/Site Manager", "badge": "management" },
-        "vorarbeiter": { "lohn": 16.50, "bezeichnung": "Vorarbeiter/Foreman" },
-        "gebaeudereiniger": { "lohn": 13.80, "bezeichnung": "Gebaeudereiniger/Building Cleaner" },
-        "glasreiniger": { "lohn": 15.50, "bezeichnung": "Glasreiniger/Window Cleaner" },
-        "industriereiniger": { "lohn": 15.20, "bezeichnung": "Industriereiniger/Industrial Cleaner" },
-        "fassadenreiniger": { "lohn": 16.80, "bezeichnung": "Fassadenreiniger/Facade Cleaner" },
-        "desinfektor": { "lohn": 15.80, "bezeichnung": "Desinfektor/Disinfection Specialist" },
-        "teppichreiniger": { "lohn": 14.50, "bezeichnung": "Teppichreiniger/Carpet Cleaner" },
-        "reinigungskraft": { "lohn": 12.80, "bezeichnung": "Reinigungskraft/Cleaning Staff" },
-        "hausmeister": { "lohn": 15.20, "bezeichnung": "Hausmeister/Janitor" }
-      }
+        "facharbeiter": {
+          "lohn": 14.47,
+          "bezeichnung": "Lohngruppe 1 - Facharbeiter mit LAP Reinigungstechnik"
+        },
+        "sonderreiniger": {
+          "lohn": 13.04,
+          "bezeichnung": "Lohngruppe 2 - Sonderreiniger"
+        },
+        "hotelreinigung": {
+          "lohn": 12.74,
+          "bezeichnung": "Lohngruppe 3 - Hotelreinigung"
+        },
+        "hausbetreuung": {
+          "lohn": 12.53,
+          "bezeichnung": "Lohngruppe 4 - Hausbetreuung"
+        },
+        "seniorenheim": {
+          "lohn": 12.24,
+          "bezeichnung": "Lohngruppe 5 - Seniorenheime/Pflege"
+        },
+        "unterhaltsreinigung": {
+          "lohn": 12.0,
+          "bezeichnung": "Lohngruppe 6 - Unterhaltsreinigung"
+        },
+        "lehrling_1j": {
+          "lohn": 5.93,
+          "bezeichnung": "Lehrling 1. Jahr"
+        },
+        "lehrling_2j": {
+          "lohn": 7.38,
+          "bezeichnung": "Lehrling 2. Jahr"
+        },
+        "lehrling_3j": {
+          "lohn": 8.83,
+          "bezeichnung": "Lehrling 3. Jahr"
+        }
+      },
+      "quelle": "https://www.wko.at/kollektivvertrag/lohnordnung-denkmal-fassaden-gebaeudereinigung-2025",
+      "gueltig_ab": "2025-01-01"
     },
     "gastronomie": {
       "name": "Gastronomie & Hotellerie",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 52.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
-        "hoteldirektor": { "lohn": 38.50, "bezeichnung": "Hoteldirektor/Hotel Director", "badge": "executive" },
-        "restaurantleiter": { "lohn": 24.50, "bezeichnung": "Restaurantleiter/Restaurant Manager", "badge": "management" },
-        "kuechenchef": { "lohn": 26.80, "bezeichnung": "Kuechenchef/Head Chef", "badge": "management" },
-        "sous_chef": { "lohn": 22.50, "bezeichnung": "Sous Chef/Deputy Chef" },
-        "koch": { "lohn": 17.80, "bezeichnung": "Koch/Cook" },
-        "jungkoch": { "lohn": 15.50, "bezeichnung": "Jungkoch/Junior Cook" },
-        "kellner": { "lohn": 14.50, "bezeichnung": "Kellner/Waiter" },
-        "barkeeper": { "lohn": 15.80, "bezeichnung": "Barkeeper/Bartender" },
-        "rezeptionist": { "lohn": 15.20, "bezeichnung": "Rezeptionist/Receptionist" },
-        "zimmermadchen": { "lohn": 13.50, "bezeichnung": "Zimmermaedchen/Room Maid" },
-        "kuechenhilfe": { "lohn": 12.80, "bezeichnung": "Kuechenhilfe/Kitchen Helper" },
-        "abwaesche": { "lohn": 12.50, "bezeichnung": "Abwaescher/Dishwasher" },
-        "lehrling_koch_1": { "lohn": 8.50, "bezeichnung": "Lehrling Koch 1. Jahr" },
-        "lehrling_koch_3": { "lohn": 13.00, "bezeichnung": "Lehrling Koch 3. Jahr" }
-      }
+        "lg1_abteilungsleiter": {
+          "lohn": 14.43,
+          "bezeichnung": "LG 1 - Abteilungsverantwortliche",
+          "monatsgehalt": 2499
+        },
+        "lg2_qualifiziert": {
+          "lohn": 13.07,
+          "bezeichnung": "LG 2 - Qualifizierte erweitert",
+          "monatsgehalt": 2263
+        },
+        "lg3_facharbeiter": {
+          "lohn": 12.5,
+          "bezeichnung": "LG 3 - Facharbeiter (Koch, Kellner)",
+          "monatsgehalt": 2165
+        },
+        "lg4_angelernt": {
+          "lohn": 12.06,
+          "bezeichnung": "LG 4 - Angelernte/10+ Jahre",
+          "monatsgehalt": 2088
+        },
+        "lg5_hilfskraft": {
+          "lohn": 11.7,
+          "bezeichnung": "LG 5 - Hilfskraefte",
+          "monatsgehalt": 2026
+        },
+        "lehrling_1j": {
+          "lohn": 6.06,
+          "bezeichnung": "Lehrling 1. Jahr",
+          "monatsgehalt": 1050
+        },
+        "lehrling_2j": {
+          "lohn": 6.82,
+          "bezeichnung": "Lehrling 2. Jahr",
+          "monatsgehalt": 1180
+        },
+        "lehrling_3j": {
+          "lohn": 8.08,
+          "bezeichnung": "Lehrling 3. Jahr",
+          "monatsgehalt": 1400
+        },
+        "lehrling_4j": {
+          "lohn": 8.67,
+          "bezeichnung": "Lehrling 4. Jahr",
+          "monatsgehalt": 1500
+        },
+        "nachtarbeit_zuschlag": {
+          "lohn": 28.5,
+          "bezeichnung": "Nachtarbeitszuschlag (0-6 Uhr) pauschal"
+        },
+        "fremdsprache": {
+          "lohn": 40.0,
+          "bezeichnung": "Fremdsprachenzulage pro Monat"
+        }
+      },
+      "quelle": "https://www.wko.at/kollektivvertrag/kollektivvertrag-hotel-und-gastgewerbe-2024",
+      "gueltig_ab": "2025-05-01",
+      "hinweis": "Bundeslandspezifisch! Hier: Wien ab 1.5.2025"
     },
     "handel": {
       "name": "Handel & Einzelhandel",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 55.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
-        "filialleiter": { "lohn": 24.50, "bezeichnung": "Filialleiter/Store Manager", "badge": "management" },
-        "abteilungsleiter": { "lohn": 20.80, "bezeichnung": "Abteilungsleiter/Department Head", "badge": "management" },
-        "stellv_filialleiter": { "lohn": 19.50, "bezeichnung": "Stellv. Filialleiter/Assistant Manager" },
-        "verkaeufer": { "lohn": 14.80, "bezeichnung": "Verkaeufer/Sales Associate" },
-        "kassierer": { "lohn": 14.20, "bezeichnung": "Kassierer/Cashier" },
-        "einzelhandelskaufmann": { "lohn": 15.50, "bezeichnung": "Einzelhandelskaufmann/Retail Clerk" },
-        "grosshandelskaufmann": { "lohn": 16.80, "bezeichnung": "Grosshandelskaufmann/Wholesale Clerk" },
-        "lagerist": { "lohn": 15.20, "bezeichnung": "Lagerist/Stock Clerk" },
-        "dekorateur": { "lohn": 15.80, "bezeichnung": "Dekorateur/Visual Merchandiser" },
-        "regalbetreuer": { "lohn": 13.50, "bezeichnung": "Regalbetreuer/Shelf Stocker" },
-        "lehrling_1": { "lohn": 8.20, "bezeichnung": "Lehrling 1. Jahr" },
-        "lehrling_3": { "lohn": 12.50, "bezeichnung": "Lehrling 3. Jahr" }
-      }
+        "geschaeftsfuehrer": {
+          "lohn": 55.0,
+          "bezeichnung": "Geschaeftsfuehrer/CEO",
+          "badge": "executive"
+        },
+        "filialleiter": {
+          "lohn": 24.5,
+          "bezeichnung": "Filialleiter/Store Manager",
+          "badge": "management"
+        },
+        "abteilungsleiter": {
+          "lohn": 20.8,
+          "bezeichnung": "Abteilungsleiter/Department Head",
+          "badge": "management"
+        },
+        "stellv_filialleiter": {
+          "lohn": 19.5,
+          "bezeichnung": "Stellv. Filialleiter/Assistant Manager"
+        },
+        "verkaeufer": {
+          "lohn": 14.8,
+          "bezeichnung": "Verkaeufer/Sales Associate"
+        },
+        "kassierer": {
+          "lohn": 14.2,
+          "bezeichnung": "Kassierer/Cashier"
+        },
+        "einzelhandelskaufmann": {
+          "lohn": 15.5,
+          "bezeichnung": "Einzelhandelskaufmann/Retail Clerk"
+        },
+        "grosshandelskaufmann": {
+          "lohn": 16.8,
+          "bezeichnung": "Grosshandelskaufmann/Wholesale Clerk"
+        },
+        "lagerist": {
+          "lohn": 15.2,
+          "bezeichnung": "Lagerist/Stock Clerk"
+        },
+        "dekorateur": {
+          "lohn": 15.8,
+          "bezeichnung": "Dekorateur/Visual Merchandiser"
+        },
+        "regalbetreuer": {
+          "lohn": 13.5,
+          "bezeichnung": "Regalbetreuer/Shelf Stocker"
+        },
+        "lehrling_1": {
+          "lohn": 8.2,
+          "bezeichnung": "Lehrling 1. Jahr"
+        },
+        "lehrling_3": {
+          "lohn": 12.5,
+          "bezeichnung": "Lehrling 3. Jahr"
+        }
+      },
+      "quelle": "https://www.wko.at/kollektivvertrag/kollektivvertrag-handel-angestellte-2025",
+      "gueltig_ab": "2025-01-01"
     },
     "pflege": {
       "name": "Pflege & Gesundheit (Privat)",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 58.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
-        "pflegedienstleitung": { "lohn": 32.50, "bezeichnung": "Pflegedienstleitung/Director of Nursing", "badge": "executive" },
-        "stationsleitung": { "lohn": 26.80, "bezeichnung": "Stationsleitung/Ward Manager", "badge": "management" },
-        "diplomkrankenpfleger": { "lohn": 22.50, "bezeichnung": "DGKP/Registered Nurse" },
-        "pflegefachassistent": { "lohn": 18.80, "bezeichnung": "Pflegefachassistent/Nursing Assistant" },
-        "pflegeassistent": { "lohn": 16.50, "bezeichnung": "Pflegeassistent/Care Assistant" },
-        "heimhilfe": { "lohn": 14.80, "bezeichnung": "Heimhilfe/Home Helper" },
-        "altenpfleger": { "lohn": 17.50, "bezeichnung": "Altenpfleger/Elderly Care Nurse" },
-        "behindertenbetreuer": { "lohn": 17.20, "bezeichnung": "Behindertenbetreuer/Disability Carer" },
-        "sozialhelfer": { "lohn": 15.80, "bezeichnung": "Sozialhelfer/Social Helper" }
-      }
+        "geschaeftsfuehrer": {
+          "lohn": 58.0,
+          "bezeichnung": "Geschaeftsfuehrer/CEO",
+          "badge": "executive"
+        },
+        "pflegedienstleitung": {
+          "lohn": 32.5,
+          "bezeichnung": "Pflegedienstleitung/Director of Nursing",
+          "badge": "executive"
+        },
+        "stationsleitung": {
+          "lohn": 26.8,
+          "bezeichnung": "Stationsleitung/Ward Manager",
+          "badge": "management"
+        },
+        "diplomkrankenpfleger": {
+          "lohn": 22.5,
+          "bezeichnung": "DGKP/Registered Nurse"
+        },
+        "pflegefachassistent": {
+          "lohn": 18.8,
+          "bezeichnung": "Pflegefachassistent/Nursing Assistant"
+        },
+        "pflegeassistent": {
+          "lohn": 16.5,
+          "bezeichnung": "Pflegeassistent/Care Assistant"
+        },
+        "heimhilfe": {
+          "lohn": 14.8,
+          "bezeichnung": "Heimhilfe/Home Helper"
+        },
+        "altenpfleger": {
+          "lohn": 17.5,
+          "bezeichnung": "Altenpfleger/Elderly Care Nurse"
+        },
+        "behindertenbetreuer": {
+          "lohn": 17.2,
+          "bezeichnung": "Behindertenbetreuer/Disability Carer"
+        },
+        "sozialhelfer": {
+          "lohn": 15.8,
+          "bezeichnung": "Sozialhelfer/Social Helper"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/sozial-gesundheitsberufe/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "apotheke": {
       "name": "Apotheken",
       "stufen": {
-        "apothekenleiter": { "lohn": 42.00, "bezeichnung": "Apothekenleiter/Pharmacy Manager", "badge": "executive" },
-        "apotheker": { "lohn": 32.50, "bezeichnung": "Apotheker/Pharmacist", "badge": "management" },
-        "pharmazeutisch_kaufm_assistent": { "lohn": 18.50, "bezeichnung": "PKA/Pharmacy Assistant" },
-        "pharmazeut_tech_assistent": { "lohn": 19.80, "bezeichnung": "PTA/Pharmaceutical Tech Assistant" },
-        "drogist": { "lohn": 16.80, "bezeichnung": "Drogist/Drugstore Clerk" },
-        "apothekenhilfe": { "lohn": 14.50, "bezeichnung": "Apothekenhilfe/Pharmacy Helper" },
-        "lehrling_1": { "lohn": 8.80, "bezeichnung": "Lehrling 1. Jahr" },
-        "lehrling_3": { "lohn": 13.80, "bezeichnung": "Lehrling 3. Jahr" }
-      }
+        "apothekenleiter": {
+          "lohn": 42.0,
+          "bezeichnung": "Apothekenleiter/Pharmacy Manager",
+          "badge": "executive"
+        },
+        "apotheker": {
+          "lohn": 32.5,
+          "bezeichnung": "Apotheker/Pharmacist",
+          "badge": "management"
+        },
+        "pharmazeutisch_kaufm_assistent": {
+          "lohn": 18.5,
+          "bezeichnung": "PKA/Pharmacy Assistant"
+        },
+        "pharmazeut_tech_assistent": {
+          "lohn": 19.8,
+          "bezeichnung": "PTA/Pharmaceutical Tech Assistant"
+        },
+        "drogist": {
+          "lohn": 16.8,
+          "bezeichnung": "Drogist/Drugstore Clerk"
+        },
+        "apothekenhilfe": {
+          "lohn": 14.5,
+          "bezeichnung": "Apothekenhilfe/Pharmacy Helper"
+        },
+        "lehrling_1": {
+          "lohn": 8.8,
+          "bezeichnung": "Lehrling 1. Jahr"
+        },
+        "lehrling_3": {
+          "lohn": 13.8,
+          "bezeichnung": "Lehrling 3. Jahr"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/handel/apotheker/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "arztpraxis": {
       "name": "Arztpraxen & Ordinationen",
       "stufen": {
-        "praxismanager": { "lohn": 28.50, "bezeichnung": "Praxismanager/Practice Manager", "badge": "management" },
-        "ordinationsassistent": { "lohn": 17.80, "bezeichnung": "Ordinationsassistent/Medical Assistant" },
-        "medizinische_fachassistenz": { "lohn": 18.50, "bezeichnung": "Med. Fachassistenz/Medical Specialist" },
-        "roentgenassistent": { "lohn": 19.20, "bezeichnung": "Roentgenassistent/X-Ray Assistant" },
-        "laborassistent": { "lohn": 18.20, "bezeichnung": "Laborassistent/Lab Assistant" },
-        "zahnarztassistent": { "lohn": 16.80, "bezeichnung": "Zahnarztassistent/Dental Assistant" },
-        "empfang_sekretariat": { "lohn": 15.20, "bezeichnung": "Empfang/Reception" },
-        "reinigungskraft": { "lohn": 13.50, "bezeichnung": "Reinigungskraft/Cleaning Staff" }
-      }
+        "praxismanager": {
+          "lohn": 28.5,
+          "bezeichnung": "Praxismanager/Practice Manager",
+          "badge": "management"
+        },
+        "ordinationsassistent": {
+          "lohn": 17.8,
+          "bezeichnung": "Ordinationsassistent/Medical Assistant"
+        },
+        "medizinische_fachassistenz": {
+          "lohn": 18.5,
+          "bezeichnung": "Med. Fachassistenz/Medical Specialist"
+        },
+        "roentgenassistent": {
+          "lohn": 19.2,
+          "bezeichnung": "Roentgenassistent/X-Ray Assistant"
+        },
+        "laborassistent": {
+          "lohn": 18.2,
+          "bezeichnung": "Laborassistent/Lab Assistant"
+        },
+        "zahnarztassistent": {
+          "lohn": 16.8,
+          "bezeichnung": "Zahnarztassistent/Dental Assistant"
+        },
+        "empfang_sekretariat": {
+          "lohn": 15.2,
+          "bezeichnung": "Empfang/Reception"
+        },
+        "reinigungskraft": {
+          "lohn": 13.5,
+          "bezeichnung": "Reinigungskraft/Cleaning Staff"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/gesundheit/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "tierarzt": {
       "name": "Tierarztpraxen & Tierkliniken",
       "stufen": {
-        "praxisleiter": { "lohn": 26.50, "bezeichnung": "Praxisleiter/Practice Manager", "badge": "management" },
-        "tierarzthelfer": { "lohn": 16.80, "bezeichnung": "Tierarzthelfer/Vet Assistant" },
-        "tiermedizinische_fachkraft": { "lohn": 18.20, "bezeichnung": "Tiermed. Fachkraft/Vet Tech" },
-        "tierpfleger": { "lohn": 15.50, "bezeichnung": "Tierpfleger/Animal Caretaker" },
-        "empfang": { "lohn": 14.80, "bezeichnung": "Empfang/Reception" },
-        "reinigungskraft": { "lohn": 13.20, "bezeichnung": "Reinigungskraft/Cleaning" }
-      }
+        "praxisleiter": {
+          "lohn": 26.5,
+          "bezeichnung": "Praxisleiter/Practice Manager",
+          "badge": "management"
+        },
+        "tierarzthelfer": {
+          "lohn": 16.8,
+          "bezeichnung": "Tierarzthelfer/Vet Assistant"
+        },
+        "tiermedizinische_fachkraft": {
+          "lohn": 18.2,
+          "bezeichnung": "Tiermed. Fachkraft/Vet Tech"
+        },
+        "tierpfleger": {
+          "lohn": 15.5,
+          "bezeichnung": "Tierpfleger/Animal Caretaker"
+        },
+        "empfang": {
+          "lohn": 14.8,
+          "bezeichnung": "Empfang/Reception"
+        },
+        "reinigungskraft": {
+          "lohn": 13.2,
+          "bezeichnung": "Reinigungskraft/Cleaning"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/gesundheit/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "physiotherapie": {
       "name": "Physiotherapie & Rehabilitation",
       "stufen": {
-        "praxisinhaber": { "lohn": 38.00, "bezeichnung": "Praxisinhaber/Practice Owner", "badge": "executive" },
-        "leitender_therapeut": { "lohn": 28.50, "bezeichnung": "Leitender Therapeut/Lead Therapist", "badge": "management" },
-        "physiotherapeut": { "lohn": 22.80, "bezeichnung": "Physiotherapeut/Physiotherapist" },
-        "ergotherapeut": { "lohn": 22.50, "bezeichnung": "Ergotherapeut/Occupational Therapist" },
-        "logopäde": { "lohn": 23.20, "bezeichnung": "Logopaede/Speech Therapist" },
-        "masseur": { "lohn": 17.80, "bezeichnung": "Masseur/Massage Therapist" },
-        "heilmasseur": { "lohn": 19.50, "bezeichnung": "Heilmasseur/Medical Masseur" },
-        "empfang": { "lohn": 14.50, "bezeichnung": "Empfang/Reception" }
-      }
+        "praxisinhaber": {
+          "lohn": 38.0,
+          "bezeichnung": "Praxisinhaber/Practice Owner",
+          "badge": "executive"
+        },
+        "leitender_therapeut": {
+          "lohn": 28.5,
+          "bezeichnung": "Leitender Therapeut/Lead Therapist",
+          "badge": "management"
+        },
+        "physiotherapeut": {
+          "lohn": 22.8,
+          "bezeichnung": "Physiotherapeut/Physiotherapist"
+        },
+        "ergotherapeut": {
+          "lohn": 22.5,
+          "bezeichnung": "Ergotherapeut/Occupational Therapist"
+        },
+        "logopäde": {
+          "lohn": 23.2,
+          "bezeichnung": "Logopaede/Speech Therapist"
+        },
+        "masseur": {
+          "lohn": 17.8,
+          "bezeichnung": "Masseur/Massage Therapist"
+        },
+        "heilmasseur": {
+          "lohn": 19.5,
+          "bezeichnung": "Heilmasseur/Medical Masseur"
+        },
+        "empfang": {
+          "lohn": 14.5,
+          "bezeichnung": "Empfang/Reception"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/gesundheit/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "optiker": {
       "name": "Optiker & Augenoptik",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 42.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
-        "optikermeister": { "lohn": 26.50, "bezeichnung": "Optikermeister/Master Optician", "badge": "management" },
-        "augenoptiker": { "lohn": 19.80, "bezeichnung": "Augenoptiker/Optician" },
-        "optometrist": { "lohn": 24.50, "bezeichnung": "Optometrist/Optometrist" },
-        "kontaktlinsenspezialist": { "lohn": 21.20, "bezeichnung": "Kontaktlinsenspezialist/Contact Lens Specialist" },
-        "fachverkaeufer": { "lohn": 15.80, "bezeichnung": "Fachverkaeufer/Sales Specialist" },
-        "werkstatt": { "lohn": 16.50, "bezeichnung": "Werkstatt/Workshop" },
-        "lehrling_1": { "lohn": 8.50, "bezeichnung": "Lehrling 1. Jahr" },
-        "lehrling_3": { "lohn": 13.50, "bezeichnung": "Lehrling 3. Jahr" }
-      }
+        "geschaeftsfuehrer": {
+          "lohn": 42.0,
+          "bezeichnung": "Geschaeftsfuehrer/CEO",
+          "badge": "executive"
+        },
+        "optikermeister": {
+          "lohn": 26.5,
+          "bezeichnung": "Optikermeister/Master Optician",
+          "badge": "management"
+        },
+        "augenoptiker": {
+          "lohn": 19.8,
+          "bezeichnung": "Augenoptiker/Optician"
+        },
+        "optometrist": {
+          "lohn": 24.5,
+          "bezeichnung": "Optometrist/Optometrist"
+        },
+        "kontaktlinsenspezialist": {
+          "lohn": 21.2,
+          "bezeichnung": "Kontaktlinsenspezialist/Contact Lens Specialist"
+        },
+        "fachverkaeufer": {
+          "lohn": 15.8,
+          "bezeichnung": "Fachverkaeufer/Sales Specialist"
+        },
+        "werkstatt": {
+          "lohn": 16.5,
+          "bezeichnung": "Werkstatt/Workshop"
+        },
+        "lehrling_1": {
+          "lohn": 8.5,
+          "bezeichnung": "Lehrling 1. Jahr"
+        },
+        "lehrling_3": {
+          "lohn": 13.5,
+          "bezeichnung": "Lehrling 3. Jahr"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/gewerbe-handwerk/augenoptik-hoergeraeteakustik/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "zahntechnik": {
       "name": "Zahntechnik & Dentallabore",
       "stufen": {
-        "laborinhaber": { "lohn": 45.00, "bezeichnung": "Laborinhaber/Lab Owner", "badge": "executive" },
-        "zahntechnikermeister": { "lohn": 28.50, "bezeichnung": "Zahntechnikermeister/Master Dental Tech", "badge": "management" },
-        "zahntechniker": { "lohn": 20.50, "bezeichnung": "Zahntechniker/Dental Technician" },
-        "keramiker": { "lohn": 22.80, "bezeichnung": "Dentalkeramiker/Dental Ceramist" },
-        "cad_cam_techniker": { "lohn": 23.50, "bezeichnung": "CAD/CAM Techniker/Digital Tech" },
-        "modellgusstechniker": { "lohn": 21.20, "bezeichnung": "Modellgusstechniker/Model Cast Tech" },
-        "hilfskraft": { "lohn": 14.80, "bezeichnung": "Laborhilfe/Lab Helper" },
-        "lehrling_1": { "lohn": 8.80, "bezeichnung": "Lehrling 1. Jahr" },
-        "lehrling_4": { "lohn": 15.20, "bezeichnung": "Lehrling 4. Jahr" }
-      }
+        "laborinhaber": {
+          "lohn": 45.0,
+          "bezeichnung": "Laborinhaber/Lab Owner",
+          "badge": "executive"
+        },
+        "zahntechnikermeister": {
+          "lohn": 28.5,
+          "bezeichnung": "Zahntechnikermeister/Master Dental Tech",
+          "badge": "management"
+        },
+        "zahntechniker": {
+          "lohn": 20.5,
+          "bezeichnung": "Zahntechniker/Dental Technician"
+        },
+        "keramiker": {
+          "lohn": 22.8,
+          "bezeichnung": "Dentalkeramiker/Dental Ceramist"
+        },
+        "cad_cam_techniker": {
+          "lohn": 23.5,
+          "bezeichnung": "CAD/CAM Techniker/Digital Tech"
+        },
+        "modellgusstechniker": {
+          "lohn": 21.2,
+          "bezeichnung": "Modellgusstechniker/Model Cast Tech"
+        },
+        "hilfskraft": {
+          "lohn": 14.8,
+          "bezeichnung": "Laborhilfe/Lab Helper"
+        },
+        "lehrling_1": {
+          "lohn": 8.8,
+          "bezeichnung": "Lehrling 1. Jahr"
+        },
+        "lehrling_4": {
+          "lohn": 15.2,
+          "bezeichnung": "Lehrling 4. Jahr"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/gewerbe-handwerk/zahntechniker/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "hoergeraete": {
       "name": "Hoergeraeteakustik",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 44.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
-        "meister_akustiker": { "lohn": 27.50, "bezeichnung": "Meister Hoergeraeteakustiker/Master Audiologist", "badge": "management" },
-        "hoergeraeteakustiker": { "lohn": 21.20, "bezeichnung": "Hoergeraeteakustiker/Hearing Aid Specialist" },
-        "fachberater": { "lohn": 18.50, "bezeichnung": "Fachberater/Consultant" },
-        "servicetechniker": { "lohn": 17.80, "bezeichnung": "Servicetechniker/Service Tech" },
-        "lehrling_1": { "lohn": 8.50, "bezeichnung": "Lehrling 1. Jahr" },
-        "lehrling_3": { "lohn": 14.00, "bezeichnung": "Lehrling 3. Jahr" }
-      }
+        "geschaeftsfuehrer": {
+          "lohn": 44.0,
+          "bezeichnung": "Geschaeftsfuehrer/CEO",
+          "badge": "executive"
+        },
+        "meister_akustiker": {
+          "lohn": 27.5,
+          "bezeichnung": "Meister Hoergeraeteakustiker/Master Audiologist",
+          "badge": "management"
+        },
+        "hoergeraeteakustiker": {
+          "lohn": 21.2,
+          "bezeichnung": "Hoergeraeteakustiker/Hearing Aid Specialist"
+        },
+        "fachberater": {
+          "lohn": 18.5,
+          "bezeichnung": "Fachberater/Consultant"
+        },
+        "servicetechniker": {
+          "lohn": 17.8,
+          "bezeichnung": "Servicetechniker/Service Tech"
+        },
+        "lehrling_1": {
+          "lohn": 8.5,
+          "bezeichnung": "Lehrling 1. Jahr"
+        },
+        "lehrling_3": {
+          "lohn": 14.0,
+          "bezeichnung": "Lehrling 3. Jahr"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/gewerbe-handwerk/augenoptik-hoergeraeteakustik/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "landwirtschaft": {
       "name": "Landwirtschaft & Agrarbereich",
       "stufen": {
-        "betriebsleiter": { "lohn": 24.50, "bezeichnung": "Betriebsleiter/Farm Manager", "badge": "management" },
-        "gutsverwalter": { "lohn": 22.80, "bezeichnung": "Gutsverwalter/Estate Manager", "badge": "management" },
-        "landwirtschaftlicher_facharbeiter": { "lohn": 16.80, "bezeichnung": "Landw. Facharbeiter/Agricultural Worker" },
-        "traktorfahrer": { "lohn": 15.80, "bezeichnung": "Traktorfahrer/Tractor Driver" },
-        "melker": { "lohn": 15.50, "bezeichnung": "Melker/Milker" },
-        "tierpfleger": { "lohn": 15.20, "bezeichnung": "Tierpfleger/Animal Caretaker" },
-        "erntehelfer": { "lohn": 13.50, "bezeichnung": "Erntehelfer/Harvest Worker" },
-        "landarbeiter": { "lohn": 14.20, "bezeichnung": "Landarbeiter/Farm Hand" },
-        "stallhilfe": { "lohn": 13.80, "bezeichnung": "Stallhilfe/Stable Hand" }
-      }
+        "betriebsleiter": {
+          "lohn": 24.5,
+          "bezeichnung": "Betriebsleiter/Farm Manager",
+          "badge": "management"
+        },
+        "gutsverwalter": {
+          "lohn": 22.8,
+          "bezeichnung": "Gutsverwalter/Estate Manager",
+          "badge": "management"
+        },
+        "landwirtschaftlicher_facharbeiter": {
+          "lohn": 16.8,
+          "bezeichnung": "Landw. Facharbeiter/Agricultural Worker"
+        },
+        "traktorfahrer": {
+          "lohn": 15.8,
+          "bezeichnung": "Traktorfahrer/Tractor Driver"
+        },
+        "melker": {
+          "lohn": 15.5,
+          "bezeichnung": "Melker/Milker"
+        },
+        "tierpfleger": {
+          "lohn": 15.2,
+          "bezeichnung": "Tierpfleger/Animal Caretaker"
+        },
+        "erntehelfer": {
+          "lohn": 13.5,
+          "bezeichnung": "Erntehelfer/Harvest Worker"
+        },
+        "landarbeiter": {
+          "lohn": 14.2,
+          "bezeichnung": "Landarbeiter/Farm Hand"
+        },
+        "stallhilfe": {
+          "lohn": 13.8,
+          "bezeichnung": "Stallhilfe/Stable Hand"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/land-forstwirtschaft/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "forstwirtschaft": {
       "name": "Forstwirtschaft & Holzschlaegerung",
       "stufen": {
-        "forstdirektor": { "lohn": 32.00, "bezeichnung": "Forstdirektor/Forest Director", "badge": "executive" },
-        "revierfoerster": { "lohn": 24.50, "bezeichnung": "Revierfoerster/District Forester", "badge": "management" },
-        "forstwart": { "lohn": 19.80, "bezeichnung": "Forstwart/Forest Warden" },
-        "forstfacharbeiter": { "lohn": 18.50, "bezeichnung": "Forstfacharbeiter/Forest Worker" },
-        "motorsaegenfuehrer": { "lohn": 17.80, "bezeichnung": "Motorsaegenfuehrer/Chainsaw Operator" },
-        "holzfaeller": { "lohn": 17.20, "bezeichnung": "Holzfaeller/Lumberjack" },
-        "harvesterfahrer": { "lohn": 19.50, "bezeichnung": "Harvesterfahrer/Harvester Operator" },
-        "forsthelfer": { "lohn": 14.80, "bezeichnung": "Forsthelfer/Forest Helper" }
-      }
+        "forstdirektor": {
+          "lohn": 32.0,
+          "bezeichnung": "Forstdirektor/Forest Director",
+          "badge": "executive"
+        },
+        "revierfoerster": {
+          "lohn": 24.5,
+          "bezeichnung": "Revierfoerster/District Forester",
+          "badge": "management"
+        },
+        "forstwart": {
+          "lohn": 19.8,
+          "bezeichnung": "Forstwart/Forest Warden"
+        },
+        "forstfacharbeiter": {
+          "lohn": 18.5,
+          "bezeichnung": "Forstfacharbeiter/Forest Worker"
+        },
+        "motorsaegenfuehrer": {
+          "lohn": 17.8,
+          "bezeichnung": "Motorsaegenfuehrer/Chainsaw Operator"
+        },
+        "holzfaeller": {
+          "lohn": 17.2,
+          "bezeichnung": "Holzfaeller/Lumberjack"
+        },
+        "harvesterfahrer": {
+          "lohn": 19.5,
+          "bezeichnung": "Harvesterfahrer/Harvester Operator"
+        },
+        "forsthelfer": {
+          "lohn": 14.8,
+          "bezeichnung": "Forsthelfer/Forest Helper"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/land-forstwirtschaft/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "gartenbau": {
       "name": "Gartenbau & Gaertner",
       "stufen": {
-        "gaertnermeister": { "lohn": 24.50, "bezeichnung": "Gaertnermeister/Master Gardener", "badge": "management" },
-        "betriebsleiter": { "lohn": 22.80, "bezeichnung": "Betriebsleiter/Operations Manager", "badge": "management" },
-        "gaertner_facharbeiter": { "lohn": 17.50, "bezeichnung": "Gaertner Facharbeiter/Skilled Gardener" },
-        "landschaftsgaertner": { "lohn": 18.20, "bezeichnung": "Landschaftsgaertner/Landscape Gardener" },
-        "baumschulgaertner": { "lohn": 17.80, "bezeichnung": "Baumschulgaertner/Nursery Gardener" },
-        "zierpflanzengaertner": { "lohn": 17.20, "bezeichnung": "Zierpflanzengaertner/Ornamental Gardener" },
-        "friedhofsgaertner": { "lohn": 16.80, "bezeichnung": "Friedhofsgaertner/Cemetery Gardener" },
-        "blumenbinder": { "lohn": 16.20, "bezeichnung": "Florist/Blumenbinder" },
-        "gartenhelfer": { "lohn": 14.50, "bezeichnung": "Gartenhelfer/Garden Helper" },
-        "lehrling_1": { "lohn": 8.20, "bezeichnung": "Lehrling 1. Jahr" },
-        "lehrling_3": { "lohn": 12.80, "bezeichnung": "Lehrling 3. Jahr" }
-      }
+        "gaertnermeister": {
+          "lohn": 24.5,
+          "bezeichnung": "Gaertnermeister/Master Gardener",
+          "badge": "management"
+        },
+        "betriebsleiter": {
+          "lohn": 22.8,
+          "bezeichnung": "Betriebsleiter/Operations Manager",
+          "badge": "management"
+        },
+        "gaertner_facharbeiter": {
+          "lohn": 17.5,
+          "bezeichnung": "Gaertner Facharbeiter/Skilled Gardener"
+        },
+        "landschaftsgaertner": {
+          "lohn": 18.2,
+          "bezeichnung": "Landschaftsgaertner/Landscape Gardener"
+        },
+        "baumschulgaertner": {
+          "lohn": 17.8,
+          "bezeichnung": "Baumschulgaertner/Nursery Gardener"
+        },
+        "zierpflanzengaertner": {
+          "lohn": 17.2,
+          "bezeichnung": "Zierpflanzengaertner/Ornamental Gardener"
+        },
+        "friedhofsgaertner": {
+          "lohn": 16.8,
+          "bezeichnung": "Friedhofsgaertner/Cemetery Gardener"
+        },
+        "blumenbinder": {
+          "lohn": 16.2,
+          "bezeichnung": "Florist/Blumenbinder"
+        },
+        "gartenhelfer": {
+          "lohn": 14.5,
+          "bezeichnung": "Gartenhelfer/Garden Helper"
+        },
+        "lehrling_1": {
+          "lohn": 8.2,
+          "bezeichnung": "Lehrling 1. Jahr"
+        },
+        "lehrling_3": {
+          "lohn": 12.8,
+          "bezeichnung": "Lehrling 3. Jahr"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/gewerbe-handwerk/gaertner-floristen/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "chemie": {
       "name": "Chemische Industrie",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 72.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
-        "produktionsleiter": { "lohn": 42.50, "bezeichnung": "Produktionsleiter/Production Manager", "badge": "executive" },
-        "laborleiter": { "lohn": 38.50, "bezeichnung": "Laborleiter/Lab Manager", "badge": "management" },
-        "chemiker": { "lohn": 32.80, "bezeichnung": "Chemiker/Chemist" },
-        "chemietechniker": { "lohn": 26.50, "bezeichnung": "Chemietechniker/Chemical Technician" },
-        "labortechniker": { "lohn": 22.80, "bezeichnung": "Labortechniker/Lab Technician" },
-        "laborant": { "lohn": 19.50, "bezeichnung": "Laborant/Lab Assistant" },
-        "chemiefacharbeiter": { "lohn": 20.80, "bezeichnung": "Chemiefacharbeiter/Chemical Worker" },
-        "anlagenfuehrer": { "lohn": 21.50, "bezeichnung": "Anlagenfuehrer/Plant Operator" },
-        "produktionsmitarbeiter": { "lohn": 18.20, "bezeichnung": "Produktionsmitarbeiter/Production Worker" },
-        "hilfsarbeiter": { "lohn": 15.80, "bezeichnung": "Hilfsarbeiter Chemie/Helper" }
-      }
+        "geschaeftsfuehrer": {
+          "lohn": 72.0,
+          "bezeichnung": "Geschaeftsfuehrer/CEO",
+          "badge": "executive"
+        },
+        "produktionsleiter": {
+          "lohn": 42.5,
+          "bezeichnung": "Produktionsleiter/Production Manager",
+          "badge": "executive"
+        },
+        "laborleiter": {
+          "lohn": 38.5,
+          "bezeichnung": "Laborleiter/Lab Manager",
+          "badge": "management"
+        },
+        "chemiker": {
+          "lohn": 32.8,
+          "bezeichnung": "Chemiker/Chemist"
+        },
+        "chemietechniker": {
+          "lohn": 26.5,
+          "bezeichnung": "Chemietechniker/Chemical Technician"
+        },
+        "labortechniker": {
+          "lohn": 22.8,
+          "bezeichnung": "Labortechniker/Lab Technician"
+        },
+        "laborant": {
+          "lohn": 19.5,
+          "bezeichnung": "Laborant/Lab Assistant"
+        },
+        "chemiefacharbeiter": {
+          "lohn": 20.8,
+          "bezeichnung": "Chemiefacharbeiter/Chemical Worker"
+        },
+        "anlagenfuehrer": {
+          "lohn": 21.5,
+          "bezeichnung": "Anlagenfuehrer/Plant Operator"
+        },
+        "produktionsmitarbeiter": {
+          "lohn": 18.2,
+          "bezeichnung": "Produktionsmitarbeiter/Production Worker"
+        },
+        "hilfsarbeiter": {
+          "lohn": 15.8,
+          "bezeichnung": "Hilfsarbeiter Chemie/Helper"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/industrie/chemische-industrie/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "lebensmittelindustrie": {
       "name": "Lebensmittelindustrie",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 62.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
-        "produktionsleiter": { "lohn": 35.50, "bezeichnung": "Produktionsleiter/Production Manager", "badge": "executive" },
-        "qualitaetsmanager": { "lohn": 28.50, "bezeichnung": "Qualitaetsmanager/Quality Manager", "badge": "management" },
-        "schichtleiter": { "lohn": 22.80, "bezeichnung": "Schichtleiter/Shift Supervisor", "badge": "management" },
-        "lebensmitteltechniker": { "lohn": 24.50, "bezeichnung": "Lebensmitteltechniker/Food Technician" },
-        "maschinenfuehrer": { "lohn": 18.50, "bezeichnung": "Maschinenfuehrer/Machine Operator" },
-        "lebensmittelfacharbeiter": { "lohn": 17.80, "bezeichnung": "Lebensmittelfacharbeiter/Food Worker" },
-        "abfueller": { "lohn": 16.20, "bezeichnung": "Abfueller/Bottler" },
-        "verpacker": { "lohn": 15.50, "bezeichnung": "Verpacker/Packer" },
-        "produktionshelfer": { "lohn": 14.80, "bezeichnung": "Produktionshelfer/Production Helper" }
-      }
+        "geschaeftsfuehrer": {
+          "lohn": 62.0,
+          "bezeichnung": "Geschaeftsfuehrer/CEO",
+          "badge": "executive"
+        },
+        "produktionsleiter": {
+          "lohn": 35.5,
+          "bezeichnung": "Produktionsleiter/Production Manager",
+          "badge": "executive"
+        },
+        "qualitaetsmanager": {
+          "lohn": 28.5,
+          "bezeichnung": "Qualitaetsmanager/Quality Manager",
+          "badge": "management"
+        },
+        "schichtleiter": {
+          "lohn": 22.8,
+          "bezeichnung": "Schichtleiter/Shift Supervisor",
+          "badge": "management"
+        },
+        "lebensmitteltechniker": {
+          "lohn": 24.5,
+          "bezeichnung": "Lebensmitteltechniker/Food Technician"
+        },
+        "maschinenfuehrer": {
+          "lohn": 18.5,
+          "bezeichnung": "Maschinenfuehrer/Machine Operator"
+        },
+        "lebensmittelfacharbeiter": {
+          "lohn": 17.8,
+          "bezeichnung": "Lebensmittelfacharbeiter/Food Worker"
+        },
+        "abfueller": {
+          "lohn": 16.2,
+          "bezeichnung": "Abfueller/Bottler"
+        },
+        "verpacker": {
+          "lohn": 15.5,
+          "bezeichnung": "Verpacker/Packer"
+        },
+        "produktionshelfer": {
+          "lohn": 14.8,
+          "bezeichnung": "Produktionshelfer/Production Helper"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/industrie/nahrungs-genussmittelindustrie/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "papierindustrie": {
       "name": "Papierindustrie & Druck",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 58.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
-        "produktionsleiter": { "lohn": 34.50, "bezeichnung": "Produktionsleiter/Production Manager", "badge": "executive" },
-        "druckermeister": { "lohn": 26.80, "bezeichnung": "Druckermeister/Master Printer", "badge": "management" },
-        "offsetdrucker": { "lohn": 21.50, "bezeichnung": "Offsetdrucker/Offset Printer" },
-        "digitaldrucker": { "lohn": 19.80, "bezeichnung": "Digitaldrucker/Digital Printer" },
-        "papiertechniker": { "lohn": 22.50, "bezeichnung": "Papiertechniker/Paper Technician" },
-        "buchbinder": { "lohn": 18.20, "bezeichnung": "Buchbinder/Bookbinder" },
-        "druckvorstufentechniker": { "lohn": 20.50, "bezeichnung": "Druckvorstufentechniker/Prepress Tech" },
-        "maschinenfuehrer": { "lohn": 18.80, "bezeichnung": "Maschinenfuehrer/Machine Operator" },
-        "hilfsarbeiter": { "lohn": 15.20, "bezeichnung": "Hilfsarbeiter/Helper" }
-      }
+        "geschaeftsfuehrer": {
+          "lohn": 58.0,
+          "bezeichnung": "Geschaeftsfuehrer/CEO",
+          "badge": "executive"
+        },
+        "produktionsleiter": {
+          "lohn": 34.5,
+          "bezeichnung": "Produktionsleiter/Production Manager",
+          "badge": "executive"
+        },
+        "druckermeister": {
+          "lohn": 26.8,
+          "bezeichnung": "Druckermeister/Master Printer",
+          "badge": "management"
+        },
+        "offsetdrucker": {
+          "lohn": 21.5,
+          "bezeichnung": "Offsetdrucker/Offset Printer"
+        },
+        "digitaldrucker": {
+          "lohn": 19.8,
+          "bezeichnung": "Digitaldrucker/Digital Printer"
+        },
+        "papiertechniker": {
+          "lohn": 22.5,
+          "bezeichnung": "Papiertechniker/Paper Technician"
+        },
+        "buchbinder": {
+          "lohn": 18.2,
+          "bezeichnung": "Buchbinder/Bookbinder"
+        },
+        "druckvorstufentechniker": {
+          "lohn": 20.5,
+          "bezeichnung": "Druckvorstufentechniker/Prepress Tech"
+        },
+        "maschinenfuehrer": {
+          "lohn": 18.8,
+          "bezeichnung": "Maschinenfuehrer/Machine Operator"
+        },
+        "hilfsarbeiter": {
+          "lohn": 15.2,
+          "bezeichnung": "Hilfsarbeiter/Helper"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/industrie/papierindustrie/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "textilindustrie": {
       "name": "Textilindustrie",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 52.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
-        "produktionsleiter": { "lohn": 28.50, "bezeichnung": "Produktionsleiter/Production Manager", "badge": "executive" },
-        "textiltechniker": { "lohn": 22.80, "bezeichnung": "Textiltechniker/Textile Technician" },
-        "textilmechaniker": { "lohn": 18.50, "bezeichnung": "Textilmechaniker/Textile Mechanic" },
-        "weber": { "lohn": 16.80, "bezeichnung": "Weber/Weaver" },
-        "stricker": { "lohn": 16.50, "bezeichnung": "Stricker/Knitter" },
-        "naeher": { "lohn": 15.20, "bezeichnung": "Naeher/Sewer" },
-        "schneider": { "lohn": 17.50, "bezeichnung": "Schneider/Tailor" },
-        "faerber": { "lohn": 17.20, "bezeichnung": "Faerber/Dyer" },
-        "qualitaetspruefer": { "lohn": 16.80, "bezeichnung": "Qualitaetspruefer/Quality Inspector" },
-        "hilfsarbeiter": { "lohn": 14.20, "bezeichnung": "Hilfsarbeiter/Helper" }
-      }
+        "geschaeftsfuehrer": {
+          "lohn": 52.0,
+          "bezeichnung": "Geschaeftsfuehrer/CEO",
+          "badge": "executive"
+        },
+        "produktionsleiter": {
+          "lohn": 28.5,
+          "bezeichnung": "Produktionsleiter/Production Manager",
+          "badge": "executive"
+        },
+        "textiltechniker": {
+          "lohn": 22.8,
+          "bezeichnung": "Textiltechniker/Textile Technician"
+        },
+        "textilmechaniker": {
+          "lohn": 18.5,
+          "bezeichnung": "Textilmechaniker/Textile Mechanic"
+        },
+        "weber": {
+          "lohn": 16.8,
+          "bezeichnung": "Weber/Weaver"
+        },
+        "stricker": {
+          "lohn": 16.5,
+          "bezeichnung": "Stricker/Knitter"
+        },
+        "naeher": {
+          "lohn": 15.2,
+          "bezeichnung": "Naeher/Sewer"
+        },
+        "schneider": {
+          "lohn": 17.5,
+          "bezeichnung": "Schneider/Tailor"
+        },
+        "faerber": {
+          "lohn": 17.2,
+          "bezeichnung": "Faerber/Dyer"
+        },
+        "qualitaetspruefer": {
+          "lohn": 16.8,
+          "bezeichnung": "Qualitaetspruefer/Quality Inspector"
+        },
+        "hilfsarbeiter": {
+          "lohn": 14.2,
+          "bezeichnung": "Hilfsarbeiter/Helper"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/industrie/textil-bekleidung-leder/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "holzindustrie": {
       "name": "Holzindustrie & Saegewerke",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 52.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
-        "betriebsleiter": { "lohn": 28.50, "bezeichnung": "Betriebsleiter/Operations Manager", "badge": "executive" },
-        "saegemeister": { "lohn": 24.50, "bezeichnung": "Saegemeister/Sawmill Master", "badge": "management" },
-        "holztechniker": { "lohn": 22.80, "bezeichnung": "Holztechniker/Wood Technician" },
-        "saegefuehrer": { "lohn": 19.50, "bezeichnung": "Saegefuehrer/Sawmill Operator" },
-        "holzfacharbeiter": { "lohn": 18.20, "bezeichnung": "Holzfacharbeiter/Wood Worker" },
-        "trockenkammerfuehrer": { "lohn": 17.80, "bezeichnung": "Trockenkammerfuehrer/Kiln Operator" },
-        "sortierer": { "lohn": 15.50, "bezeichnung": "Holzsortierer/Wood Sorter" },
-        "staplerfahrer": { "lohn": 16.20, "bezeichnung": "Staplerfahrer/Forklift Operator" },
-        "hilfsarbeiter": { "lohn": 14.50, "bezeichnung": "Hilfsarbeiter/Helper" }
-      }
+        "geschaeftsfuehrer": {
+          "lohn": 52.0,
+          "bezeichnung": "Geschaeftsfuehrer/CEO",
+          "badge": "executive"
+        },
+        "betriebsleiter": {
+          "lohn": 28.5,
+          "bezeichnung": "Betriebsleiter/Operations Manager",
+          "badge": "executive"
+        },
+        "saegemeister": {
+          "lohn": 24.5,
+          "bezeichnung": "Saegemeister/Sawmill Master",
+          "badge": "management"
+        },
+        "holztechniker": {
+          "lohn": 22.8,
+          "bezeichnung": "Holztechniker/Wood Technician"
+        },
+        "saegefuehrer": {
+          "lohn": 19.5,
+          "bezeichnung": "Saegefuehrer/Sawmill Operator"
+        },
+        "holzfacharbeiter": {
+          "lohn": 18.2,
+          "bezeichnung": "Holzfacharbeiter/Wood Worker"
+        },
+        "trockenkammerfuehrer": {
+          "lohn": 17.8,
+          "bezeichnung": "Trockenkammerfuehrer/Kiln Operator"
+        },
+        "sortierer": {
+          "lohn": 15.5,
+          "bezeichnung": "Holzsortierer/Wood Sorter"
+        },
+        "staplerfahrer": {
+          "lohn": 16.2,
+          "bezeichnung": "Staplerfahrer/Forklift Operator"
+        },
+        "hilfsarbeiter": {
+          "lohn": 14.5,
+          "bezeichnung": "Hilfsarbeiter/Helper"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/industrie/holzindustrie/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "kunststoff": {
       "name": "Kunststoffindustrie",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 58.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
-        "produktionsleiter": { "lohn": 32.50, "bezeichnung": "Produktionsleiter/Production Manager", "badge": "executive" },
-        "kunststofftechniker": { "lohn": 24.50, "bezeichnung": "Kunststofftechniker/Plastics Technician" },
-        "werkzeugmacher": { "lohn": 22.80, "bezeichnung": "Werkzeugmacher/Tool Maker" },
-        "spritzgussmaschinenfuehrer": { "lohn": 19.50, "bezeichnung": "Spritzgussmaschinenfuehrer/Injection Molder" },
-        "extruderfuehrer": { "lohn": 18.80, "bezeichnung": "Extruderfuehrer/Extruder Operator" },
-        "einrichter": { "lohn": 20.50, "bezeichnung": "Einrichter/Setup Technician" },
-        "qualitaetspruefer": { "lohn": 17.50, "bezeichnung": "Qualitaetspruefer/Quality Inspector" },
-        "produktionsmitarbeiter": { "lohn": 16.20, "bezeichnung": "Produktionsmitarbeiter/Production Worker" },
-        "hilfsarbeiter": { "lohn": 14.80, "bezeichnung": "Hilfsarbeiter/Helper" }
-      }
+        "geschaeftsfuehrer": {
+          "lohn": 58.0,
+          "bezeichnung": "Geschaeftsfuehrer/CEO",
+          "badge": "executive"
+        },
+        "produktionsleiter": {
+          "lohn": 32.5,
+          "bezeichnung": "Produktionsleiter/Production Manager",
+          "badge": "executive"
+        },
+        "kunststofftechniker": {
+          "lohn": 24.5,
+          "bezeichnung": "Kunststofftechniker/Plastics Technician"
+        },
+        "werkzeugmacher": {
+          "lohn": 22.8,
+          "bezeichnung": "Werkzeugmacher/Tool Maker"
+        },
+        "spritzgussmaschinenfuehrer": {
+          "lohn": 19.5,
+          "bezeichnung": "Spritzgussmaschinenfuehrer/Injection Molder"
+        },
+        "extruderfuehrer": {
+          "lohn": 18.8,
+          "bezeichnung": "Extruderfuehrer/Extruder Operator"
+        },
+        "einrichter": {
+          "lohn": 20.5,
+          "bezeichnung": "Einrichter/Setup Technician"
+        },
+        "qualitaetspruefer": {
+          "lohn": 17.5,
+          "bezeichnung": "Qualitaetspruefer/Quality Inspector"
+        },
+        "produktionsmitarbeiter": {
+          "lohn": 16.2,
+          "bezeichnung": "Produktionsmitarbeiter/Production Worker"
+        },
+        "hilfsarbeiter": {
+          "lohn": 14.8,
+          "bezeichnung": "Hilfsarbeiter/Helper"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/industrie/kunststoffverarbeitung/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "glas_keramik": {
       "name": "Glas & Keramik Industrie",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 54.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
-        "produktionsleiter": { "lohn": 30.50, "bezeichnung": "Produktionsleiter/Production Manager", "badge": "executive" },
-        "glasmeister": { "lohn": 25.80, "bezeichnung": "Glasmeister/Master Glassmaker", "badge": "management" },
-        "glasblaeser": { "lohn": 21.50, "bezeichnung": "Glasbläser/Glassblower" },
-        "glasschleifer": { "lohn": 19.80, "bezeichnung": "Glasschleifer/Glass Grinder" },
-        "keramiker": { "lohn": 18.50, "bezeichnung": "Keramiker/Ceramist" },
-        "ofenfuehrer": { "lohn": 19.20, "bezeichnung": "Ofenfuehrer/Kiln Operator" },
-        "flachglasveredler": { "lohn": 18.80, "bezeichnung": "Flachglasveredler/Flat Glass Finisher" },
-        "qualitaetspruefer": { "lohn": 17.20, "bezeichnung": "Qualitaetspruefer/Quality Inspector" },
-        "hilfsarbeiter": { "lohn": 14.50, "bezeichnung": "Hilfsarbeiter/Helper" }
-      }
+        "geschaeftsfuehrer": {
+          "lohn": 54.0,
+          "bezeichnung": "Geschaeftsfuehrer/CEO",
+          "badge": "executive"
+        },
+        "produktionsleiter": {
+          "lohn": 30.5,
+          "bezeichnung": "Produktionsleiter/Production Manager",
+          "badge": "executive"
+        },
+        "glasmeister": {
+          "lohn": 25.8,
+          "bezeichnung": "Glasmeister/Master Glassmaker",
+          "badge": "management"
+        },
+        "glasblaeser": {
+          "lohn": 21.5,
+          "bezeichnung": "Glasbläser/Glassblower"
+        },
+        "glasschleifer": {
+          "lohn": 19.8,
+          "bezeichnung": "Glasschleifer/Glass Grinder"
+        },
+        "keramiker": {
+          "lohn": 18.5,
+          "bezeichnung": "Keramiker/Ceramist"
+        },
+        "ofenfuehrer": {
+          "lohn": 19.2,
+          "bezeichnung": "Ofenfuehrer/Kiln Operator"
+        },
+        "flachglasveredler": {
+          "lohn": 18.8,
+          "bezeichnung": "Flachglasveredler/Flat Glass Finisher"
+        },
+        "qualitaetspruefer": {
+          "lohn": 17.2,
+          "bezeichnung": "Qualitaetspruefer/Quality Inspector"
+        },
+        "hilfsarbeiter": {
+          "lohn": 14.5,
+          "bezeichnung": "Hilfsarbeiter/Helper"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/industrie/stein-keramik/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "produktion": {
       "name": "Produktion & Fertigung (allgemein)",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 55.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
-        "produktionsleiter": { "lohn": 32.50, "bezeichnung": "Produktionsleiter/Production Manager", "badge": "executive" },
-        "schichtleiter": { "lohn": 22.80, "bezeichnung": "Schichtleiter/Shift Supervisor", "badge": "management" },
-        "vorarbeiter": { "lohn": 19.50, "bezeichnung": "Vorarbeiter/Foreman", "badge": "management" },
-        "maschinenfuehrer": { "lohn": 17.80, "bezeichnung": "Maschinenfuehrer/Machine Operator" },
-        "facharbeiter": { "lohn": 18.50, "bezeichnung": "Produktionsfacharbeiter/Production Worker" },
-        "qualitaetspruefer": { "lohn": 17.20, "bezeichnung": "Qualitaetspruefer/Quality Inspector" },
-        "verpackungsarbeiter": { "lohn": 15.20, "bezeichnung": "Verpackungsarbeiter/Packer" },
-        "lagerarbeiter": { "lohn": 15.50, "bezeichnung": "Lagerarbeiter/Warehouse Worker" },
-        "hilfsarbeiter": { "lohn": 14.20, "bezeichnung": "Produktionshelfer/Production Helper" }
-      }
+        "geschaeftsfuehrer": {
+          "lohn": 55.0,
+          "bezeichnung": "Geschaeftsfuehrer/CEO",
+          "badge": "executive"
+        },
+        "produktionsleiter": {
+          "lohn": 32.5,
+          "bezeichnung": "Produktionsleiter/Production Manager",
+          "badge": "executive"
+        },
+        "schichtleiter": {
+          "lohn": 22.8,
+          "bezeichnung": "Schichtleiter/Shift Supervisor",
+          "badge": "management"
+        },
+        "vorarbeiter": {
+          "lohn": 19.5,
+          "bezeichnung": "Vorarbeiter/Foreman",
+          "badge": "management"
+        },
+        "maschinenfuehrer": {
+          "lohn": 17.8,
+          "bezeichnung": "Maschinenfuehrer/Machine Operator"
+        },
+        "facharbeiter": {
+          "lohn": 18.5,
+          "bezeichnung": "Produktionsfacharbeiter/Production Worker"
+        },
+        "qualitaetspruefer": {
+          "lohn": 17.2,
+          "bezeichnung": "Qualitaetspruefer/Quality Inspector"
+        },
+        "verpackungsarbeiter": {
+          "lohn": 15.2,
+          "bezeichnung": "Verpackungsarbeiter/Packer"
+        },
+        "lagerarbeiter": {
+          "lohn": 15.5,
+          "bezeichnung": "Lagerarbeiter/Warehouse Worker"
+        },
+        "hilfsarbeiter": {
+          "lohn": 14.2,
+          "bezeichnung": "Produktionshelfer/Production Helper"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/industrie/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "sicherheit": {
       "name": "Sicherheitsdienste & Bewachung",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 48.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
-        "niederlassungsleiter": { "lohn": 28.50, "bezeichnung": "Niederlassungsleiter/Branch Manager", "badge": "executive" },
-        "einsatzleiter": { "lohn": 22.80, "bezeichnung": "Einsatzleiter/Operations Manager", "badge": "management" },
-        "objektleiter": { "lohn": 19.50, "bezeichnung": "Objektleiter/Site Manager", "badge": "management" },
-        "sicherheitsfachkraft": { "lohn": 17.20, "bezeichnung": "Sicherheitsfachkraft/Security Specialist" },
-        "wachmann": { "lohn": 14.80, "bezeichnung": "Wachmann/Security Guard" },
-        "pfoertner": { "lohn": 14.20, "bezeichnung": "Pfoertner/Gatekeeper" },
-        "personenschuetzer": { "lohn": 22.50, "bezeichnung": "Personenschuetzer/Bodyguard" },
-        "detektiv": { "lohn": 19.80, "bezeichnung": "Kaufhausdetektiv/Store Detective" },
-        "alarmzentrale": { "lohn": 16.50, "bezeichnung": "Alarmzentralenmitarbeiter/Alarm Center Staff" },
-        "hundefuehrer": { "lohn": 18.20, "bezeichnung": "Hundefuehrer/Dog Handler" }
-      }
+        "wachdienst_a": {
+          "lohn": 12.32,
+          "bezeichnung": "Verwendungsgruppe A - Wachdienst"
+        },
+        "service_b": {
+          "lohn": 13.45,
+          "bezeichnung": "Verwendungsgruppe B - Service und Sicherheit"
+        },
+        "museumsaufsicht": {
+          "lohn": 12.25,
+          "bezeichnung": "B6 - Museumsaufsicht"
+        },
+        "sonderdienst_c": {
+          "lohn": 15.02,
+          "bezeichnung": "Verwendungsgruppe C - Sonderdienst"
+        },
+        "mobil_d": {
+          "lohn": 13.54,
+          "bezeichnung": "Verwendungsgruppe D - Mobiler Dienst"
+        },
+        "veranstaltung_e": {
+          "lohn": 12.25,
+          "bezeichnung": "Verwendungsgruppe E - Veranstaltung"
+        },
+        "flughafen_f": {
+          "lohn": 16.09,
+          "bezeichnung": "Verwendungsgruppe F - Flughafen"
+        },
+        "nachtzulage": {
+          "lohn": 1.23,
+          "bezeichnung": "Nachtzulage (22-05 Uhr) pro Stunde"
+        }
+      },
+      "quelle": "https://www.wko.at/kollektivvertrag/kollektivvertrag-wachorgane-bewachungsgewerbe-2025",
+      "gueltig_ab": "2025-01-01"
     },
     "buero": {
       "name": "Buero & Verwaltung",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 58.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
-        "bueroleiter": { "lohn": 28.50, "bezeichnung": "Bueroleiter/Office Manager", "badge": "management" },
-        "prokurist": { "lohn": 35.50, "bezeichnung": "Prokurist/Authorized Signatory", "badge": "executive" },
-        "buchhalter": { "lohn": 22.80, "bezeichnung": "Buchhalter/Accountant" },
-        "personalverrechner": { "lohn": 24.50, "bezeichnung": "Personalverrechner/Payroll Specialist" },
-        "sachbearbeiter": { "lohn": 18.50, "bezeichnung": "Sachbearbeiter/Clerk" },
-        "sekretaer": { "lohn": 17.80, "bezeichnung": "Sekretaer/Secretary" },
-        "empfang": { "lohn": 15.20, "bezeichnung": "Empfang/Reception" },
-        "buerokaufmann": { "lohn": 16.80, "bezeichnung": "Buerokaufmann/Office Clerk" },
-        "telefonist": { "lohn": 14.50, "bezeichnung": "Telefonist/Telephone Operator" },
-        "lehrling_1": { "lohn": 8.20, "bezeichnung": "Lehrling 1. Jahr" },
-        "lehrling_3": { "lohn": 12.50, "bezeichnung": "Lehrling 3. Jahr" }
-      }
+        "geschaeftsfuehrer": {
+          "lohn": 58.0,
+          "bezeichnung": "Geschaeftsfuehrer/CEO",
+          "badge": "executive"
+        },
+        "bueroleiter": {
+          "lohn": 28.5,
+          "bezeichnung": "Bueroleiter/Office Manager",
+          "badge": "management"
+        },
+        "prokurist": {
+          "lohn": 35.5,
+          "bezeichnung": "Prokurist/Authorized Signatory",
+          "badge": "executive"
+        },
+        "buchhalter": {
+          "lohn": 22.8,
+          "bezeichnung": "Buchhalter/Accountant"
+        },
+        "personalverrechner": {
+          "lohn": 24.5,
+          "bezeichnung": "Personalverrechner/Payroll Specialist"
+        },
+        "sachbearbeiter": {
+          "lohn": 18.5,
+          "bezeichnung": "Sachbearbeiter/Clerk"
+        },
+        "sekretaer": {
+          "lohn": 17.8,
+          "bezeichnung": "Sekretaer/Secretary"
+        },
+        "empfang": {
+          "lohn": 15.2,
+          "bezeichnung": "Empfang/Reception"
+        },
+        "buerokaufmann": {
+          "lohn": 16.8,
+          "bezeichnung": "Buerokaufmann/Office Clerk"
+        },
+        "telefonist": {
+          "lohn": 14.5,
+          "bezeichnung": "Telefonist/Telephone Operator"
+        },
+        "lehrling_1": {
+          "lohn": 8.2,
+          "bezeichnung": "Lehrling 1. Jahr"
+        },
+        "lehrling_3": {
+          "lohn": 12.5,
+          "bezeichnung": "Lehrling 3. Jahr"
+        }
+      },
+      "quelle": "https://www.wko.at/kollektivvertrag/kollektivvertrag-gewerbe-handwerk-und-dienstleistung-2025",
+      "gueltig_ab": "2025-01-01"
     },
     "it": {
       "name": "IT & Technik",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 72.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
-        "it_leiter": { "lohn": 45.50, "bezeichnung": "IT-Leiter/CTO", "badge": "executive" },
-        "projektleiter": { "lohn": 38.50, "bezeichnung": "IT-Projektleiter/Project Manager", "badge": "management" },
-        "senior_entwickler": { "lohn": 35.80, "bezeichnung": "Senior Software Developer" },
-        "entwickler": { "lohn": 28.50, "bezeichnung": "Software Developer" },
-        "junior_entwickler": { "lohn": 22.50, "bezeichnung": "Junior Developer" },
-        "systemadministrator": { "lohn": 26.80, "bezeichnung": "Systemadministrator/Sysadmin" },
-        "netzwerkadmin": { "lohn": 25.50, "bezeichnung": "Netzwerkadministrator/Network Admin" },
-        "datenbankadmin": { "lohn": 28.50, "bezeichnung": "Datenbankadministrator/DBA" },
-        "helpdesk": { "lohn": 18.50, "bezeichnung": "Helpdesk/IT Support" },
-        "webdesigner": { "lohn": 24.50, "bezeichnung": "Webdesigner/Web Designer" },
-        "it_techniker": { "lohn": 22.80, "bezeichnung": "IT-Techniker/IT Technician" }
-      }
+        "geschaeftsfuehrer": {
+          "lohn": 72.0,
+          "bezeichnung": "Geschaeftsfuehrer/CEO",
+          "badge": "executive"
+        },
+        "it_leiter": {
+          "lohn": 45.5,
+          "bezeichnung": "IT-Leiter/CTO",
+          "badge": "executive"
+        },
+        "projektleiter": {
+          "lohn": 38.5,
+          "bezeichnung": "IT-Projektleiter/Project Manager",
+          "badge": "management"
+        },
+        "senior_entwickler": {
+          "lohn": 35.8,
+          "bezeichnung": "Senior Software Developer"
+        },
+        "entwickler": {
+          "lohn": 28.5,
+          "bezeichnung": "Software Developer"
+        },
+        "junior_entwickler": {
+          "lohn": 22.5,
+          "bezeichnung": "Junior Developer"
+        },
+        "systemadministrator": {
+          "lohn": 26.8,
+          "bezeichnung": "Systemadministrator/Sysadmin"
+        },
+        "netzwerkadmin": {
+          "lohn": 25.5,
+          "bezeichnung": "Netzwerkadministrator/Network Admin"
+        },
+        "datenbankadmin": {
+          "lohn": 28.5,
+          "bezeichnung": "Datenbankadministrator/DBA"
+        },
+        "helpdesk": {
+          "lohn": 18.5,
+          "bezeichnung": "Helpdesk/IT Support"
+        },
+        "webdesigner": {
+          "lohn": 24.5,
+          "bezeichnung": "Webdesigner/Web Designer"
+        },
+        "it_techniker": {
+          "lohn": 22.8,
+          "bezeichnung": "IT-Techniker/IT Technician"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/kollektivvertrag/kv-informationstechnologie-2025.pdf",
+      "gueltig_ab": "2025-01-01"
     },
     "banken": {
       "name": "Banken & Versicherungen",
       "stufen": {
-        "vorstand": { "lohn": 95.00, "bezeichnung": "Vorstand/Board Member", "badge": "executive" },
-        "direktor": { "lohn": 65.00, "bezeichnung": "Direktor/Director", "badge": "executive" },
-        "abteilungsleiter": { "lohn": 42.50, "bezeichnung": "Abteilungsleiter/Department Head", "badge": "management" },
-        "filialleiter": { "lohn": 35.50, "bezeichnung": "Filialleiter/Branch Manager", "badge": "management" },
-        "privatkundenberater": { "lohn": 26.80, "bezeichnung": "Privatkundenberater/Private Banking Advisor" },
-        "firmenkundenberater": { "lohn": 32.50, "bezeichnung": "Firmenkundenberater/Corporate Advisor" },
-        "kundenberater": { "lohn": 22.50, "bezeichnung": "Kundenberater/Customer Advisor" },
-        "schalterbeamter": { "lohn": 18.80, "bezeichnung": "Schalterbeamter/Teller" },
-        "sachbearbeiter": { "lohn": 19.50, "bezeichnung": "Sachbearbeiter/Clerk" },
-        "versicherungsberater": { "lohn": 24.50, "bezeichnung": "Versicherungsberater/Insurance Advisor" },
-        "schadensreferent": { "lohn": 22.80, "bezeichnung": "Schadensreferent/Claims Handler" }
-      }
+        "vorstand": {
+          "lohn": 95.0,
+          "bezeichnung": "Vorstand/Board Member",
+          "badge": "executive"
+        },
+        "direktor": {
+          "lohn": 65.0,
+          "bezeichnung": "Direktor/Director",
+          "badge": "executive"
+        },
+        "abteilungsleiter": {
+          "lohn": 42.5,
+          "bezeichnung": "Abteilungsleiter/Department Head",
+          "badge": "management"
+        },
+        "filialleiter": {
+          "lohn": 35.5,
+          "bezeichnung": "Filialleiter/Branch Manager",
+          "badge": "management"
+        },
+        "privatkundenberater": {
+          "lohn": 26.8,
+          "bezeichnung": "Privatkundenberater/Private Banking Advisor"
+        },
+        "firmenkundenberater": {
+          "lohn": 32.5,
+          "bezeichnung": "Firmenkundenberater/Corporate Advisor"
+        },
+        "kundenberater": {
+          "lohn": 22.5,
+          "bezeichnung": "Kundenberater/Customer Advisor"
+        },
+        "schalterbeamter": {
+          "lohn": 18.8,
+          "bezeichnung": "Schalterbeamter/Teller"
+        },
+        "sachbearbeiter": {
+          "lohn": 19.5,
+          "bezeichnung": "Sachbearbeiter/Clerk"
+        },
+        "versicherungsberater": {
+          "lohn": 24.5,
+          "bezeichnung": "Versicherungsberater/Insurance Advisor"
+        },
+        "schadensreferent": {
+          "lohn": 22.8,
+          "bezeichnung": "Schadensreferent/Claims Handler"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/finanzdienstleister/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "rechtsanwalt": {
       "name": "Rechtsanwaelte & Notare",
       "stufen": {
-        "kanzleiinhaber": { "lohn": 85.00, "bezeichnung": "Kanzleiinhaber/Law Firm Owner", "badge": "executive" },
-        "kanzleileiter": { "lohn": 42.50, "bezeichnung": "Kanzleileiter/Office Manager", "badge": "management" },
-        "rechtsanwaltsanwaerter": { "lohn": 28.50, "bezeichnung": "Rechtsanwaltsanwaerter/Trainee Lawyer" },
-        "rechtspfleger": { "lohn": 24.50, "bezeichnung": "Rechtspfleger/Paralegal" },
-        "sekretariat": { "lohn": 19.80, "bezeichnung": "Sekretariat/Secretary" },
-        "kanzleikraft": { "lohn": 17.50, "bezeichnung": "Kanzleikraft/Office Staff" },
-        "empfang": { "lohn": 15.20, "bezeichnung": "Empfang/Reception" }
-      }
+        "kanzleiinhaber": {
+          "lohn": 85.0,
+          "bezeichnung": "Kanzleiinhaber/Law Firm Owner",
+          "badge": "executive"
+        },
+        "kanzleileiter": {
+          "lohn": 42.5,
+          "bezeichnung": "Kanzleileiter/Office Manager",
+          "badge": "management"
+        },
+        "rechtsanwaltsanwaerter": {
+          "lohn": 28.5,
+          "bezeichnung": "Rechtsanwaltsanwaerter/Trainee Lawyer"
+        },
+        "rechtspfleger": {
+          "lohn": 24.5,
+          "bezeichnung": "Rechtspfleger/Paralegal"
+        },
+        "sekretariat": {
+          "lohn": 19.8,
+          "bezeichnung": "Sekretariat/Secretary"
+        },
+        "kanzleikraft": {
+          "lohn": 17.5,
+          "bezeichnung": "Kanzleikraft/Office Staff"
+        },
+        "empfang": {
+          "lohn": 15.2,
+          "bezeichnung": "Empfang/Reception"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/information-consulting/unternehmensberatung-buchhaltung/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "steuerberater": {
       "name": "Steuerberater & Wirtschaftspruefer",
       "stufen": {
-        "kanzleiinhaber": { "lohn": 78.00, "bezeichnung": "Kanzleiinhaber/Firm Owner", "badge": "executive" },
-        "steuerberater": { "lohn": 45.50, "bezeichnung": "Steuerberater/Tax Advisor", "badge": "management" },
-        "wirtschaftspruefer": { "lohn": 52.00, "bezeichnung": "Wirtschaftspruefer/Auditor", "badge": "management" },
-        "bilanzbuchhalter": { "lohn": 28.50, "bezeichnung": "Bilanzbuchhalter/Chief Accountant" },
-        "steuerberater_assistent": { "lohn": 22.80, "bezeichnung": "Steuerberaterassistent/Tax Assistant" },
-        "buchhalter": { "lohn": 19.50, "bezeichnung": "Buchhalter/Accountant" },
-        "personalverrechner": { "lohn": 21.50, "bezeichnung": "Personalverrechner/Payroll" },
-        "kanzleikraft": { "lohn": 17.20, "bezeichnung": "Kanzleikraft/Office Staff" }
-      }
+        "kanzleiinhaber": {
+          "lohn": 78.0,
+          "bezeichnung": "Kanzleiinhaber/Firm Owner",
+          "badge": "executive"
+        },
+        "steuerberater": {
+          "lohn": 45.5,
+          "bezeichnung": "Steuerberater/Tax Advisor",
+          "badge": "management"
+        },
+        "wirtschaftspruefer": {
+          "lohn": 52.0,
+          "bezeichnung": "Wirtschaftspruefer/Auditor",
+          "badge": "management"
+        },
+        "bilanzbuchhalter": {
+          "lohn": 28.5,
+          "bezeichnung": "Bilanzbuchhalter/Chief Accountant"
+        },
+        "steuerberater_assistent": {
+          "lohn": 22.8,
+          "bezeichnung": "Steuerberaterassistent/Tax Assistant"
+        },
+        "buchhalter": {
+          "lohn": 19.5,
+          "bezeichnung": "Buchhalter/Accountant"
+        },
+        "personalverrechner": {
+          "lohn": 21.5,
+          "bezeichnung": "Personalverrechner/Payroll"
+        },
+        "kanzleikraft": {
+          "lohn": 17.2,
+          "bezeichnung": "Kanzleikraft/Office Staff"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/information-consulting/unternehmensberatung-buchhaltung/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "immobilien": {
       "name": "Immobilien & Hausverwaltung",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 58.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
-        "immobilienverwalter": { "lohn": 28.50, "bezeichnung": "Immobilienverwalter/Property Manager", "badge": "management" },
-        "immobilienmakler": { "lohn": 25.50, "bezeichnung": "Immobilienmakler/Real Estate Agent" },
-        "facility_manager": { "lohn": 26.80, "bezeichnung": "Facility Manager" },
-        "hausverwalter": { "lohn": 22.50, "bezeichnung": "Hausverwalter/Building Manager" },
-        "objektbetreuer": { "lohn": 18.50, "bezeichnung": "Objektbetreuer/Property Supervisor" },
-        "hausmeister": { "lohn": 15.80, "bezeichnung": "Hausmeister/Janitor" },
-        "sachbearbeiter": { "lohn": 17.50, "bezeichnung": "Sachbearbeiter/Clerk" }
-      }
+        "geschaeftsfuehrer": {
+          "lohn": 58.0,
+          "bezeichnung": "Geschaeftsfuehrer/CEO",
+          "badge": "executive"
+        },
+        "immobilienverwalter": {
+          "lohn": 28.5,
+          "bezeichnung": "Immobilienverwalter/Property Manager",
+          "badge": "management"
+        },
+        "immobilienmakler": {
+          "lohn": 25.5,
+          "bezeichnung": "Immobilienmakler/Real Estate Agent"
+        },
+        "facility_manager": {
+          "lohn": 26.8,
+          "bezeichnung": "Facility Manager"
+        },
+        "hausverwalter": {
+          "lohn": 22.5,
+          "bezeichnung": "Hausverwalter/Building Manager"
+        },
+        "objektbetreuer": {
+          "lohn": 18.5,
+          "bezeichnung": "Objektbetreuer/Property Supervisor"
+        },
+        "hausmeister": {
+          "lohn": 15.8,
+          "bezeichnung": "Hausmeister/Janitor"
+        },
+        "sachbearbeiter": {
+          "lohn": 17.5,
+          "bezeichnung": "Sachbearbeiter/Clerk"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/information-consulting/immobilientreuhänder/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "marketing": {
       "name": "Marketing & Werbung",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 62.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
-        "marketingleiter": { "lohn": 42.50, "bezeichnung": "Marketingleiter/Marketing Director", "badge": "executive" },
-        "creative_director": { "lohn": 38.50, "bezeichnung": "Creative Director", "badge": "management" },
-        "art_director": { "lohn": 32.50, "bezeichnung": "Art Director" },
-        "marketingmanager": { "lohn": 28.50, "bezeichnung": "Marketingmanager/Marketing Manager" },
-        "grafikdesigner": { "lohn": 22.80, "bezeichnung": "Grafikdesigner/Graphic Designer" },
-        "texter": { "lohn": 24.50, "bezeichnung": "Texter/Copywriter" },
-        "social_media_manager": { "lohn": 22.50, "bezeichnung": "Social Media Manager" },
-        "online_marketing": { "lohn": 24.80, "bezeichnung": "Online Marketing Manager" },
-        "marketing_assistent": { "lohn": 18.50, "bezeichnung": "Marketing Assistent/Assistant" }
-      }
+        "geschaeftsfuehrer": {
+          "lohn": 62.0,
+          "bezeichnung": "Geschaeftsfuehrer/CEO",
+          "badge": "executive"
+        },
+        "marketingleiter": {
+          "lohn": 42.5,
+          "bezeichnung": "Marketingleiter/Marketing Director",
+          "badge": "executive"
+        },
+        "creative_director": {
+          "lohn": 38.5,
+          "bezeichnung": "Creative Director",
+          "badge": "management"
+        },
+        "art_director": {
+          "lohn": 32.5,
+          "bezeichnung": "Art Director"
+        },
+        "marketingmanager": {
+          "lohn": 28.5,
+          "bezeichnung": "Marketingmanager/Marketing Manager"
+        },
+        "grafikdesigner": {
+          "lohn": 22.8,
+          "bezeichnung": "Grafikdesigner/Graphic Designer"
+        },
+        "texter": {
+          "lohn": 24.5,
+          "bezeichnung": "Texter/Copywriter"
+        },
+        "social_media_manager": {
+          "lohn": 22.5,
+          "bezeichnung": "Social Media Manager"
+        },
+        "online_marketing": {
+          "lohn": 24.8,
+          "bezeichnung": "Online Marketing Manager"
+        },
+        "marketing_assistent": {
+          "lohn": 18.5,
+          "bezeichnung": "Marketing Assistent/Assistant"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/information-consulting/werbung-marktkommunikation/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "medien": {
       "name": "Medien & Journalismus",
       "stufen": {
-        "chefredakteur": { "lohn": 52.00, "bezeichnung": "Chefredakteur/Editor in Chief", "badge": "executive" },
-        "redaktionsleiter": { "lohn": 38.50, "bezeichnung": "Redaktionsleiter/Editorial Manager", "badge": "management" },
-        "redakteur": { "lohn": 26.80, "bezeichnung": "Redakteur/Editor" },
-        "journalist": { "lohn": 24.50, "bezeichnung": "Journalist/Journalist" },
-        "reporter": { "lohn": 22.80, "bezeichnung": "Reporter/Reporter" },
-        "fotograf": { "lohn": 21.50, "bezeichnung": "Fotograf/Photographer" },
-        "kameramann": { "lohn": 24.50, "bezeichnung": "Kameramann/Cameraman" },
-        "cutter": { "lohn": 22.80, "bezeichnung": "Cutter/Video Editor" },
-        "tontechniker": { "lohn": 21.50, "bezeichnung": "Tontechniker/Sound Engineer" },
-        "moderator": { "lohn": 32.50, "bezeichnung": "Moderator/Presenter" },
-        "volontaer": { "lohn": 15.50, "bezeichnung": "Volontaer/Trainee" }
-      }
+        "chefredakteur": {
+          "lohn": 52.0,
+          "bezeichnung": "Chefredakteur/Editor in Chief",
+          "badge": "executive"
+        },
+        "redaktionsleiter": {
+          "lohn": 38.5,
+          "bezeichnung": "Redaktionsleiter/Editorial Manager",
+          "badge": "management"
+        },
+        "redakteur": {
+          "lohn": 26.8,
+          "bezeichnung": "Redakteur/Editor"
+        },
+        "journalist": {
+          "lohn": 24.5,
+          "bezeichnung": "Journalist/Journalist"
+        },
+        "reporter": {
+          "lohn": 22.8,
+          "bezeichnung": "Reporter/Reporter"
+        },
+        "fotograf": {
+          "lohn": 21.5,
+          "bezeichnung": "Fotograf/Photographer"
+        },
+        "kameramann": {
+          "lohn": 24.5,
+          "bezeichnung": "Kameramann/Cameraman"
+        },
+        "cutter": {
+          "lohn": 22.8,
+          "bezeichnung": "Cutter/Video Editor"
+        },
+        "tontechniker": {
+          "lohn": 21.5,
+          "bezeichnung": "Tontechniker/Sound Engineer"
+        },
+        "moderator": {
+          "lohn": 32.5,
+          "bezeichnung": "Moderator/Presenter"
+        },
+        "volontaer": {
+          "lohn": 15.5,
+          "bezeichnung": "Volontaer/Trainee"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/information-consulting/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "beratung": {
       "name": "Beratung & Consulting",
       "stufen": {
-        "partner": { "lohn": 95.00, "bezeichnung": "Partner", "badge": "executive" },
-        "senior_consultant": { "lohn": 48.50, "bezeichnung": "Senior Consultant", "badge": "management" },
-        "consultant": { "lohn": 32.50, "bezeichnung": "Consultant" },
-        "junior_consultant": { "lohn": 24.50, "bezeichnung": "Junior Consultant" },
-        "analyst": { "lohn": 28.50, "bezeichnung": "Analyst" },
-        "projektassistent": { "lohn": 19.50, "bezeichnung": "Projektassistent/Project Assistant" }
-      }
+        "partner": {
+          "lohn": 95.0,
+          "bezeichnung": "Partner",
+          "badge": "executive"
+        },
+        "senior_consultant": {
+          "lohn": 48.5,
+          "bezeichnung": "Senior Consultant",
+          "badge": "management"
+        },
+        "consultant": {
+          "lohn": 32.5,
+          "bezeichnung": "Consultant"
+        },
+        "junior_consultant": {
+          "lohn": 24.5,
+          "bezeichnung": "Junior Consultant"
+        },
+        "analyst": {
+          "lohn": 28.5,
+          "bezeichnung": "Analyst"
+        },
+        "projektassistent": {
+          "lohn": 19.5,
+          "bezeichnung": "Projektassistent/Project Assistant"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/information-consulting/unternehmensberatung-buchhaltung/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "bildung": {
       "name": "Bildung & Nachhilfe (Privat)",
       "stufen": {
-        "institutsleiter": { "lohn": 35.50, "bezeichnung": "Institutsleiter/Institute Director", "badge": "executive" },
-        "paedagogischer_leiter": { "lohn": 28.50, "bezeichnung": "Paedagogischer Leiter/Educational Director", "badge": "management" },
-        "trainer": { "lohn": 24.50, "bezeichnung": "Trainer/Trainer" },
-        "nachhilfelehrer": { "lohn": 22.50, "bezeichnung": "Nachhilfelehrer/Tutor" },
-        "sprachtrainer": { "lohn": 26.80, "bezeichnung": "Sprachtrainer/Language Trainer" },
-        "kursleiter": { "lohn": 24.50, "bezeichnung": "Kursleiter/Course Leader" },
-        "paedagoge": { "lohn": 21.50, "bezeichnung": "Paedagoge/Educator" },
-        "verwaltung": { "lohn": 17.50, "bezeichnung": "Verwaltung/Administration" }
-      }
+        "institutsleiter": {
+          "lohn": 35.5,
+          "bezeichnung": "Institutsleiter/Institute Director",
+          "badge": "executive"
+        },
+        "paedagogischer_leiter": {
+          "lohn": 28.5,
+          "bezeichnung": "Paedagogischer Leiter/Educational Director",
+          "badge": "management"
+        },
+        "trainer": {
+          "lohn": 24.5,
+          "bezeichnung": "Trainer/Trainer"
+        },
+        "nachhilfelehrer": {
+          "lohn": 22.5,
+          "bezeichnung": "Nachhilfelehrer/Tutor"
+        },
+        "sprachtrainer": {
+          "lohn": 26.8,
+          "bezeichnung": "Sprachtrainer/Language Trainer"
+        },
+        "kursleiter": {
+          "lohn": 24.5,
+          "bezeichnung": "Kursleiter/Course Leader"
+        },
+        "paedagoge": {
+          "lohn": 21.5,
+          "bezeichnung": "Paedagoge/Educator"
+        },
+        "verwaltung": {
+          "lohn": 17.5,
+          "bezeichnung": "Verwaltung/Administration"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/information-consulting/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "sozialarbeit": {
       "name": "Sozialarbeit & Betreuung",
       "stufen": {
-        "einrichtungsleiter": { "lohn": 32.50, "bezeichnung": "Einrichtungsleiter/Facility Director", "badge": "executive" },
-        "sozialarbeiter": { "lohn": 24.50, "bezeichnung": "Sozialarbeiter/Social Worker" },
-        "sozialpaedagoge": { "lohn": 23.50, "bezeichnung": "Sozialpaedagoge/Social Pedagogue" },
-        "betreuer": { "lohn": 18.50, "bezeichnung": "Betreuer/Caretaker" },
-        "jugendarbeiter": { "lohn": 19.80, "bezeichnung": "Jugendarbeiter/Youth Worker" },
-        "familienhelfer": { "lohn": 20.50, "bezeichnung": "Familienhelfer/Family Helper" },
-        "streetworker": { "lohn": 21.50, "bezeichnung": "Streetworker" },
-        "behindertenbegleiter": { "lohn": 17.80, "bezeichnung": "Behindertenbegleiter/Disability Support" },
-        "hilfskraft": { "lohn": 14.50, "bezeichnung": "Hilfskraft/Helper" }
-      }
+        "einrichtungsleiter": {
+          "lohn": 32.5,
+          "bezeichnung": "Einrichtungsleiter/Facility Director",
+          "badge": "executive"
+        },
+        "sozialarbeiter": {
+          "lohn": 24.5,
+          "bezeichnung": "Sozialarbeiter/Social Worker"
+        },
+        "sozialpaedagoge": {
+          "lohn": 23.5,
+          "bezeichnung": "Sozialpaedagoge/Social Pedagogue"
+        },
+        "betreuer": {
+          "lohn": 18.5,
+          "bezeichnung": "Betreuer/Caretaker"
+        },
+        "jugendarbeiter": {
+          "lohn": 19.8,
+          "bezeichnung": "Jugendarbeiter/Youth Worker"
+        },
+        "familienhelfer": {
+          "lohn": 20.5,
+          "bezeichnung": "Familienhelfer/Family Helper"
+        },
+        "streetworker": {
+          "lohn": 21.5,
+          "bezeichnung": "Streetworker"
+        },
+        "behindertenbegleiter": {
+          "lohn": 17.8,
+          "bezeichnung": "Behindertenbegleiter/Disability Support"
+        },
+        "hilfskraft": {
+          "lohn": 14.5,
+          "bezeichnung": "Hilfskraft/Helper"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/sozial-gesundheitsberufe/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "dienstleistungen": {
       "name": "Dienstleistungen (Frisoer, Kosmetik)",
       "stufen": {
-        "saloninhaber": { "lohn": 35.00, "bezeichnung": "Saloninhaber/Salon Owner", "badge": "executive" },
-        "salonleiter": { "lohn": 22.50, "bezeichnung": "Salonleiter/Salon Manager", "badge": "management" },
-        "friseurmeister": { "lohn": 20.80, "bezeichnung": "Friseurmeister/Master Hairdresser", "badge": "management" },
-        "friseur_stylist": { "lohn": 16.50, "bezeichnung": "Friseur/Stylist" },
-        "friseur_geselle": { "lohn": 14.80, "bezeichnung": "Friseurgeselle/Journeyman Hairdresser" },
-        "kosmetikerin": { "lohn": 16.20, "bezeichnung": "Kosmetikerin/Beautician" },
-        "fusspflegerin": { "lohn": 15.80, "bezeichnung": "Fusspflegerin/Pedicurist" },
-        "nageldesignerin": { "lohn": 15.20, "bezeichnung": "Nageldesignerin/Nail Technician" },
-        "masseur_wellness": { "lohn": 16.80, "bezeichnung": "Masseur Wellness/Spa Therapist" },
-        "rezeption": { "lohn": 14.20, "bezeichnung": "Rezeption/Reception" },
-        "lehrling_1": { "lohn": 7.80, "bezeichnung": "Lehrling 1. Jahr" },
-        "lehrling_3": { "lohn": 11.50, "bezeichnung": "Lehrling 3. Jahr" }
-      }
+        "saloninhaber": {
+          "lohn": 35.0,
+          "bezeichnung": "Saloninhaber/Salon Owner",
+          "badge": "executive"
+        },
+        "salonleiter": {
+          "lohn": 22.5,
+          "bezeichnung": "Salonleiter/Salon Manager",
+          "badge": "management"
+        },
+        "friseurmeister": {
+          "lohn": 20.8,
+          "bezeichnung": "Friseurmeister/Master Hairdresser",
+          "badge": "management"
+        },
+        "friseur_stylist": {
+          "lohn": 16.5,
+          "bezeichnung": "Friseur/Stylist"
+        },
+        "friseur_geselle": {
+          "lohn": 14.8,
+          "bezeichnung": "Friseurgeselle/Journeyman Hairdresser"
+        },
+        "kosmetikerin": {
+          "lohn": 16.2,
+          "bezeichnung": "Kosmetikerin/Beautician"
+        },
+        "fusspflegerin": {
+          "lohn": 15.8,
+          "bezeichnung": "Fusspflegerin/Pedicurist"
+        },
+        "nageldesignerin": {
+          "lohn": 15.2,
+          "bezeichnung": "Nageldesignerin/Nail Technician"
+        },
+        "masseur_wellness": {
+          "lohn": 16.8,
+          "bezeichnung": "Masseur Wellness/Spa Therapist"
+        },
+        "rezeption": {
+          "lohn": 14.2,
+          "bezeichnung": "Rezeption/Reception"
+        },
+        "lehrling_1": {
+          "lohn": 7.8,
+          "bezeichnung": "Lehrling 1. Jahr"
+        },
+        "lehrling_3": {
+          "lohn": 11.5,
+          "bezeichnung": "Lehrling 3. Jahr"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/gewerbe-handwerk/friseure/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "bestattung": {
       "name": "Bestattung",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 42.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
-        "bestattungsmeister": { "lohn": 24.50, "bezeichnung": "Bestattungsmeister/Funeral Director", "badge": "management" },
-        "bestatter": { "lohn": 18.50, "bezeichnung": "Bestatter/Undertaker" },
-        "trauerbegleiter": { "lohn": 19.80, "bezeichnung": "Trauerbegleiter/Grief Counselor" },
-        "thanatopraktiker": { "lohn": 22.50, "bezeichnung": "Thanatopraktiker/Embalmer" },
-        "sargtraeger": { "lohn": 15.50, "bezeichnung": "Sargtraeger/Pallbearer" },
-        "fahrer": { "lohn": 15.20, "bezeichnung": "Fahrer/Driver" },
-        "verwaltung": { "lohn": 16.50, "bezeichnung": "Verwaltung/Administration" }
-      }
+        "geschaeftsfuehrer": {
+          "lohn": 42.0,
+          "bezeichnung": "Geschaeftsfuehrer/CEO",
+          "badge": "executive"
+        },
+        "bestattungsmeister": {
+          "lohn": 24.5,
+          "bezeichnung": "Bestattungsmeister/Funeral Director",
+          "badge": "management"
+        },
+        "bestatter": {
+          "lohn": 18.5,
+          "bezeichnung": "Bestatter/Undertaker"
+        },
+        "trauerbegleiter": {
+          "lohn": 19.8,
+          "bezeichnung": "Trauerbegleiter/Grief Counselor"
+        },
+        "thanatopraktiker": {
+          "lohn": 22.5,
+          "bezeichnung": "Thanatopraktiker/Embalmer"
+        },
+        "sargtraeger": {
+          "lohn": 15.5,
+          "bezeichnung": "Sargtraeger/Pallbearer"
+        },
+        "fahrer": {
+          "lohn": 15.2,
+          "bezeichnung": "Fahrer/Driver"
+        },
+        "verwaltung": {
+          "lohn": 16.5,
+          "bezeichnung": "Verwaltung/Administration"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/gewerbe-handwerk/bestatter/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "waescherei": {
       "name": "Waescherei & Textilreinigung",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 38.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
-        "betriebsleiter": { "lohn": 24.50, "bezeichnung": "Betriebsleiter/Operations Manager", "badge": "management" },
-        "textilreiniger": { "lohn": 16.50, "bezeichnung": "Textilreiniger/Dry Cleaner" },
-        "buegeler": { "lohn": 14.50, "bezeichnung": "Buegeler/Presser" },
-        "waeschereimitarbeiter": { "lohn": 13.80, "bezeichnung": "Waeschereimitarbeiter/Laundry Worker" },
-        "fleckenentferner": { "lohn": 15.20, "bezeichnung": "Fleckenentferner/Stain Remover" },
-        "annahmekraft": { "lohn": 13.50, "bezeichnung": "Annahmekraft/Counter Staff" },
-        "fahrer": { "lohn": 14.80, "bezeichnung": "Fahrer/Driver" }
-      }
+        "geschaeftsfuehrer": {
+          "lohn": 38.0,
+          "bezeichnung": "Geschaeftsfuehrer/CEO",
+          "badge": "executive"
+        },
+        "betriebsleiter": {
+          "lohn": 24.5,
+          "bezeichnung": "Betriebsleiter/Operations Manager",
+          "badge": "management"
+        },
+        "textilreiniger": {
+          "lohn": 16.5,
+          "bezeichnung": "Textilreiniger/Dry Cleaner"
+        },
+        "buegeler": {
+          "lohn": 14.5,
+          "bezeichnung": "Buegeler/Presser"
+        },
+        "waeschereimitarbeiter": {
+          "lohn": 13.8,
+          "bezeichnung": "Waeschereimitarbeiter/Laundry Worker"
+        },
+        "fleckenentferner": {
+          "lohn": 15.2,
+          "bezeichnung": "Fleckenentferner/Stain Remover"
+        },
+        "annahmekraft": {
+          "lohn": 13.5,
+          "bezeichnung": "Annahmekraft/Counter Staff"
+        },
+        "fahrer": {
+          "lohn": 14.8,
+          "bezeichnung": "Fahrer/Driver"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/gewerbe-handwerk/mode-bekleidung/textilreiniger/kollektivvertrag-textilreinigung",
+      "gueltig_ab": "2025-01-01"
     },
     "tankstelle": {
       "name": "Tankstellen",
       "stufen": {
-        "paechter": { "lohn": 28.50, "bezeichnung": "Tankstellenpaechter/Station Leaseholder", "badge": "management" },
-        "stationsleiter": { "lohn": 19.80, "bezeichnung": "Stationsleiter/Station Manager", "badge": "management" },
-        "stellv_leiter": { "lohn": 17.20, "bezeichnung": "Stellv. Stationsleiter/Assistant Manager" },
-        "tankwart": { "lohn": 14.50, "bezeichnung": "Tankwart/Pump Attendant" },
-        "shop_mitarbeiter": { "lohn": 13.80, "bezeichnung": "Shop-Mitarbeiter/Shop Staff" },
-        "kassierer": { "lohn": 13.50, "bezeichnung": "Kassierer/Cashier" },
-        "bistro_mitarbeiter": { "lohn": 13.20, "bezeichnung": "Bistro-Mitarbeiter/Bistro Staff" }
-      }
+        "paechter": {
+          "lohn": 28.5,
+          "bezeichnung": "Tankstellenpaechter/Station Leaseholder",
+          "badge": "management"
+        },
+        "stationsleiter": {
+          "lohn": 19.8,
+          "bezeichnung": "Stationsleiter/Station Manager",
+          "badge": "management"
+        },
+        "stellv_leiter": {
+          "lohn": 17.2,
+          "bezeichnung": "Stellv. Stationsleiter/Assistant Manager"
+        },
+        "tankwart": {
+          "lohn": 14.5,
+          "bezeichnung": "Tankwart/Pump Attendant"
+        },
+        "shop_mitarbeiter": {
+          "lohn": 13.8,
+          "bezeichnung": "Shop-Mitarbeiter/Shop Staff"
+        },
+        "kassierer": {
+          "lohn": 13.5,
+          "bezeichnung": "Kassierer/Cashier"
+        },
+        "bistro_mitarbeiter": {
+          "lohn": 13.2,
+          "bezeichnung": "Bistro-Mitarbeiter/Bistro Staff"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/handel/tankstellen/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "sport_fitness": {
       "name": "Sport & Fitness",
       "stufen": {
-        "studioleiter": { "lohn": 28.50, "bezeichnung": "Studioleiter/Gym Manager", "badge": "management" },
-        "fitnesstrainer": { "lohn": 19.80, "bezeichnung": "Fitnesstrainer/Personal Trainer" },
-        "groupfitness_trainer": { "lohn": 21.50, "bezeichnung": "Groupfitness Trainer/Group Instructor" },
-        "physiotherapeut_sport": { "lohn": 24.50, "bezeichnung": "Sportphysiotherapeut/Sports Physio" },
-        "ernaehrungsberater": { "lohn": 22.80, "bezeichnung": "Ernaehrungsberater/Nutritionist" },
-        "wellness_trainer": { "lohn": 18.50, "bezeichnung": "Wellness Trainer" },
-        "bademeister": { "lohn": 16.80, "bezeichnung": "Bademeister/Lifeguard" },
-        "empfang_theke": { "lohn": 14.50, "bezeichnung": "Empfang/Theke/Reception" },
-        "servicekraft": { "lohn": 13.50, "bezeichnung": "Servicekraft/Service Staff" }
-      }
+        "studioleiter": {
+          "lohn": 28.5,
+          "bezeichnung": "Studioleiter/Gym Manager",
+          "badge": "management"
+        },
+        "fitnesstrainer": {
+          "lohn": 19.8,
+          "bezeichnung": "Fitnesstrainer/Personal Trainer"
+        },
+        "groupfitness_trainer": {
+          "lohn": 21.5,
+          "bezeichnung": "Groupfitness Trainer/Group Instructor"
+        },
+        "physiotherapeut_sport": {
+          "lohn": 24.5,
+          "bezeichnung": "Sportphysiotherapeut/Sports Physio"
+        },
+        "ernaehrungsberater": {
+          "lohn": 22.8,
+          "bezeichnung": "Ernaehrungsberater/Nutritionist"
+        },
+        "wellness_trainer": {
+          "lohn": 18.5,
+          "bezeichnung": "Wellness Trainer"
+        },
+        "bademeister": {
+          "lohn": 16.8,
+          "bezeichnung": "Bademeister/Lifeguard"
+        },
+        "empfang_theke": {
+          "lohn": 14.5,
+          "bezeichnung": "Empfang/Theke/Reception"
+        },
+        "servicekraft": {
+          "lohn": 13.5,
+          "bezeichnung": "Servicekraft/Service Staff"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/tourismus-freizeitwirtschaft/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "kultur_theater": {
       "name": "Kultur, Theater & Kino",
       "stufen": {
-        "intendant": { "lohn": 55.00, "bezeichnung": "Intendant/Artistic Director", "badge": "executive" },
-        "theaterleiter": { "lohn": 38.50, "bezeichnung": "Theaterleiter/Theater Manager", "badge": "executive" },
-        "kinoleiter": { "lohn": 24.50, "bezeichnung": "Kinoleiter/Cinema Manager", "badge": "management" },
-        "regisseur": { "lohn": 35.50, "bezeichnung": "Regisseur/Director" },
-        "schauspieler": { "lohn": 28.50, "bezeichnung": "Schauspieler/Actor" },
-        "buehnenbildner": { "lohn": 24.50, "bezeichnung": "Buehnenbildner/Set Designer" },
-        "tontechniker": { "lohn": 21.50, "bezeichnung": "Tontechniker/Sound Engineer" },
-        "lichttechniker": { "lohn": 20.50, "bezeichnung": "Lichttechniker/Lighting Tech" },
-        "buehnenarbeiter": { "lohn": 16.50, "bezeichnung": "Buehnenarbeiter/Stagehand" },
-        "filmvorfuehrer": { "lohn": 14.80, "bezeichnung": "Filmvorfuehrer/Projectionist" },
-        "kassenkraft": { "lohn": 13.50, "bezeichnung": "Kassenkraft/Ticket Sales" },
-        "platzanweiser": { "lohn": 12.80, "bezeichnung": "Platzanweiser/Usher" }
-      }
+        "intendant": {
+          "lohn": 55.0,
+          "bezeichnung": "Intendant/Artistic Director",
+          "badge": "executive"
+        },
+        "theaterleiter": {
+          "lohn": 38.5,
+          "bezeichnung": "Theaterleiter/Theater Manager",
+          "badge": "executive"
+        },
+        "kinoleiter": {
+          "lohn": 24.5,
+          "bezeichnung": "Kinoleiter/Cinema Manager",
+          "badge": "management"
+        },
+        "regisseur": {
+          "lohn": 35.5,
+          "bezeichnung": "Regisseur/Director"
+        },
+        "schauspieler": {
+          "lohn": 28.5,
+          "bezeichnung": "Schauspieler/Actor"
+        },
+        "buehnenbildner": {
+          "lohn": 24.5,
+          "bezeichnung": "Buehnenbildner/Set Designer"
+        },
+        "tontechniker": {
+          "lohn": 21.5,
+          "bezeichnung": "Tontechniker/Sound Engineer"
+        },
+        "lichttechniker": {
+          "lohn": 20.5,
+          "bezeichnung": "Lichttechniker/Lighting Tech"
+        },
+        "buehnenarbeiter": {
+          "lohn": 16.5,
+          "bezeichnung": "Buehnenarbeiter/Stagehand"
+        },
+        "filmvorfuehrer": {
+          "lohn": 14.8,
+          "bezeichnung": "Filmvorfuehrer/Projectionist"
+        },
+        "kassenkraft": {
+          "lohn": 13.5,
+          "bezeichnung": "Kassenkraft/Ticket Sales"
+        },
+        "platzanweiser": {
+          "lohn": 12.8,
+          "bezeichnung": "Platzanweiser/Usher"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/tourismus-freizeitwirtschaft/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "luftfahrt": {
       "name": "Luftfahrt & Flughafen",
       "stufen": {
-        "flughafendirektor": { "lohn": 75.00, "bezeichnung": "Flughafendirektor/Airport Director", "badge": "executive" },
-        "pilot": { "lohn": 65.00, "bezeichnung": "Pilot/Captain", "badge": "executive" },
-        "copilot": { "lohn": 45.00, "bezeichnung": "Copilot/First Officer" },
-        "flugbegleiter": { "lohn": 24.50, "bezeichnung": "Flugbegleiter/Flight Attendant" },
-        "fluglotse": { "lohn": 52.00, "bezeichnung": "Fluglotse/Air Traffic Controller" },
-        "check_in_agent": { "lohn": 17.50, "bezeichnung": "Check-in Agent" },
-        "bodenabfertiger": { "lohn": 16.80, "bezeichnung": "Bodenabfertiger/Ground Handler" },
-        "gepaeckabfertiger": { "lohn": 15.50, "bezeichnung": "Gepaeckabfertiger/Baggage Handler" },
-        "flugzeugmechaniker": { "lohn": 28.50, "bezeichnung": "Flugzeugmechaniker/Aircraft Mechanic" },
-        "sicherheitskontrolle": { "lohn": 17.20, "bezeichnung": "Sicherheitskontrolle/Security Screener" }
-      }
+        "flughafendirektor": {
+          "lohn": 75.0,
+          "bezeichnung": "Flughafendirektor/Airport Director",
+          "badge": "executive"
+        },
+        "pilot": {
+          "lohn": 65.0,
+          "bezeichnung": "Pilot/Captain",
+          "badge": "executive"
+        },
+        "copilot": {
+          "lohn": 45.0,
+          "bezeichnung": "Copilot/First Officer"
+        },
+        "flugbegleiter": {
+          "lohn": 24.5,
+          "bezeichnung": "Flugbegleiter/Flight Attendant"
+        },
+        "fluglotse": {
+          "lohn": 52.0,
+          "bezeichnung": "Fluglotse/Air Traffic Controller"
+        },
+        "check_in_agent": {
+          "lohn": 17.5,
+          "bezeichnung": "Check-in Agent"
+        },
+        "bodenabfertiger": {
+          "lohn": 16.8,
+          "bezeichnung": "Bodenabfertiger/Ground Handler"
+        },
+        "gepaeckabfertiger": {
+          "lohn": 15.5,
+          "bezeichnung": "Gepaeckabfertiger/Baggage Handler"
+        },
+        "flugzeugmechaniker": {
+          "lohn": 28.5,
+          "bezeichnung": "Flugzeugmechaniker/Aircraft Mechanic"
+        },
+        "sicherheitskontrolle": {
+          "lohn": 17.2,
+          "bezeichnung": "Sicherheitskontrolle/Security Screener"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/transport-verkehr/luftfahrt/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "energie": {
       "name": "Energie & Versorgung",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 72.00, "bezeichnung": "Geschaeftsfuehrer/CEO", "badge": "executive" },
-        "bereichsleiter": { "lohn": 45.50, "bezeichnung": "Bereichsleiter/Division Manager", "badge": "executive" },
-        "kraftwerksleiter": { "lohn": 42.00, "bezeichnung": "Kraftwerksleiter/Power Plant Manager", "badge": "management" },
-        "ingenieur": { "lohn": 35.50, "bezeichnung": "Ingenieur/Engineer" },
-        "meister_elektro": { "lohn": 28.50, "bezeichnung": "Meister Elektro/Master Electrician", "badge": "management" },
-        "netzmeister": { "lohn": 26.80, "bezeichnung": "Netzmeister/Grid Master" },
-        "elektromonteur": { "lohn": 22.50, "bezeichnung": "Elektromonteur/Electrical Fitter" },
-        "anlagenfuehrer": { "lohn": 24.50, "bezeichnung": "Anlagenfuehrer/Plant Operator" },
-        "netztechniker": { "lohn": 21.80, "bezeichnung": "Netztechniker/Grid Technician" },
-        "ableser": { "lohn": 15.50, "bezeichnung": "Ableser/Meter Reader" },
-        "kundenservice": { "lohn": 17.50, "bezeichnung": "Kundenservice/Customer Service" }
-      }
+        "geschaeftsfuehrer": {
+          "lohn": 72.0,
+          "bezeichnung": "Geschaeftsfuehrer/CEO",
+          "badge": "executive"
+        },
+        "bereichsleiter": {
+          "lohn": 45.5,
+          "bezeichnung": "Bereichsleiter/Division Manager",
+          "badge": "executive"
+        },
+        "kraftwerksleiter": {
+          "lohn": 42.0,
+          "bezeichnung": "Kraftwerksleiter/Power Plant Manager",
+          "badge": "management"
+        },
+        "ingenieur": {
+          "lohn": 35.5,
+          "bezeichnung": "Ingenieur/Engineer"
+        },
+        "meister_elektro": {
+          "lohn": 28.5,
+          "bezeichnung": "Meister Elektro/Master Electrician",
+          "badge": "management"
+        },
+        "netzmeister": {
+          "lohn": 26.8,
+          "bezeichnung": "Netzmeister/Grid Master"
+        },
+        "elektromonteur": {
+          "lohn": 22.5,
+          "bezeichnung": "Elektromonteur/Electrical Fitter"
+        },
+        "anlagenfuehrer": {
+          "lohn": 24.5,
+          "bezeichnung": "Anlagenfuehrer/Plant Operator"
+        },
+        "netztechniker": {
+          "lohn": 21.8,
+          "bezeichnung": "Netztechniker/Grid Technician"
+        },
+        "ableser": {
+          "lohn": 15.5,
+          "bezeichnung": "Ableser/Meter Reader"
+        },
+        "kundenservice": {
+          "lohn": 17.5,
+          "bezeichnung": "Kundenservice/Customer Service"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/industrie/energie/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "erwachsenenbildung": {
       "name": "Erwachsenenbildung & Training",
       "stufen": {
-        "institutsleiter": { "lohn": 38.50, "bezeichnung": "Institutsleiter/Institute Director", "badge": "executive" },
-        "programmleiter": { "lohn": 28.50, "bezeichnung": "Programmleiter/Program Director", "badge": "management" },
-        "trainer_senior": { "lohn": 35.50, "bezeichnung": "Senior Trainer" },
-        "trainer": { "lohn": 28.50, "bezeichnung": "Trainer" },
-        "dozent": { "lohn": 32.50, "bezeichnung": "Dozent/Lecturer" },
-        "coach": { "lohn": 42.00, "bezeichnung": "Coach/Executive Coach" },
-        "kursadministration": { "lohn": 18.50, "bezeichnung": "Kursadministration/Course Admin" },
-        "empfang": { "lohn": 15.50, "bezeichnung": "Empfang/Reception" }
-      }
+        "institutsleiter": {
+          "lohn": 38.5,
+          "bezeichnung": "Institutsleiter/Institute Director",
+          "badge": "executive"
+        },
+        "programmleiter": {
+          "lohn": 28.5,
+          "bezeichnung": "Programmleiter/Program Director",
+          "badge": "management"
+        },
+        "trainer_senior": {
+          "lohn": 35.5,
+          "bezeichnung": "Senior Trainer"
+        },
+        "trainer": {
+          "lohn": 28.5,
+          "bezeichnung": "Trainer"
+        },
+        "dozent": {
+          "lohn": 32.5,
+          "bezeichnung": "Dozent/Lecturer"
+        },
+        "coach": {
+          "lohn": 42.0,
+          "bezeichnung": "Coach/Executive Coach"
+        },
+        "kursadministration": {
+          "lohn": 18.5,
+          "bezeichnung": "Kursadministration/Course Admin"
+        },
+        "empfang": {
+          "lohn": 15.5,
+          "bezeichnung": "Empfang/Reception"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/information-consulting/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "zeitarbeit": {
       "name": "Zeitarbeit & Arbeitskraefteueberlassung (AUeG)",
       "stufen": {
-        "niederlassungsleiter": { "lohn": 32.50, "bezeichnung": "Niederlassungsleiter", "badge": "executive" },
-        "disponent": { "lohn": 22.50, "bezeichnung": "Personaldisponent", "badge": "management" },
-        "recruiter": { "lohn": 20.50, "bezeichnung": "Recruiter/Personalberater" },
-        "leiharbeiter_fach": { "lohn": 16.50, "bezeichnung": "Leiharbeiter Fachkraft", "info": "Mindestens KV der Einsatzbranche!" },
-        "leiharbeiter_hilfs": { "lohn": 13.50, "bezeichnung": "Leiharbeiter Hilfskraft", "info": "Mindestens KV der Einsatzbranche!" },
-        "sachbearbeiter": { "lohn": 17.50, "bezeichnung": "Sachbearbeiter Personalwesen" }
-      }
+        "niederlassungsleiter": {
+          "lohn": 32.5,
+          "bezeichnung": "Niederlassungsleiter",
+          "badge": "executive"
+        },
+        "disponent": {
+          "lohn": 22.5,
+          "bezeichnung": "Personaldisponent",
+          "badge": "management"
+        },
+        "recruiter": {
+          "lohn": 20.5,
+          "bezeichnung": "Recruiter/Personalberater"
+        },
+        "leiharbeiter_fach": {
+          "lohn": 16.5,
+          "bezeichnung": "Leiharbeiter Fachkraft",
+          "info": "Mindestens KV der Einsatzbranche!"
+        },
+        "leiharbeiter_hilfs": {
+          "lohn": 13.5,
+          "bezeichnung": "Leiharbeiter Hilfskraft",
+          "info": "Mindestens KV der Einsatzbranche!"
+        },
+        "sachbearbeiter": {
+          "lohn": 17.5,
+          "bezeichnung": "Sachbearbeiter Personalwesen"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/gewerbe-handwerk/gewerbliche-dienstleister/kollektivvertrag-arbeitskräfteüberlassung",
+      "gueltig_ab": "2025-01-01"
     },
     "seilbahnen": {
       "name": "Seilbahnen & Skilifte",
       "stufen": {
-        "betriebsleiter": { "lohn": 35.50, "bezeichnung": "Betriebsleiter Seilbahn", "badge": "executive" },
-        "technischer_leiter": { "lohn": 28.50, "bezeichnung": "Technischer Leiter", "badge": "management" },
-        "seilbahnfachmann": { "lohn": 19.80, "bezeichnung": "Seilbahnfachmann/-frau" },
-        "liftwaerter": { "lohn": 15.50, "bezeichnung": "Liftwaerter/Liftoperator" },
-        "pistenretter": { "lohn": 18.50, "bezeichnung": "Pistenretter/Bergrettung" },
-        "pistenbully_fahrer": { "lohn": 19.50, "bezeichnung": "Pistenbully-Fahrer/Pistenraupe" },
-        "kassier": { "lohn": 14.80, "bezeichnung": "Kassier/Ticketverkauf" },
-        "skilehrer": { "lohn": 22.50, "bezeichnung": "Skilehrer" },
-        "snowboardlehrer": { "lohn": 22.50, "bezeichnung": "Snowboardlehrer" },
-        "techniker": { "lohn": 21.50, "bezeichnung": "Seilbahntechniker/Mechaniker" }
-      }
+        "betriebsleiter": {
+          "lohn": 35.5,
+          "bezeichnung": "Betriebsleiter Seilbahn",
+          "badge": "executive"
+        },
+        "technischer_leiter": {
+          "lohn": 28.5,
+          "bezeichnung": "Technischer Leiter",
+          "badge": "management"
+        },
+        "seilbahnfachmann": {
+          "lohn": 19.8,
+          "bezeichnung": "Seilbahnfachmann/-frau"
+        },
+        "liftwaerter": {
+          "lohn": 15.5,
+          "bezeichnung": "Liftwaerter/Liftoperator"
+        },
+        "pistenretter": {
+          "lohn": 18.5,
+          "bezeichnung": "Pistenretter/Bergrettung"
+        },
+        "pistenbully_fahrer": {
+          "lohn": 19.5,
+          "bezeichnung": "Pistenbully-Fahrer/Pistenraupe"
+        },
+        "kassier": {
+          "lohn": 14.8,
+          "bezeichnung": "Kassier/Ticketverkauf"
+        },
+        "skilehrer": {
+          "lohn": 22.5,
+          "bezeichnung": "Skilehrer"
+        },
+        "snowboardlehrer": {
+          "lohn": 22.5,
+          "bezeichnung": "Snowboardlehrer"
+        },
+        "techniker": {
+          "lohn": 21.5,
+          "bezeichnung": "Seilbahntechniker/Mechaniker"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/kollektivvertrag/kollektivvertrag-seilbahnen-2025.pdf",
+      "gueltig_ab": "2025-01-01"
     },
     "eisenbahn": {
       "name": "Eisenbahn & Schienenverkehr (privat)",
       "stufen": {
-        "betriebsleiter": { "lohn": 42.50, "bezeichnung": "Betriebsleiter Bahn", "badge": "executive" },
-        "zugfuehrer": { "lohn": 24.50, "bezeichnung": "Triebfahrzeugfuehrer/Lokfuehrer" },
-        "zugbegleiter": { "lohn": 17.80, "bezeichnung": "Zugbegleiter/Schaffner" },
-        "fahrdienstleiter": { "lohn": 26.50, "bezeichnung": "Fahrdienstleiter", "badge": "management" },
-        "rangierer": { "lohn": 18.50, "bezeichnung": "Rangierer/Verschubarbeiter" },
-        "gleisbauer": { "lohn": 19.80, "bezeichnung": "Gleisbauer/Oberbauarbeiter" },
-        "signaltechniker": { "lohn": 24.50, "bezeichnung": "Signaltechniker" },
-        "wagenmeister": { "lohn": 20.50, "bezeichnung": "Wagenmeister/Wagenpruefer" },
-        "bahnhofsvorsteher": { "lohn": 22.50, "bezeichnung": "Bahnhofsvorsteher", "badge": "management" },
-        "kundenservice": { "lohn": 16.50, "bezeichnung": "Kundenservice Bahnhof" }
-      }
+        "betriebsleiter": {
+          "lohn": 42.5,
+          "bezeichnung": "Betriebsleiter Bahn",
+          "badge": "executive"
+        },
+        "zugfuehrer": {
+          "lohn": 24.5,
+          "bezeichnung": "Triebfahrzeugfuehrer/Lokfuehrer"
+        },
+        "zugbegleiter": {
+          "lohn": 17.8,
+          "bezeichnung": "Zugbegleiter/Schaffner"
+        },
+        "fahrdienstleiter": {
+          "lohn": 26.5,
+          "bezeichnung": "Fahrdienstleiter",
+          "badge": "management"
+        },
+        "rangierer": {
+          "lohn": 18.5,
+          "bezeichnung": "Rangierer/Verschubarbeiter"
+        },
+        "gleisbauer": {
+          "lohn": 19.8,
+          "bezeichnung": "Gleisbauer/Oberbauarbeiter"
+        },
+        "signaltechniker": {
+          "lohn": 24.5,
+          "bezeichnung": "Signaltechniker"
+        },
+        "wagenmeister": {
+          "lohn": 20.5,
+          "bezeichnung": "Wagenmeister/Wagenpruefer"
+        },
+        "bahnhofsvorsteher": {
+          "lohn": 22.5,
+          "bezeichnung": "Bahnhofsvorsteher",
+          "badge": "management"
+        },
+        "kundenservice": {
+          "lohn": 16.5,
+          "bezeichnung": "Kundenservice Bahnhof"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/transport-verkehr/eisenbahn/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "schifffahrt": {
       "name": "Schifffahrt & Binnenschifffahrt",
       "stufen": {
-        "kapitaen": { "lohn": 38.50, "bezeichnung": "Kapitaen/Schiffsfuehrer", "badge": "executive" },
-        "steuermann": { "lohn": 26.50, "bezeichnung": "Steuermann", "badge": "management" },
-        "maschinist": { "lohn": 24.50, "bezeichnung": "Schiffsmaschinist" },
-        "matrose": { "lohn": 18.50, "bezeichnung": "Matrose/Decksmann" },
-        "schiffskoch": { "lohn": 19.50, "bezeichnung": "Schiffskoch" },
-        "schleusenpersonal": { "lohn": 17.50, "bezeichnung": "Schleusenpersonal" },
-        "hafenarbeiter": { "lohn": 17.80, "bezeichnung": "Hafenarbeiter" },
-        "bootsmann": { "lohn": 22.50, "bezeichnung": "Bootsmann" }
-      }
+        "kapitaen": {
+          "lohn": 38.5,
+          "bezeichnung": "Kapitaen/Schiffsfuehrer",
+          "badge": "executive"
+        },
+        "steuermann": {
+          "lohn": 26.5,
+          "bezeichnung": "Steuermann",
+          "badge": "management"
+        },
+        "maschinist": {
+          "lohn": 24.5,
+          "bezeichnung": "Schiffsmaschinist"
+        },
+        "matrose": {
+          "lohn": 18.5,
+          "bezeichnung": "Matrose/Decksmann"
+        },
+        "schiffskoch": {
+          "lohn": 19.5,
+          "bezeichnung": "Schiffskoch"
+        },
+        "schleusenpersonal": {
+          "lohn": 17.5,
+          "bezeichnung": "Schleusenpersonal"
+        },
+        "hafenarbeiter": {
+          "lohn": 17.8,
+          "bezeichnung": "Hafenarbeiter"
+        },
+        "bootsmann": {
+          "lohn": 22.5,
+          "bezeichnung": "Bootsmann"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/transport-verkehr/schifffahrt/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "bergbau": {
       "name": "Bergbau & Steinbruch",
       "stufen": {
-        "bergwerksdirektor": { "lohn": 48.50, "bezeichnung": "Bergwerksdirektor", "badge": "executive" },
-        "steiger": { "lohn": 32.50, "bezeichnung": "Steiger/Schichtfuehrer", "badge": "management" },
-        "bergmann": { "lohn": 22.50, "bezeichnung": "Bergmann/Hauer" },
-        "sprengmeister": { "lohn": 28.50, "bezeichnung": "Sprengmeister" },
-        "maschinenfahrer": { "lohn": 21.50, "bezeichnung": "Maschinenfahrer Untertage" },
-        "steinbrucharbeiter": { "lohn": 18.50, "bezeichnung": "Steinbrucharbeiter" },
-        "aufbereiter": { "lohn": 19.50, "bezeichnung": "Aufbereiter/Sortierer" },
-        "grubenlok_fahrer": { "lohn": 20.50, "bezeichnung": "Grubenlokomitivfuehrer" }
-      }
+        "bergwerksdirektor": {
+          "lohn": 48.5,
+          "bezeichnung": "Bergwerksdirektor",
+          "badge": "executive"
+        },
+        "steiger": {
+          "lohn": 32.5,
+          "bezeichnung": "Steiger/Schichtfuehrer",
+          "badge": "management"
+        },
+        "bergmann": {
+          "lohn": 22.5,
+          "bezeichnung": "Bergmann/Hauer"
+        },
+        "sprengmeister": {
+          "lohn": 28.5,
+          "bezeichnung": "Sprengmeister"
+        },
+        "maschinenfahrer": {
+          "lohn": 21.5,
+          "bezeichnung": "Maschinenfahrer Untertage"
+        },
+        "steinbrucharbeiter": {
+          "lohn": 18.5,
+          "bezeichnung": "Steinbrucharbeiter"
+        },
+        "aufbereiter": {
+          "lohn": 19.5,
+          "bezeichnung": "Aufbereiter/Sortierer"
+        },
+        "grubenlok_fahrer": {
+          "lohn": 20.5,
+          "bezeichnung": "Grubenlokomitivfuehrer"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/industrie/bergbau-stahl/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "reisebuero": {
       "name": "Reisebueros & Tourismus",
       "stufen": {
-        "bueroinhaber": { "lohn": 35.50, "bezeichnung": "Reisebueroeigentuemer", "badge": "executive" },
-        "filialleiter": { "lohn": 24.50, "bezeichnung": "Filialleiter Reisebuero", "badge": "management" },
-        "reiseberater": { "lohn": 17.50, "bezeichnung": "Reiseberater/Reiseverkehrskaufmann" },
-        "reiseleiter": { "lohn": 19.50, "bezeichnung": "Reiseleiter/Tour Guide" },
-        "produktmanager": { "lohn": 25.50, "bezeichnung": "Produktmanager Reisen" },
-        "sachbearbeiter": { "lohn": 16.50, "bezeichnung": "Sachbearbeiter Buchung" },
-        "animateur": { "lohn": 15.80, "bezeichnung": "Animateur/Gaestebetreuer" }
-      }
+        "bueroinhaber": {
+          "lohn": 35.5,
+          "bezeichnung": "Reisebueroeigentuemer",
+          "badge": "executive"
+        },
+        "filialleiter": {
+          "lohn": 24.5,
+          "bezeichnung": "Filialleiter Reisebuero",
+          "badge": "management"
+        },
+        "reiseberater": {
+          "lohn": 17.5,
+          "bezeichnung": "Reiseberater/Reiseverkehrskaufmann"
+        },
+        "reiseleiter": {
+          "lohn": 19.5,
+          "bezeichnung": "Reiseleiter/Tour Guide"
+        },
+        "produktmanager": {
+          "lohn": 25.5,
+          "bezeichnung": "Produktmanager Reisen"
+        },
+        "sachbearbeiter": {
+          "lohn": 16.5,
+          "bezeichnung": "Sachbearbeiter Buchung"
+        },
+        "animateur": {
+          "lohn": 15.8,
+          "bezeichnung": "Animateur/Gaestebetreuer"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/tourismus-freizeitwirtschaft/reisebueros/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "callcenter": {
       "name": "Callcenter & Kundenservice",
       "stufen": {
-        "centerleiter": { "lohn": 32.50, "bezeichnung": "Callcenter-Leiter", "badge": "executive" },
-        "teamleiter": { "lohn": 22.50, "bezeichnung": "Teamleiter/Supervisor", "badge": "management" },
-        "agent_senior": { "lohn": 16.50, "bezeichnung": "Senior Agent/Spezialist" },
-        "agent": { "lohn": 13.80, "bezeichnung": "Callcenter-Agent" },
-        "agent_outbound": { "lohn": 14.50, "bezeichnung": "Outbound-Agent/Telefonverkauf" },
-        "qualitaet": { "lohn": 18.50, "bezeichnung": "Qualitaetssicherung/QA" },
-        "trainer": { "lohn": 20.50, "bezeichnung": "Callcenter-Trainer" },
-        "backoffice": { "lohn": 15.50, "bezeichnung": "Backoffice/Sachbearbeitung" }
-      }
+        "centerleiter": {
+          "lohn": 32.5,
+          "bezeichnung": "Callcenter-Leiter",
+          "badge": "executive"
+        },
+        "teamleiter": {
+          "lohn": 22.5,
+          "bezeichnung": "Teamleiter/Supervisor",
+          "badge": "management"
+        },
+        "agent_senior": {
+          "lohn": 16.5,
+          "bezeichnung": "Senior Agent/Spezialist"
+        },
+        "agent": {
+          "lohn": 13.8,
+          "bezeichnung": "Callcenter-Agent"
+        },
+        "agent_outbound": {
+          "lohn": 14.5,
+          "bezeichnung": "Outbound-Agent/Telefonverkauf"
+        },
+        "qualitaet": {
+          "lohn": 18.5,
+          "bezeichnung": "Qualitaetssicherung/QA"
+        },
+        "trainer": {
+          "lohn": 20.5,
+          "bezeichnung": "Callcenter-Trainer"
+        },
+        "backoffice": {
+          "lohn": 15.5,
+          "bezeichnung": "Backoffice/Sachbearbeitung"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/gewerbe-handwerk/gewerbliche-dienstleister/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "kindergarten": {
       "name": "Kindergaerten & Kinderbetreuung (privat)",
       "stufen": {
-        "leitung": { "lohn": 26.50, "bezeichnung": "Kindergartenleitung", "badge": "management" },
-        "paedagogin": { "lohn": 21.50, "bezeichnung": "Kindergartenpaedagogin" },
-        "assistentin": { "lohn": 15.80, "bezeichnung": "Kindergartenassistentin" },
-        "helferin": { "lohn": 13.50, "bezeichnung": "Kindergartenhelferin" },
-        "hort_paedagoge": { "lohn": 20.50, "bezeichnung": "Hortpaedagoge" },
-        "tagesmutter": { "lohn": 12.80, "bezeichnung": "Tagesmutter/-vater" },
-        "kinderkrippe": { "lohn": 19.50, "bezeichnung": "Krippenfachkraft" },
-        "praktikant": { "lohn": 10.50, "bezeichnung": "Praktikant/FSJ" }
-      }
+        "leitung": {
+          "lohn": 26.5,
+          "bezeichnung": "Kindergartenleitung",
+          "badge": "management"
+        },
+        "paedagogin": {
+          "lohn": 21.5,
+          "bezeichnung": "Kindergartenpaedagogin"
+        },
+        "assistentin": {
+          "lohn": 15.8,
+          "bezeichnung": "Kindergartenassistentin"
+        },
+        "helferin": {
+          "lohn": 13.5,
+          "bezeichnung": "Kindergartenhelferin"
+        },
+        "hort_paedagoge": {
+          "lohn": 20.5,
+          "bezeichnung": "Hortpaedagoge"
+        },
+        "tagesmutter": {
+          "lohn": 12.8,
+          "bezeichnung": "Tagesmutter/-vater"
+        },
+        "kinderkrippe": {
+          "lohn": 19.5,
+          "bezeichnung": "Krippenfachkraft"
+        },
+        "praktikant": {
+          "lohn": 10.5,
+          "bezeichnung": "Praktikant/FSJ"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/sozial-gesundheitsberufe/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "casino": {
       "name": "Spielhallen, Casinos & Wettbueros",
       "stufen": {
-        "spielbankdirektor": { "lohn": 55.50, "bezeichnung": "Spielbankdirektor", "badge": "executive" },
-        "saalchef": { "lohn": 32.50, "bezeichnung": "Saalchef/Floor Manager", "badge": "management" },
-        "croupier": { "lohn": 18.50, "bezeichnung": "Croupier/Dealer" },
-        "aufsicht": { "lohn": 16.50, "bezeichnung": "Spielaufsicht/Pit Boss" },
-        "kassier": { "lohn": 15.80, "bezeichnung": "Kassier/Cashier" },
-        "security": { "lohn": 16.50, "bezeichnung": "Sicherheitspersonal Casino" },
-        "wettbuero_leiter": { "lohn": 22.50, "bezeichnung": "Wettbuero-Leiter", "badge": "management" },
-        "wettannahme": { "lohn": 13.80, "bezeichnung": "Wettannahme-Mitarbeiter" },
-        "automatentechniker": { "lohn": 19.50, "bezeichnung": "Automatentechniker" }
-      }
+        "spielbankdirektor": {
+          "lohn": 55.5,
+          "bezeichnung": "Spielbankdirektor",
+          "badge": "executive"
+        },
+        "saalchef": {
+          "lohn": 32.5,
+          "bezeichnung": "Saalchef/Floor Manager",
+          "badge": "management"
+        },
+        "croupier": {
+          "lohn": 18.5,
+          "bezeichnung": "Croupier/Dealer"
+        },
+        "aufsicht": {
+          "lohn": 16.5,
+          "bezeichnung": "Spielaufsicht/Pit Boss"
+        },
+        "kassier": {
+          "lohn": 15.8,
+          "bezeichnung": "Kassier/Cashier"
+        },
+        "security": {
+          "lohn": 16.5,
+          "bezeichnung": "Sicherheitspersonal Casino"
+        },
+        "wettbuero_leiter": {
+          "lohn": 22.5,
+          "bezeichnung": "Wettbuero-Leiter",
+          "badge": "management"
+        },
+        "wettannahme": {
+          "lohn": 13.8,
+          "bezeichnung": "Wettannahme-Mitarbeiter"
+        },
+        "automatentechniker": {
+          "lohn": 19.5,
+          "bezeichnung": "Automatentechniker"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/tourismus-freizeitwirtschaft/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "rauchfangkehrer": {
       "name": "Rauchfangkehrer",
       "stufen": {
-        "meister": { "lohn": 28.50, "bezeichnung": "Rauchfangkehrermeister", "badge": "management" },
-        "geselle": { "lohn": 19.50, "bezeichnung": "Rauchfangkehrergeselle" },
-        "lehrling_3": { "lohn": 12.80, "bezeichnung": "Lehrling 3. Jahr" },
-        "lehrling_2": { "lohn": 10.50, "bezeichnung": "Lehrling 2. Jahr" },
-        "lehrling_1": { "lohn": 8.50, "bezeichnung": "Lehrling 1. Jahr" },
-        "energieberater": { "lohn": 24.50, "bezeichnung": "Energieberater/Feuerstaettenprufer" }
-      }
+        "meister": {
+          "lohn": 28.5,
+          "bezeichnung": "Rauchfangkehrermeister",
+          "badge": "management"
+        },
+        "geselle": {
+          "lohn": 19.5,
+          "bezeichnung": "Rauchfangkehrergeselle"
+        },
+        "lehrling_3": {
+          "lohn": 12.8,
+          "bezeichnung": "Lehrling 3. Jahr"
+        },
+        "lehrling_2": {
+          "lohn": 10.5,
+          "bezeichnung": "Lehrling 2. Jahr"
+        },
+        "lehrling_1": {
+          "lohn": 8.5,
+          "bezeichnung": "Lehrling 1. Jahr"
+        },
+        "energieberater": {
+          "lohn": 24.5,
+          "bezeichnung": "Energieberater/Feuerstaettenprufer"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/gewerbe-handwerk/rauchfangkehrer/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "juwelier": {
       "name": "Goldschmiede & Juweliere",
       "stufen": {
-        "goldschmiedemeister": { "lohn": 32.50, "bezeichnung": "Goldschmiedemeister", "badge": "management" },
-        "goldschmied": { "lohn": 22.50, "bezeichnung": "Goldschmied/Juwelier" },
-        "fasser": { "lohn": 24.50, "bezeichnung": "Edelsteinfasser" },
-        "graveur": { "lohn": 21.50, "bezeichnung": "Graveur" },
-        "verkaeufer": { "lohn": 16.50, "bezeichnung": "Juwelierverkaeufer" },
-        "lehrling": { "lohn": 9.50, "bezeichnung": "Lehrling Goldschmied" }
-      }
+        "goldschmiedemeister": {
+          "lohn": 32.5,
+          "bezeichnung": "Goldschmiedemeister",
+          "badge": "management"
+        },
+        "goldschmied": {
+          "lohn": 22.5,
+          "bezeichnung": "Goldschmied/Juwelier"
+        },
+        "fasser": {
+          "lohn": 24.5,
+          "bezeichnung": "Edelsteinfasser"
+        },
+        "graveur": {
+          "lohn": 21.5,
+          "bezeichnung": "Graveur"
+        },
+        "verkaeufer": {
+          "lohn": 16.5,
+          "bezeichnung": "Juwelierverkaeufer"
+        },
+        "lehrling": {
+          "lohn": 9.5,
+          "bezeichnung": "Lehrling Goldschmied"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/gewerbe-handwerk/kunsthandwerk/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "uhrmacher": {
       "name": "Uhrmacher",
       "stufen": {
-        "uhrmachermeister": { "lohn": 30.50, "bezeichnung": "Uhrmachermeister", "badge": "management" },
-        "uhrmacher": { "lohn": 21.50, "bezeichnung": "Uhrmacher" },
-        "reparateur": { "lohn": 18.50, "bezeichnung": "Uhrenreparateur" },
-        "verkaeufer": { "lohn": 15.50, "bezeichnung": "Uhrenverkaeufer" },
-        "lehrling": { "lohn": 9.50, "bezeichnung": "Lehrling Uhrmacher" }
-      }
+        "uhrmachermeister": {
+          "lohn": 30.5,
+          "bezeichnung": "Uhrmachermeister",
+          "badge": "management"
+        },
+        "uhrmacher": {
+          "lohn": 21.5,
+          "bezeichnung": "Uhrmacher"
+        },
+        "reparateur": {
+          "lohn": 18.5,
+          "bezeichnung": "Uhrenreparateur"
+        },
+        "verkaeufer": {
+          "lohn": 15.5,
+          "bezeichnung": "Uhrenverkaeufer"
+        },
+        "lehrling": {
+          "lohn": 9.5,
+          "bezeichnung": "Lehrling Uhrmacher"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/gewerbe-handwerk/kunsthandwerk/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "fotograf": {
       "name": "Fotografen & Bildbearbeitung",
       "stufen": {
-        "studioleiter": { "lohn": 28.50, "bezeichnung": "Studioleiter/Fotostudio", "badge": "management" },
-        "fotograf_senior": { "lohn": 24.50, "bezeichnung": "Senior Fotograf" },
-        "fotograf": { "lohn": 18.50, "bezeichnung": "Fotograf" },
-        "bildbearbeiter": { "lohn": 17.50, "bezeichnung": "Bildbearbeiter/Retusche" },
-        "assistent": { "lohn": 14.50, "bezeichnung": "Fotoassistent" },
-        "pressefotograf": { "lohn": 22.50, "bezeichnung": "Pressefotograf" },
-        "hochzeitsfotograf": { "lohn": 26.50, "bezeichnung": "Hochzeitsfotograf" },
-        "produktfotograf": { "lohn": 21.50, "bezeichnung": "Produktfotograf" }
-      }
+        "studioleiter": {
+          "lohn": 28.5,
+          "bezeichnung": "Studioleiter/Fotostudio",
+          "badge": "management"
+        },
+        "fotograf_senior": {
+          "lohn": 24.5,
+          "bezeichnung": "Senior Fotograf"
+        },
+        "fotograf": {
+          "lohn": 18.5,
+          "bezeichnung": "Fotograf"
+        },
+        "bildbearbeiter": {
+          "lohn": 17.5,
+          "bezeichnung": "Bildbearbeiter/Retusche"
+        },
+        "assistent": {
+          "lohn": 14.5,
+          "bezeichnung": "Fotoassistent"
+        },
+        "pressefotograf": {
+          "lohn": 22.5,
+          "bezeichnung": "Pressefotograf"
+        },
+        "hochzeitsfotograf": {
+          "lohn": 26.5,
+          "bezeichnung": "Hochzeitsfotograf"
+        },
+        "produktfotograf": {
+          "lohn": 21.5,
+          "bezeichnung": "Produktfotograf"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/gewerbe-handwerk/berufsfotografen/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "schaedlingsbekaempfung": {
       "name": "Schaedlingsbekaempfung & Desinfektion",
       "stufen": {
-        "betriebsleiter": { "lohn": 28.50, "bezeichnung": "Betriebsleiter", "badge": "management" },
-        "schaedlingsbekaempfer": { "lohn": 18.50, "bezeichnung": "Schaedlingsbekaempfer" },
-        "desinfektor": { "lohn": 17.50, "bezeichnung": "Desinfektor" },
-        "servicetechniker": { "lohn": 16.50, "bezeichnung": "Servicetechniker" },
-        "helfer": { "lohn": 14.50, "bezeichnung": "Helfer/Hilfskraft" }
-      }
+        "betriebsleiter": {
+          "lohn": 28.5,
+          "bezeichnung": "Betriebsleiter",
+          "badge": "management"
+        },
+        "schaedlingsbekaempfer": {
+          "lohn": 18.5,
+          "bezeichnung": "Schaedlingsbekaempfer"
+        },
+        "desinfektor": {
+          "lohn": 17.5,
+          "bezeichnung": "Desinfektor"
+        },
+        "servicetechniker": {
+          "lohn": 16.5,
+          "bezeichnung": "Servicetechniker"
+        },
+        "helfer": {
+          "lohn": 14.5,
+          "bezeichnung": "Helfer/Hilfskraft"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/gewerbe-handwerk/chemische-gewerbe/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "event": {
       "name": "Event & Veranstaltungstechnik",
       "stufen": {
-        "produktionsleiter": { "lohn": 35.50, "bezeichnung": "Produktionsleiter Event", "badge": "executive" },
-        "eventmanager": { "lohn": 26.50, "bezeichnung": "Eventmanager", "badge": "management" },
-        "veranstaltungstechniker": { "lohn": 21.50, "bezeichnung": "Veranstaltungstechniker" },
-        "lichttechniker": { "lohn": 20.50, "bezeichnung": "Lichttechniker/Beleuchter" },
-        "tontechniker": { "lohn": 21.50, "bezeichnung": "Tontechniker" },
-        "buehnenmeister": { "lohn": 24.50, "bezeichnung": "Buehnenmeister", "badge": "management" },
-        "stagehand": { "lohn": 15.50, "bezeichnung": "Stagehand/Buehenarbeiter" },
-        "rigger": { "lohn": 23.50, "bezeichnung": "Rigger/Traversenbauer" },
-        "caterer": { "lohn": 16.50, "bezeichnung": "Event-Caterer" },
-        "hostess": { "lohn": 14.50, "bezeichnung": "Hostess/Promoter" }
-      }
+        "produktionsleiter": {
+          "lohn": 35.5,
+          "bezeichnung": "Produktionsleiter Event",
+          "badge": "executive"
+        },
+        "eventmanager": {
+          "lohn": 26.5,
+          "bezeichnung": "Eventmanager",
+          "badge": "management"
+        },
+        "veranstaltungstechniker": {
+          "lohn": 21.5,
+          "bezeichnung": "Veranstaltungstechniker"
+        },
+        "lichttechniker": {
+          "lohn": 20.5,
+          "bezeichnung": "Lichttechniker/Beleuchter"
+        },
+        "tontechniker": {
+          "lohn": 21.5,
+          "bezeichnung": "Tontechniker"
+        },
+        "buehnenmeister": {
+          "lohn": 24.5,
+          "bezeichnung": "Buehnenmeister",
+          "badge": "management"
+        },
+        "stagehand": {
+          "lohn": 15.5,
+          "bezeichnung": "Stagehand/Buehenarbeiter"
+        },
+        "rigger": {
+          "lohn": 23.5,
+          "bezeichnung": "Rigger/Traversenbauer"
+        },
+        "caterer": {
+          "lohn": 16.5,
+          "bezeichnung": "Event-Caterer"
+        },
+        "hostess": {
+          "lohn": 14.5,
+          "bezeichnung": "Hostess/Promoter"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/tourismus-freizeitwirtschaft/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "telekommunikation": {
       "name": "Telekommunikation & Mobilfunk",
       "stufen": {
-        "bereichsleiter": { "lohn": 48.50, "bezeichnung": "Bereichsleiter Telekom", "badge": "executive" },
-        "netzwerktechniker": { "lohn": 28.50, "bezeichnung": "Netzwerktechniker" },
-        "servicetechniker": { "lohn": 22.50, "bezeichnung": "Servicetechniker Telekom" },
-        "kundenberater": { "lohn": 17.50, "bezeichnung": "Kundenberater Mobilfunk" },
-        "shopmanager": { "lohn": 24.50, "bezeichnung": "Shop-Manager", "badge": "management" },
-        "monteur": { "lohn": 19.50, "bezeichnung": "Telekom-Monteur" },
-        "hotline": { "lohn": 15.50, "bezeichnung": "Hotline-Mitarbeiter" }
-      }
+        "bereichsleiter": {
+          "lohn": 48.5,
+          "bezeichnung": "Bereichsleiter Telekom",
+          "badge": "executive"
+        },
+        "netzwerktechniker": {
+          "lohn": 28.5,
+          "bezeichnung": "Netzwerktechniker"
+        },
+        "servicetechniker": {
+          "lohn": 22.5,
+          "bezeichnung": "Servicetechniker Telekom"
+        },
+        "kundenberater": {
+          "lohn": 17.5,
+          "bezeichnung": "Kundenberater Mobilfunk"
+        },
+        "shopmanager": {
+          "lohn": 24.5,
+          "bezeichnung": "Shop-Manager",
+          "badge": "management"
+        },
+        "monteur": {
+          "lohn": 19.5,
+          "bezeichnung": "Telekom-Monteur"
+        },
+        "hotline": {
+          "lohn": 15.5,
+          "bezeichnung": "Hotline-Mitarbeiter"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/information-consulting/telekommunikation/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "architekten": {
       "name": "Architekten & Ingenieurbueros",
       "stufen": {
-        "bueroinhaber": { "lohn": 55.50, "bezeichnung": "Bueroinhaber/Partner", "badge": "executive" },
-        "projektleiter": { "lohn": 35.50, "bezeichnung": "Projektleiter", "badge": "management" },
-        "architekt_senior": { "lohn": 32.50, "bezeichnung": "Senior Architekt" },
-        "architekt": { "lohn": 26.50, "bezeichnung": "Architekt" },
-        "bauingenieur": { "lohn": 28.50, "bezeichnung": "Bauingenieur" },
-        "technischer_zeichner": { "lohn": 19.50, "bezeichnung": "Technischer Zeichner/CAD" },
-        "bautechniker": { "lohn": 22.50, "bezeichnung": "Bautechniker" },
-        "praktikant": { "lohn": 12.50, "bezeichnung": "Praktikant Architektur" }
-      }
+        "bueroinhaber": {
+          "lohn": 55.5,
+          "bezeichnung": "Bueroinhaber/Partner",
+          "badge": "executive"
+        },
+        "projektleiter": {
+          "lohn": 35.5,
+          "bezeichnung": "Projektleiter",
+          "badge": "management"
+        },
+        "architekt_senior": {
+          "lohn": 32.5,
+          "bezeichnung": "Senior Architekt"
+        },
+        "architekt": {
+          "lohn": 26.5,
+          "bezeichnung": "Architekt"
+        },
+        "bauingenieur": {
+          "lohn": 28.5,
+          "bezeichnung": "Bauingenieur"
+        },
+        "technischer_zeichner": {
+          "lohn": 19.5,
+          "bezeichnung": "Technischer Zeichner/CAD"
+        },
+        "bautechniker": {
+          "lohn": 22.5,
+          "bezeichnung": "Bautechniker"
+        },
+        "praktikant": {
+          "lohn": 12.5,
+          "bezeichnung": "Praktikant Architektur"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/information-consulting/ingenieurbüros/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "abfallwirtschaft": {
       "name": "Abfallwirtschaft & Recycling",
       "stufen": {
-        "betriebsleiter": { "lohn": 38.50, "bezeichnung": "Betriebsleiter Entsorgung", "badge": "executive" },
-        "deponieleiter": { "lohn": 32.50, "bezeichnung": "Deponieleiter", "badge": "management" },
-        "muellwagenfahrer": { "lohn": 17.50, "bezeichnung": "Muellwagenfahrer/Entsorger" },
-        "muellwerker": { "lohn": 15.80, "bezeichnung": "Muellwerker/Lader" },
-        "sortierer": { "lohn": 14.50, "bezeichnung": "Sortierer Recycling" },
-        "anlagenfahrer": { "lohn": 18.50, "bezeichnung": "Anlagenfahrer Recycling" },
-        "sondermuell": { "lohn": 21.50, "bezeichnung": "Sondermuell-Fachkraft" },
-        "containerfahrer": { "lohn": 17.80, "bezeichnung": "Containerfahrer" }
-      }
+        "betriebsleiter": {
+          "lohn": 38.5,
+          "bezeichnung": "Betriebsleiter Entsorgung",
+          "badge": "executive"
+        },
+        "deponieleiter": {
+          "lohn": 32.5,
+          "bezeichnung": "Deponieleiter",
+          "badge": "management"
+        },
+        "muellwagenfahrer": {
+          "lohn": 17.5,
+          "bezeichnung": "Muellwagenfahrer/Entsorger"
+        },
+        "muellwerker": {
+          "lohn": 15.8,
+          "bezeichnung": "Muellwerker/Lader"
+        },
+        "sortierer": {
+          "lohn": 14.5,
+          "bezeichnung": "Sortierer Recycling"
+        },
+        "anlagenfahrer": {
+          "lohn": 18.5,
+          "bezeichnung": "Anlagenfahrer Recycling"
+        },
+        "sondermuell": {
+          "lohn": 21.5,
+          "bezeichnung": "Sondermuell-Fachkraft"
+        },
+        "containerfahrer": {
+          "lohn": 17.8,
+          "bezeichnung": "Containerfahrer"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/transport-verkehr/abfall-abwasserwirtschaft/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "detektei": {
       "name": "Detekteien & Ermittlungen",
       "stufen": {
-        "detektei_inhaber": { "lohn": 42.50, "bezeichnung": "Detektei-Inhaber", "badge": "executive" },
-        "chefermittler": { "lohn": 32.50, "bezeichnung": "Chefermittler", "badge": "management" },
-        "privatdetektiv": { "lohn": 24.50, "bezeichnung": "Privatdetektiv" },
-        "ermittler": { "lohn": 21.50, "bezeichnung": "Ermittler" },
-        "observant": { "lohn": 18.50, "bezeichnung": "Observant/Observation" },
-        "kaufhausdetektiv": { "lohn": 16.50, "bezeichnung": "Kaufhausdetektiv" }
-      }
+        "detektei_inhaber": {
+          "lohn": 42.5,
+          "bezeichnung": "Detektei-Inhaber",
+          "badge": "executive"
+        },
+        "chefermittler": {
+          "lohn": 32.5,
+          "bezeichnung": "Chefermittler",
+          "badge": "management"
+        },
+        "privatdetektiv": {
+          "lohn": 24.5,
+          "bezeichnung": "Privatdetektiv"
+        },
+        "ermittler": {
+          "lohn": 21.5,
+          "bezeichnung": "Ermittler"
+        },
+        "observant": {
+          "lohn": 18.5,
+          "bezeichnung": "Observant/Observation"
+        },
+        "kaufhausdetektiv": {
+          "lohn": 16.5,
+          "bezeichnung": "Kaufhausdetektiv"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/gewerbe-handwerk/gewerbliche-dienstleister/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "dolmetscher": {
       "name": "Dolmetscher & Uebersetzer",
       "stufen": {
-        "konferenzdolmetscher": { "lohn": 48.50, "bezeichnung": "Konferenzdolmetscher" },
-        "gerichtsdolmetscher": { "lohn": 42.50, "bezeichnung": "Gerichtsdolmetscher" },
-        "dolmetscher": { "lohn": 32.50, "bezeichnung": "Dolmetscher" },
-        "uebersetzer": { "lohn": 28.50, "bezeichnung": "Uebersetzer" },
-        "fachuebersetzer": { "lohn": 35.50, "bezeichnung": "Fachuebersetzer (Technik/Medizin/Recht)" },
-        "gebaerdensprache": { "lohn": 38.50, "bezeichnung": "Gebaerdensprachdolmetscher" }
-      }
+        "konferenzdolmetscher": {
+          "lohn": 48.5,
+          "bezeichnung": "Konferenzdolmetscher"
+        },
+        "gerichtsdolmetscher": {
+          "lohn": 42.5,
+          "bezeichnung": "Gerichtsdolmetscher"
+        },
+        "dolmetscher": {
+          "lohn": 32.5,
+          "bezeichnung": "Dolmetscher"
+        },
+        "uebersetzer": {
+          "lohn": 28.5,
+          "bezeichnung": "Uebersetzer"
+        },
+        "fachuebersetzer": {
+          "lohn": 35.5,
+          "bezeichnung": "Fachuebersetzer (Technik/Medizin/Recht)"
+        },
+        "gebaerdensprache": {
+          "lohn": 38.5,
+          "bezeichnung": "Gebaerdensprachdolmetscher"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/information-consulting/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "orthopaedietechnik": {
       "name": "Orthopaedietechnik & Sanitaetshaeuser",
       "stufen": {
-        "meister": { "lohn": 32.50, "bezeichnung": "Orthopaedietechnik-Meister", "badge": "management" },
-        "techniker": { "lohn": 24.50, "bezeichnung": "Orthopaedietechniker" },
-        "bandagist": { "lohn": 21.50, "bezeichnung": "Bandagist" },
-        "schuhmacher_orthopaedie": { "lohn": 22.50, "bezeichnung": "Orthopaedieschuhmacher" },
-        "verkaeufer": { "lohn": 16.50, "bezeichnung": "Verkaeufer Sanitaetshaus" },
-        "rehatechniker": { "lohn": 20.50, "bezeichnung": "Reha-Techniker" }
-      }
+        "meister": {
+          "lohn": 32.5,
+          "bezeichnung": "Orthopaedietechnik-Meister",
+          "badge": "management"
+        },
+        "techniker": {
+          "lohn": 24.5,
+          "bezeichnung": "Orthopaedietechniker"
+        },
+        "bandagist": {
+          "lohn": 21.5,
+          "bezeichnung": "Bandagist"
+        },
+        "schuhmacher_orthopaedie": {
+          "lohn": 22.5,
+          "bezeichnung": "Orthopaedieschuhmacher"
+        },
+        "verkaeufer": {
+          "lohn": 16.5,
+          "bezeichnung": "Verkaeufer Sanitaetshaus"
+        },
+        "rehatechniker": {
+          "lohn": 20.5,
+          "bezeichnung": "Reha-Techniker"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/gewerbe-handwerk/gesundheitsberufe/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "medizintechnik": {
       "name": "Medizintechnik",
       "stufen": {
-        "entwicklungsleiter": { "lohn": 52.50, "bezeichnung": "Entwicklungsleiter Medizintechnik", "badge": "executive" },
-        "produktmanager": { "lohn": 38.50, "bezeichnung": "Produktmanager", "badge": "management" },
-        "applikationsspezialist": { "lohn": 35.50, "bezeichnung": "Applikationsspezialist" },
-        "servicetechniker": { "lohn": 28.50, "bezeichnung": "Servicetechniker Medizintechnik" },
-        "qualitaetsmanager": { "lohn": 38.50, "bezeichnung": "Qualitaetsmanager" },
-        "vertrieb": { "lohn": 32.50, "bezeichnung": "Vertrieb Medizintechnik" }
-      }
+        "entwicklungsleiter": {
+          "lohn": 52.5,
+          "bezeichnung": "Entwicklungsleiter Medizintechnik",
+          "badge": "executive"
+        },
+        "produktmanager": {
+          "lohn": 38.5,
+          "bezeichnung": "Produktmanager",
+          "badge": "management"
+        },
+        "applikationsspezialist": {
+          "lohn": 35.5,
+          "bezeichnung": "Applikationsspezialist"
+        },
+        "servicetechniker": {
+          "lohn": 28.5,
+          "bezeichnung": "Servicetechniker Medizintechnik"
+        },
+        "qualitaetsmanager": {
+          "lohn": 38.5,
+          "bezeichnung": "Qualitaetsmanager"
+        },
+        "vertrieb": {
+          "lohn": 32.5,
+          "bezeichnung": "Vertrieb Medizintechnik"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/industrie/medizintechnik/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "tierhandel": {
       "name": "Tierhandel & Zoogeschaefte",
       "stufen": {
-        "filialleiter": { "lohn": 24.50, "bezeichnung": "Filialleiter Zoofachhandel", "badge": "management" },
-        "zoofachverkaeufer": { "lohn": 16.50, "bezeichnung": "Zoofachverkaeufer" },
-        "aquaristik": { "lohn": 17.50, "bezeichnung": "Aquaristik-Fachkraft" },
-        "tierpfleger": { "lohn": 15.50, "bezeichnung": "Tierpfleger Zoohandel" },
-        "kassier": { "lohn": 13.80, "bezeichnung": "Kassier/Verkauf" },
-        "lagerarbeiter": { "lohn": 14.50, "bezeichnung": "Lagerarbeiter Tierfutter" }
-      }
+        "filialleiter": {
+          "lohn": 24.5,
+          "bezeichnung": "Filialleiter Zoofachhandel",
+          "badge": "management"
+        },
+        "zoofachverkaeufer": {
+          "lohn": 16.5,
+          "bezeichnung": "Zoofachverkaeufer"
+        },
+        "aquaristik": {
+          "lohn": 17.5,
+          "bezeichnung": "Aquaristik-Fachkraft"
+        },
+        "tierpfleger": {
+          "lohn": 15.5,
+          "bezeichnung": "Tierpfleger Zoohandel"
+        },
+        "kassier": {
+          "lohn": 13.8,
+          "bezeichnung": "Kassier/Verkauf"
+        },
+        "lagerarbeiter": {
+          "lohn": 14.5,
+          "bezeichnung": "Lagerarbeiter Tierfutter"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/handel/zoofachhandel/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "buchhandel": {
       "name": "Buchhandel & Antiquariate",
       "stufen": {
-        "buchhändler_inhaber": { "lohn": 28.50, "bezeichnung": "Buchhaendler/Inhaber", "badge": "management" },
-        "filialleiter": { "lohn": 22.50, "bezeichnung": "Filialleiter Buchhandel", "badge": "management" },
-        "buchhaendler": { "lohn": 17.50, "bezeichnung": "Buchhaendler" },
-        "sortimenter": { "lohn": 16.50, "bezeichnung": "Sortimenter" },
-        "antiquar": { "lohn": 21.50, "bezeichnung": "Antiquar" },
-        "verkaeufer": { "lohn": 14.50, "bezeichnung": "Verkaeufer Buchhandel" }
-      }
+        "buchhändler_inhaber": {
+          "lohn": 28.5,
+          "bezeichnung": "Buchhaendler/Inhaber",
+          "badge": "management"
+        },
+        "filialleiter": {
+          "lohn": 22.5,
+          "bezeichnung": "Filialleiter Buchhandel",
+          "badge": "management"
+        },
+        "buchhaendler": {
+          "lohn": 17.5,
+          "bezeichnung": "Buchhaendler"
+        },
+        "sortimenter": {
+          "lohn": 16.5,
+          "bezeichnung": "Sortimenter"
+        },
+        "antiquar": {
+          "lohn": 21.5,
+          "bezeichnung": "Antiquar"
+        },
+        "verkaeufer": {
+          "lohn": 14.5,
+          "bezeichnung": "Verkaeufer Buchhandel"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/handel/buch-medienwirtschaft/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "vermessung": {
       "name": "Vermessung & Geodaesie",
       "stufen": {
-        "bueroinhaber": { "lohn": 48.50, "bezeichnung": "Vermessungsbuero Inhaber", "badge": "executive" },
-        "vermessungsingenieur": { "lohn": 35.50, "bezeichnung": "Vermessungsingenieur" },
-        "vermessungstechniker": { "lohn": 24.50, "bezeichnung": "Vermessungstechniker" },
-        "geomatiker": { "lohn": 22.50, "bezeichnung": "Geomatiker" },
-        "vermessungsgehilfe": { "lohn": 16.50, "bezeichnung": "Vermessungsgehilfe" },
-        "gis_spezialist": { "lohn": 28.50, "bezeichnung": "GIS-Spezialist" }
-      }
+        "bueroinhaber": {
+          "lohn": 48.5,
+          "bezeichnung": "Vermessungsbuero Inhaber",
+          "badge": "executive"
+        },
+        "vermessungsingenieur": {
+          "lohn": 35.5,
+          "bezeichnung": "Vermessungsingenieur"
+        },
+        "vermessungstechniker": {
+          "lohn": 24.5,
+          "bezeichnung": "Vermessungstechniker"
+        },
+        "geomatiker": {
+          "lohn": 22.5,
+          "bezeichnung": "Geomatiker"
+        },
+        "vermessungsgehilfe": {
+          "lohn": 16.5,
+          "bezeichnung": "Vermessungsgehilfe"
+        },
+        "gis_spezialist": {
+          "lohn": 28.5,
+          "bezeichnung": "GIS-Spezialist"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/information-consulting/ingenieurbüros/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "spedition": {
       "name": "Spedition & Internationale Logistik",
       "stufen": {
-        "niederlassungsleiter": { "lohn": 42.50, "bezeichnung": "Niederlassungsleiter", "badge": "executive" },
-        "abteilungsleiter": { "lohn": 32.50, "bezeichnung": "Abteilungsleiter Spedition", "badge": "management" },
-        "disponent": { "lohn": 22.50, "bezeichnung": "Disponent/Spediteur" },
-        "zolldeklarant": { "lohn": 24.50, "bezeichnung": "Zolldeklarant" },
-        "sachbearbeiter_export": { "lohn": 19.50, "bezeichnung": "Sachbearbeiter Export" },
-        "sachbearbeiter_import": { "lohn": 19.50, "bezeichnung": "Sachbearbeiter Import" },
-        "gefahrgutbeauftragter": { "lohn": 28.50, "bezeichnung": "Gefahrgutbeauftragter" }
-      }
+        "niederlassungsleiter": {
+          "lohn": 42.5,
+          "bezeichnung": "Niederlassungsleiter",
+          "badge": "executive"
+        },
+        "abteilungsleiter": {
+          "lohn": 32.5,
+          "bezeichnung": "Abteilungsleiter Spedition",
+          "badge": "management"
+        },
+        "disponent": {
+          "lohn": 22.5,
+          "bezeichnung": "Disponent/Spediteur"
+        },
+        "zolldeklarant": {
+          "lohn": 24.5,
+          "bezeichnung": "Zolldeklarant"
+        },
+        "sachbearbeiter_export": {
+          "lohn": 19.5,
+          "bezeichnung": "Sachbearbeiter Export"
+        },
+        "sachbearbeiter_import": {
+          "lohn": 19.5,
+          "bezeichnung": "Sachbearbeiter Import"
+        },
+        "gefahrgutbeauftragter": {
+          "lohn": 28.5,
+          "bezeichnung": "Gefahrgutbeauftragter"
+        }
+      },
+      "quelle": "https://www.wko.at/kollektivvertrag/kollektivvertrag-spedition-und-logistik-angestellte-2025",
+      "gueltig_ab": "2025-01-01"
     },
     "verpackung": {
       "name": "Verpackungsindustrie",
       "stufen": {
-        "produktionsleiter": { "lohn": 38.50, "bezeichnung": "Produktionsleiter", "badge": "executive" },
-        "schichtleiter": { "lohn": 24.50, "bezeichnung": "Schichtleiter", "badge": "management" },
-        "maschinenführer": { "lohn": 19.50, "bezeichnung": "Maschinenfuehrer Verpackung" },
-        "drucker_flexo": { "lohn": 21.50, "bezeichnung": "Flexodrucker" },
-        "stanzer": { "lohn": 18.50, "bezeichnung": "Stanzer" },
-        "verpackungshelfer": { "lohn": 14.50, "bezeichnung": "Verpackungshelfer" },
-        "qualitaetskontrolle": { "lohn": 20.50, "bezeichnung": "Qualitaetskontrolle" }
-      }
+        "produktionsleiter": {
+          "lohn": 38.5,
+          "bezeichnung": "Produktionsleiter",
+          "badge": "executive"
+        },
+        "schichtleiter": {
+          "lohn": 24.5,
+          "bezeichnung": "Schichtleiter",
+          "badge": "management"
+        },
+        "maschinenführer": {
+          "lohn": 19.5,
+          "bezeichnung": "Maschinenfuehrer Verpackung"
+        },
+        "drucker_flexo": {
+          "lohn": 21.5,
+          "bezeichnung": "Flexodrucker"
+        },
+        "stanzer": {
+          "lohn": 18.5,
+          "bezeichnung": "Stanzer"
+        },
+        "verpackungshelfer": {
+          "lohn": 14.5,
+          "bezeichnung": "Verpackungshelfer"
+        },
+        "qualitaetskontrolle": {
+          "lohn": 20.5,
+          "bezeichnung": "Qualitaetskontrolle"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/industrie/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "moebel": {
       "name": "Moebelindustrie & Kuechenstudio",
       "stufen": {
-        "produktionsleiter": { "lohn": 38.50, "bezeichnung": "Produktionsleiter Moebel", "badge": "executive" },
-        "kuechenplaner": { "lohn": 24.50, "bezeichnung": "Kuechenplaner" },
-        "moebeldesigner": { "lohn": 28.50, "bezeichnung": "Moebeldesigner" },
-        "moebelmonteur": { "lohn": 18.50, "bezeichnung": "Moebelmonteur" },
-        "polsterer": { "lohn": 19.50, "bezeichnung": "Polsterer" },
-        "verkaeufer_moebel": { "lohn": 16.50, "bezeichnung": "Moebelverkaeufer" },
-        "lagerarbeiter": { "lohn": 15.50, "bezeichnung": "Lagerarbeiter Moebel" },
-        "lieferfahrer": { "lohn": 16.50, "bezeichnung": "Moebellieferant/Fahrer" }
-      }
+        "produktionsleiter": {
+          "lohn": 38.5,
+          "bezeichnung": "Produktionsleiter Moebel",
+          "badge": "executive"
+        },
+        "kuechenplaner": {
+          "lohn": 24.5,
+          "bezeichnung": "Kuechenplaner"
+        },
+        "moebeldesigner": {
+          "lohn": 28.5,
+          "bezeichnung": "Moebeldesigner"
+        },
+        "moebelmonteur": {
+          "lohn": 18.5,
+          "bezeichnung": "Moebelmonteur"
+        },
+        "polsterer": {
+          "lohn": 19.5,
+          "bezeichnung": "Polsterer"
+        },
+        "verkaeufer_moebel": {
+          "lohn": 16.5,
+          "bezeichnung": "Moebelverkaeufer"
+        },
+        "lagerarbeiter": {
+          "lohn": 15.5,
+          "bezeichnung": "Lagerarbeiter Moebel"
+        },
+        "lieferfahrer": {
+          "lohn": 16.5,
+          "bezeichnung": "Moebellieferant/Fahrer"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/industrie/holzindustrie/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "schuhindustrie": {
       "name": "Schuhindustrie & Schuhmacher",
       "stufen": {
-        "schuhmachermeister": { "lohn": 26.50, "bezeichnung": "Schuhmachermeister", "badge": "management" },
-        "schuhmacher": { "lohn": 18.50, "bezeichnung": "Schuhmacher" },
-        "orthopaedie_schuhtechniker": { "lohn": 24.50, "bezeichnung": "Orthopaedieschuhtechniker" },
-        "schuhverkaeufer": { "lohn": 15.50, "bezeichnung": "Schuhverkaeufer" },
-        "reparateur": { "lohn": 16.50, "bezeichnung": "Schuhreparateur" }
-      }
+        "schuhmachermeister": {
+          "lohn": 26.5,
+          "bezeichnung": "Schuhmachermeister",
+          "badge": "management"
+        },
+        "schuhmacher": {
+          "lohn": 18.5,
+          "bezeichnung": "Schuhmacher"
+        },
+        "orthopaedie_schuhtechniker": {
+          "lohn": 24.5,
+          "bezeichnung": "Orthopaedieschuhtechniker"
+        },
+        "schuhverkaeufer": {
+          "lohn": 15.5,
+          "bezeichnung": "Schuhverkaeufer"
+        },
+        "reparateur": {
+          "lohn": 16.5,
+          "bezeichnung": "Schuhreparateur"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/industrie/textil-bekleidung-leder/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "lederware": {
       "name": "Lederwarenindustrie & Sattler",
       "stufen": {
-        "sattlermeister": { "lohn": 28.50, "bezeichnung": "Sattlermeister", "badge": "management" },
-        "sattler": { "lohn": 20.50, "bezeichnung": "Sattler" },
-        "ledertechniker": { "lohn": 22.50, "bezeichnung": "Ledertechniker" },
-        "taschnerei": { "lohn": 18.50, "bezeichnung": "Taschner/Taschenmacher" },
-        "naeher": { "lohn": 15.50, "bezeichnung": "Naeher Lederwaren" }
-      }
+        "sattlermeister": {
+          "lohn": 28.5,
+          "bezeichnung": "Sattlermeister",
+          "badge": "management"
+        },
+        "sattler": {
+          "lohn": 20.5,
+          "bezeichnung": "Sattler"
+        },
+        "ledertechniker": {
+          "lohn": 22.5,
+          "bezeichnung": "Ledertechniker"
+        },
+        "taschnerei": {
+          "lohn": 18.5,
+          "bezeichnung": "Taschner/Taschenmacher"
+        },
+        "naeher": {
+          "lohn": 15.5,
+          "bezeichnung": "Naeher Lederwaren"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/industrie/textil-bekleidung-leder/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "kfz_handel": {
       "name": "Automobilhandel & Autohaeuser",
       "stufen": {
-        "geschaeftsfuehrer": { "lohn": 52.50, "bezeichnung": "Geschaeftsfuehrer Autohaus", "badge": "executive" },
-        "verkaufsleiter": { "lohn": 38.50, "bezeichnung": "Verkaufsleiter", "badge": "management" },
-        "automobilverkaeufer": { "lohn": 22.50, "bezeichnung": "Automobilverkaeufer", "info": "Plus Provision" },
-        "serviceberater": { "lohn": 21.50, "bezeichnung": "Serviceberater" },
-        "fahrzeugaufbereiter": { "lohn": 15.50, "bezeichnung": "Fahrzeugaufbereiter" },
-        "zulassungsdienst": { "lohn": 16.50, "bezeichnung": "Zulassungsdienst" },
-        "teileberater": { "lohn": 18.50, "bezeichnung": "Teile-/Ersatzteilberater" }
-      }
+        "geschaeftsfuehrer": {
+          "lohn": 52.5,
+          "bezeichnung": "Geschaeftsfuehrer Autohaus",
+          "badge": "executive"
+        },
+        "verkaufsleiter": {
+          "lohn": 38.5,
+          "bezeichnung": "Verkaufsleiter",
+          "badge": "management"
+        },
+        "automobilverkaeufer": {
+          "lohn": 22.5,
+          "bezeichnung": "Automobilverkaeufer",
+          "info": "Plus Provision"
+        },
+        "serviceberater": {
+          "lohn": 21.5,
+          "bezeichnung": "Serviceberater"
+        },
+        "fahrzeugaufbereiter": {
+          "lohn": 15.5,
+          "bezeichnung": "Fahrzeugaufbereiter"
+        },
+        "zulassungsdienst": {
+          "lohn": 16.5,
+          "bezeichnung": "Zulassungsdienst"
+        },
+        "teileberater": {
+          "lohn": 18.5,
+          "bezeichnung": "Teile-/Ersatzteilberater"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/handel/fahrzeughandel/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "fahrrad": {
       "name": "Fahrradbranche & E-Bikes",
       "stufen": {
-        "filialleiter": { "lohn": 26.50, "bezeichnung": "Filialleiter Fahrradgeschaeft", "badge": "management" },
-        "zweiradmechaniker": { "lohn": 19.50, "bezeichnung": "Zweiradmechaniker" },
-        "e_bike_spezialist": { "lohn": 21.50, "bezeichnung": "E-Bike Spezialist" },
-        "verkaeufer": { "lohn": 16.50, "bezeichnung": "Fahrradverkaeufer" },
-        "bikefitter": { "lohn": 22.50, "bezeichnung": "Bikefitter/Ergonomieberater" },
-        "werkstatthelfer": { "lohn": 14.50, "bezeichnung": "Werkstatthelfer" }
-      }
+        "filialleiter": {
+          "lohn": 26.5,
+          "bezeichnung": "Filialleiter Fahrradgeschaeft",
+          "badge": "management"
+        },
+        "zweiradmechaniker": {
+          "lohn": 19.5,
+          "bezeichnung": "Zweiradmechaniker"
+        },
+        "e_bike_spezialist": {
+          "lohn": 21.5,
+          "bezeichnung": "E-Bike Spezialist"
+        },
+        "verkaeufer": {
+          "lohn": 16.5,
+          "bezeichnung": "Fahrradverkaeufer"
+        },
+        "bikefitter": {
+          "lohn": 22.5,
+          "bezeichnung": "Bikefitter/Ergonomieberater"
+        },
+        "werkstatthelfer": {
+          "lohn": 14.5,
+          "bezeichnung": "Werkstatthelfer"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/handel/sport-spielwaren/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     },
     "fahrzeugvermietung": {
       "name": "Fahrzeugvermietung & Carsharing",
       "stufen": {
-        "stationsleiter": { "lohn": 26.50, "bezeichnung": "Stationsleiter", "badge": "management" },
-        "vermieter": { "lohn": 17.50, "bezeichnung": "Autovermieter" },
-        "fahrzeugpfleger": { "lohn": 14.50, "bezeichnung": "Fahrzeugpfleger/Reiniger" },
-        "ueberführer": { "lohn": 15.50, "bezeichnung": "Fahrzeugueberfuehrer" },
-        "kundendienst": { "lohn": 16.50, "bezeichnung": "Kundendienst Vermietung" },
-        "schadenssachbearbeiter": { "lohn": 19.50, "bezeichnung": "Schadenssachbearbeiter" }
-      }
+        "stationsleiter": {
+          "lohn": 26.5,
+          "bezeichnung": "Stationsleiter",
+          "badge": "management"
+        },
+        "vermieter": {
+          "lohn": 17.5,
+          "bezeichnung": "Autovermieter"
+        },
+        "fahrzeugpfleger": {
+          "lohn": 14.5,
+          "bezeichnung": "Fahrzeugpfleger/Reiniger"
+        },
+        "ueberführer": {
+          "lohn": 15.5,
+          "bezeichnung": "Fahrzeugueberfuehrer"
+        },
+        "kundendienst": {
+          "lohn": 16.5,
+          "bezeichnung": "Kundendienst Vermietung"
+        },
+        "schadenssachbearbeiter": {
+          "lohn": 19.5,
+          "bezeichnung": "Schadenssachbearbeiter"
+        }
+      },
+      "quelle": "https://www.wko.at/oe/gewerbe-handwerk/fahrzeugtechnik/kollektivvertrag",
+      "gueltig_ab": "2025-01-01"
     }
   }
 }
