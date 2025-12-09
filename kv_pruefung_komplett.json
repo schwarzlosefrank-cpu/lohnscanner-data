@@ -1,0 +1,798 @@
+{
+  "meta": {
+    "name": "KV-Pruefungssystem - Rechtlich geprueft",
+    "version": "2025.12.002",
+    "erstellt": "2025-12-02",
+    "hinweis": "Alle Texte basieren auf Gesetzen und OGH-Rechtsprechung. Keine eigenen Behauptungen."
+  },
+
+  "rechtsgrundlagen": {
+    "buag": {
+      "name": "BUAG - Bauarbeiter-Urlaubs- und Abfertigungsgesetz",
+      "paragraf": "§ 2 BUAG",
+      "zitat": "Der Geltungsbereich des BUAG knuepft nicht an der Gewerbeberechtigung, sondern an der Betriebsart - somit an der tatsaechlichen Taetigkeit - an.",
+      "quelle": "OGH-Rechtsprechung / DRdA"
+    },
+    "aueg_10": {
+      "name": "AUeG § 10 - Ansprueche der Arbeitskraft",
+      "paragraf": "§ 10 Abs. 1 AUeG",
+      "zitat": "Bei der Beurteilung der Angemessenheit ist fuer die Dauer der Ueberlassung auf das im Beschaeftigerbetrieb vergleichbaren Arbeitnehmern fuer vergleichbare Taetigkeiten zu zahlende kollektivvertragliche Entgelt Bedacht zu nehmen.",
+      "quelle": "Gesetzestext"
+    },
+    "aueg_4": {
+      "name": "AUeG § 4 - Begriffsbestimmungen",
+      "paragraf": "§ 4 Abs. 2 AUeG",
+      "zitat": "Arbeitskraefteueberlassung liegt insbesondere auch vor, wenn Arbeitskraefte ihre Arbeitsleistung im Betrieb des Werkbestellers in Erfuellung von Werkvertraegen erbringen, aber kein unterscheidbares Werk herstellen, nicht vorwiegend mit eigenem Material arbeiten, organisatorisch eingegliedert sind oder keine Erfolgshaftung besteht.",
+      "quelle": "Gesetzestext"
+    },
+    "ogh_aueg": {
+      "name": "OGH zur Arbeitskraefteueberlassung",
+      "aktenzeichen": "OGH 8 ObA 63/20b",
+      "zitat": "Nach staendiger Rechtsprechung des OGH liegt eine Arbeitskraefteueberlassung bereits dann vor, wenn auch nur ein einziger der Tatbestaende erfuellt ist.",
+      "quelle": "OGH 23.10.2020"
+    },
+    "ogh_bau_1": {
+      "name": "OGH zum Arbeitsort",
+      "aktenzeichen": "OGH 9 ObA 327/89",
+      "zitat": "Ein Kraftfahrer hat nicht dort seinen staendigen Arbeitsort, wo er mit der Durchfuehrung der ihm aufgetragenen Transporte regelmaessig beginnt.",
+      "quelle": "OGH"
+    },
+    "ogh_bau_2": {
+      "name": "OGH zur Arbeitspflicht",
+      "aktenzeichen": "OGH 9 ObA 119/08f",
+      "zitat": "Zum wesentlichen Inhalt der Arbeitspflicht gehoert der Ort, an dem die Leistung zu erbringen ist.",
+      "quelle": "OGH 24.02.2009"
+    },
+    "entsendeplattform": {
+      "name": "Entsendeplattform.at",
+      "quelle": "BMF/BMAW",
+      "zitat": "Ob Arbeiten als Bauarbeiten anzusehen sind, richtet sich nicht nach der Gewerbeberechtigung, sondern nach der tatsaechlich in Oesterreich ausgeuebten Taetigkeit."
+    },
+    "wko_grundsatz": {
+      "name": "WKO - Grundsatz KV-Zuordnung",
+      "zitat": "Welcher Kollektivvertrag im Einzelfall anzuwenden ist, bestimmt sich in erster Linie nach der Gewerbeberechtigung des Unternehmens. Die fachliche Taetigkeit des Arbeitnehmers ist nicht ausschlaggebend.",
+      "quelle": "WKO FAQ Arbeitsvertragsrecht"
+    }
+  },
+
+  "pruefung_typen": {
+    "A_BAU": {
+      "name": "Baubereich - Tatsaechliche Taetigkeit",
+      "beschreibung": "Im Baubereich gilt: Die tatsaechliche Taetigkeit entscheidet, nicht die Gewerbeberechtigung",
+      "rechtsgrundlagen": ["buag", "ogh_bau_1", "ogh_bau_2", "entsendeplattform"],
+      "farbe": "#f97316"
+    },
+    "A_LEIH": {
+      "name": "Leiharbeit - Beschaeftiger-KV",
+      "beschreibung": "Leiharbeiter haben Anspruch auf den KV-Lohn des Beschaeftigerbetriebs",
+      "rechtsgrundlagen": ["aueg_10"],
+      "farbe": "#3b82f6"
+    },
+    "B_SCHEIN": {
+      "name": "Scheinselbstaendigkeit pruefbar",
+      "beschreibung": "Bei bestimmten Merkmalen koennte ein echtes Arbeitsverhaeltnis vorliegen",
+      "rechtsgrundlagen": [],
+      "farbe": "#ef4444"
+    },
+    "C_AUEG": {
+      "name": "Verdeckte Arbeitskraefteueberlassung moeglich",
+      "beschreibung": "Bei Erfuellung der Kriterien des § 4 AUeG koennte § 10 AUeG gelten",
+      "rechtsgrundlagen": ["wko_grundsatz", "aueg_4", "ogh_aueg"],
+      "farbe": "#8b5cf6"
+    },
+    "KEINE": {
+      "name": "Kein besonderer Hinweis",
+      "beschreibung": "Normale KV-Zuordnung nach Gewerbeberechtigung",
+      "rechtsgrundlagen": [],
+      "farbe": "#6b7280"
+    }
+  },
+
+  "meldestellen": {
+    "ak": {"name": "Arbeiterkammer", "tel": "0800 22 55 22", "info": "kostenlos"},
+    "buak": {"name": "BUAK", "tel": "0579 579 5000", "info": "Bau-spezifisch"},
+    "anonym": {"name": "Anonyme Meldestelle", "tel": "0800 201 611", "info": "24/7, kostenlos, anonym"},
+    "finanzpolizei": {"name": "Finanzpolizei", "tel": "050 233 703", "info": "Lohn- und Sozialdumping"},
+    "oegk": {"name": "OeGK", "tel": "050 766-0", "info": "Sozialversicherung"}
+  },
+
+  "berufe": {
+
+    "bau_kipper_transport": {
+      "bezeichnung": "LKW-Fahrer Kipper/Schuettgut",
+      "branche": "transport",
+      "aktueller_kv": {"name": "Transport-KV", "lohn": 11.81},
+      "pruefung_typ": "A_BAU",
+      "pruefung": {
+        "chef_branche": "Transport-Firma",
+        "du_machst": "Faehrst taeglich Schotter, Aushub, Kies oder Asphalt",
+        "arbeitsort": "Zu und auf Baustellen",
+        "moeglicher_kv": {"name": "Bau-KV", "lohn": 14.58},
+        "bedingung": "Bei regelmaessiger Taetigkeit auf Baustellen (laut BUAK-Praxis mehr als 3 Tage pro Woche)",
+        "buak_pflicht": true,
+        "zusatz_vorteile": ["13./14. Gehalt ueber BUAK", "Mehr Urlaubstage", "50% Ueberstundenzuschlag", "Schlechtwetter-Entschaedigung"]
+      }
+    },
+
+    "bau_kipper_mit_kran": {
+      "bezeichnung": "LKW-Fahrer Kipper mit Ladekran",
+      "branche": "transport",
+      "aktueller_kv": {"name": "Transport-KV", "lohn": 11.81},
+      "pruefung_typ": "A_BAU",
+      "pruefung": {
+        "chef_branche": "Transport-Firma",
+        "du_machst": "Transportierst UND versetzt Baumaterial mit Ladekran",
+        "arbeitsort": "Auf Baustellen mit aktiver Bautaetigkeit",
+        "moeglicher_kv": {"name": "Bau-KV Facharbeiter", "lohn": 16.50},
+        "bedingung": "Bei aktiver Bautaetigkeit (Kranarbeit = hoehere Einstufung moeglich)",
+        "buak_pflicht": true,
+        "zusatz_vorteile": ["13./14. Gehalt ueber BUAK", "Mehr Urlaubstage", "50% Ueberstundenzuschlag"]
+      }
+    },
+
+    "bau_betonmischer": {
+      "bezeichnung": "Betonmischer-Fahrer",
+      "branche": "transport",
+      "aktueller_kv": {"name": "Transport-KV", "lohn": 11.81},
+      "pruefung_typ": "A_BAU",
+      "pruefung": {
+        "chef_branche": "Transport-Firma oder Betonwerk",
+        "du_machst": "Lieferst Frischbeton direkt auf Baustellen",
+        "arbeitsort": "Auf Baustellen (pumpen, verteilen)",
+        "moeglicher_kv": {"name": "Bau-KV", "lohn": 14.58},
+        "bedingung": "Bei regelmaessiger Baustellentaetigkeit",
+        "buak_pflicht": true,
+        "zusatz_vorteile": ["13./14. Gehalt ueber BUAK", "Mehr Urlaubstage"]
+      }
+    },
+
+    "bau_tieflader": {
+      "bezeichnung": "Tieflader-Fahrer (Baumaschinen)",
+      "branche": "transport",
+      "aktueller_kv": {"name": "Transport-KV", "lohn": 11.81},
+      "pruefung_typ": "A_BAU",
+      "pruefung": {
+        "chef_branche": "Schwertransport-Firma",
+        "du_machst": "Transportierst Bagger, Raupen, Walzen, Baumaschinen",
+        "arbeitsort": "Zu Baustellen (ueberwiegend Baustellenverkehr)",
+        "moeglicher_kv": {"name": "Bau-KV", "lohn": 14.58},
+        "bedingung": "Bei ueberwiegendem Baustellenbezug",
+        "buak_pflicht": true,
+        "zusatz_vorteile": ["13./14. Gehalt ueber BUAK", "Mehr Urlaubstage"]
+      }
+    },
+
+    "bau_asphaltkocher": {
+      "bezeichnung": "Asphaltkocher-/Thermofahrer",
+      "branche": "transport",
+      "aktueller_kv": {"name": "Transport-KV", "lohn": 11.81},
+      "pruefung_typ": "A_BAU",
+      "pruefung": {
+        "chef_branche": "Asphaltwerk oder Strassenbau-Zulieferer",
+        "du_machst": "Bringst heissen Asphalt zu Strassenbaustellen",
+        "arbeitsort": "Auf Strassenbaustellen",
+        "moeglicher_kv": {"name": "Bau-KV", "lohn": 14.58},
+        "bedingung": "Strassenbauarbeiten fallen unter BUAG",
+        "buak_pflicht": true,
+        "zusatz_vorteile": ["13./14. Gehalt ueber BUAK", "Schlechtwetter-Entschaedigung"]
+      }
+    },
+
+    "bau_kranfahrer_mobil": {
+      "bezeichnung": "Kranfahrer (Mobil-/LKW-Kran)",
+      "branche": "transport",
+      "aktueller_kv": {"name": "Transport-KV", "lohn": 11.81},
+      "pruefung_typ": "A_BAU",
+      "pruefung": {
+        "chef_branche": "Kranverleih oder Transport-Firma",
+        "du_machst": "Bedienst Kraene auf Baustellen, hebst Baumaterial",
+        "arbeitsort": "Auf Baustellen",
+        "moeglicher_kv": {"name": "Bau-KV Kranfahrer", "lohn": 20.80},
+        "bedingung": "Bei ueberwiegender Baustellentaetigkeit",
+        "buak_pflicht": true,
+        "zusatz_vorteile": ["13./14. Gehalt ueber BUAK", "Mehr Urlaubstage", "Hoehere Einstufung als Facharbeiter"]
+      }
+    },
+
+    "bau_silo_zement": {
+      "bezeichnung": "Silofahrer (Zement/Kalk)",
+      "branche": "transport",
+      "aktueller_kv": {"name": "Transport-KV", "lohn": 11.81},
+      "pruefung_typ": "A_BAU",
+      "pruefung": {
+        "chef_branche": "Transport-Firma oder Zementwerk",
+        "du_machst": "Lieferst Zement/Kalk direkt auf Baustellen",
+        "arbeitsort": "Zu Baustellen und Betonwerken",
+        "moeglicher_kv": {"name": "Bau-KV", "lohn": 14.58},
+        "bedingung": "Bei regelmaessigem Baustellenbezug",
+        "buak_pflicht": true,
+        "zusatz_vorteile": ["13./14. Gehalt ueber BUAK"]
+      }
+    },
+
+    "bau_elektriker_baustelle": {
+      "bezeichnung": "Elektriker auf Baustellen",
+      "branche": "elektro",
+      "aktueller_kv": {"name": "Elektro-Gewerbe-KV", "lohn": 14.20},
+      "pruefung_typ": "A_BAU",
+      "pruefung": {
+        "chef_branche": "Elektro-Firma (Gewerbe)",
+        "du_machst": "Arbeitest taeglich auf Grossbaustellen (Neubau, Rohbau)",
+        "arbeitsort": "Auf Baustellen",
+        "moeglicher_kv": {"name": "Bau-KV", "lohn": 16.44},
+        "bedingung": "Bei ueberwiegender Baustellentaetigkeit (mehr als 3 Tage/Woche)",
+        "buak_pflicht": true,
+        "zusatz_vorteile": ["13./14. Gehalt ueber BUAK", "50% Ueberstundenzuschlag"]
+      }
+    },
+
+    "bau_installateur_baustelle": {
+      "bezeichnung": "Installateur auf Baustellen",
+      "branche": "installateur",
+      "aktueller_kv": {"name": "Installateur-KV", "lohn": 14.50},
+      "pruefung_typ": "A_BAU",
+      "pruefung": {
+        "chef_branche": "Installateur-Betrieb (Gas/Wasser/Heizung)",
+        "du_machst": "Arbeitest auf Neubaustellen im Rohbau",
+        "arbeitsort": "Auf Baustellen",
+        "moeglicher_kv": {"name": "Bau-KV", "lohn": 16.44},
+        "bedingung": "Bei ueberwiegender Taetigkeit auf Neubaustellen",
+        "buak_pflicht": true,
+        "zusatz_vorteile": ["13./14. Gehalt ueber BUAK"]
+      }
+    },
+
+    "bau_maler_grossbaustelle": {
+      "bezeichnung": "Maler auf Grossbaustellen",
+      "branche": "maler",
+      "aktueller_kv": {"name": "Maler-KV", "lohn": 13.50},
+      "pruefung_typ": "A_BAU",
+      "pruefung": {
+        "chef_branche": "Maler-Betrieb",
+        "du_machst": "Arbeitest auf Grossbaustellen (Wohnanlagen, Gewerbebauten)",
+        "arbeitsort": "Auf Baustellen mit Helm und Sicherheitsschuhen",
+        "moeglicher_kv": {"name": "Bau-KV", "lohn": 16.44},
+        "bedingung": "Bei regelmaessiger Taetigkeit auf Grossbaustellen",
+        "buak_pflicht": true,
+        "zusatz_vorteile": ["13./14. Gehalt ueber BUAK"]
+      }
+    },
+
+    "bau_schlosser_baustelle": {
+      "bezeichnung": "Schlosser/Schweisser auf Baustellen",
+      "branche": "metall",
+      "aktueller_kv": {"name": "Metall-Gewerbe-KV", "lohn": 14.80},
+      "pruefung_typ": "A_BAU",
+      "pruefung": {
+        "chef_branche": "Metall-/Schlosserei-Betrieb",
+        "du_machst": "Schweisst auf Baustellen (Stahlbau, Gelaender, Konstruktionen)",
+        "arbeitsort": "Auf Baustellen",
+        "moeglicher_kv": {"name": "Bau-KV", "lohn": 16.44},
+        "bedingung": "Bei ueberwiegender Baustellentaetigkeit",
+        "buak_pflicht": true,
+        "zusatz_vorteile": ["13./14. Gehalt ueber BUAK"]
+      }
+    },
+
+    "bau_trockenbauer": {
+      "bezeichnung": "Trockenbaumonteur",
+      "branche": "bauhilfsgewerbe",
+      "aktueller_kv": {"name": "Bauhilfsgewerbe-KV", "lohn": 14.20},
+      "pruefung_typ": "A_BAU",
+      "pruefung": {
+        "chef_branche": "Trockenbau-Firma (oft Bauhilfsgewerbe)",
+        "du_machst": "Arbeitest ausschliesslich auf Baustellen",
+        "arbeitsort": "Auf Baustellen",
+        "moeglicher_kv": {"name": "Bau-KV", "lohn": 16.44},
+        "bedingung": "Trockenbauarbeiten auf Baustellen",
+        "buak_pflicht": true,
+        "zusatz_vorteile": ["13./14. Gehalt ueber BUAK"]
+      }
+    },
+
+    "bau_geruestbauer_leih": {
+      "bezeichnung": "Geruestbauer (ueber Leihfirma)",
+      "branche": "leiharbeit",
+      "aktueller_kv": {"name": "Leiharbeit-KV", "lohn": 12.50},
+      "pruefung_typ": "A_BAU",
+      "pruefung": {
+        "chef_branche": "Leiharbeitsfirma",
+        "du_machst": "Baust Gerueste auf Baustellen auf",
+        "arbeitsort": "Auf Baustellen",
+        "moeglicher_kv": {"name": "Bau-KV", "lohn": 17.50},
+        "bedingung": "Bei Ueberlassung zu Bautaetigkeiten gilt AUeG + BUAG",
+        "buak_pflicht": true,
+        "zusatz_vorteile": ["13./14. Gehalt ueber BUAK", "Mehr Urlaubstage", "Schlechtwetter-Entschaedigung"]
+      }
+    },
+
+    "bau_zimmerer_leih": {
+      "bezeichnung": "Zimmerer (ueber Leihfirma)",
+      "branche": "leiharbeit",
+      "aktueller_kv": {"name": "Leiharbeit-KV", "lohn": 12.50},
+      "pruefung_typ": "A_BAU",
+      "pruefung": {
+        "chef_branche": "Leiharbeitsfirma",
+        "du_machst": "Arbeitest als Zimmerer auf Baustellen",
+        "arbeitsort": "Auf Baustellen",
+        "moeglicher_kv": {"name": "Bau-KV Facharbeiter", "lohn": 17.50},
+        "bedingung": "Bei Ueberlassung zu Bautaetigkeiten gilt AUeG + BUAG",
+        "buak_pflicht": true,
+        "zusatz_vorteile": ["13./14. Gehalt ueber BUAK", "Facharbeiter-Einstufung"]
+      }
+    },
+
+    "bau_estrichleger": {
+      "bezeichnung": "Estrichleger",
+      "branche": "bauhilfsgewerbe",
+      "aktueller_kv": {"name": "Bauhilfsgewerbe-KV", "lohn": 14.20},
+      "pruefung_typ": "A_BAU",
+      "pruefung": {
+        "chef_branche": "Estrich-Firma",
+        "du_machst": "Verlegst Estrich auf Baustellen",
+        "arbeitsort": "Auf Baustellen",
+        "moeglicher_kv": {"name": "Bau-KV", "lohn": 16.44},
+        "bedingung": "Estricharbeiten auf Baustellen",
+        "buak_pflicht": true,
+        "zusatz_vorteile": ["13./14. Gehalt ueber BUAK"]
+      }
+    },
+
+    "bau_baumaschinenfuehrer_verleih": {
+      "bezeichnung": "Baumaschinenführer (Verleih)",
+      "branche": "verleih",
+      "aktueller_kv": {"name": "Verleih-KV", "lohn": 13.50},
+      "pruefung_typ": "A_BAU",
+      "pruefung": {
+        "chef_branche": "Baumaschinenverleih mit Bedienungspersonal",
+        "du_machst": "Bedienst Bagger, Radlader etc. auf Baustellen",
+        "arbeitsort": "Auf Baustellen",
+        "moeglicher_kv": {"name": "Bau-KV Maschinenführer", "lohn": 19.29},
+        "bedingung": "Verleiher von Baumaschinen MIT Personal fallen unter BUAG",
+        "buak_pflicht": true,
+        "zusatz_vorteile": ["13./14. Gehalt ueber BUAK", "Hoehere Einstufung"]
+      }
+    },
+
+    "leih_produktion": {
+      "bezeichnung": "Leiharbeiter Produktion/Fabrik",
+      "branche": "leiharbeit",
+      "aktueller_kv": {"name": "Leiharbeit-KV", "lohn": 12.50},
+      "pruefung_typ": "A_LEIH",
+      "pruefung": {
+        "chef_branche": "Leiharbeitsfirma",
+        "du_machst": "Arbeitest in einer Fabrik (z.B. BMW, Magna, Voest)",
+        "arbeitsort": "Im Industriebetrieb",
+        "moeglicher_kv": {"name": "Industrie-KV (variiert)", "lohn": 15.50},
+        "bedingung": "§ 10 AUeG: Anspruch auf KV-Entgelt des Beschaeftigerbetriebs"
+      }
+    },
+
+    "leih_handel": {
+      "bezeichnung": "Leiharbeiter im Handel",
+      "branche": "leiharbeit",
+      "aktueller_kv": {"name": "Leiharbeit-KV", "lohn": 12.50},
+      "pruefung_typ": "A_LEIH",
+      "pruefung": {
+        "chef_branche": "Leiharbeitsfirma",
+        "du_machst": "Arbeitest im Supermarkt, Lager, Logistik",
+        "arbeitsort": "Im Handelsbetrieb",
+        "moeglicher_kv": {"name": "Handel-KV", "lohn": 13.80},
+        "bedingung": "§ 10 AUeG: Anspruch auf KV-Entgelt des Beschaeftigerbetriebs"
+      }
+    },
+
+    "leih_gastro": {
+      "bezeichnung": "Leiharbeiter in Gastronomie",
+      "branche": "leiharbeit",
+      "aktueller_kv": {"name": "Leiharbeit-KV", "lohn": 12.50},
+      "pruefung_typ": "A_LEIH",
+      "pruefung": {
+        "chef_branche": "Leiharbeitsfirma",
+        "du_machst": "Arbeitest im Hotel oder Restaurant",
+        "arbeitsort": "Im Gastgewerbebetrieb",
+        "moeglicher_kv": {"name": "Gastgewerbe-KV", "lohn": 13.20},
+        "bedingung": "§ 10 AUeG: Anspruch auf KV-Entgelt des Beschaeftigerbetriebs"
+      }
+    },
+
+    "leih_buero": {
+      "bezeichnung": "Leiharbeiter Buero/Verwaltung",
+      "branche": "leiharbeit",
+      "aktueller_kv": {"name": "Angestellte Dienstleistung-KV", "lohn": 13.80},
+      "pruefung_typ": "A_LEIH",
+      "pruefung": {
+        "chef_branche": "Leiharbeitsfirma (Angestellte)",
+        "du_machst": "Arbeitest dauerhaft in einem Unternehmen",
+        "arbeitsort": "Im Beschaeftigerbetrieb",
+        "moeglicher_kv": {"name": "KV des Beschaeftigers", "lohn": 0},
+        "bedingung": "§ 10 AUeG: Anspruch auf KV-Entgelt des Beschaeftigerbetriebs"
+      }
+    },
+
+    "schein_kurierfahrer": {
+      "bezeichnung": "Kurierfahrer (Foodora, Mjam, etc.)",
+      "branche": "plattform",
+      "aktueller_kv": {"name": "Oft KEINER (Freier DN)", "lohn": 0},
+      "pruefung_typ": "B_SCHEIN",
+      "pruefung": {
+        "offizieller_status": "Freier Dienstnehmer",
+        "realitaet": "Fixe Schichten, App-Kontrolle, keine Freiheit",
+        "wenn_arbeitnehmer": {"name": "Transport-KV + alle Rechte", "lohn": 13.80},
+        "kriterien": [
+          "Haben Sie fixe Arbeitszeiten/Schichten?",
+          "Werden Sie von der App ueberwacht/kontrolliert?",
+          "Haben Sie KEINE eigenen Kunden?",
+          "Koennen Sie Auftraege NICHT frei ablehnen?",
+          "Tragen Sie KEIN echtes unternehmerisches Risiko?"
+        ]
+      }
+    },
+
+    "schein_uber_bolt": {
+      "bezeichnung": "Uber/Bolt-Fahrer",
+      "branche": "plattform",
+      "aktueller_kv": {"name": "Oft KEINER (Selbstaendig)", "lohn": 0},
+      "pruefung_typ": "B_SCHEIN",
+      "pruefung": {
+        "offizieller_status": "Selbstaendig",
+        "realitaet": "Von App gesteuert, Preise vorgegeben",
+        "wenn_arbeitnehmer": {"name": "Transport/Taxi-KV + alle Rechte", "lohn": 13.80},
+        "kriterien": [
+          "Werden Preise von der Plattform vorgegeben?",
+          "Werden Sie von der App gesteuert/bewertet?",
+          "Haben Sie KEINE eigene Kundenbasis?",
+          "Koennen Sie die Bedingungen NICHT verhandeln?",
+          "Sind Sie wirtschaftlich von der Plattform abhaengig?"
+        ]
+      }
+    },
+
+    "schein_friseur_stuhlmiete": {
+      "bezeichnung": "Friseur (Stuhlmiete)",
+      "branche": "friseur",
+      "aktueller_kv": {"name": "Oft KEINER (Selbstaendig)", "lohn": 0},
+      "pruefung_typ": "B_SCHEIN",
+      "pruefung": {
+        "offizieller_status": "Selbstaendig mit Stuhlmiete",
+        "realitaet": "Arbeitet nach Vorgaben des Salonbesitzers",
+        "wenn_arbeitnehmer": {"name": "Friseur-KV + alle Rechte", "lohn": 12.50},
+        "kriterien": [
+          "Muessen Sie die Oeffnungszeiten des Salons einhalten?",
+          "Werden Preise vom Salonbesitzer vorgegeben?",
+          "Haben Sie KEINE eigenen Kunden (nur Laufkundschaft)?",
+          "Erhalten Sie Weisungen vom Salonbesitzer?",
+          "Nutzen Sie Material des Salons?"
+        ]
+      }
+    },
+
+    "schein_fitnesstrainer": {
+      "bezeichnung": "Fitnesstrainer (Honorarbasis)",
+      "branche": "sport",
+      "aktueller_kv": {"name": "Oft KEINER (Honorar)", "lohn": 0},
+      "pruefung_typ": "B_SCHEIN",
+      "pruefung": {
+        "offizieller_status": "Honorarbasis/Freier Dienstnehmer",
+        "realitaet": "Fixe Zeiten, nur ein Studio, eingegliedert",
+        "wenn_arbeitnehmer": {"name": "Entsprechender KV + alle Rechte", "lohn": 0},
+        "kriterien": [
+          "Arbeiten Sie NUR in einem Fitnessstudio?",
+          "Haben Sie fixe Arbeitszeiten?",
+          "Haben Sie KEINE eigenen Kunden?",
+          "Tragen Sie die Kleidung des Studios?",
+          "Erhalten Sie Weisungen vom Studio?"
+        ]
+      }
+    },
+
+    "schein_paketzusteller": {
+      "bezeichnung": "Paketzusteller (Sub-Unternehmer)",
+      "branche": "transport",
+      "aktueller_kv": {"name": "Oft KEINER (Sub)", "lohn": 0},
+      "pruefung_typ": "B_SCHEIN",
+      "pruefung": {
+        "offizieller_status": "Sub-Unternehmer",
+        "realitaet": "Traegt Uniform des Paketdienstes, faehrt deren Route",
+        "wenn_arbeitnehmer": {"name": "Transport-KV + alle Rechte", "lohn": 13.80},
+        "kriterien": [
+          "Tragen Sie die Uniform des Paketdienstes?",
+          "Wird Ihre Route vorgegeben?",
+          "Werden Sie vom Paketdienst kontrolliert?",
+          "Haben Sie NUR diesen einen Auftraggeber?",
+          "Koennten Sie theoretisch vertreten werden - duerfen es aber nicht?"
+        ]
+      }
+    },
+
+    "schein_kosmetiker": {
+      "bezeichnung": "Kosmetiker/Masseur (im fremden Studio)",
+      "branche": "kosmetik",
+      "aktueller_kv": {"name": "Oft KEINER (Freier DN)", "lohn": 0},
+      "pruefung_typ": "B_SCHEIN",
+      "pruefung": {
+        "offizieller_status": "Freier Dienstnehmer",
+        "realitaet": "Fixe Zeiten, keine eigenen Kunden",
+        "wenn_arbeitnehmer": {"name": "Entsprechender KV + alle Rechte", "lohn": 0},
+        "kriterien": [
+          "Haben Sie fixe Arbeitszeiten?",
+          "Haben Sie KEINE eigenen Kunden?",
+          "Nutzen Sie Material/Raeume des Studios?",
+          "Erhalten Sie Weisungen?",
+          "Sind Sie in den Betrieb eingegliedert?"
+        ]
+      }
+    },
+
+    "aueg_reinigung_hotel": {
+      "bezeichnung": "Reinigungskraft im Hotel",
+      "branche": "reinigung",
+      "aktueller_kv": {"name": "Reinigung-KV", "lohn": 11.55},
+      "pruefung_typ": "C_AUEG",
+      "pruefung": {
+        "chef_branche": "Reinigungsfirma",
+        "du_machst": "Putzt jeden Tag im selben Hotel",
+        "arbeitsort": "Im Hotel (dauerhaft)",
+        "beschaeftiger_kv": {"name": "Gastgewerbe-KV", "lohn": 13.20},
+        "aueg_kriterien": [
+          "Stellen Sie KEIN eigenes, unterscheidbares 'Werk' her?",
+          "Arbeiten Sie mit Material/Werkzeug des Hotels?",
+          "Sind Sie in den Hotelbetrieb eingegliedert?",
+          "Erhalten Sie Weisungen vom Hotel (nicht nur von Ihrer Firma)?"
+        ]
+      }
+    },
+
+    "aueg_housekeeping": {
+      "bezeichnung": "Housekeeping (Zimmerreinigung)",
+      "branche": "reinigung",
+      "aktueller_kv": {"name": "Reinigung-KV", "lohn": 11.55},
+      "pruefung_typ": "C_AUEG",
+      "pruefung": {
+        "chef_branche": "Dienstleistungsfirma",
+        "du_machst": "Macht Zimmer im Hotel sauber - taeglich, dasselbe Hotel",
+        "arbeitsort": "Im Hotel (dauerhaft)",
+        "beschaeftiger_kv": {"name": "Gastgewerbe-KV", "lohn": 13.20},
+        "aueg_kriterien": [
+          "Stellen Sie KEIN eigenes 'Werk' her?",
+          "Arbeiten Sie mit Material des Hotels?",
+          "Sind Sie in den Hotelbetrieb eingegliedert?",
+          "Erhalten Sie Weisungen vom Hotelpersonal?"
+        ]
+      }
+    },
+
+    "aueg_reinigung_krankenhaus": {
+      "bezeichnung": "Reinigung im Krankenhaus",
+      "branche": "reinigung",
+      "aktueller_kv": {"name": "Reinigung-KV", "lohn": 11.55},
+      "pruefung_typ": "C_AUEG",
+      "pruefung": {
+        "chef_branche": "Reinigungsfirma",
+        "du_machst": "Putzt jeden Tag im Krankenhaus (mit Spezial-Schulung)",
+        "arbeitsort": "Im Krankenhaus (dauerhaft)",
+        "beschaeftiger_kv": {"name": "Sozialwirtschaft-KV", "lohn": 13.80},
+        "aueg_kriterien": [
+          "Stellen Sie KEIN eigenes 'Werk' her?",
+          "Nutzen Sie Hygiene-Material des Krankenhauses?",
+          "Sind Sie in den Krankenhausbetrieb eingegliedert?",
+          "Erhalten Sie Weisungen vom Krankenhaus-Personal?"
+        ]
+      }
+    },
+
+    "aueg_security_fabrik": {
+      "bezeichnung": "Security in Fabrik/Betrieb",
+      "branche": "security",
+      "aktueller_kv": {"name": "Bewachung-KV", "lohn": 11.80},
+      "pruefung_typ": "C_AUEG",
+      "pruefung": {
+        "chef_branche": "Security-Firma",
+        "du_machst": "Arbeitest dauerhaft an einem Standort (Fabrik, Zentrale)",
+        "arbeitsort": "Im Betrieb (dauerhaft)",
+        "beschaeftiger_kv": {"name": "Industrie-KV (variiert)", "lohn": 15.00},
+        "aueg_kriterien": [
+          "Stellen Sie KEIN eigenes 'Werk' her?",
+          "Nutzen Sie Material/Systeme des Betriebs?",
+          "Sind Sie in den Betrieb eingegliedert?",
+          "Erhalten Sie Weisungen vom Betrieb?"
+        ]
+      }
+    },
+
+    "aueg_security_hotel": {
+      "bezeichnung": "Security im Hotel",
+      "branche": "security",
+      "aktueller_kv": {"name": "Bewachung-KV", "lohn": 11.80},
+      "pruefung_typ": "C_AUEG",
+      "pruefung": {
+        "chef_branche": "Security-Firma",
+        "du_machst": "Arbeitest dauerhaft im selben Hotel",
+        "arbeitsort": "Im Hotel (dauerhaft)",
+        "beschaeftiger_kv": {"name": "Gastgewerbe-KV", "lohn": 13.20},
+        "aueg_kriterien": [
+          "Stellen Sie KEIN eigenes 'Werk' her?",
+          "Sind Sie in den Hotelbetrieb eingegliedert?",
+          "Erhalten Sie Weisungen vom Hotel?",
+          "Tragen Sie Hotel-Uniform statt Security-Uniform?"
+        ]
+      }
+    },
+
+    "aueg_hausmeister": {
+      "bezeichnung": "Hausmeister (ueber Fremdfirma)",
+      "branche": "facility",
+      "aktueller_kv": {"name": "Facility-KV", "lohn": 12.00},
+      "pruefung_typ": "C_AUEG",
+      "pruefung": {
+        "chef_branche": "Facility-Management-Firma",
+        "du_machst": "Arbeitest immer im selben Gebaeude/Komplex",
+        "arbeitsort": "Im Gebaeude (dauerhaft)",
+        "beschaeftiger_kv": {"name": "KV des Gebaeude-Eigentuemers", "lohn": 0},
+        "aueg_kriterien": [
+          "Stellen Sie KEIN eigenes 'Werk' her?",
+          "Nutzen Sie Material des Gebaeudes?",
+          "Sind Sie in den Gebaeudebetrieb eingegliedert?",
+          "Erhalten Sie Weisungen von der Hausverwaltung?"
+        ]
+      }
+    },
+
+    "aueg_haustechniker": {
+      "bezeichnung": "Haustechniker (ueber Fremdfirma)",
+      "branche": "facility",
+      "aktueller_kv": {"name": "Facility-KV", "lohn": 13.50},
+      "pruefung_typ": "C_AUEG",
+      "pruefung": {
+        "chef_branche": "Technische Dienste GmbH",
+        "du_machst": "Betreust dauerhaft ein Gebaeude/Einkaufszentrum",
+        "arbeitsort": "Im Objekt (dauerhaft)",
+        "beschaeftiger_kv": {"name": "KV des Betreibers", "lohn": 0},
+        "aueg_kriterien": [
+          "Stellen Sie KEIN eigenes 'Werk' her?",
+          "Nutzen Sie Material/Werkzeug des Betreibers?",
+          "Sind Sie in den Betrieb eingegliedert?",
+          "Erhalten Sie Weisungen vom Center-Management?"
+        ]
+      }
+    },
+
+    "aueg_empfang_portier": {
+      "bezeichnung": "Empfang/Portier (ueber Fremdfirma)",
+      "branche": "dienstleistung",
+      "aktueller_kv": {"name": "Dienstleistung-KV", "lohn": 12.50},
+      "pruefung_typ": "C_AUEG",
+      "pruefung": {
+        "chef_branche": "Dienstleistungsfirma",
+        "du_machst": "Sitzt am Empfang eines Unternehmens",
+        "arbeitsort": "Im Unternehmen (dauerhaft)",
+        "beschaeftiger_kv": {"name": "KV des Unternehmens", "lohn": 0},
+        "aueg_kriterien": [
+          "Stellen Sie KEIN eigenes 'Werk' her?",
+          "Nutzen Sie Systeme des Unternehmens (Telefon, PC)?",
+          "Sind Sie in den Betrieb eingegliedert?",
+          "Erhalten Sie Weisungen vom Unternehmen?"
+        ]
+      }
+    },
+
+    "aueg_kueche_kantine": {
+      "bezeichnung": "Koch/Kuechenhilfe in Kantine",
+      "branche": "catering",
+      "aktueller_kv": {"name": "Catering-KV", "lohn": 12.80},
+      "pruefung_typ": "C_AUEG",
+      "pruefung": {
+        "chef_branche": "Catering-Firma",
+        "du_machst": "Kochst jeden Tag in derselben Betriebskantine",
+        "arbeitsort": "In der Kantine (dauerhaft)",
+        "beschaeftiger_kv": {"name": "KV des Betriebs / Gastgewerbe-KV", "lohn": 14.20},
+        "aueg_kriterien": [
+          "Stellen Sie KEIN eigenes 'Werk' her?",
+          "Nutzen Sie die Kueche/Geraete des Betriebs?",
+          "Sind Sie in den Kantinenbetrieb eingegliedert?",
+          "Erhalten Sie Weisungen vom Betrieb?"
+        ]
+      }
+    },
+
+    "aueg_it_support": {
+      "bezeichnung": "IT-Support vor Ort",
+      "branche": "it",
+      "aktueller_kv": {"name": "IT-Dienstleister-KV", "lohn": 14.50},
+      "pruefung_typ": "C_AUEG",
+      "pruefung": {
+        "chef_branche": "IT-Dienstleister",
+        "du_machst": "Arbeitest dauerhaft bei einem Kunden",
+        "arbeitsort": "Beim Kunden (dauerhaft)",
+        "beschaeftiger_kv": {"name": "KV des Kundenbetriebs", "lohn": 0},
+        "aueg_kriterien": [
+          "Stellen Sie KEIN eigenes 'Werk' her (nur Support)?",
+          "Nutzen Sie Systeme/Zugang des Kunden?",
+          "Sind Sie in den Kundenbetrieb eingegliedert?",
+          "Erhalten Sie Weisungen vom Kunden?"
+        ]
+      }
+    },
+
+    "aueg_call_center": {
+      "bezeichnung": "Call-Center (fuer eine Firma)",
+      "branche": "callcenter",
+      "aktueller_kv": {"name": "Call-Center-KV", "lohn": 12.00},
+      "pruefung_typ": "C_AUEG",
+      "pruefung": {
+        "chef_branche": "Call-Center-Betreiber",
+        "du_machst": "Telefonierst NUR fuer eine Firma (z.B. nur A1, nur Bank Austria)",
+        "arbeitsort": "Im Call-Center, aber nur fuer einen Auftraggeber",
+        "beschaeftiger_kv": {"name": "KV des Auftraggebers", "lohn": 0},
+        "aueg_kriterien": [
+          "Stellen Sie KEIN eigenes 'Werk' her?",
+          "Nutzen Sie Scripte/Systeme des Auftraggebers?",
+          "Arbeiten Sie ausschliesslich fuer einen Auftraggeber?",
+          "Erhalten Sie Weisungen/Schulungen vom Auftraggeber?"
+        ]
+      }
+    },
+
+    "aueg_lagerarbeiter_handel": {
+      "bezeichnung": "Lagerarbeiter im Supermarkt-Lager",
+      "branche": "lager",
+      "aktueller_kv": {"name": "Lager-KV", "lohn": 12.50},
+      "pruefung_typ": "C_AUEG",
+      "pruefung": {
+        "chef_branche": "Lager-/Logistikfirma",
+        "du_machst": "Arbeitest im Lager von SPAR/BILLA/HOFER",
+        "arbeitsort": "Im Handelslager (dauerhaft)",
+        "beschaeftiger_kv": {"name": "Handel-KV", "lohn": 13.80},
+        "aueg_kriterien": [
+          "Stellen Sie KEIN eigenes 'Werk' her?",
+          "Nutzen Sie Geraete/Systeme des Handels?",
+          "Sind Sie in den Handelsbetrieb eingegliedert?",
+          "Erhalten Sie Weisungen vom Handel?"
+        ]
+      }
+    },
+
+    "aueg_promoter": {
+      "bezeichnung": "Promoter/Verkostung im Supermarkt",
+      "branche": "promotion",
+      "aktueller_kv": {"name": "Promotion-KV", "lohn": 11.50},
+      "pruefung_typ": "C_AUEG",
+      "pruefung": {
+        "chef_branche": "Promotion-Agentur",
+        "du_machst": "Arbeitest regelmaessig im selben Supermarkt",
+        "arbeitsort": "Im Handel",
+        "beschaeftiger_kv": {"name": "Handel-KV", "lohn": 13.80},
+        "aueg_kriterien": [
+          "Stellen Sie KEIN eigenes 'Werk' her?",
+          "Sind Sie in den Markt eingegliedert?",
+          "Erhalten Sie Weisungen vom Marktleiter?",
+          "Arbeiten Sie regelmaessig nur dort?"
+        ]
+      }
+    },
+
+    "normal_buchhalter": {
+      "bezeichnung": "Buchhalter",
+      "branche": "buero",
+      "aktueller_kv": {"name": "Handel-KV / Gewerbe-KV", "lohn": 15.20},
+      "pruefung_typ": "KEINE",
+      "pruefung": null
+    },
+
+    "normal_verkaeuferin": {
+      "bezeichnung": "Verkaeuferin (fix angestellt)",
+      "branche": "handel",
+      "aktueller_kv": {"name": "Handel-KV", "lohn": 13.80},
+      "pruefung_typ": "KEINE",
+      "pruefung": null
+    },
+
+    "normal_kellner": {
+      "bezeichnung": "Kellner (fix angestellt)",
+      "branche": "gastro",
+      "aktueller_kv": {"name": "Gastgewerbe-KV", "lohn": 13.20},
+      "pruefung_typ": "KEINE",
+      "pruefung": null
+    }
+  }
+}
