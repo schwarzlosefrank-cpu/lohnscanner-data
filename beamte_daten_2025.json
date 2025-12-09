@@ -1,0 +1,1079 @@
+{
+  "meta": {
+    "name": "Beamtenbesoldung Oesterreich - Oeffentlicher Dienst",
+    "version": "4.0",
+    "stand": "Dezember 2025",
+    "hinweis": "Alle Werte sind unverbindliche Richtwerte (ohne Gewaehr). Fuer verbindliche Auskuenfte wenden Sie sich an Ihre Dienstbehoerde.",
+    "copyright": "(c) 2025 Frank Schwarzlose"
+  },
+  "bereiche": {
+    "bund": {
+      "name": "Bundesverwaltung (A1-A6 Schema)",
+      "positionen": {
+        "bundespraesident": {
+          "gehalt": {
+            "min": 350000,
+            "max": 350000
+          },
+          "bezeichnung": "Bundespraesident/Federal President",
+          "badge": "executive",
+          "zulagen": 150000
+        },
+        "bundeskanzler": {
+          "gehalt": {
+            "min": 280000,
+            "max": 280000
+          },
+          "bezeichnung": "Bundeskanzler/Chancellor of Austria",
+          "badge": "executive",
+          "zulagen": 120000
+        },
+        "vizekanzler": {
+          "gehalt": {
+            "min": 220000,
+            "max": 220000
+          },
+          "bezeichnung": "Vizekanzler/Vice Chancellor",
+          "badge": "executive",
+          "zulagen": 100000
+        },
+        "bundesminister": {
+          "gehalt": {
+            "min": 180000,
+            "max": 180000
+          },
+          "bezeichnung": "Bundesminister/Federal Minister",
+          "badge": "executive",
+          "zulagen": 80000
+        },
+        "staatssekretaer": {
+          "gehalt": {
+            "min": 120000,
+            "max": 120000
+          },
+          "bezeichnung": "Staatssekretaer/State Secretary",
+          "badge": "executive",
+          "zulagen": 50000
+        },
+        "sektionschef": {
+          "gehalt": {
+            "min": 8500,
+            "max": 12000
+          },
+          "bezeichnung": "Sektionschef/Sektionsleiter (A1)",
+          "badge": "executive",
+          "zulagen": 2000
+        },
+        "gruppenleiter_a1": {
+          "gehalt": {
+            "min": 7800,
+            "max": 11000
+          },
+          "bezeichnung": "Gruppenleiter A1/Gruppenleiter A1",
+          "badge": "executive",
+          "zulagen": 1800
+        },
+        "ministerialrat": {
+          "gehalt": {
+            "min": 6500,
+            "max": 9500
+          },
+          "bezeichnung": "Ministerialrat (A2)",
+          "badge": "executive",
+          "zulagen": 1500
+        },
+        "oberamtsrat": {
+          "gehalt": {
+            "min": 5800,
+            "max": 8500
+          },
+          "bezeichnung": "Oberamtsrat/Senior Administrative Councillor (A2)",
+          "badge": "management",
+          "zulagen": 1200
+        },
+        "amtsrat": {
+          "gehalt": {
+            "min": 4800,
+            "max": 7200
+          },
+          "bezeichnung": "Amtsrat/Verwaltungsratsmitglied (A3)",
+          "badge": "management",
+          "zulagen": 1000
+        },
+        "oberrat": {
+          "gehalt": {
+            "min": 4200,
+            "max": 6500
+          },
+          "bezeichnung": "Oberrat/Oberrat (A3)",
+          "badge": "management",
+          "zulagen": 900
+        },
+        "ratte": {
+          "gehalt": {
+            "min": 3800,
+            "max": 5500
+          },
+          "bezeichnung": "Ratsmitglied/Ratsherr (A4)",
+          "badge": "beamten",
+          "zulagen": 700
+        },
+        "oberinspektor": {
+          "gehalt": {
+            "min": 3500,
+            "max": 4800
+          },
+          "bezeichnung": "Oberinspektor/Senior Inspector (A4)",
+          "badge": "beamten",
+          "zulagen": 600
+        },
+        "inspektor": {
+          "gehalt": {
+            "min": 3200,
+            "max": 4500
+          },
+          "bezeichnung": "Inspektor/Inspector (A5)",
+          "badge": "beamten",
+          "zulagen": 500
+        },
+        "sekretaer": {
+          "gehalt": {
+            "min": 2800,
+            "max": 3800
+          },
+          "bezeichnung": "Sekretaer/Sekretaer (A6)",
+          "badge": "beamten",
+          "zulagen": 400
+        },
+        "oberamtsassistent": {
+          "gehalt": {
+            "min": 2500,
+            "max": 3300
+          },
+          "bezeichnung": "Oberamtsassistent/Senior Administrative Assistant",
+          "badge": "beamten",
+          "zulagen": 350
+        },
+        "amtsassistent": {
+          "gehalt": {
+            "min": 2200,
+            "max": 2900
+          },
+          "bezeichnung": "Amtsassistent/Administrative Assistant",
+          "badge": "beamten",
+          "zulagen": 300
+        }
+      }
+    },
+    "exekutive": {
+      "name": "Exekutivdienst (Polizei)",
+      "positionen": {
+        "general": {
+          "gehalt": {
+            "min": 9500,
+            "max": 14000
+          },
+          "bezeichnung": "General/General",
+          "badge": "executive",
+          "zulagen": 2500
+        },
+        "brigadier": {
+          "gehalt": {
+            "min": 8000,
+            "max": 11000
+          },
+          "bezeichnung": "Brigadier/Brigadier",
+          "badge": "executive",
+          "zulagen": 2000
+        },
+        "oberst": {
+          "gehalt": {
+            "min": 7000,
+            "max": 9500
+          },
+          "bezeichnung": "Oberst/Colonel",
+          "badge": "executive",
+          "zulagen": 1800
+        },
+        "oberstleutnant": {
+          "gehalt": {
+            "min": 6200,
+            "max": 8500
+          },
+          "bezeichnung": "Oberstleutnant/Lieutenant Colonel",
+          "badge": "management",
+          "zulagen": 1500
+        },
+        "major": {
+          "gehalt": {
+            "min": 5500,
+            "max": 7500
+          },
+          "bezeichnung": "Major/Major",
+          "badge": "management",
+          "zulagen": 1200
+        },
+        "hauptmann": {
+          "gehalt": {
+            "min": 4800,
+            "max": 6500
+          },
+          "bezeichnung": "Hauptmann/Captain",
+          "badge": "management",
+          "zulagen": 1000
+        },
+        "oberleutnant": {
+          "gehalt": {
+            "min": 4200,
+            "max": 5800
+          },
+          "bezeichnung": "Oberleutnant/First Lieutenant",
+          "badge": "beamten",
+          "zulagen": 800
+        },
+        "leutnant": {
+          "gehalt": {
+            "min": 3800,
+            "max": 5200
+          },
+          "bezeichnung": "Leutnant/Lieutenant",
+          "badge": "beamten",
+          "zulagen": 700
+        },
+        "kontrollinspektor": {
+          "gehalt": {
+            "min": 3500,
+            "max": 4800
+          },
+          "bezeichnung": "Kontrollinspektor/Control Inspector",
+          "badge": "beamten",
+          "zulagen": 600
+        },
+        "gruppeninspektor": {
+          "gehalt": {
+            "min": 3200,
+            "max": 4300
+          },
+          "bezeichnung": "Gruppeninspektor/Group Inspector",
+          "badge": "beamten",
+          "zulagen": 500
+        },
+        "bezirksinspektor": {
+          "gehalt": {
+            "min": 2900,
+            "max": 3900
+          },
+          "bezeichnung": "Bezirksinspektor/District Inspector",
+          "badge": "beamten",
+          "zulagen": 450
+        },
+        "revierinspektor": {
+          "gehalt": {
+            "min": 2600,
+            "max": 3500
+          },
+          "bezeichnung": "Revierinspektor/Precinct Inspector",
+          "badge": "beamten",
+          "zulagen": 400
+        },
+        "inspektor_e2c": {
+          "gehalt": {
+            "min": 2378,
+            "max": 2463
+          },
+          "bezeichnung": "Inspektor E2c/Inspector E2c",
+          "badge": "beamten",
+          "zulagen": 350
+        }
+      }
+    },
+    "justiz": {
+      "name": "Justizdienst",
+      "positionen": {
+        "praesident_ogh": {
+          "gehalt": {
+            "min": 17052,
+            "max": 17052
+          },
+          "bezeichnung": "Praesident des OGH/President of Supreme Court",
+          "badge": "executive",
+          "zulagen": 3000
+        },
+        "vizepraesident_ogh": {
+          "gehalt": {
+            "min": 15498,
+            "max": 15498
+          },
+          "bezeichnung": "Vizepraesident des OGH/Vice President Supreme Court",
+          "badge": "executive",
+          "zulagen": 2500
+        },
+        "senatspraesident": {
+          "gehalt": {
+            "min": 12000,
+            "max": 14500
+          },
+          "bezeichnung": "Senatspraesident/Senate President",
+          "badge": "executive",
+          "zulagen": 2000
+        },
+        "hofrat_justiz": {
+          "gehalt": {
+            "min": 9000,
+            "max": 12000
+          },
+          "bezeichnung": "Hofrat (Justiz)/Court Councillor",
+          "badge": "executive",
+          "zulagen": 1500
+        },
+        "oberlandesrichter": {
+          "gehalt": {
+            "min": 8000,
+            "max": 11000
+          },
+          "bezeichnung": "Oberlandesrichter/Higher Regional Judge",
+          "badge": "management",
+          "zulagen": 1200
+        },
+        "landesrichter": {
+          "gehalt": {
+            "min": 6500,
+            "max": 9500
+          },
+          "bezeichnung": "Landesrichter/Regional Judge",
+          "badge": "management",
+          "zulagen": 1000
+        },
+        "bezirksrichter": {
+          "gehalt": {
+            "min": 5500,
+            "max": 8000
+          },
+          "bezeichnung": "Bezirksrichter/District Judge",
+          "badge": "management",
+          "zulagen": 800
+        },
+        "richteramtsanwaerter": {
+          "gehalt": {
+            "min": 3906,
+            "max": 4349
+          },
+          "bezeichnung": "Richteramtsanwaerter/Judicial Trainee",
+          "badge": "beamten",
+          "zulagen": 400
+        },
+        "staatsanwalt": {
+          "gehalt": {
+            "min": 5428,
+            "max": 9696
+          },
+          "bezeichnung": "Staatsanwalt/Public Prosecutor",
+          "badge": "management",
+          "zulagen": 900
+        },
+        "oberstaatsanwalt": {
+          "gehalt": {
+            "min": 8000,
+            "max": 11213
+          },
+          "bezeichnung": "Oberstaatsanwalt/Senior Prosecutor",
+          "badge": "executive",
+          "zulagen": 1200
+        }
+      }
+    },
+    "militaer": {
+      "name": "Militaerischer Dienst",
+      "positionen": {
+        "general_militaer": {
+          "gehalt": {
+            "min": 10000,
+            "max": 15000
+          },
+          "bezeichnung": "General/General",
+          "badge": "executive",
+          "zulagen": 3000
+        },
+        "generalleutnant": {
+          "gehalt": {
+            "min": 9000,
+            "max": 13000
+          },
+          "bezeichnung": "Generalleutnant/Lieutenant General",
+          "badge": "executive",
+          "zulagen": 2500
+        },
+        "generalmajor": {
+          "gehalt": {
+            "min": 8000,
+            "max": 11500
+          },
+          "bezeichnung": "Generalmajor/Major General",
+          "badge": "executive",
+          "zulagen": 2000
+        },
+        "brigadier_militaer": {
+          "gehalt": {
+            "min": 7000,
+            "max": 10000
+          },
+          "bezeichnung": "Brigadier/Brigadier",
+          "badge": "executive",
+          "zulagen": 1800
+        },
+        "oberst_militaer": {
+          "gehalt": {
+            "min": 6000,
+            "max": 8500
+          },
+          "bezeichnung": "Oberst/Colonel",
+          "badge": "management",
+          "zulagen": 1500
+        },
+        "oberstleutnant_militaer": {
+          "gehalt": {
+            "min": 5200,
+            "max": 7500
+          },
+          "bezeichnung": "Oberstleutnant/Lieutenant Colonel",
+          "badge": "management",
+          "zulagen": 1200
+        },
+        "major_militaer": {
+          "gehalt": {
+            "min": 4500,
+            "max": 6500
+          },
+          "bezeichnung": "Major/Major",
+          "badge": "management",
+          "zulagen": 1000
+        },
+        "hauptmann_militaer": {
+          "gehalt": {
+            "min": 3800,
+            "max": 5500
+          },
+          "bezeichnung": "Hauptmann/Captain",
+          "badge": "beamten",
+          "zulagen": 800
+        },
+        "oberleutnant_militaer": {
+          "gehalt": {
+            "min": 3296,
+            "max": 4101
+          },
+          "bezeichnung": "Oberleutnant/First Lieutenant",
+          "badge": "beamten",
+          "zulagen": 600
+        },
+        "leutnant_militaer": {
+          "gehalt": {
+            "min": 2851,
+            "max": 3137
+          },
+          "bezeichnung": "Leutnant/Lieutenant",
+          "badge": "beamten",
+          "zulagen": 500
+        },
+        "vizeleutnant": {
+          "gehalt": {
+            "min": 2532,
+            "max": 3790
+          },
+          "bezeichnung": "Vizeleutnant/Warrant Officer",
+          "badge": "beamten",
+          "zulagen": 400
+        },
+        "stabswachtmeister": {
+          "gehalt": {
+            "min": 2378,
+            "max": 2463
+          },
+          "bezeichnung": "Stabswachtmeister/Staff Sergeant",
+          "badge": "beamten",
+          "zulagen": 350
+        }
+      }
+    },
+    "lehrer": {
+      "name": "Lehrerdienst",
+      "positionen": {
+        "direktor_gymnasium": {
+          "gehalt": {
+            "min": 6500,
+            "max": 9500
+          },
+          "bezeichnung": "Direktor Gymnasium/Principal Secondary School",
+          "badge": "executive",
+          "zulagen": 1500
+        },
+        "direktor_volksschule": {
+          "gehalt": {
+            "min": 5500,
+            "max": 7500
+          },
+          "bezeichnung": "Direktor Volksschule/Principal Primary School",
+          "badge": "executive",
+          "zulagen": 1200
+        },
+        "professor_ahs": {
+          "gehalt": {
+            "min": 4500,
+            "max": 6966
+          },
+          "bezeichnung": "Professor AHS/Secondary School Teacher L1",
+          "badge": "management",
+          "zulagen": 1000
+        },
+        "lehrer_l2a": {
+          "gehalt": {
+            "min": 3500,
+            "max": 5787
+          },
+          "bezeichnung": "Lehrer L2a/Teacher L2a",
+          "badge": "beamten",
+          "zulagen": 700
+        },
+        "lehrer_l3": {
+          "gehalt": {
+            "min": 2315,
+            "max": 3559
+          },
+          "bezeichnung": "Lehrer L3/Teacher L3",
+          "badge": "beamten",
+          "zulagen": 500
+        },
+        "lehrer_ph": {
+          "gehalt": {
+            "min": 3427,
+            "max": 7941
+          },
+          "bezeichnung": "Lehrer Paedagogische Hochschule/University College Teacher",
+          "badge": "management",
+          "zulagen": 800
+        },
+        "volksschullehrer": {
+          "gehalt": {
+            "min": 2800,
+            "max": 4500
+          },
+          "bezeichnung": "Volksschullehrer/Primary School Teacher",
+          "badge": "beamten",
+          "zulagen": 500
+        },
+        "sonderschullehrer": {
+          "gehalt": {
+            "min": 3000,
+            "max": 4800
+          },
+          "bezeichnung": "Sonderschullehrer/Special Education Teacher",
+          "badge": "beamten",
+          "zulagen": 600
+        }
+      }
+    },
+    "gesundheit": {
+      "name": "Gesundheitsdienst",
+      "positionen": {
+        "primar": {
+          "gehalt": {
+            "min": 8000,
+            "max": 15000
+          },
+          "bezeichnung": "Primar/Abteilungsvorstand/Head of Department",
+          "badge": "executive",
+          "zulagen": 2500
+        },
+        "oberarzt": {
+          "gehalt": {
+            "min": 6000,
+            "max": 10000
+          },
+          "bezeichnung": "Oberarzt/Senior Physician",
+          "badge": "management",
+          "zulagen": 1500
+        },
+        "facharzt": {
+          "gehalt": {
+            "min": 5000,
+            "max": 8500
+          },
+          "bezeichnung": "Facharzt/Specialist Doctor",
+          "badge": "management",
+          "zulagen": 1200
+        },
+        "assistenzarzt": {
+          "gehalt": {
+            "min": 4000,
+            "max": 6000
+          },
+          "bezeichnung": "Assistenzarzt/Resident Doctor",
+          "badge": "beamten",
+          "zulagen": 800
+        },
+        "turnusarzt": {
+          "gehalt": {
+            "min": 3500,
+            "max": 4500
+          },
+          "bezeichnung": "Turnusarzt/Intern",
+          "badge": "beamten",
+          "zulagen": 600
+        },
+        "pflegedienstleitung": {
+          "gehalt": {
+            "min": 4500,
+            "max": 6500
+          },
+          "bezeichnung": "Pflegedienstleitung/Head of Nursing",
+          "badge": "management",
+          "zulagen": 1000
+        },
+        "stationsleitung": {
+          "gehalt": {
+            "min": 3800,
+            "max": 5500
+          },
+          "bezeichnung": "Stationsleitung/Ward Manager",
+          "badge": "management",
+          "zulagen": 800
+        },
+        "diplomkrankenpfleger_k1": {
+          "gehalt": {
+            "min": 3227,
+            "max": 5950
+          },
+          "bezeichnung": "Diplomkrankenpfleger K1/Registered Nurse K1",
+          "badge": "beamten",
+          "zulagen": 600
+        },
+        "diplomkrankenpfleger_k2": {
+          "gehalt": {
+            "min": 2913,
+            "max": 5343
+          },
+          "bezeichnung": "Diplomkrankenpfleger K2/Registered Nurse K2",
+          "badge": "beamten",
+          "zulagen": 500
+        },
+        "pflegeassistent": {
+          "gehalt": {
+            "min": 2594,
+            "max": 4130
+          },
+          "bezeichnung": "Pflegeassistent K5/Nursing Assistant K5",
+          "badge": "beamten",
+          "zulagen": 400
+        },
+        "pflegehelfer": {
+          "gehalt": {
+            "min": 2414,
+            "max": 3291
+          },
+          "bezeichnung": "Pflegehelfer K6/Care Helper K6",
+          "badge": "beamten",
+          "zulagen": 350
+        }
+      }
+    },
+    "hochschule": {
+      "name": "Hochschuldienst",
+      "positionen": {
+        "rektor": {
+          "gehalt": {
+            "min": 12000,
+            "max": 18000
+          },
+          "bezeichnung": "Rektor/Rector",
+          "badge": "executive",
+          "zulagen": 3000
+        },
+        "vizerektor": {
+          "gehalt": {
+            "min": 10000,
+            "max": 15000
+          },
+          "bezeichnung": "Vizerektor/Vice Rector",
+          "badge": "executive",
+          "zulagen": 2500
+        },
+        "dekan": {
+          "gehalt": {
+            "min": 9000,
+            "max": 13000
+          },
+          "bezeichnung": "Dekan/Dean",
+          "badge": "executive",
+          "zulagen": 2000
+        },
+        "o_professor": {
+          "gehalt": {
+            "min": 5962,
+            "max": 9540
+          },
+          "bezeichnung": "Ordentlicher Professor/Full Professor",
+          "badge": "executive",
+          "zulagen": 1500
+        },
+        "ao_professor": {
+          "gehalt": {
+            "min": 4583,
+            "max": 8553
+          },
+          "bezeichnung": "Ausserordentlicher Professor/Associate Professor",
+          "badge": "management",
+          "zulagen": 1200
+        },
+        "dozent": {
+          "gehalt": {
+            "min": 3467,
+            "max": 8135
+          },
+          "bezeichnung": "Dozent/Lecturer",
+          "badge": "management",
+          "zulagen": 1000
+        },
+        "assistent": {
+          "gehalt": {
+            "min": 3296,
+            "max": 6966
+          },
+          "bezeichnung": "Universitaetsassistent/University Assistant",
+          "badge": "beamten",
+          "zulagen": 700
+        }
+      }
+    },
+    "gemeinde": {
+      "name": "Gemeindedienst",
+      "positionen": {
+        "buergermeister_gross": {
+          "gehalt": {
+            "min": 8000,
+            "max": 15000
+          },
+          "bezeichnung": "Buergermeister Grossstadt/Mayor Large City",
+          "badge": "executive",
+          "zulagen": 2500
+        },
+        "buergermeister_mittel": {
+          "gehalt": {
+            "min": 5000,
+            "max": 9000
+          },
+          "bezeichnung": "Buergermeister Mittelstadt/Mayor Medium City",
+          "badge": "executive",
+          "zulagen": 1500
+        },
+        "buergermeister_klein": {
+          "gehalt": {
+            "min": 2500,
+            "max": 5000
+          },
+          "bezeichnung": "Buergermeister Kleinstadt/Mayor Small Town",
+          "badge": "executive",
+          "zulagen": 800
+        },
+        "magistratsdirektor": {
+          "gehalt": {
+            "min": 7000,
+            "max": 11000
+          },
+          "bezeichnung": "Magistratsdirektor/City Director",
+          "badge": "executive",
+          "zulagen": 2000
+        },
+        "amtsleiter": {
+          "gehalt": {
+            "min": 5000,
+            "max": 8000
+          },
+          "bezeichnung": "Amtsleiter/Office Director",
+          "badge": "management",
+          "zulagen": 1200
+        },
+        "gemeindesekretaer": {
+          "gehalt": {
+            "min": 3500,
+            "max": 5500
+          },
+          "bezeichnung": "Gemeindesekretaer/Municipal Secretary",
+          "badge": "management",
+          "zulagen": 800
+        },
+        "standesbeamter": {
+          "gehalt": {
+            "min": 3000,
+            "max": 4500
+          },
+          "bezeichnung": "Standesbeamter/Registrar",
+          "badge": "beamten",
+          "zulagen": 500
+        },
+        "gemeindearbeiter": {
+          "gehalt": {
+            "min": 2200,
+            "max": 3200
+          },
+          "bezeichnung": "Gemeindearbeiter/Municipal Worker",
+          "badge": "beamten",
+          "zulagen": 300
+        }
+      }
+    },
+    "land": {
+      "name": "Landesdienst",
+      "positionen": {
+        "landeshauptmann": {
+          "gehalt": {
+            "min": 180000,
+            "max": 220000
+          },
+          "bezeichnung": "Landeshauptmann/Governor",
+          "badge": "executive",
+          "zulagen": 50000
+        },
+        "landesrat": {
+          "gehalt": {
+            "min": 120000,
+            "max": 150000
+          },
+          "bezeichnung": "Landesrat/State Councillor",
+          "badge": "executive",
+          "zulagen": 30000
+        },
+        "landesamtsdirektor": {
+          "gehalt": {
+            "min": 9000,
+            "max": 14000
+          },
+          "bezeichnung": "Landesamtsdirektor/State Office Director",
+          "badge": "executive",
+          "zulagen": 2500
+        },
+        "hofrat_land": {
+          "gehalt": {
+            "min": 7000,
+            "max": 10000
+          },
+          "bezeichnung": "Hofrat (Land)/State Councillor",
+          "badge": "executive",
+          "zulagen": 1800
+        },
+        "oberamtsrat_land": {
+          "gehalt": {
+            "min": 5500,
+            "max": 8000
+          },
+          "bezeichnung": "Oberamtsrat (Land)/Senior Administrative Councillor",
+          "badge": "management",
+          "zulagen": 1200
+        },
+        "amtsrat_land": {
+          "gehalt": {
+            "min": 4500,
+            "max": 6500
+          },
+          "bezeichnung": "Amtsrat (Land)/Administrative Councillor",
+          "badge": "management",
+          "zulagen": 900
+        },
+        "fachoberinspektor": {
+          "gehalt": {
+            "min": 3800,
+            "max": 5500
+          },
+          "bezeichnung": "Fachoberinspektor/Senior Technical Inspector",
+          "badge": "beamten",
+          "zulagen": 700
+        },
+        "fachinspektor": {
+          "gehalt": {
+            "min": 3200,
+            "max": 4800
+          },
+          "bezeichnung": "Fachinspektor/Technical Inspector",
+          "badge": "beamten",
+          "zulagen": 500
+        }
+      }
+    },
+    "post_fernmelde": {
+      "name": "Post- und Fernmeldedienst",
+      "positionen": {
+        "postdirektor": {
+          "gehalt": {
+            "min": 6500,
+            "max": 9500
+          },
+          "bezeichnung": "Postdirektor/Postal Director",
+          "badge": "executive",
+          "zulagen": 1500
+        },
+        "postamtsleiter": {
+          "gehalt": {
+            "min": 4500,
+            "max": 6500
+          },
+          "bezeichnung": "Postamtsleiter/Post Office Manager",
+          "badge": "management",
+          "zulagen": 1000
+        },
+        "postbeamter_pf1": {
+          "gehalt": {
+            "min": 3242,
+            "max": 5926
+          },
+          "bezeichnung": "Postbeamter PF1/Postal Officer PF1",
+          "badge": "beamten",
+          "zulagen": 600
+        },
+        "postbeamter_pf2": {
+          "gehalt": {
+            "min": 2625,
+            "max": 5002
+          },
+          "bezeichnung": "Postbeamter PF2/Postal Officer PF2",
+          "badge": "beamten",
+          "zulagen": 500
+        },
+        "postbeamter_pf3": {
+          "gehalt": {
+            "min": 2625,
+            "max": 4709
+          },
+          "bezeichnung": "Postbeamter PF3/Postal Officer PF3",
+          "badge": "beamten",
+          "zulagen": 450
+        },
+        "postbeamter_pf4": {
+          "gehalt": {
+            "min": 2625,
+            "max": 4461
+          },
+          "bezeichnung": "Postbeamter PF4/Postal Officer PF4",
+          "badge": "beamten",
+          "zulagen": 400
+        },
+        "postbeamter_pf5": {
+          "gehalt": {
+            "min": 2371,
+            "max": 3845
+          },
+          "bezeichnung": "Postbeamter PF5/Postal Officer PF5",
+          "badge": "beamten",
+          "zulagen": 350
+        },
+        "postbeamter_pf6": {
+          "gehalt": {
+            "min": 2371,
+            "max": 3596
+          },
+          "bezeichnung": "Postbeamter PF6/Postal Officer PF6",
+          "badge": "beamten",
+          "zulagen": 300
+        }
+      }
+    },
+    "justizwache": {
+      "name": "Justizwache",
+      "positionen": {
+        "kommandant": {
+          "gehalt": {
+            "min": 5500,
+            "max": 8000
+          },
+          "bezeichnung": "Kommandant/Commander",
+          "badge": "executive",
+          "zulagen": 1200
+        },
+        "wachebeamter_w1": {
+          "gehalt": {
+            "min": 2386,
+            "max": 4372
+          },
+          "bezeichnung": "Wachebeamter W1/Prison Guard W1",
+          "badge": "beamten",
+          "zulagen": 500
+        },
+        "wachebeamter_w2": {
+          "gehalt": {
+            "min": 2177,
+            "max": 3578
+          },
+          "bezeichnung": "Wachebeamter W2/Prison Guard W2",
+          "badge": "beamten",
+          "zulagen": 400
+        }
+      }
+    },
+    "vertragsbedienstete": {
+      "name": "Vertragsbedienstete",
+      "positionen": {
+        "vb_v1": {
+          "gehalt": {
+            "min": 3519,
+            "max": 5733
+          },
+          "bezeichnung": "Vertragsbediensteter v1/Contract Employee v1",
+          "badge": "management",
+          "zulagen": 600
+        },
+        "vb_v2": {
+          "gehalt": {
+            "min": 2754,
+            "max": 4353
+          },
+          "bezeichnung": "Vertragsbediensteter v2/Contract Employee v2",
+          "badge": "beamten",
+          "zulagen": 500
+        },
+        "vb_v3": {
+          "gehalt": {
+            "min": 2478,
+            "max": 3366
+          },
+          "bezeichnung": "Vertragsbediensteter v3/Contract Employee v3",
+          "badge": "beamten",
+          "zulagen": 400
+        },
+        "vb_v4": {
+          "gehalt": {
+            "min": 2342,
+            "max": 3067
+          },
+          "bezeichnung": "Vertragsbediensteter v4/Contract Employee v4",
+          "badge": "beamten",
+          "zulagen": 350
+        },
+        "vb_v5": {
+          "gehalt": {
+            "min": 2251,
+            "max": 2596
+          },
+          "bezeichnung": "Vertragsbediensteter v5/Contract Employee v5",
+          "badge": "beamten",
+          "zulagen": 300
+        },
+        "vb_h1": {
+          "gehalt": {
+            "min": 2492,
+            "max": 3389
+          },
+          "bezeichnung": "Vertragsbediensteter h1 (Handwerk)/Contract Employee h1",
+          "badge": "beamten",
+          "zulagen": 400
+        },
+        "vb_h2": {
+          "gehalt": {
+            "min": 2397,
+            "max": 3162
+          },
+          "bezeichnung": "Vertragsbediensteter h2 (Handwerk)/Contract Employee h2",
+          "badge": "beamten",
+          "zulagen": 350
+        }
+      }
+    }
+  }
+}
