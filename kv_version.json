@@ -1,5 +1,6 @@
 {
-  "version": "2025.12.001",
+  "kv_version": "2025.12.001",
+  "beamte_version": "2025.12.001",
   "stand": "Dezember 2025",
   "datum": "2025-12-01",
   "changelog": [
@@ -10,6 +11,10 @@
     "2025.12.001 - Alle Branchen mit direkten WKO-Links zur Quellenverifikation",
     "2025.05.004 - Vorherige Version vom 27.05.2025"
   ],
+  "files": {
+    "kv_daten": "kv_daten_2025.json",
+    "beamte_daten": "beamte_daten_2025.json"
+  },
   "naechste_aktualisierung": "2026-01-01",
   "hinweis": "Fuer verbindliche Auskuenfte: WKO-Link in jeder Branche klicken"
 }

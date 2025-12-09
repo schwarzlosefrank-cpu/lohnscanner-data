@@ -221,14 +221,6 @@
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
         },
-        "brueckenkranfahrer": {
-          "lohn": 19.8,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "BAUINDUSTRIE & BAUNEBENGE-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
         "schweisser": {
           "lohn": 21.45,
           "bezeichnung": "Schweißer / Welder",
@@ -1107,13 +1099,6 @@
           "bezeichnung_en": "Surface Coater",
           "anzeige": "Oberflächenbeschichter / Surface Coater"
         },
-        "galvaniseur": {
-          "lohn": 20.9,
-          "bezeichnung": "Galvaniseur / Electroplater",
-          "bezeichnung_de": "Galvaniseur",
-          "bezeichnung_en": "Electroplater",
-          "anzeige": "Galvaniseur / Electroplater"
-        },
         "giessereimechaniker": {
           "lohn": 21.45,
           "bezeichnung": "Gießereimechaniker / Foundry Mechanic",
@@ -1127,20 +1112,6 @@
           "bezeichnung_de": "Hüttenfacharbeiter",
           "bezeichnung_en": "Metallurgical Worker",
           "anzeige": "Hüttenfacharbeiter / Metallurgical Worker"
-        },
-        "dreher": {
-          "lohn": 21.45,
-          "bezeichnung": "Dreher / Turner",
-          "bezeichnung_de": "Dreher",
-          "bezeichnung_en": "Turner",
-          "anzeige": "Dreher / Turner"
-        },
-        "fraeser": {
-          "lohn": 21.45,
-          "bezeichnung": "Fräser / Milling Machine Operator",
-          "bezeichnung_de": "Fräser",
-          "bezeichnung_en": "Milling Machine Operator",
-          "anzeige": "Fräser / Milling Machine Operator"
         },
         "schleifer": {
           "lohn": 19.8,
@@ -1839,38 +1810,6 @@
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
         },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "TRANSPORT & LOGISTIK-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "TRANSPORT & LOGISTIK-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "TRANSPORT & LOGISTIK-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "TRANSPORT & LOGISTIK-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 19.0,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -2192,13 +2131,6 @@
           "bezeichnung_de": "Radladerfahrer",
           "bezeichnung_en": "Wheel Loader Operator",
           "anzeige": "Radladerfahrer / Wheel Loader Operator"
-        },
-        "baggerfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Baggerfahrer / Excavator Operator",
-          "bezeichnung_de": "Baggerfahrer",
-          "bezeichnung_en": "Excavator Operator",
-          "anzeige": "Baggerfahrer / Excavator Operator"
         },
         "teleskopstaplerfahrer": {
           "lohn": 17.5,
@@ -2813,38 +2745,6 @@
           "bezeichnung_de": "Lieferfahrer",
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
-        },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "PERSONENBEFOERDERUNG-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "PERSONENBEFOERDERUNG-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "PERSONENBEFOERDERUNG-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "PERSONENBEFOERDERUNG-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
         },
         "elektriker_betrieb": {
           "lohn": 19.0,
@@ -5143,22 +5043,6 @@
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
         },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "KFZ-GEWERBE & WERKSTAETTE-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "KFZ-GEWERBE & WERKSTAETTE-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
         "schweisser": {
           "lohn": 19.5,
           "bezeichnung": "Schweißer / Welder",
@@ -5971,38 +5855,6 @@
           "bezeichnung_de": "Lieferfahrer",
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
-        },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "ELEKTROINSTALLATION & GEB-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "ELEKTROINSTALLATION & GEB-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "ELEKTROINSTALLATION & GEB-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "ELEKTROINSTALLATION & GEB-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
         },
         "elektriker_betrieb": {
           "lohn": 19.0,
@@ -6826,22 +6678,6 @@
           "bezeichnung_de": "Lieferfahrer",
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
-        },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "SANITAER, HEIZUNG, KLIMA -KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "SANITAER, HEIZUNG, KLIMA -KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
         },
         "schweisser": {
           "lohn": 19.5,
@@ -7822,38 +7658,6 @@
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
         },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "TISCHLEREI & HOLZVERARBEI-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "TISCHLEREI & HOLZVERARBEI-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "TISCHLEREI & HOLZVERARBEI-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "TISCHLEREI & HOLZVERARBEI-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 19.0,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -8553,13 +8357,6 @@
           "bezeichnung_en": "Surface Coater",
           "anzeige": "Oberflächenbeschichter / Surface Coater"
         },
-        "galvaniseur": {
-          "lohn": 19.0,
-          "bezeichnung": "Galvaniseur / Electroplater",
-          "bezeichnung_de": "Galvaniseur",
-          "bezeichnung_en": "Electroplater",
-          "anzeige": "Galvaniseur / Electroplater"
-        },
         "giessereimechaniker": {
           "lohn": 19.5,
           "bezeichnung": "Gießereimechaniker / Foundry Mechanic",
@@ -8573,20 +8370,6 @@
           "bezeichnung_de": "Hüttenfacharbeiter",
           "bezeichnung_en": "Metallurgical Worker",
           "anzeige": "Hüttenfacharbeiter / Metallurgical Worker"
-        },
-        "dreher": {
-          "lohn": 19.5,
-          "bezeichnung": "Dreher / Turner",
-          "bezeichnung_de": "Dreher",
-          "bezeichnung_en": "Turner",
-          "anzeige": "Dreher / Turner"
-        },
-        "fraeser": {
-          "lohn": 19.5,
-          "bezeichnung": "Fräser / Milling Machine Operator",
-          "bezeichnung_de": "Fräser",
-          "bezeichnung_en": "Milling Machine Operator",
-          "anzeige": "Fräser / Milling Machine Operator"
         },
         "schleifer": {
           "lohn": 18.0,
@@ -9206,13 +8989,6 @@
           "bezeichnung_en": "Facade Painter",
           "anzeige": "Fassadenmaler / Facade Painter"
         },
-        "trockenbauer": {
-          "lohn": 17.2,
-          "bezeichnung": "Trockenbauer / Drywall Installer",
-          "bezeichnung_de": "Trockenbauer",
-          "bezeichnung_en": "Drywall Installer",
-          "anzeige": "Trockenbauer / Drywall Installer"
-        },
         "hilfsarbeiter": {
           "lohn": 14.5,
           "bezeichnung": "Hilfsarbeiter Malerei / Helper",
@@ -9273,38 +9049,6 @@
           "bezeichnung_de": "Lieferfahrer",
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
-        },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "MALEREI & ANSTRICH-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "MALEREI & ANSTRICH-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "MALEREI & ANSTRICH-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "MALEREI & ANSTRICH-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
         },
         "elektriker_betrieb": {
           "lohn": 19.0,
@@ -10102,38 +9846,6 @@
           "bezeichnung_de": "Lieferfahrer",
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
-        },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "BAECKEREI & KONDITOREI-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "BAECKEREI & KONDITOREI-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "BAECKEREI & KONDITOREI-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "BAECKEREI & KONDITOREI-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
         },
         "elektriker_betrieb": {
           "lohn": 19.0,
@@ -11102,38 +10814,6 @@
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
         },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "FLEISCHEREI & METZGEREI-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "FLEISCHEREI & METZGEREI-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "FLEISCHEREI & METZGEREI-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "FLEISCHEREI & METZGEREI-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 19.0,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -11891,38 +11571,6 @@
           "bezeichnung_de": "Lieferfahrer",
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
-        },
-        "kranfahrer": {
-          "lohn": 16.65,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "REINIGUNG & GEBAEUDESERVI-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 16.2,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "REINIGUNG & GEBAEUDESERVI-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 17.55,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "REINIGUNG & GEBAEUDESERVI-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 16.65,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "REINIGUNG & GEBAEUDESERVI-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
         },
         "elektriker_betrieb": {
           "lohn": 17.1,
@@ -12690,38 +12338,6 @@
           "bezeichnung_de": "Lieferfahrer",
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
-        },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "GASTRONOMIE & HOTELLERIE-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "GASTRONOMIE & HOTELLERIE-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "GASTRONOMIE & HOTELLERIE-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "GASTRONOMIE & HOTELLERIE-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
         },
         "elektriker_betrieb": {
           "lohn": 19.0,
@@ -13629,38 +13245,6 @@
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
         },
-        "kranfahrer": {
-          "lohn": 17.57,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "HANDEL & EINZELHANDEL-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 17.1,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "HANDEL & EINZELHANDEL-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 18.52,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "HANDEL & EINZELHANDEL-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 17.57,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "HANDEL & EINZELHANDEL-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 18.05,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -14499,38 +14083,6 @@
           "bezeichnung_de": "Lieferfahrer",
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
-        },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "PFLEGE & GESUNDHEIT (PRIV-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "PFLEGE & GESUNDHEIT (PRIV-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "PFLEGE & GESUNDHEIT (PRIV-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "PFLEGE & GESUNDHEIT (PRIV-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
         },
         "elektriker_betrieb": {
           "lohn": 19.0,
@@ -15477,38 +15029,6 @@
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
         },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "APOTHEKEN-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "APOTHEKEN-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "APOTHEKEN-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "APOTHEKEN-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 19.0,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -16275,38 +15795,6 @@
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
         },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "ARZTPRAXEN & ORDINATIONEN-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "ARZTPRAXEN & ORDINATIONEN-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "ARZTPRAXEN & ORDINATIONEN-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "ARZTPRAXEN & ORDINATIONEN-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 19.0,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -17035,38 +16523,6 @@
           "bezeichnung_de": "Lieferfahrer",
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
-        },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "TIERARZTPRAXEN & TIERKLIN-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "TIERARZTPRAXEN & TIERKLIN-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "TIERARZTPRAXEN & TIERKLIN-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "TIERARZTPRAXEN & TIERKLIN-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
         },
         "elektriker_betrieb": {
           "lohn": 19.0,
@@ -17811,38 +17267,6 @@
           "bezeichnung_de": "Lieferfahrer",
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
-        },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "PHYSIOTHERAPIE & REHABILI-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "PHYSIOTHERAPIE & REHABILI-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "PHYSIOTHERAPIE & REHABILI-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "PHYSIOTHERAPIE & REHABILI-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
         },
         "elektriker_betrieb": {
           "lohn": 19.0,
@@ -18788,38 +18212,6 @@
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
         },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "OPTIKER & AUGENOPTIK-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "OPTIKER & AUGENOPTIK-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "OPTIKER & AUGENOPTIK-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "OPTIKER & AUGENOPTIK-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 19.0,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -19572,38 +18964,6 @@
           "bezeichnung_de": "Lieferfahrer",
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
-        },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "ZAHNTECHNIK & DENTALLABOR-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "ZAHNTECHNIK & DENTALLABOR-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "ZAHNTECHNIK & DENTALLABOR-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "ZAHNTECHNIK & DENTALLABOR-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
         },
         "elektriker_betrieb": {
           "lohn": 19.0,
@@ -20358,38 +19718,6 @@
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
         },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "HOERGERAETEAKUSTIK-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "HOERGERAETEAKUSTIK-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "HOERGERAETEAKUSTIK-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "HOERGERAETEAKUSTIK-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 19.0,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -21135,38 +20463,6 @@
           "bezeichnung_de": "Lieferfahrer",
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
-        },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "LANDWIRTSCHAFT & AGRARBER-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "LANDWIRTSCHAFT & AGRARBER-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "LANDWIRTSCHAFT & AGRARBER-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "LANDWIRTSCHAFT & AGRARBER-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
         },
         "elektriker_betrieb": {
           "lohn": 19.0,
@@ -21929,30 +21225,6 @@
           "bezeichnung_en": "Crane Operator",
           "anzeige": "Kranfahrer / Crane Operator"
         },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "FORSTWIRTSCHAFT & HOLZSCH-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "FORSTWIRTSCHAFT & HOLZSCH-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "FORSTWIRTSCHAFT & HOLZSCH-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 19.0,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -22607,13 +21879,6 @@
           "bezeichnung_en": "Surface Coater",
           "anzeige": "Oberflächenbeschichter / Surface Coater"
         },
-        "galvaniseur": {
-          "lohn": 19.0,
-          "bezeichnung": "Galvaniseur / Electroplater",
-          "bezeichnung_de": "Galvaniseur",
-          "bezeichnung_en": "Electroplater",
-          "anzeige": "Galvaniseur / Electroplater"
-        },
         "giessereimechaniker": {
           "lohn": 19.5,
           "bezeichnung": "Gießereimechaniker / Foundry Mechanic",
@@ -22627,20 +21892,6 @@
           "bezeichnung_de": "Hüttenfacharbeiter",
           "bezeichnung_en": "Metallurgical Worker",
           "anzeige": "Hüttenfacharbeiter / Metallurgical Worker"
-        },
-        "dreher": {
-          "lohn": 19.5,
-          "bezeichnung": "Dreher / Turner",
-          "bezeichnung_de": "Dreher",
-          "bezeichnung_en": "Turner",
-          "anzeige": "Dreher / Turner"
-        },
-        "fraeser": {
-          "lohn": 19.5,
-          "bezeichnung": "Fräser / Milling Machine Operator",
-          "bezeichnung_de": "Fräser",
-          "bezeichnung_en": "Milling Machine Operator",
-          "anzeige": "Fräser / Milling Machine Operator"
         },
         "schleifer": {
           "lohn": 18.0,
@@ -23172,14 +22423,6 @@
           "bezeichnung_de": "Kranfahrer",
           "bezeichnung_en": "Crane Operator",
           "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "GARTENBAU & GAERTNER-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
         },
         "schweisser": {
           "lohn": 19.5,
@@ -24162,22 +23405,6 @@
           "bezeichnung_en": "Overhead Crane Operator",
           "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
         },
-        "schweisser": {
-          "lohn": 22.42,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "CHEMISCHE INDUSTRIE-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 21.27,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "CHEMISCHE INDUSTRIE-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 21.85,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -24856,13 +24083,6 @@
           "bezeichnung_en": "Surface Coater",
           "anzeige": "Oberflächenbeschichter / Surface Coater"
         },
-        "galvaniseur": {
-          "lohn": 21.85,
-          "bezeichnung": "Galvaniseur / Electroplater",
-          "bezeichnung_de": "Galvaniseur",
-          "bezeichnung_en": "Electroplater",
-          "anzeige": "Galvaniseur / Electroplater"
-        },
         "giessereimechaniker": {
           "lohn": 22.42,
           "bezeichnung": "Gießereimechaniker / Foundry Mechanic",
@@ -24876,20 +24096,6 @@
           "bezeichnung_de": "Hüttenfacharbeiter",
           "bezeichnung_en": "Metallurgical Worker",
           "anzeige": "Hüttenfacharbeiter / Metallurgical Worker"
-        },
-        "dreher": {
-          "lohn": 22.42,
-          "bezeichnung": "Dreher / Turner",
-          "bezeichnung_de": "Dreher",
-          "bezeichnung_en": "Turner",
-          "anzeige": "Dreher / Turner"
-        },
-        "fraeser": {
-          "lohn": 22.42,
-          "bezeichnung": "Fräser / Milling Machine Operator",
-          "bezeichnung_de": "Fräser",
-          "bezeichnung_en": "Milling Machine Operator",
-          "anzeige": "Fräser / Milling Machine Operator"
         },
         "schleifer": {
           "lohn": 20.7,
@@ -25640,22 +24846,6 @@
           "bezeichnung_en": "Overhead Crane Operator",
           "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
         },
-        "schweisser": {
-          "lohn": 21.06,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "LEBENSMITTELINDUSTRIE-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 19.98,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "LEBENSMITTELINDUSTRIE-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 20.52,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -26325,13 +25515,6 @@
           "bezeichnung_en": "Surface Coater",
           "anzeige": "Oberflächenbeschichter / Surface Coater"
         },
-        "galvaniseur": {
-          "lohn": 20.52,
-          "bezeichnung": "Galvaniseur / Electroplater",
-          "bezeichnung_de": "Galvaniseur",
-          "bezeichnung_en": "Electroplater",
-          "anzeige": "Galvaniseur / Electroplater"
-        },
         "giessereimechaniker": {
           "lohn": 21.06,
           "bezeichnung": "Gießereimechaniker / Foundry Mechanic",
@@ -26345,20 +25528,6 @@
           "bezeichnung_de": "Hüttenfacharbeiter",
           "bezeichnung_en": "Metallurgical Worker",
           "anzeige": "Hüttenfacharbeiter / Metallurgical Worker"
-        },
-        "dreher": {
-          "lohn": 21.06,
-          "bezeichnung": "Dreher / Turner",
-          "bezeichnung_de": "Dreher",
-          "bezeichnung_en": "Turner",
-          "anzeige": "Dreher / Turner"
-        },
-        "fraeser": {
-          "lohn": 21.06,
-          "bezeichnung": "Fräser / Milling Machine Operator",
-          "bezeichnung_de": "Fräser",
-          "bezeichnung_en": "Milling Machine Operator",
-          "anzeige": "Fräser / Milling Machine Operator"
         },
         "schleifer": {
           "lohn": 19.44,
@@ -27073,22 +26242,6 @@
           "bezeichnung_en": "Overhead Crane Operator",
           "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
         },
-        "schweisser": {
-          "lohn": 21.06,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "PAPIERINDUSTRIE & DRUCK-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 19.98,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "PAPIERINDUSTRIE & DRUCK-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 20.52,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -27781,13 +26934,6 @@
           "bezeichnung_en": "Surface Coater",
           "anzeige": "Oberflächenbeschichter / Surface Coater"
         },
-        "galvaniseur": {
-          "lohn": 20.52,
-          "bezeichnung": "Galvaniseur / Electroplater",
-          "bezeichnung_de": "Galvaniseur",
-          "bezeichnung_en": "Electroplater",
-          "anzeige": "Galvaniseur / Electroplater"
-        },
         "giessereimechaniker": {
           "lohn": 21.06,
           "bezeichnung": "Gießereimechaniker / Foundry Mechanic",
@@ -27801,20 +26947,6 @@
           "bezeichnung_de": "Hüttenfacharbeiter",
           "bezeichnung_en": "Metallurgical Worker",
           "anzeige": "Hüttenfacharbeiter / Metallurgical Worker"
-        },
-        "dreher": {
-          "lohn": 21.06,
-          "bezeichnung": "Dreher / Turner",
-          "bezeichnung_de": "Dreher",
-          "bezeichnung_en": "Turner",
-          "anzeige": "Dreher / Turner"
-        },
-        "fraeser": {
-          "lohn": 21.06,
-          "bezeichnung": "Fräser / Milling Machine Operator",
-          "bezeichnung_de": "Fräser",
-          "bezeichnung_en": "Milling Machine Operator",
-          "anzeige": "Fräser / Milling Machine Operator"
         },
         "schleifer": {
           "lohn": 19.44,
@@ -28549,38 +27681,6 @@
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
         },
-        "kranfahrer": {
-          "lohn": 19.98,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "TEXTILINDUSTRIE-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 19.44,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "TEXTILINDUSTRIE-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 21.06,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "TEXTILINDUSTRIE-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 19.98,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "TEXTILINDUSTRIE-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 20.52,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -29265,13 +28365,6 @@
           "bezeichnung_en": "Surface Coater",
           "anzeige": "Oberflächenbeschichter / Surface Coater"
         },
-        "galvaniseur": {
-          "lohn": 20.52,
-          "bezeichnung": "Galvaniseur / Electroplater",
-          "bezeichnung_de": "Galvaniseur",
-          "bezeichnung_en": "Electroplater",
-          "anzeige": "Galvaniseur / Electroplater"
-        },
         "giessereimechaniker": {
           "lohn": 21.06,
           "bezeichnung": "Gießereimechaniker / Foundry Mechanic",
@@ -29285,20 +28378,6 @@
           "bezeichnung_de": "Hüttenfacharbeiter",
           "bezeichnung_en": "Metallurgical Worker",
           "anzeige": "Hüttenfacharbeiter / Metallurgical Worker"
-        },
-        "dreher": {
-          "lohn": 21.06,
-          "bezeichnung": "Dreher / Turner",
-          "bezeichnung_de": "Dreher",
-          "bezeichnung_en": "Turner",
-          "anzeige": "Dreher / Turner"
-        },
-        "fraeser": {
-          "lohn": 21.06,
-          "bezeichnung": "Fräser / Milling Machine Operator",
-          "bezeichnung_de": "Fräser",
-          "bezeichnung_en": "Milling Machine Operator",
-          "anzeige": "Fräser / Milling Machine Operator"
         },
         "schleifer": {
           "lohn": 19.44,
@@ -30000,22 +29079,6 @@
           "bezeichnung_en": "Overhead Crane Operator",
           "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
         },
-        "schweisser": {
-          "lohn": 21.06,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "HOLZINDUSTRIE & SAEGEWERK-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 19.98,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "HOLZINDUSTRIE & SAEGEWERK-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 20.52,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -30708,13 +29771,6 @@
           "bezeichnung_en": "Surface Coater",
           "anzeige": "Oberflächenbeschichter / Surface Coater"
         },
-        "galvaniseur": {
-          "lohn": 20.52,
-          "bezeichnung": "Galvaniseur / Electroplater",
-          "bezeichnung_de": "Galvaniseur",
-          "bezeichnung_en": "Electroplater",
-          "anzeige": "Galvaniseur / Electroplater"
-        },
         "giessereimechaniker": {
           "lohn": 21.06,
           "bezeichnung": "Gießereimechaniker / Foundry Mechanic",
@@ -30728,20 +29784,6 @@
           "bezeichnung_de": "Hüttenfacharbeiter",
           "bezeichnung_en": "Metallurgical Worker",
           "anzeige": "Hüttenfacharbeiter / Metallurgical Worker"
-        },
-        "dreher": {
-          "lohn": 21.06,
-          "bezeichnung": "Dreher / Turner",
-          "bezeichnung_de": "Dreher",
-          "bezeichnung_en": "Turner",
-          "anzeige": "Dreher / Turner"
-        },
-        "fraeser": {
-          "lohn": 21.06,
-          "bezeichnung": "Fräser / Milling Machine Operator",
-          "bezeichnung_de": "Fräser",
-          "bezeichnung_en": "Milling Machine Operator",
-          "anzeige": "Fräser / Milling Machine Operator"
         },
         "schleifer": {
           "lohn": 19.44,
@@ -31450,22 +30492,6 @@
           "bezeichnung_en": "Overhead Crane Operator",
           "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
         },
-        "schweisser": {
-          "lohn": 21.06,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "KUNSTSTOFFINDUSTRIE-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 19.98,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "KUNSTSTOFFINDUSTRIE-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 20.52,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -32143,13 +31169,6 @@
           "bezeichnung_en": "Surface Coater",
           "anzeige": "Oberflächenbeschichter / Surface Coater"
         },
-        "galvaniseur": {
-          "lohn": 20.52,
-          "bezeichnung": "Galvaniseur / Electroplater",
-          "bezeichnung_de": "Galvaniseur",
-          "bezeichnung_en": "Electroplater",
-          "anzeige": "Galvaniseur / Electroplater"
-        },
         "giessereimechaniker": {
           "lohn": 21.06,
           "bezeichnung": "Gießereimechaniker / Foundry Mechanic",
@@ -32163,20 +31182,6 @@
           "bezeichnung_de": "Hüttenfacharbeiter",
           "bezeichnung_en": "Metallurgical Worker",
           "anzeige": "Hüttenfacharbeiter / Metallurgical Worker"
-        },
-        "dreher": {
-          "lohn": 21.06,
-          "bezeichnung": "Dreher / Turner",
-          "bezeichnung_de": "Dreher",
-          "bezeichnung_en": "Turner",
-          "anzeige": "Dreher / Turner"
-        },
-        "fraeser": {
-          "lohn": 21.06,
-          "bezeichnung": "Fräser / Milling Machine Operator",
-          "bezeichnung_de": "Fräser",
-          "bezeichnung_en": "Milling Machine Operator",
-          "anzeige": "Fräser / Milling Machine Operator"
         },
         "schleifer": {
           "lohn": 19.44,
@@ -32886,22 +31891,6 @@
           "bezeichnung_en": "Overhead Crane Operator",
           "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
         },
-        "schweisser": {
-          "lohn": 21.06,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "GLAS & KERAMIK INDUSTRIE-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 19.98,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "GLAS & KERAMIK INDUSTRIE-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 20.52,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -33586,13 +32575,6 @@
           "bezeichnung_en": "Surface Coater",
           "anzeige": "Oberflächenbeschichter / Surface Coater"
         },
-        "galvaniseur": {
-          "lohn": 20.52,
-          "bezeichnung": "Galvaniseur / Electroplater",
-          "bezeichnung_de": "Galvaniseur",
-          "bezeichnung_en": "Electroplater",
-          "anzeige": "Galvaniseur / Electroplater"
-        },
         "giessereimechaniker": {
           "lohn": 21.06,
           "bezeichnung": "Gießereimechaniker / Foundry Mechanic",
@@ -33606,20 +32588,6 @@
           "bezeichnung_de": "Hüttenfacharbeiter",
           "bezeichnung_en": "Metallurgical Worker",
           "anzeige": "Hüttenfacharbeiter / Metallurgical Worker"
-        },
-        "dreher": {
-          "lohn": 21.06,
-          "bezeichnung": "Dreher / Turner",
-          "bezeichnung_de": "Dreher",
-          "bezeichnung_en": "Turner",
-          "anzeige": "Dreher / Turner"
-        },
-        "fraeser": {
-          "lohn": 21.06,
-          "bezeichnung": "Fräser / Milling Machine Operator",
-          "bezeichnung_de": "Fräser",
-          "bezeichnung_en": "Milling Machine Operator",
-          "anzeige": "Fräser / Milling Machine Operator"
         },
         "schleifer": {
           "lohn": 19.44,
@@ -35497,38 +34465,6 @@
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
         },
-        "kranfahrer": {
-          "lohn": 16.65,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "SICHERHEITSDIENSTE & BEWA-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 16.2,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "SICHERHEITSDIENSTE & BEWA-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 17.55,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "SICHERHEITSDIENSTE & BEWA-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 16.65,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "SICHERHEITSDIENSTE & BEWA-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 17.1,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -36496,38 +35432,6 @@
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
         },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "BUERO & VERWALTUNG-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "BUERO & VERWALTUNG-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "BUERO & VERWALTUNG-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "BUERO & VERWALTUNG-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 19.0,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -37256,38 +36160,6 @@
           "bezeichnung_de": "Lieferfahrer",
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
-        },
-        "kranfahrer": {
-          "lohn": 21.27,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "IT & TECHNIK-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 20.7,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "IT & TECHNIK-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 22.42,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "IT & TECHNIK-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 21.27,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "IT & TECHNIK-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
         },
         "elektriker_betrieb": {
           "lohn": 21.85,
@@ -38227,38 +37099,6 @@
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
         },
-        "kranfahrer": {
-          "lohn": 21.27,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "BANKEN & VERSICHERUNGEN-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 20.7,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "BANKEN & VERSICHERUNGEN-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 22.42,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "BANKEN & VERSICHERUNGEN-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 21.27,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "BANKEN & VERSICHERUNGEN-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 21.85,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -39175,38 +38015,6 @@
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
         },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "RECHTSANWAELTE & NOTARE-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "RECHTSANWAELTE & NOTARE-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "RECHTSANWAELTE & NOTARE-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "RECHTSANWAELTE & NOTARE-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 19.0,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -39953,38 +38761,6 @@
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
         },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "STEUERBERATER & WIRTSCHAF-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "STEUERBERATER & WIRTSCHAF-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "STEUERBERATER & WIRTSCHAF-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "STEUERBERATER & WIRTSCHAF-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 19.0,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -40722,38 +39498,6 @@
           "bezeichnung_de": "Lieferfahrer",
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
-        },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "IMMOBILIEN & HAUSVERWALTU-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "IMMOBILIEN & HAUSVERWALTU-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "IMMOBILIEN & HAUSVERWALTU-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "IMMOBILIEN & HAUSVERWALTU-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
         },
         "elektriker_betrieb": {
           "lohn": 19.0,
@@ -41507,38 +40251,6 @@
           "bezeichnung_de": "Lieferfahrer",
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
-        },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "MARKETING & WERBUNG-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "MARKETING & WERBUNG-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "MARKETING & WERBUNG-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "MARKETING & WERBUNG-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
         },
         "elektriker_betrieb": {
           "lohn": 19.0,
@@ -42335,38 +41047,6 @@
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
         },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "MEDIEN & JOURNALISMUS-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "MEDIEN & JOURNALISMUS-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "MEDIEN & JOURNALISMUS-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "MEDIEN & JOURNALISMUS-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 19.0,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -43127,38 +41807,6 @@
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
         },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "BERATUNG & CONSULTING-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "BERATUNG & CONSULTING-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "BERATUNG & CONSULTING-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "BERATUNG & CONSULTING-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 19.0,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -43911,38 +42559,6 @@
           "bezeichnung_de": "Lieferfahrer",
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
-        },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "BILDUNG & NACHHILFE (PRIV-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "BILDUNG & NACHHILFE (PRIV-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "BILDUNG & NACHHILFE (PRIV-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "BILDUNG & NACHHILFE (PRIV-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
         },
         "elektriker_betrieb": {
           "lohn": 19.0,
@@ -44702,38 +43318,6 @@
           "bezeichnung_de": "Lieferfahrer",
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
-        },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "SOZIALARBEIT & BETREUUNG-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "SOZIALARBEIT & BETREUUNG-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "SOZIALARBEIT & BETREUUNG-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "SOZIALARBEIT & BETREUUNG-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
         },
         "elektriker_betrieb": {
           "lohn": 19.0,
@@ -45702,38 +44286,6 @@
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
         },
-        "kranfahrer": {
-          "lohn": 16.65,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "DIENSTLEISTUNGEN (FRISOER-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 16.2,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "DIENSTLEISTUNGEN (FRISOER-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 17.55,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "DIENSTLEISTUNGEN (FRISOER-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 16.65,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "DIENSTLEISTUNGEN (FRISOER-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 17.1,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -46362,38 +44914,6 @@
           "bezeichnung_de": "Lieferfahrer",
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
-        },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "BESTATTUNG-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "BESTATTUNG-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "BESTATTUNG-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "BESTATTUNG-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
         },
         "elektriker_betrieb": {
           "lohn": 19.0,
@@ -47148,38 +45668,6 @@
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
         },
-        "kranfahrer": {
-          "lohn": 16.65,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "WAESCHEREI & TEXTILREINIG-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 16.2,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "WAESCHEREI & TEXTILREINIG-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 17.55,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "WAESCHEREI & TEXTILREINIG-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 16.65,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "WAESCHEREI & TEXTILREINIG-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 17.1,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -47834,13 +46322,6 @@
           "bezeichnung_en": "Surface Coater",
           "anzeige": "Oberflächenbeschichter / Surface Coater"
         },
-        "galvaniseur": {
-          "lohn": 17.48,
-          "bezeichnung": "Galvaniseur / Electroplater",
-          "bezeichnung_de": "Galvaniseur",
-          "bezeichnung_en": "Electroplater",
-          "anzeige": "Galvaniseur / Electroplater"
-        },
         "giessereimechaniker": {
           "lohn": 17.94,
           "bezeichnung": "Gießereimechaniker / Foundry Mechanic",
@@ -47854,20 +46335,6 @@
           "bezeichnung_de": "Hüttenfacharbeiter",
           "bezeichnung_en": "Metallurgical Worker",
           "anzeige": "Hüttenfacharbeiter / Metallurgical Worker"
-        },
-        "dreher": {
-          "lohn": 17.94,
-          "bezeichnung": "Dreher / Turner",
-          "bezeichnung_de": "Dreher",
-          "bezeichnung_en": "Turner",
-          "anzeige": "Dreher / Turner"
-        },
-        "fraeser": {
-          "lohn": 17.94,
-          "bezeichnung": "Fräser / Milling Machine Operator",
-          "bezeichnung_de": "Fräser",
-          "bezeichnung_en": "Milling Machine Operator",
-          "anzeige": "Fräser / Milling Machine Operator"
         },
         "schleifer": {
           "lohn": 16.56,
@@ -48363,38 +46830,6 @@
           "bezeichnung_de": "Lieferfahrer",
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
-        },
-        "kranfahrer": {
-          "lohn": 17.57,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "TANKSTELLEN-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 17.1,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "TANKSTELLEN-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 18.52,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "TANKSTELLEN-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 17.57,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "TANKSTELLEN-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
         },
         "elektriker_betrieb": {
           "lohn": 18.05,
@@ -49154,38 +47589,6 @@
           "bezeichnung_de": "Lieferfahrer",
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
-        },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "SPORT & FITNESS-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "SPORT & FITNESS-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "SPORT & FITNESS-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "SPORT & FITNESS-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
         },
         "elektriker_betrieb": {
           "lohn": 19.0,
@@ -50146,38 +48549,6 @@
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
         },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "KULTUR, THEATER & KINO-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "KULTUR, THEATER & KINO-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "KULTUR, THEATER & KINO-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "KULTUR, THEATER & KINO-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 19.0,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -50960,22 +49331,6 @@
           "bezeichnung_de": "Brückenkranfahrer",
           "bezeichnung_en": "Overhead Crane Operator",
           "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 22.42,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "LUFTFAHRT & FLUGHAFEN-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 21.27,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "LUFTFAHRT & FLUGHAFEN-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
         },
         "elektriker_betrieb": {
           "lohn": 21.85,
@@ -51955,14 +50310,6 @@
           "bezeichnung_en": "Welder",
           "anzeige": "Schweißer / Welder"
         },
-        "schlosser": {
-          "lohn": 21.27,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "ENERGIE & VERSORGUNG-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 21.85,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -52893,38 +51240,6 @@
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
         },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "ERWACHSENENBILDUNG & TRAI-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "ERWACHSENENBILDUNG & TRAI-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "ERWACHSENENBILDUNG & TRAI-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "ERWACHSENENBILDUNG & TRAI-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 19.0,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -53657,38 +51972,6 @@
           "bezeichnung_de": "Lieferfahrer",
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
-        },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "ZEITARBEIT & ARBEITSKRAEF-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "ZEITARBEIT & ARBEITSKRAEF-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "ZEITARBEIT & ARBEITSKRAEF-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "ZEITARBEIT & ARBEITSKRAEF-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
         },
         "elektriker_betrieb": {
           "lohn": 19.0,
@@ -54612,38 +52895,6 @@
           "bezeichnung_de": "Lieferfahrer",
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
-        },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "SEILBAHNEN & SKILIFTE-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "SEILBAHNEN & SKILIFTE-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "SEILBAHNEN & SKILIFTE-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "SEILBAHNEN & SKILIFTE-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
         },
         "elektriker_betrieb": {
           "lohn": 19.0,
@@ -56221,14 +54472,6 @@
           "bezeichnung_de": "Schweißer",
           "bezeichnung_en": "Welder",
           "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "SCHIFFFAHRT & BINNENSCHIF-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
         },
         "elektriker_betrieb": {
           "lohn": 19.0,
@@ -57937,38 +56180,6 @@
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
         },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "REISEBUEROS & TOURISMUS-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "REISEBUEROS & TOURISMUS-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "REISEBUEROS & TOURISMUS-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "REISEBUEROS & TOURISMUS-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 19.0,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -58707,38 +56918,6 @@
           "bezeichnung_de": "Lieferfahrer",
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
-        },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "CALLCENTER & KUNDENSERVIC-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "CALLCENTER & KUNDENSERVIC-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "CALLCENTER & KUNDENSERVIC-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "CALLCENTER & KUNDENSERVIC-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
         },
         "elektriker_betrieb": {
           "lohn": 19.0,
@@ -59491,38 +57670,6 @@
           "bezeichnung_de": "Lieferfahrer",
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
-        },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "KINDERGAERTEN & KINDERBET-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "KINDERGAERTEN & KINDERBET-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "KINDERGAERTEN & KINDERBET-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "KINDERGAERTEN & KINDERBET-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
         },
         "elektriker_betrieb": {
           "lohn": 19.0,
@@ -60278,38 +58425,6 @@
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
         },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "SPIELHALLEN, CASINOS & WE-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "SPIELHALLEN, CASINOS & WE-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "SPIELHALLEN, CASINOS & WE-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "SPIELHALLEN, CASINOS & WE-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 19.0,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -61048,38 +59163,6 @@
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
         },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "RAUCHFANGKEHRER-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "RAUCHFANGKEHRER-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "RAUCHFANGKEHRER-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "RAUCHFANGKEHRER-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 19.0,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -61811,38 +59894,6 @@
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
         },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "GOLDSCHMIEDE & JUWELIERE-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "GOLDSCHMIEDE & JUWELIERE-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "GOLDSCHMIEDE & JUWELIERE-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "GOLDSCHMIEDE & JUWELIERE-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 19.0,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -62450,38 +60501,6 @@
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
         },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "UHRMACHER-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "UHRMACHER-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "UHRMACHER-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "UHRMACHER-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 19.0,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -62975,38 +60994,6 @@
           "bezeichnung_de": "Lieferfahrer",
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
-        },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "FOTOGRAFEN & BILDBEARBEIT-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "FOTOGRAFEN & BILDBEARBEIT-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "FOTOGRAFEN & BILDBEARBEIT-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "FOTOGRAFEN & BILDBEARBEIT-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
         },
         "elektriker_betrieb": {
           "lohn": 19.0,
@@ -63672,38 +61659,6 @@
           "bezeichnung_de": "Lieferfahrer",
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
-        },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "SCHAEDLINGSBEKAEMPFUNG & -KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "SCHAEDLINGSBEKAEMPFUNG & -KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "SCHAEDLINGSBEKAEMPFUNG & -KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "SCHAEDLINGSBEKAEMPFUNG & -KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
         },
         "elektriker_betrieb": {
           "lohn": 19.0,
@@ -64466,38 +62421,6 @@
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
         },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "EVENT & VERANSTALTUNGSTEC-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "EVENT & VERANSTALTUNGSTEC-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "EVENT & VERANSTALTUNGSTEC-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "EVENT & VERANSTALTUNGSTEC-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 19.0,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -65237,38 +63160,6 @@
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
         },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "TELEKOMMUNIKATION & MOBIL-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "TELEKOMMUNIKATION & MOBIL-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "TELEKOMMUNIKATION & MOBIL-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "TELEKOMMUNIKATION & MOBIL-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 19.0,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -66006,38 +63897,6 @@
           "bezeichnung_de": "Lieferfahrer",
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
-        },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "ARCHITEKTEN & INGENIEURBU-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "ARCHITEKTEN & INGENIEURBU-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "ARCHITEKTEN & INGENIEURBU-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "ARCHITEKTEN & INGENIEURBU-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
         },
         "elektriker_betrieb": {
           "lohn": 19.0,
@@ -66978,22 +64837,6 @@
           "bezeichnung_en": "Overhead Crane Operator",
           "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
         },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "ABFALLWIRTSCHAFT & RECYCL-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "ABFALLWIRTSCHAFT & RECYCL-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 19.0,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -67782,38 +65625,6 @@
           "bezeichnung_de": "Lieferfahrer",
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
-        },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "DETEKTEIEN & ERMITTLUNGEN-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "DETEKTEIEN & ERMITTLUNGEN-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "DETEKTEIEN & ERMITTLUNGEN-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "DETEKTEIEN & ERMITTLUNGEN-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
         },
         "elektriker_betrieb": {
           "lohn": 19.0,
@@ -68737,38 +66548,6 @@
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
         },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "DOLMETSCHER & UEBERSETZER-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "DOLMETSCHER & UEBERSETZER-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "DOLMETSCHER & UEBERSETZER-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "DOLMETSCHER & UEBERSETZER-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 19.0,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -69506,38 +67285,6 @@
           "bezeichnung_de": "Lieferfahrer",
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
-        },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "ORTHOPAEDIETECHNIK & SANI-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "ORTHOPAEDIETECHNIK & SANI-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "ORTHOPAEDIETECHNIK & SANI-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "ORTHOPAEDIETECHNIK & SANI-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
         },
         "elektriker_betrieb": {
           "lohn": 19.0,
@@ -70463,38 +68210,6 @@
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
         },
-        "kranfahrer": {
-          "lohn": 19.98,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "MEDIZINTECHNIK-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 19.44,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "MEDIZINTECHNIK-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 21.06,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "MEDIZINTECHNIK-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 19.98,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "MEDIZINTECHNIK-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 20.52,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -71210,38 +68925,6 @@
           "bezeichnung_de": "Lieferfahrer",
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
-        },
-        "kranfahrer": {
-          "lohn": 17.57,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "TIERHANDEL & ZOOGESCHAEFT-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 17.1,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "TIERHANDEL & ZOOGESCHAEFT-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 18.52,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "TIERHANDEL & ZOOGESCHAEFT-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 17.57,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "TIERHANDEL & ZOOGESCHAEFT-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
         },
         "elektriker_betrieb": {
           "lohn": 18.05,
@@ -72060,38 +69743,6 @@
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
         },
-        "kranfahrer": {
-          "lohn": 17.57,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "BUCHHANDEL & ANTIQUARIATE-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 17.1,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "BUCHHANDEL & ANTIQUARIATE-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 18.52,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "BUCHHANDEL & ANTIQUARIATE-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 17.57,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "BUCHHANDEL & ANTIQUARIATE-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 18.05,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -72908,38 +70559,6 @@
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
         },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "VERMESSUNG & GEODAESIE-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "VERMESSUNG & GEODAESIE-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "VERMESSUNG & GEODAESIE-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "VERMESSUNG & GEODAESIE-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 19.0,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -73694,30 +71313,6 @@
           "bezeichnung_en": "Crane Operator",
           "anzeige": "Kranfahrer / Crane Operator"
         },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "SPEDITION & INTERNATIONAL-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "SPEDITION & INTERNATIONAL-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "SPEDITION & INTERNATIONAL-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 19.0,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -74070,13 +71665,6 @@
           "bezeichnung_de": "Radladerfahrer",
           "bezeichnung_en": "Wheel Loader Operator",
           "anzeige": "Radladerfahrer / Wheel Loader Operator"
-        },
-        "baggerfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Baggerfahrer / Excavator Operator",
-          "bezeichnung_de": "Baggerfahrer",
-          "bezeichnung_en": "Excavator Operator",
-          "anzeige": "Baggerfahrer / Excavator Operator"
         },
         "teleskopstaplerfahrer": {
           "lohn": 17.5,
@@ -74798,22 +72386,6 @@
           "bezeichnung_en": "Overhead Crane Operator",
           "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
         },
-        "schweisser": {
-          "lohn": 21.06,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "VERPACKUNGSINDUSTRIE-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 19.98,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "VERPACKUNGSINDUSTRIE-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 20.52,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -75498,13 +73070,6 @@
           "bezeichnung_en": "Surface Coater",
           "anzeige": "Oberflächenbeschichter / Surface Coater"
         },
-        "galvaniseur": {
-          "lohn": 20.52,
-          "bezeichnung": "Galvaniseur / Electroplater",
-          "bezeichnung_de": "Galvaniseur",
-          "bezeichnung_en": "Electroplater",
-          "anzeige": "Galvaniseur / Electroplater"
-        },
         "giessereimechaniker": {
           "lohn": 21.06,
           "bezeichnung": "Gießereimechaniker / Foundry Mechanic",
@@ -75518,20 +73083,6 @@
           "bezeichnung_de": "Hüttenfacharbeiter",
           "bezeichnung_en": "Metallurgical Worker",
           "anzeige": "Hüttenfacharbeiter / Metallurgical Worker"
-        },
-        "dreher": {
-          "lohn": 21.06,
-          "bezeichnung": "Dreher / Turner",
-          "bezeichnung_de": "Dreher",
-          "bezeichnung_en": "Turner",
-          "anzeige": "Dreher / Turner"
-        },
-        "fraeser": {
-          "lohn": 21.06,
-          "bezeichnung": "Fräser / Milling Machine Operator",
-          "bezeichnung_de": "Fräser",
-          "bezeichnung_en": "Milling Machine Operator",
-          "anzeige": "Fräser / Milling Machine Operator"
         },
         "schleifer": {
           "lohn": 19.44,
@@ -76193,38 +73744,6 @@
           "bezeichnung_en": "Internal Truck Driver",
           "anzeige": "LKW-Fahrer (innerbetrieblich) / Internal Truck Driver"
         },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "MOEBELINDUSTRIE & KUECHEN-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "MOEBELINDUSTRIE & KUECHEN-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "MOEBELINDUSTRIE & KUECHEN-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "MOEBELINDUSTRIE & KUECHEN-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 19.0,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -76917,13 +74436,6 @@
           "bezeichnung_en": "Surface Coater",
           "anzeige": "Oberflächenbeschichter / Surface Coater"
         },
-        "galvaniseur": {
-          "lohn": 19.0,
-          "bezeichnung": "Galvaniseur / Electroplater",
-          "bezeichnung_de": "Galvaniseur",
-          "bezeichnung_en": "Electroplater",
-          "anzeige": "Galvaniseur / Electroplater"
-        },
         "giessereimechaniker": {
           "lohn": 19.5,
           "bezeichnung": "Gießereimechaniker / Foundry Mechanic",
@@ -76937,20 +74449,6 @@
           "bezeichnung_de": "Hüttenfacharbeiter",
           "bezeichnung_en": "Metallurgical Worker",
           "anzeige": "Hüttenfacharbeiter / Metallurgical Worker"
-        },
-        "dreher": {
-          "lohn": 19.5,
-          "bezeichnung": "Dreher / Turner",
-          "bezeichnung_de": "Dreher",
-          "bezeichnung_en": "Turner",
-          "anzeige": "Dreher / Turner"
-        },
-        "fraeser": {
-          "lohn": 19.5,
-          "bezeichnung": "Fräser / Milling Machine Operator",
-          "bezeichnung_de": "Fräser",
-          "bezeichnung_en": "Milling Machine Operator",
-          "anzeige": "Fräser / Milling Machine Operator"
         },
         "schleifer": {
           "lohn": 18.0,
@@ -77607,38 +75105,6 @@
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
         },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "SCHUHINDUSTRIE & SCHUHMAC-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "SCHUHINDUSTRIE & SCHUHMAC-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "SCHUHINDUSTRIE & SCHUHMAC-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "SCHUHINDUSTRIE & SCHUHMAC-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 19.0,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -78331,13 +75797,6 @@
           "bezeichnung_en": "Surface Coater",
           "anzeige": "Oberflächenbeschichter / Surface Coater"
         },
-        "galvaniseur": {
-          "lohn": 19.0,
-          "bezeichnung": "Galvaniseur / Electroplater",
-          "bezeichnung_de": "Galvaniseur",
-          "bezeichnung_en": "Electroplater",
-          "anzeige": "Galvaniseur / Electroplater"
-        },
         "giessereimechaniker": {
           "lohn": 19.5,
           "bezeichnung": "Gießereimechaniker / Foundry Mechanic",
@@ -78351,20 +75810,6 @@
           "bezeichnung_de": "Hüttenfacharbeiter",
           "bezeichnung_en": "Metallurgical Worker",
           "anzeige": "Hüttenfacharbeiter / Metallurgical Worker"
-        },
-        "dreher": {
-          "lohn": 19.5,
-          "bezeichnung": "Dreher / Turner",
-          "bezeichnung_de": "Dreher",
-          "bezeichnung_en": "Turner",
-          "anzeige": "Dreher / Turner"
-        },
-        "fraeser": {
-          "lohn": 19.5,
-          "bezeichnung": "Fräser / Milling Machine Operator",
-          "bezeichnung_de": "Fräser",
-          "bezeichnung_en": "Milling Machine Operator",
-          "anzeige": "Fräser / Milling Machine Operator"
         },
         "schleifer": {
           "lohn": 18.0,
@@ -79021,38 +76466,6 @@
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
         },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "LEDERWARENINDUSTRIE & SAT-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "LEDERWARENINDUSTRIE & SAT-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "LEDERWARENINDUSTRIE & SAT-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "LEDERWARENINDUSTRIE & SAT-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 19.0,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -79745,13 +77158,6 @@
           "bezeichnung_en": "Surface Coater",
           "anzeige": "Oberflächenbeschichter / Surface Coater"
         },
-        "galvaniseur": {
-          "lohn": 19.0,
-          "bezeichnung": "Galvaniseur / Electroplater",
-          "bezeichnung_de": "Galvaniseur",
-          "bezeichnung_en": "Electroplater",
-          "anzeige": "Galvaniseur / Electroplater"
-        },
         "giessereimechaniker": {
           "lohn": 19.5,
           "bezeichnung": "Gießereimechaniker / Foundry Mechanic",
@@ -79765,20 +77171,6 @@
           "bezeichnung_de": "Hüttenfacharbeiter",
           "bezeichnung_en": "Metallurgical Worker",
           "anzeige": "Hüttenfacharbeiter / Metallurgical Worker"
-        },
-        "dreher": {
-          "lohn": 19.5,
-          "bezeichnung": "Dreher / Turner",
-          "bezeichnung_de": "Dreher",
-          "bezeichnung_en": "Turner",
-          "anzeige": "Dreher / Turner"
-        },
-        "fraeser": {
-          "lohn": 19.5,
-          "bezeichnung": "Fräser / Milling Machine Operator",
-          "bezeichnung_de": "Fräser",
-          "bezeichnung_en": "Milling Machine Operator",
-          "anzeige": "Fräser / Milling Machine Operator"
         },
         "schleifer": {
           "lohn": 18.0,
@@ -80450,22 +77842,6 @@
           "bezeichnung_de": "Lieferfahrer",
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
-        },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "AUTOMOBILHANDEL & AUTOHAE-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "AUTOMOBILHANDEL & AUTOHAE-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
         },
         "schweisser": {
           "lohn": 19.5,
@@ -81305,38 +78681,6 @@
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
         },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "FAHRRADBRANCHE & E-BIKES-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "FAHRRADBRANCHE & E-BIKES-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
-        },
-        "schweisser": {
-          "lohn": 19.5,
-          "bezeichnung": "Schweißer / Welder",
-          "kv": "FAHRRADBRANCHE & E-BIKES-KV",
-          "bezeichnung_de": "Schweißer",
-          "bezeichnung_en": "Welder",
-          "anzeige": "Schweißer / Welder"
-        },
-        "schlosser": {
-          "lohn": 18.5,
-          "bezeichnung": "Schlosser / Metalworker",
-          "kv": "FAHRRADBRANCHE & E-BIKES-KV",
-          "bezeichnung_de": "Schlosser",
-          "bezeichnung_en": "Metalworker",
-          "anzeige": "Schlosser / Metalworker"
-        },
         "elektriker_betrieb": {
           "lohn": 19.0,
           "bezeichnung": "Betriebselektriker / Plant Electrician",
@@ -82074,22 +79418,6 @@
           "bezeichnung_de": "Lieferfahrer",
           "bezeichnung_en": "Delivery Driver",
           "anzeige": "Lieferfahrer / Delivery Driver"
-        },
-        "kranfahrer": {
-          "lohn": 18.5,
-          "bezeichnung": "Kranfahrer / Crane Operator",
-          "kv": "FAHRZEUGVERMIETUNG & CARS-KV",
-          "bezeichnung_de": "Kranfahrer",
-          "bezeichnung_en": "Crane Operator",
-          "anzeige": "Kranfahrer / Crane Operator"
-        },
-        "brueckenkranfahrer": {
-          "lohn": 18.0,
-          "bezeichnung": "Brückenkranfahrer / Overhead Crane Operator",
-          "kv": "FAHRZEUGVERMIETUNG & CARS-KV",
-          "bezeichnung_de": "Brückenkranfahrer",
-          "bezeichnung_en": "Overhead Crane Operator",
-          "anzeige": "Brückenkranfahrer / Overhead Crane Operator"
         },
         "schweisser": {
           "lohn": 19.5,

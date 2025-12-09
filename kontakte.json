@@ -1,0 +1,176 @@
+{
+  "name": "Wichtige Kontakte für Arbeitnehmer in Österreich",
+  "stand": "Mai 2025",
+
+  "bundesweit": {
+    "ak_oesterreich": {
+      "name": "Arbeiterkammer Österreich",
+      "telefon": "0800 22 55 22",
+      "telefon_kostenfrei": true,
+      "email": "info@ak.at",
+      "website": "https://www.arbeiterkammer.at",
+      "beschreibung": "Kostenlose Rechtsberatung für alle Arbeitnehmer"
+    },
+    "finanzpolizei": {
+      "name": "Finanzpolizei",
+      "telefon": "050 233 703",
+      "email": "lsd-bg@bmf.gv.at",
+      "website": "https://www.bmf.gv.at/finanzpolizei",
+      "beschreibung": "Kontrolle Lohn- und Sozialdumping (LSD-BG)"
+    },
+    "anonyme_hotline": {
+      "name": "Anonyme Hotline",
+      "telefon": "0800 201 611",
+      "telefon_kostenfrei": true,
+      "verfuegbarkeit": "24/7",
+      "beschreibung": "Anonyme Meldung von Arbeitsrechtsverletzungen"
+    },
+    "volksanwaltschaft": {
+      "name": "Volksanwaltschaft",
+      "telefon": "0800 223 223",
+      "telefon_kostenfrei": true,
+      "website": "https://volksanwaltschaft.gv.at",
+      "beschreibung": "Unabhängige Kontrolle, Beschwerden gegen Behörden"
+    }
+  },
+
+  "whistleblower": {
+    "bak": {
+      "name": "Bundesamt zur Korruptionsprävention und Korruptionsbekämpfung (BAK)",
+      "telefon": "01 531 26-6800",
+      "email": "BMI-III-BAK-SPOC@bmi.gv.at",
+      "website": "https://www.bak.gv.at",
+      "beschreibung": "Korruption & schwere Wirtschaftsdelikte"
+    },
+    "hinweisgeberstelle": {
+      "name": "Zentrale Hinweisgeberstelle beim BMJ",
+      "website": "https://www.bkms-system.at/justiz",
+      "telefon": "01 52152-0",
+      "beschreibung": "Anonyme Meldungen möglich"
+    },
+    "transparency": {
+      "name": "Transparency International Austria",
+      "email": "office@ti-austria.at",
+      "website": "https://www.ti-austria.at",
+      "beschreibung": "NGO, vertrauliche Beratung"
+    }
+  },
+
+  "ak_bundeslaender": {
+    "wien": {
+      "name": "Arbeiterkammer Wien",
+      "telefon": "01 501 65-0",
+      "arbeitsrecht": "01 501 65-1201",
+      "adresse": "Prinz-Eugen-Straße 20-22, 1040 Wien",
+      "website": "https://wien.arbeiterkammer.at"
+    },
+    "niederoesterreich": {
+      "name": "Arbeiterkammer Niederösterreich",
+      "telefon": "05 7171-0",
+      "arbeitsrecht": "05 7171-21000",
+      "adresse": "AK-Platz 1, 3100 St. Pölten",
+      "website": "https://noe.arbeiterkammer.at"
+    },
+    "oberoesterreich": {
+      "name": "Arbeiterkammer Oberösterreich",
+      "telefon": "050 6906-0",
+      "arbeitsrecht": "050 6906-2351",
+      "adresse": "Volksgartenstraße 40, 4020 Linz",
+      "website": "https://ooe.arbeiterkammer.at"
+    },
+    "salzburg": {
+      "name": "Arbeiterkammer Salzburg",
+      "telefon": "0662 8687-0",
+      "arbeitsrecht": "0662 8687-201",
+      "adresse": "Markus-Sittikus-Straße 10, 5020 Salzburg",
+      "website": "https://ak-salzburg.at"
+    },
+    "tirol": {
+      "name": "Arbeiterkammer Tirol",
+      "telefon": "0800 22 55 22",
+      "arbeitsrecht": "0512 5340-1280",
+      "adresse": "Maximilianstraße 7, 6020 Innsbruck",
+      "website": "https://ak-tirol.com"
+    },
+    "vorarlberg": {
+      "name": "Arbeiterkammer Vorarlberg",
+      "telefon": "050 258-0",
+      "arbeitsrecht": "050 258-1500",
+      "adresse": "Widnau 2-4, 6800 Feldkirch",
+      "website": "https://ak-vorarlberg.at"
+    },
+    "kaernten": {
+      "name": "Arbeiterkammer Kärnten",
+      "telefon": "050 477-0",
+      "arbeitsrecht": "050 477-1000",
+      "adresse": "Bahnhofplatz 3, 9021 Klagenfurt",
+      "website": "https://kaernten.arbeiterkammer.at"
+    },
+    "steiermark": {
+      "name": "Arbeiterkammer Steiermark",
+      "telefon": "05 7799-0",
+      "arbeitsrecht": "05 7799-2000",
+      "adresse": "Hans-Resel-Gasse 8-14, 8020 Graz",
+      "website": "https://stmk.arbeiterkammer.at"
+    },
+    "burgenland": {
+      "name": "Arbeiterkammer Burgenland",
+      "telefon": "02682 740-0",
+      "arbeitsrecht": "02682 740-3961",
+      "adresse": "Wiener Straße 7, 7000 Eisenstadt",
+      "website": "https://akbgld.at"
+    }
+  },
+
+  "gewerkschaften": {
+    "oegb": {
+      "name": "Österreichischer Gewerkschaftsbund (ÖGB)",
+      "telefon": "01 534 44-0",
+      "website": "https://www.oegb.at"
+    },
+    "gbh": {
+      "name": "Gewerkschaft Bau-Holz",
+      "telefon": "01 534 44-59-0",
+      "website": "https://www.gbh.at",
+      "zustaendig": "Baugewerbe, Holzverarbeitung"
+    },
+    "vida": {
+      "name": "vida (Verkehrs- und Dienstleistungsgewerkschaft)",
+      "telefon": "01 534 44-79-0",
+      "website": "https://www.vida.at",
+      "zustaendig": "Transport, Verkehr, Dienstleistungen"
+    },
+    "proge": {
+      "name": "PRO-GE (Produktionsgewerkschaft)",
+      "telefon": "01 534 44-69-0",
+      "website": "https://www.proge.at",
+      "zustaendig": "Industrie, Produktion, Metall"
+    },
+    "gpa": {
+      "name": "GPA (Gewerkschaft der Privatangestellten)",
+      "telefon": "05 0301-0",
+      "website": "https://www.gpa.at",
+      "zustaendig": "Angestellte, Handel, IT"
+    }
+  },
+
+  "sonstige": {
+    "sozialversicherung": {
+      "name": "Österreichische Gesundheitskasse (ÖGK)",
+      "telefon": "05 0766-0",
+      "website": "https://www.gesundheitskasse.at"
+    },
+    "buak": {
+      "name": "Bauarbeiter-Urlaubs- und Abfertigungskasse (BUAK)",
+      "telefon": "05 795 79-0",
+      "website": "https://www.buak.at",
+      "beschreibung": "Urlaub und Abfertigung für Bauarbeiter"
+    },
+    "arbeitsinspektion": {
+      "name": "Arbeitsinspektion",
+      "telefon": "01 711 00-0",
+      "website": "https://www.arbeitsinspektion.gv.at",
+      "beschreibung": "Arbeitnehmerschutz, Arbeitssicherheit"
+    }
+  }
+}
